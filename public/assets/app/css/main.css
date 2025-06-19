@@ -7230,7 +7230,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .ms-event-title:hover {
-  color: var(--clr-theme-1);
+  /* color: var(--clr-theme-1); */
+  background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .ms-event-text {
