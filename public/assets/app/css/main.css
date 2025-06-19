@@ -63,12 +63,16 @@
   @font family declaration
   */
   --bd-ff-body: 'Marko One', serif;
-  --bd-ff-heading: 'Prompt', sans-serif;
-  --bd-ff-subtitle: 'Oregano', sans-serif;
+  --bd-ff-heading: 'Marko One', serif;
+  --bd-ff-subtitle: 'Marko One', serif;
   --bd-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
   */
+
+  /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
+
+  
   --clr-common-white: #ffffff;
   --clr-common-black: #000000;
   --clr-common-placeholder: #858585;
@@ -76,9 +80,9 @@
   --clr-common-heading: #333333;
   --clr-common-body-text: #858585;
   --clr-common-body: #0D0D0D;
-  --clr-theme-1: #FF589B;
+  --clr-theme-1: #de4038;
   --clr-theme-2: #69E7CB;
-  --clr-theme-3: #FBC21E;
+  --clr-theme-3: #dea738;
   --clr-text-primary: #ffffff;
   --clr-text-secondary: #111111;
   --clr-text-1: #414141;
@@ -87,7 +91,7 @@
   --clr-text-4: #959595;
   --clr-text-5: #C1C1C1;
   --clr-text-6: #5EE4C6;
-  --clr-text-7: #FF4F9D;
+  --clr-text-7: #dfa93d;
   --clr-text-8: #e1e1e1;
   --clr-text-9: #F7F7F7;
   --clr-text-10: #6C00A8;
@@ -1218,7 +1222,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--clr-border-1);
+  /* border: 1px solid var(--clr-border-1); */
+  background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+  color:white;
   padding: 0 15px;
   border-radius: 30px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1736,7 +1742,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   justify-content: center;
   color: var(--clr-common-white);
   font-size: 18px;
-  background-color: var(--clr-theme-1);
+  /* background-color: var(--clr-theme-1); */
+  background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -2086,12 +2093,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-flex;
 }
 
-@media only screen and (min-width: 1801px),
+/* @media only screen and (min-width: 1801px),
 only screen and (min-width: 1601px) and (max-width: 1800px) {
   .header__hamburger {
     display: none;
   }
-}
+} */
 
 .sidebar__toggle {
   cursor: pointer;
@@ -2149,7 +2156,7 @@ only screen and (min-width: 1601px) and (max-width: 1800px) {
   text-transform: capitalize;
   display: inline-block;
   font-family: var(--bd-ff-subtitle);
-  background: var(--clr-gradient-4);
+  background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -4160,7 +4167,7 @@ Animate Underline
   box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
-  filter: drop-shadow(0px -1px 0 var(--clr-theme-1));
+  filter: drop-shadow(0px -1px 0 #dfa93d);
 }
 
 [dir=rtl] .main-menu ul li .submenu {
@@ -4215,7 +4222,7 @@ Animate Underline
 }
 
 .main-menu ul li .submenu li:hover>a {
-  color: var(--clr-theme-1);
+  color: #dfa93d;
   letter-spacing: 1px;
 }
 
@@ -4320,11 +4327,11 @@ Animate Underline
 }
 
 .main-menu ul li:hover>a {
-  color: var(--clr-theme-1);
+  color: #dfa93d;
 }
 
 .main-menu ul li:hover>a::after {
-  color: var(--clr-theme-1);
+  color: #dfa93d;
 }
 
 .main-menu ul li:hover>.submenu {
@@ -6007,7 +6014,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: var(--clr-bg-4);
   font-weight: 500;
   font-size: 20px;
-  background: var(--clr-bg-1);
+  background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
   border-radius: 30px;
   display: inline-block;
   padding: 13px 28px;
@@ -6800,7 +6807,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .ms-trending2-title {
   color: var(--clr-common-white);
-  font-size: 22px;
+  font-size: 14px;
   font-family: var(--bd-ff-heading);
   text-transform: capitalize;
 }
@@ -12480,7 +12487,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   inset-inline-start: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(96.81deg, var(--clr-theme-1), var(--clr-theme-1));
+  background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
   width: 100px;
 }
 
@@ -13006,7 +13013,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .trending__title {
-  font-size: 55px !important;
+  font-size: 36px !important;
   line-height: 40px !important;
   width: 100% !important;
   text-align: center !important;

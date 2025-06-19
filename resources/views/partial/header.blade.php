@@ -1,4 +1,5 @@
      <!-- Offcanvas area start -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <div class="fix">
          <div class="offcanvas__info">
              <div class="offcanvas__wrapper">
@@ -26,12 +27,6 @@
                              </div>
                          </div>
                      </div>
-                     <div class="offcanvas__search mb-30">
-                         <form action="#">
-                             <input type="text" placeholder="Search Here">
-                             <button type="submit"><i class="far fa-search"></i></button>
-                         </form>
-                     </div>
                      <div class="hr-1 mt-30 mb-30 d-xl-none"></div>
                      <div class="mobile-menu fix mb-30  d-xl-none"></div>
                      <div class="hr-1 mt-30 mb-30 d-xl-none"></div>
@@ -41,9 +36,9 @@
                      </div>
                      <div class="offcanvas__social">
                          <div class="ms-footer-social mb-0">
-                             <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                             <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                             <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
+                             <a href="#" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                             <a href="#" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                             <a href="#" title="Pinterest" target="_blank"><i class="fa-brands fa-square-pinterest"></i></i></a>
                          </div>
                      </div>
                  </div>
@@ -57,7 +52,7 @@
                  <div class="row align-items-center">
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
-                             <div class="header__main ms-border2 d-flex align-items-center justify-content-between">
+                             <div class="header__main ms-border2 d-flex align-items-center justify-content-around">
                                  <div class="header__logo pt-10 pb-10" style="width: 100px;">
                                      <a href="{{ route('home') }}">
                                          <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
@@ -65,11 +60,6 @@
                                  </div>
                                  <div class="d-none d-xxl-block">
                                      <div class="browse-filter p-relative ms-browse-act-wrap">
-                                         <div class="ms-browse-icon ms-cp">
-                                             <a class="browse-filter__text" href="javascript:void(0)"><i
-                                                     class="flaticon-options-lines"></i>
-                                                 Browse Acts</a>
-                                         </div>
                                          <div class="ms-browse-act-item-wrap p-absolute">
                                              <div class="ms-song-item">
                                                  <div class="ms-song-img p-relative">
