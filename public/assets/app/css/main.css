@@ -13038,3 +13038,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .ms-news-item {
   height: 400px;
 }
+
+.custome-h {
+  height: 500px;
+}
+
+.ms-title-border {
+  background-image: none !important;
+}
+
+.wh250 {
+  width: 250px;
+  height: 250px;
+}

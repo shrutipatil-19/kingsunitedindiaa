@@ -485,13 +485,13 @@
                             <!-- <div class="trending__price">
                                 <span>From $99</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img">
-                                <a href="genres-details.html"><img src="{{ asset('assets/img/trending/07.jpg') }}"
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="genres-details.html"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
                                         alt="trending image"></a>
                             </div>
                             <div class="ms-trending2-content">
                                 <div class="ms-trending2-shape">
-                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                                    <img src="" alt="trending shape">
                                 </div>
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
@@ -509,8 +509,8 @@
                             <!-- <div class="trending__price">
                                 <span>From $119</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img">
-                                <a href="#"><img src="{{ asset('assets/img/trending/08.jpg') }}"
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
                                         alt="trending image"></a>
                             </div>
                             <div class="ms-trending2-content">
@@ -533,8 +533,8 @@
                             <!-- <div class="trending__price">
                                 <span>From $55</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img">
-                                <a href="#"><img src="{{ asset('assets/img/trending/02.jpg') }}"
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
                                         alt="trending image"></a>
                             </div>
                             <div class="ms-trending2-content">
@@ -557,8 +557,8 @@
                             <!-- <div class="trending__price">
                                 <span>From $90</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img">
-                                <a href="#"><img src="{{ asset('assets/img/trending/10.jpg') }}"
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
                                         alt="trending image"></a>
                             </div>
                             <div class="ms-trending2-content">
@@ -581,8 +581,8 @@
                             <!-- <div class="trending__price">
                                 <span>From $90</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img">
-                                <a href="#"><img src="{{ asset('assets/img/trending/11.jpg') }}"
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
                                         alt="trending image"></a>
                             </div>
                             <div class="ms-trending2-content">

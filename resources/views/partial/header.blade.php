@@ -5,8 +5,8 @@
                  <div class="offcanvas__content">
                      <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
                          <div class="offcanvas__logo">
-                             <a href="index.html">
-                                 <img src="{{ asset('assets/img/logo/logo.svg') }}" alt="logo">
+                             <a href="{{ route('home') }}">
+                                 <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo">
                              </a>
                          </div>
                          <div class="offcanvas__close">
@@ -58,9 +58,9 @@
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
                              <div class="header__main ms-border2 d-flex align-items-center justify-content-between">
-                                 <div class="header__logo pt-25 pb-25">
-                                     <a href="index.html">
-                                         <img src="{{ asset('assets/img/logo/logo.svg') }}" alt="logo not found">
+                                 <div class="header__logo pt-10 pb-10" style="width: 100px;">
+                                     <a href="{{ route('home') }}">
+                                         <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
                                      </a>
                                  </div>
                                  <div class="d-none d-xxl-block">
