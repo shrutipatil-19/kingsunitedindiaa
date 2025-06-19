@@ -78,8 +78,7 @@
                                     <i class="flaticon-phone-call"></i>
                                 </div>
                                 <h3 class="ms-title3 ms-text2 mb-15">Emergency Call</h3>
-                                <h2 class="ms-title5 white-text"><a href="tel:+9102369032125">+91 0236 9032
-                                        125</a></h2>
+                                <h2 class="ms-title5 white-text"><a href="tel:+919166664556">+91 9166664556</a></h2>
                             </div>
                         </div>
                     </div>
@@ -99,65 +98,41 @@
                     <div class="ms-contact-map-grid">
                         <div class="ms-contact-map-item-wrapper">
                             <div class="ms-contact-map-item ms-bg-6">
-                                <div class="ms-contact-flag mb-5">
+                                <!-- <div class="ms-contact-flag mb-5">
                                     <img src="{{ asset('assets/img/contact/flag-01.jpg') }}" alt="flag image">
-                                </div>
-                                <h3 class="ms-title3 white-text mb-40">United state of america</h3>
+                                </div> -->
+                                <h3 class="ms-title3 white-text mb-40">Kings Dance Studio</h3>
                                 <div class="ms-contact-map-content ms-footer2-contact border-0">
                                     <ul>
-                                        <li><i class="flaticon-pin"></i><a href="#">936 Kuhl Avenue,
-                                                Norcross,
-                                                Georgia
-                                                GA 5983, United State</a></li>
-                                        <li><i class="flaticon-phone-call"></i><a href="tel:03332920560">0333
-                                                292
-                                                0560</a></li>
-                                        <li><i class="flaticon-mail"></i><a
-                                                href="mailto:info@musiclycontact.com">info@musiclycontact.com</a>
-                                        </li>
+                                        <li><i class="flaticon-pin"></i><a href="#">Shah industrial estate, Ghanshyam Industrial Estate, Plot No.1, Off Link Rd, near SUPREME CHAMBERS, Industrial Area, Andheri West, Mumbai, Maharashtra 400047</a></li>
+                                        <li><i class="flaticon-phone-call"></i><a href="tel:+91 7276539771">+91 7276539771</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="ms-contact-map-item-wrapper">
                             <div class="ms-contact-map-item ms-bg-6">
-                                <div class="ms-contact-flag mb-5">
+                                <!-- <div class="ms-contact-flag mb-5">
                                     <img src="{{ asset('assets/img/contact/flag-02.jpg') }}" alt="flag image">
-                                </div>
-                                <h3 class="ms-title3 white-text mb-40">Singapure</h3>
+                                </div> -->
+                                <h3 class="ms-title3 white-text mb-40">For Shows and Events</h3>
                                 <div class="ms-contact-map-content ms-footer2-contact border-0">
                                     <ul>
-                                        <li><i class="flaticon-pin"></i><a href="#">936 Kuhl Avenue,
-                                                Norcross,
-                                                Georgia
-                                                GA 5983, United State</a></li>
-                                        <li><i class="flaticon-phone-call"></i><a href="tel:03332920560">0333
-                                                292
-                                                0560</a></li>
-                                        <li><i class="flaticon-mail"></i><a
-                                                href="mailto:info@musiclycontact.com">info@musiclycontact.com</a>
-                                        </li>
+                                        <li><i class="flaticon-phone-call"></i><a href="tel:+919166664556">91 9166664556</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="ms-contact-map-item-wrapper">
                             <div class="ms-contact-map-item ms-bg-6">
-                                <div class="ms-contact-flag mb-5">
+                                <!-- <div class="ms-contact-flag mb-5">
                                     <img src="{{ asset('assets/img/contact/flag-03.jpg') }}" alt="flag image">
-                                </div>
-                                <h3 class="ms-title3 white-text mb-40">South Africa</h3>
+                                </div> -->
+                                <h3 class="ms-title3 white-text mb-40">Email Address</h3>
                                 <div class="ms-contact-map-content ms-footer2-contact border-0">
                                     <ul>
-                                        <li><i class="flaticon-pin"></i><a href="#">936 Kuhl Avenue,
-                                                Norcross,
-                                                Georgia
-                                                GA 5983, United State</a></li>
-                                        <li><i class="flaticon-phone-call"></i><a href="tel:03332920560">0333
-                                                292
-                                                0560</a></li>
                                         <li><i class="flaticon-mail"></i><a
-                                                href="mailto:info@musiclycontact.com">info@musiclycontact.com</a>
+                                                href="mailto:info@kingsunitedindia.com">info@kingsunitedindia.com</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -169,53 +144,7 @@
         </section>
         <!-- Contact Map Area End Here  -->
 
-
-        <!-- Partner Area Start Here  -->
-        <div class="ms-partner-area fix pt-130 pb-130">
-            <div class="container">
-                <div class="swiper-container ms-partner-active">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-01.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-02.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-03.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-05.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-01.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-02.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-03.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-05.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Partner Area End Here  -->
+        @include('partial.client')
 
     </main>
 </div>
