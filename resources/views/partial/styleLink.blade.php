@@ -1,5 +1,5 @@
  <!-- Place favicon.svg in the root directory -->
- <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.svg') }}">
+ <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/kings img/kings_logo.png') }}">
  <!-- CSS here -->
  <link rel="stylesheet" href="{{ asset('assets/app/css/bootstrap.min.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/meanmenu.min.css') }}">
