@@ -9,10 +9,10 @@
             data-background="{{ asset('assets/img/kings img/banner/banne1.jpg') }}"
             style="background-image: url('{{ asset('assets/img/kings img/banner/banne1.jpg') }}');">
             <div class="ms-banner2-shape p-absolute"></div>
-            <div class="ms-banner2-cover-img p-absolute custome-wh">
+            {{-- <div class="ms-banner2-cover-img p-absolute custome-wh">
                 <img src="{{ asset('assets/img/kings img/lion_logo.png') }}" alt="banner" class="w-100 h-100" style="object-fit: contain;">
-            </div>
-            <h2 class="ms-banner2-title">Musicly</h2>
+            </div> --}}
+            {{-- <h2 class="ms-banner2-title">Musicly</h2> --}}
             <div class="ms-banner2-video mb-10">
                 <a href="https://www.youtube.com/watch?v=y4jv5bk8ato" class="popup-video ms-banner2-video-btn">
                     <img class="ms-rotation-360" src="{{ asset('assets/img/banner/banner-border.png') }}" alt="banner">
@@ -24,7 +24,7 @@
     <!-- Banner Area End Here  -->
 
     <!-- Find Musician Area Start Here  -->
-    <section class="ms-find-musician pt-70 pb-130">
+    <section class="ms-find-musician pt-70 pb-130 d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xxl-10">
@@ -84,7 +84,7 @@
     <!-- Find Musician Area End Here  -->
 
     <!-- Brand Song Area Start Here  -->
-    <section class="ms-song-area pb-130">
+    <section class="ms-song-area pb-130 d-none">
         <div class="container">
             <div class="ms-song-border pt-65 pb-65 bdFadeUp">
                 <div class="swiper-container ms-song2-active fix">
@@ -458,7 +458,7 @@
 
     <!-- Trending area start -->
     <section class="trending__area p-relative fix pt-130 include__bg pb-130"
-        data-background="{{ asset('assets/img/trending/tranding-bg.png') }}">
+        data-background="{{ asset('assets/img/kings img/course1.jpg') }}" style="background-image: url('{{ asset('assets/img/kings img/course1.jpg') }}');">
         <div class="ms-overlay ms-overlay4 p-absolute"></div>
         <div class="container">
             <div class="row align-items-end mb-25 bdFadeUp ">
@@ -1258,36 +1258,12 @@
                                 <div class="ms-tm2-item text-center">
                                     <div class="ms-tm2-img-main">
                                         <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
-                                            <div class="ms-tm2-signature w-img">
+                                            {{-- <div class="ms-tm2-signature w-img">
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                                     alt="testimonial signature">
-                                            </div>
-                                            <div class="ms-tm2-author-img m-img">
-                                                <img src=" assets/img/testimonial/testimonial-06.png') }}"
-                                                    alt="testimonial image">
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm2-content pt-35">
-                                            <div class="ms-tm2-quotation mb-25">
-                                                <i class="flaticon-quotation"></i>
-                                            </div>
-                                            <p class="ms-tm2-text mb-30">Spacious studio in Andheri! We rented it to host some workshops and it was a great experience. A music system update would make it even better.</p>
-                                            <div class="ms-tm2-author">
-                                                <span class="ms-tm2-name">Soonruta Kothadia</span>
-                                                <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ms-tm2-item text-center">
-                                    <div class="ms-tm2-img-main">
-                                        <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
-                                            <div class="ms-tm2-signature w-img">
-                                                <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
-                                                    alt="testimonial signature">
-                                            </div>
-                                            <div class="ms-tm2-author-img m-img">
-                                                <img src=" assets/img/testimonial/testimonial-06.png') }}"
+                                            </div> --}}
+                                            <div class="m-img">
+                                                <img src="https://placehold.co/100x100"
                                                     alt="testimonial image">
                                             </div>
                                         </div>
@@ -1297,7 +1273,7 @@
                                             </div>
                                             <p class="ms-tm2-text mb-30">This workshop was really amazing, as it gave a proper clarification about what all is gonna happen in the course and also what elements an individual has to work on to enter the fashion industry.A good path explainer and platform for those who want to enter this industry.</p>
                                             <div class="ms-tm2-author">
-                                                <span class="ms-tm2-name">Anveshika Singh</span>
+                                                <span class="section__subtitle">Anveshika Singh</span>
                                                 <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                             </div>
                                         </div>
@@ -1306,12 +1282,37 @@
                                 <div class="ms-tm2-item text-center">
                                     <div class="ms-tm2-img-main">
                                         <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
-                                            <div class="ms-tm2-signature w-img">
+                                            {{-- <div class="ms-tm2-signature w-img">
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                                     alt="testimonial signature">
+                                            </div> --}}
+                                            <div class="m-img">
+                                                <img src="https://placehold.co/100x100"
+                                                    alt="testimonial image">
                                             </div>
-                                            <div class="ms-tm2-author-img m-img">
-                                                <img src=" assets/img/testimonial/testimonial-06.png') }}"
+                                        </div>
+                                        <div class="ms-tm2-content pt-35">
+                                            <div class="ms-tm2-quotation mb-25"> 
+                                                <i class="flaticon-quotation"></i>
+                                            </div>
+                                            <p class="ms-tm2-text mb-30">Spacious studio in Andheri! We rented it to host some workshops and it was a great experience. A music system update would make it even better.</p>
+                                            <div class="ms-tm2-author">
+                                                <span class="section__subtitle">Soonruta Kothadia</span>
+                                                <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          
+                                <div class="ms-tm2-item text-center">
+                                    <div class="ms-tm2-img-main">
+                                        <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
+                                            {{-- <div class="ms-tm2-signature w-img">
+                                                <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
+                                                    alt="testimonial signature">
+                                            </div> --}}
+                                            <div class="m-img">
+                                                <img src="https://placehold.co/100x100"
                                                     alt="testimonial image">
                                             </div>
                                         </div>
@@ -1321,7 +1322,7 @@
                                             </div>
                                             <p class="ms-tm2-text mb-30">awesome and the class atmosphere is energetic.the teachers are very supportive and always ready to help</p>
                                             <div class="ms-tm2-author">
-                                                <span class="ms-tm2-name">Anishek Singh</span>
+                                                <span class="section__subtitle">Anishek Singh</span>
                                                 <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                             </div>
                                         </div>
@@ -1874,21 +1875,37 @@
            <!-- Partner Area Start Here  -->
             <div class="ms-partner-area fix pb-130">
                 <div class="container">
-                    <div class="ms-border5 pt-130">
+                    <div class="row justify-content-center bdFadeUp">
+                        <div class="col-xl-6">
+                            <div class="section__title-wrapper text-center mb-65 bd-title-anim">
+                                <h2 class="section__title">Our Clients 
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
                         <div class="swiper-container ms-partner-active">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/img/kings img/intel.webp') }}" alt="partner image">
+                                <div class="col-lg-3 col-6 g-2">
+                                    <div class="swiper-slide">
+                                        <img src="{{ asset('assets/img/kings img/intel.webp') }}" alt="partner image">
+                                    </div>
                                 </div>
+                               <div class="col-lg-3 col-6 g-2">
                                 <div class="swiper-slide">
                                     <img src="{{ asset('assets/img/kings img/ipl_logo.jpg') }}" alt="partner image">
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/img/kings img/microsoft.png') }}" alt="partner image">
+                               </div>
+                                <div class="col-lg-3 col-6 g-2">
+                                    <div class="swiper-slide">
+                                        <img src="{{ asset('assets/img/kings img/microsoft.png') }}" alt="partner image">
+                                    </div>
                                 </div>
+                               <div class="col-lg-3 col-6 g-2">
                                 <div class="swiper-slide">
                                     <img src="{{ asset('assets/img/kings img/red_bull.jpg') }}" alt="partner image">
                                 </div>
+                               </div>
                                 <!-- <div class="swiper-slide">
                                     <img src="assets/img/partner/partner-05.png" alt="partner image">
                                 </div>

@@ -16,7 +16,7 @@
                              </button>
                          </div>
                      </div>
-                     <div class="offcanvas__user mb-30 d-xxl-none">
+                     {{-- <div class="offcanvas__user mb-30 d-xxl-none">
                          <div class="user__acount">
                              <span>
                                  <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
@@ -26,14 +26,14 @@
                                  <p class="user__mail">johnson@webmail.com</p>
                              </div>
                          </div>
-                     </div>
+                     </div> --}}
                      <div class="hr-1 mt-30 mb-30 d-xl-none"></div>
                      <div class="mobile-menu fix mb-30  d-xl-none"></div>
                      <div class="hr-1 mt-30 mb-30 d-xl-none"></div>
-                     <div class="offcanvas__btn mb-30">
+                     {{-- <div class="offcanvas__btn mb-30">
                          <a class="ms-border-btn" href="services.html"><i class="fa-solid fa-plus"></i> List Your
                              Service</a>
-                     </div>
+                     </div> --}}
                      <div class="offcanvas__social">
                          <div class="ms-footer-social mb-0">
                              <a href="#" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
@@ -146,7 +146,7 @@
                                                         </ul> -->
                                                      </li>
                                                      <li>
-                                                         <a href="{{ route('about') }}">About us</a>
+                                                         <a href="#">About us</a>
                                                      </li>
                                                      <li class="has-dropdown">
                                                          <a href="#">Kings Dance Studio</a>
@@ -249,14 +249,14 @@
                                                         </ul>
                                                     </li> -->
                                                      <li class="has-dropdown">
-                                                         <a href="{{ route('bookUsLive') }}">Book Us Live</a>
+                                                         <a href="#">Book Us Live</a>
                                                          <ul class="submenu">
-                                                             <li><a href="{{ route('bookUsLive') }}">Book Us For Live Event</a></li>
+                                                             <li><a href="#">Book Us For Live Event</a></li>
 
                                                          </ul>
                                                      </li>
                                                      <li>
-                                                         <a href="{{ route('contact') }}">Contact Us</a>
+                                                         <a href="#">Contact Us</a>
                                                      </li>
                                                  </ul>
                                              </nav>
@@ -328,7 +328,7 @@
                                             </span>
                                         </div>
                                     </div> -->
-                                     <div class="header__hamburger">
+                                     {{-- <div class="header__hamburger">
                                          <div class="sidebar__toggle">
                                              <a class="bar-icon" href="javascript:void(0)">
                                                  <span></span>
@@ -336,7 +336,7 @@
                                                  <span></span>
                                              </a>
                                          </div>
-                                     </div>
+                                     </div> --}}
                                  </div>
                              </div>
                          </div>

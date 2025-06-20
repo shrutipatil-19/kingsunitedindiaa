@@ -1,4 +1,9 @@
    <!-- Footer Area Start Here  -->
+   <style>
+    .fa{
+        filter: brightness(3.5);
+    }
+   </style>
    <footer>
        <div class="ms-footer-bg ms-footer-overlay zindex-1 include__bg pt-20" data-background="">
            <div class="ms-footer-top pt-20">
@@ -9,7 +14,7 @@
                                <div class="ms-footer-widget mb-20">
                                    <a href="{{ route('home') }}">
                                        <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo"
-                                           class="w-100">
+                                           class="w-75">
                                    </a>
                                </div>
                            </div>
@@ -41,7 +46,9 @@
                                <div class="ms-footer-widget mb-50">
                                    <h3 class="ms-footer-title">Contact</h3>
                                    <ul>
-                                       
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:info@kingsunitedindia.com">info@kingsunitedindia.com</a></li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="#">Shah industrial estate, Ghanshyam Industrial Estate, Plot No.1, Off Link Rd, near SUPREME CHAMBERS, Industrial Area, Andheri West, Mumbai, Maharashtra 400047</a></li>
+                                    <li><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="tel:7276539771">7276539771</a></li>
                                    </ul>
                                </div>
                            </div>
