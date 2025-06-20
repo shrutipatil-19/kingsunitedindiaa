@@ -854,7 +854,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .ms-bg-body {
-  background-color: var(--clr-common-body);
+  /* background-color: var(--clr-common-body); */
+  background-color: background-color: #0d0d0d85;;
 }
 
 .ms-bg-6 {
@@ -902,7 +903,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .ms-overlay4 {
-  background: linear-gradient(180deg, var(--clr-bg-2) 0%, rgba(24, 24, 24, 0.85) 100%, var(--clr-bg-2) 100%);
+  /* background: linear-gradient(180deg, var(--clr-bg-2) 0%, rgba(24, 24, 24, 0.85) 100%, var(--clr-bg-2) 100%); */
+  background: linear-gradient(180deg, #18181894 0%, rgba(24, 24, 24, 0.85) 100%, var(--clr-bg-2) 100%);
 }
 
 .ms-overlay5 {
@@ -1493,11 +1495,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .ms-round-dots ul li.slick-active {
-  border-color: var(--clr-text-6);
+  /* border-color: var(--clr-text-6); */
+  border-color: #dea738;
 }
 
 .ms-round-dots ul li.slick-active::after {
-  background: var(--clr-text-6);
+  background: #dea738;
 }
 
 .ms-video-text {
@@ -4227,7 +4230,7 @@ Animate Underline
 }
 
 .main-menu ul li .submenu li:hover>a::after {
-  color: var(--clr-theme-1);
+  color: #dda83d;
 }
 
 .main-menu ul li .submenu li:hover>.submenu {
