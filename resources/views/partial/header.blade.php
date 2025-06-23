@@ -27,9 +27,9 @@
                              </div>
                          </div>
                      </div> --}}
-                     <div class="hr-1 mt-30 mb-30 d-xl-none"></div>
-                     <div class="mobile-menu fix mb-30  d-xl-none"></div>
-                     <div class="hr-1 mt-30 mb-30 d-xl-none"></div>
+                     <div class="hr-1 mt-30 mb-30"></div>
+                     <div class="mobile-menu fix mb-30"></div>
+                     <div class="hr-1 mt-30 mb-30"></div>
                      {{-- <div class="offcanvas__btn mb-30">
                          <a class="ms-border-btn" href="services.html"><i class="fa-solid fa-plus"></i> List Your
                              Service</a>
@@ -52,7 +52,7 @@
                  <div class="row align-items-center">
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
-                             <div class="header__main ms-border2 d-flex align-items-center justify-content-around">
+                             <div class="header__main d-flex align-items-center justify-content-around">
                                  <div class="header__logo pt-10 pb-10" style="width: 100px;">
                                      <a href="{{ route('home') }}">
                                          <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
@@ -328,7 +328,7 @@
                                             </span>
                                         </div>
                                     </div> -->
-                                     {{-- <div class="header__hamburger">
+                                     <div class="header__hamburger">
                                          <div class="sidebar__toggle">
                                              <a class="bar-icon" href="javascript:void(0)">
                                                  <span></span>
@@ -336,7 +336,7 @@
                                                  <span></span>
                                              </a>
                                          </div>
-                                     </div> --}}
+                                     </div>
                                  </div>
                              </div>
                          </div>

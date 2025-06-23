@@ -411,7 +411,11 @@
         </section>
         <!-- Advice Area End Here  -->
         <!-- Work System Area Start Here  -->
-        <section class="ms-work-system-area pt-130 pb-130" style="background-image: url('{{ asset('assets/img/kings img/video_banner1.jpg')}}');">
+        {{-- <section class="ms-work-system-area pt-130 pb-130"> --}}
+            <section class="ms-about-area fix">
+                <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
+                    data-background="{{ asset('assets/img/kings img/video_banner1.jpg')}}" style="background-image: url('{{ asset('assets/img/kings img/video_banner1.jpg')}}');">
+                    <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
             <div class="container">
                 <div class="ms-work-system-wrap">
                     <div class="ms-work-system-grid mb-10">
@@ -647,6 +651,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <!-- Work System Area End Here  -->
 
