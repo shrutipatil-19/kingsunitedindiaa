@@ -487,7 +487,7 @@
                                 <span>From $99</span>
                             </div> -->
                             <div class="ms-trending2-img w-img custome-h">
-                                <a href="genres-details.html"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                <a href="#"><img src="{{ asset('assets/img/about/award.jpg')}}"
                                         alt="trending image"></a>
                             </div>
                             <div class="ms-trending2-content">
@@ -496,13 +496,13 @@
                                 </div>
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="genres-details.html">Suresh Mukund is an Internationally Acclaimed
+                                        href="#">Suresh Mukund is an Internationally Acclaimed
                                         Choreographer and the First Choreographer to Bring
                                         International Championship Titles and Medals for India
                                         In History. He is the Founder and Choreographer of
                                         The Kings, a Globally Recognized Dance Crew Known
                                         For Its Unique Fusion of Hip-hop and Bollywood.</a>
-                                    <a class="ms-round-btn popup-image" href="{{ asset('assets/img/trending/07.jpg') }}"><i
+                                    <a class="ms-round-btn popup-image" href="{{ asset('assets/img/about/award.jpg')}}"><i
                                             class="flaticon-right-arrow-1"></i></a>
                                 </div>
                             </div>
@@ -535,7 +535,7 @@
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Creator crew</span>
+                            <span class="trending__title">Creator Space</span>
                             <!-- <div class="trending__price">
                                 <span>From $55</span>
                             </div> -->
@@ -559,7 +559,7 @@
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">The Kings</span>
+                            <span class="trending__title">The Kings Crew</span>
                             <!-- <div class="trending__price">
                                 <span>From $90</span>
                             </div> -->
@@ -1292,10 +1292,7 @@
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                             alt="testimonial signature">
                                         </div> --}}
-                                        <div class="m-img">
-                                            <img src="https://placehold.co/100x100"
-                                                alt="testimonial image">
-                                        </div>
+                                       
                                     </div>
                                     <div class="ms-tm2-content pt-35">
                                         <div class="ms-tm2-quotation mb-25">
@@ -1303,6 +1300,8 @@
                                         </div>
                                         <p class="ms-tm2-text mb-30">This workshop was really amazing, as it gave a proper clarification about what all is gonna happen in the course and also what elements an individual has to work on to enter the fashion industry.A good path explainer and platform for those who want to enter this industry.</p>
                                         <div class="ms-tm2-author">
+                                                <img src="https://ui-avatars.com/api/?name=Anveshika%20Singh"
+                                                    alt="testimonial image" class="h-10">
                                             <span class="section__subtitle">Anveshika Singh</span>
                                             <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                         </div>
@@ -1317,7 +1316,7 @@
                                         alt="testimonial signature">
                                     </div> --}}
                                     <div class="m-img">
-                                        <img src="https://placehold.co/100x100"
+                                        <img src="https://ui-avatars.com/api/?name=Soonruta%20Kothadia"
                                             alt="testimonial image">
                                     </div>
                                 </div>
@@ -1342,7 +1341,7 @@
                                     alt="testimonial signature">
                                 </div> --}}
                                 <div class="m-img">
-                                    <img src="https://placehold.co/100x100"
+                                    <img src="https://ui-avatars.com/api/?name=Anishek%20Singh"
                                         alt="testimonial image">
                                 </div>
                             </div>
