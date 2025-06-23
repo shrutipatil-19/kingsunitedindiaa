@@ -6,35 +6,27 @@
         <!-- About Area Start Here  -->
         <section class="ms-about-area fix">
             <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
-                data-background="{{ asset('assets/img/about/bg.jpg')}}" style="background-image: url('{{ asset('assets/img/about/bg.jpg')}}');">
+                data-background="{{ asset('assets/img/kings img/video_banner1.jpg')}}" style="background-image: url('{{ asset('assets/img/kings img/video_banner1.jpg')}}');">
                 <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-10 col-lg-10">
                             <div class="ms-about-content text-center">
-                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">About Musicly In band
-                                    party hiring
-                                    agency
+                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </h2>
-                                <p class="capitalize mb-65">musicly is the UK's leading live music booking
-                                    agency: we
-                                    manage
-                                    over
-                                    3000 bookings a year, from intimate <br> weddings to high-profile
-                                    corporate
-                                    functions.
+                                <p class="capitalize mb-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate debitis nam reprehenderit minima consequuntur ducimus beatae!
                                 </p>
-                                <div class="ms-about-round-btn d-inline-block bdFadeUp">
+                                <div class="ms-about-round-btn d-inline-block bdFadeUp ms-choose-area pt-125 pb-105">
                                     <a href="https://www.youtube.com/watch?v=y4jv5bk8ato"
                                         class="popup-video ms-video-round p-relative">
                                         <div class="ms-video-img1 wh250">
                                             <img src="{{ asset('assets/img/kings img/video_banner1.jpg')}}" alt="about image" class="w-100 h-100 object-cover rounded-circle">
                                         </div>
                                         <div class="ms-video-img2 d-inline-block">
-                                            <img src="{{ asset('assets/img/about/about2.png')}}" alt="about image">
+                                            {{-- <img src="{{ asset('assets/img/about/about2.png')}}" alt="about image"> --}}
                                         </div>
                                         <div class="ms-video-icon">
-                                            <i class="fa-sharp fa-regular fa-play"></i>
+                                            <i class="fa fa-play"></i>
                                         </div>
                                     </a>
                                 </div>
@@ -47,7 +39,7 @@
         <!-- About Area End Here  -->
 
         <!-- Why Choose Us Area Start Here  -->
-        <section class="ms-choose-area pt-125 pb-105">
+        <section class="ms-choose-area pt-125 pb-105 d-none">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-7">
@@ -133,7 +125,7 @@
         <!-- Why Choose Us Area End Here  -->
 
         <!-- work area start -->
-        <section class="work__area pt-30 pb-70">
+        <section class="work__area pt-125 pb-105">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -146,7 +138,7 @@
                                 <div class="work__features-bottom ms-work3-features pb-0">
                                     <div class="work__features-action">
                                         <div class="work__features-btn ms-work3-feature-btn">
-                                            <a class="ms-fill-btn" href="contact.html">Get Started</a>
+                                            <a class="unfill__btn" href="contact.html">Get Started</a>
                                         </div>
                                         <div class="features__btn-text">
                                             <span>Book something <br> awesome !</span>
@@ -162,7 +154,7 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">Story of Suresh Mukund & his team – The Kings</h2>
+                                <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg">Suresh Mukund</span> & his team – The Kings</h2>
                                 <p>Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
                                 </p>
                                 <p>Kings United, also known simply as “The Kings,” shot to global fame by winning the third season of the US reality show, “World of Dance.” Their victory was historic, as they walked away with a grand prize of USD 1 million. This monumental achievement placed them on the global dance map and cemented their reputation as one of the best dance crews in the world</p>
@@ -419,7 +411,7 @@
         </section>
         <!-- Advice Area End Here  -->
         <!-- Work System Area Start Here  -->
-        <section class="ms-work-system-area pt-130 pb-130">
+        <section class="ms-work-system-area pt-130 pb-130" style="background-image: url('{{ asset('assets/img/kings img/video_banner1.jpg')}}');">
             <div class="container">
                 <div class="ms-work-system-wrap">
                     <div class="ms-work-system-grid mb-10">
@@ -630,13 +622,13 @@
                         <img src="{{ asset('assets/img/kings img/about22.jpg')}}" alt="work system image" class="w-100 h-100">
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-xl-10">
-                            <div class="ms-work-system-inner text-center">
-                                <h3 class="ms-title4 ms-border2 pb-30 mb-30 text-center">
+                        <div class="col-xl-12">
+                            <div class="ms-work-system-inner">
+                                <h3 class="ms-title4 ms-border2 pb-30 mb-30">
                                     The Journey has been full of & struggles, pain and sacrifices
                                 </h3>
-                                <p class="mb-30 text-center">Belonging to a middle-class family in Maharashtra’s Vasai, Suresh Mukund started a dance group between 2008-2009, mostly consisting of young and aspirational dancers from the Nalasopara-Vasai belt. Back then, there was only one reality show, ‘Boogie Woogie,’ and no social media. Our dancers didn’t even have smartphones. The team’s struggle was immense a decade ago. We battled not only skepticism regarding our ambitions but also financial constraints. Initially, we had a few dancers who didn’t have any money, coming from middle-class family backgrounds. When we went to ‘Boogie Woogie,’ some were wearing torn jeans and were on stage in slippers. That day, I told one of my crew members that someday these people will be stars. This time when the prize money was announced, I was recollecting those memories. They became stars after all.</p>
-                                <p class="mb-30 text-center">I consider myself extremely lucky. When we came back, we constructed the place properly. Today, it is India’s biggest dance studio. It’s the same place where we practiced for ‘World of Dance’ too. I was aware of how far The Kings could go from there. A global platform has opened up for them and has also given us the opportunity to pursue our other ambitions. I want to establish myself as a Bollywood choreographer first and then want to go into direction. That will take time, but I’m prepared for it. That’s on my bucket list. But until that dream is achieved, I want to give my all to dancing and to my crew.</p>
+                                <p class="mb-30">Belonging to a middle-class family in Maharashtra’s Vasai, Suresh Mukund started a dance group between 2008-2009, mostly consisting of young and aspirational dancers from the Nalasopara-Vasai belt. Back then, there was only one reality show, ‘Boogie Woogie,’ and no social media. Our dancers didn’t even have smartphones. The team’s struggle was immense a decade ago. We battled not only skepticism regarding our ambitions but also financial constraints. Initially, we had a few dancers who didn’t have any money, coming from middle-class family backgrounds. When we went to ‘Boogie Woogie,’ some were wearing torn jeans and were on stage in slippers. That day, I told one of my crew members that someday these people will be stars. This time when the prize money was announced, I was recollecting those memories. They became stars after all.</p>
+                                <p class="mb-30">I consider myself extremely lucky. When we came back, we constructed the place properly. Today, it is India’s biggest dance studio. It’s the same place where we practiced for ‘World of Dance’ too. I was aware of how far The Kings could go from there. A global platform has opened up for them and has also given us the opportunity to pursue our other ambitions. I want to establish myself as a Bollywood choreographer first and then want to go into direction. That will take time, but I’m prepared for it. That’s on my bucket list. But until that dream is achieved, I want to give my all to dancing and to my crew.</p>
                                 <div class="work__features-bottom d-inline-block mt-45">
                                     <div class="work__features-action">
                                         <div class="work__features-btn">
@@ -659,7 +651,7 @@
         <!-- Work System Area End Here  -->
 
         <!-- Special Events Area Start -->
-        <section class="ms-event-area pt-130 pb-70">
+        <section class="ms-event-area pt-130 pb-70 d-none">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-8">

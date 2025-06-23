@@ -4,7 +4,7 @@
         <div class="row justify-content-center bdFadeUp">
             <div class="col-xl-6">
                 <div class="section__title-wrapper text-center mb-65 bd-title-anim">
-                    <h2 class="section__title">Our Clients 
+                    <h2 class="section__title"><span class="text-bg">Our Clients </span>
                     </h2>
                 </div>
             </div>

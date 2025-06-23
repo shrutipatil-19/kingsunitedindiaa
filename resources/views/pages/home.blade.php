@@ -5,9 +5,9 @@
 
     <!-- Banner Area Start Here  -->
     <section class="ms-banner2-area fix">
-        <div class="ms-banner2-wrap ms-banner2-height p-relative ms-bg custom-bg"
-            data-background="{{ asset('assets/img/kings img/banner/banne1.jpg') }}"
-            style="background-image: url('{{ asset('assets/img/kings img/banner/banne1.jpg') }}');">
+        <div class="ms-banner2-wrap ms-banner2-height p-relative ms-bg custom-bg w-100"
+            data-background="{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}"
+            style="background-image: url('{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}');">
             <div class="ms-banner2-shape p-absolute"></div>
             {{-- <div class="ms-banner2-cover-img p-absolute custome-wh">
                 <img src="{{ asset('assets/img/kings img/lion_logo.png') }}" alt="banner" class="w-100 h-100" style="object-fit: contain;">
@@ -216,7 +216,7 @@
                         <div class="section__title-wrapper mb-50 bd-title-anim">
                             <span class="section__subtitle">About Kings</span>
                             <h2 class="section__title two">
-                                The Kings: From Dreamers to International
+                                The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
                                 <span class="animated-underline active">Dance Champions</span>
                             </h2>
                         </div>
@@ -1096,7 +1096,7 @@
 
     <!-- Event Area Start Here  -->
     <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105"
-        data-background="{{ asset('assets/img/kings img/banner/event-bg-3.png') }}">
+        data-background="{{ asset('assets/img/kings img/banner/event-bg-3.png') }}" style="background-image: url('{{ asset('assets/img/kings img/tranding-bg.png') }}');">
         <div class="ms-overlay ms-overlay1 zindex--1"></div>
         <div class="container">
             <div class="row justify-content-center mb-25 bdFadeUp">
@@ -1121,6 +1121,9 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Choreography</a></h3>
                         <p class="ms-event-text">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows, Serials, Advertisements,</p>
+                        <div class="work__features-btn">
+                            <a class="unfill__btn2" href="#">View More</a>
+                        </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
                                 <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
@@ -1137,6 +1140,9 @@
                         <h3 class="ms-event-title"><a href="event-details.html">Music Videos</a>
                         </h3>
                         <p class="ms-event-text">Choreography for Music videos with Celebrities, Dance Music Video Collaboration.</p>
+                        <div class="work__features-btn">
+                            <a class="unfill__btn2" href="#">View More</a>
+                        </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
                                 <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
@@ -1153,6 +1159,9 @@
                         <h3 class="ms-event-title"><a href="event-details.html">Wedding</a>
                         </h3>
                         <p class="ms-event-text">Choreography and Training for Sangeet & Wedding</p>
+                        <div class="work__features-btn">
+                            <a class="unfill__btn2" href="#">View More</a>
+                        </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
                                 <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
@@ -1168,6 +1177,9 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Corporate Events</a></h3>
                         <p class="ms-event-text">Performances for National & International Shows and Corporate Events</p>
+                        <div class="work__features-btn">
+                            <a class="unfill__btn2" href="#">View More</a>
+                        </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
                                 <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
@@ -1183,6 +1195,9 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Award Functions</a></h3>
                         <p class="ms-event-text">Performances in renowned award ceremonies at National & International Platforms</p>
+                        <div class="work__features-btn">
+                            <a class="unfill__btn2" href="#">View More</a>
+                        </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
                                 <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
@@ -1198,6 +1213,9 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Celebrity Judge</a></h3>
                         <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/ Schools / Colleges/ Dance Events)</p>
+                        <div class="work__features-btn">
+                            <a class="unfill__btn2" href="#">View More</a>
+                        </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
                                 <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
@@ -1342,7 +1360,7 @@
     <!-- Testimonial area end here  -->
 
     <!-- Special Events Area Start -->
-    <section class="ms-news-area ms-bg-2 pt-130 pb-90">
+    <section class="ms-news-area ms-bg-2 pt-130 pb-90 d-none">
         <div class="container">
             <div class="row justify-content-center bdFadeUp">
                 <div class="col-xl-6">
@@ -1415,7 +1433,7 @@
             <div class="row align-items-end mb-25 bdFadeUp">
                 <div class="col-xl-6 col-lg-6">
                     <div class="section__title-wrapper mb-40 bd-title-anim">
-                        <span class="section__subtitle">Meet Our Faculty</span>
+                        <span class="section__subtitle">Meet Our Professional</span>
                         <h2 class="section__title msg_title">
                             <span class="animated-underline active">The Passionate Instructors</span> <br>
                             Powering Your Dance Journey
@@ -1428,7 +1446,7 @@
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <button class="nav-link active" id="nav-popular-1-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-popular-1" type="button" role="tab"
-                                    aria-controls="nav-popular-1" aria-selected="true">Musical Acts</button>
+                                    aria-controls="nav-popular-1" aria-selected="true">Dancers</button>
                                 <button class="nav-link" id="nav-popular-2-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-popular-2" type="button" role="tab"
                                     aria-controls="nav-popular-2" aria-selected="false">Entertainers</button>
