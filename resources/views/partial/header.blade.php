@@ -36,8 +36,9 @@
                      </div> --}}
                      <div class="offcanvas__social">
                          <div class="ms-footer-social mb-0">
-                             <a href="#" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                             <a href="#" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/kingsunitedofficial?mibextid=LQQJ4d" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.instagram.com/kings_united_india?igsh=MWVyMjY1enVoZnEwaA==" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://youtube.com/@kingsunitedindiaofficial5626?si=CT2vkO_2sjU4FwiU" title="Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>    
                              <a href="#" title="Pinterest" target="_blank"><i class="fa-brands fa-square-pinterest"></i></i></a>
                          </div>
                      </div>
@@ -167,7 +168,7 @@
                                                                  </ul>
                                                              </li>
                                                              <li><a href="{{ route('creatorSpace') }}">Creator Space</a></li>
-                                                             <li><a href="{{ route('ourTeam') }}">Our Team</a></li>
+                                                             <li><a href="{{ route('ourTeam') }}">Kings Crew</a></li>
 
                                                          </ul>
                                                      </li>
