@@ -14,7 +14,7 @@
             </div> --}}
             {{-- <h2 class="ms-banner2-title">Musicly</h2> --}}
             <div class="ms-banner2-video mb-10">
-                <a href="https://www.youtube.com/watch?v=y4jv5bk8ato" class="popup-video ms-banner2-video-btn">
+                <a href="https://www.youtube.com/watch?v=_7oTMDqV3ew" class="popup-video ms-banner2-video-btn">
                     <img class="ms-rotation-360" src="{{ asset('assets/img/banner/banner-border.png') }}" alt="banner">
                     <span>play</span>
                 </a>
@@ -22,6 +22,7 @@
         </div>
     </section>
     <!-- Banner Area End Here  -->
+    
 
     <!-- Find Musician Area Start Here  -->
     <section class="ms-find-musician pt-70 pb-130 d-none">
@@ -1873,7 +1874,7 @@
     </section>
 
            <!-- Partner Area Start Here  -->
-            <div class="ms-partner-area fix pb-130">
+            <div class="ms-partner-area fix pb-130 d-none">
                 <div class="container">
                     <div class="row justify-content-center bdFadeUp">
                         <div class="col-xl-6">

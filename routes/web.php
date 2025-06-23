@@ -8,7 +8,7 @@ Route::get('/welcome', function () {
 });
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
-Route::get('/bookUsLive', [HomeController::class, 'bookUsLive'])->name('bookUsLive');
-Route::get('/creatorSpace', [HomeController::class, 'creatorSpace'])->name('creatorSpace');
-Route::get('/ourTeam', [HomeController::class, 'ourTeam'])->name('ourTeam');
+Route::get('/book-us-live', [HomeController::class, 'bookUsLive'])->name('bookUsLive');
+Route::get('/creator-space', [HomeController::class, 'creatorSpace'])->name('creatorSpace');
+Route::get('/our-team', [HomeController::class, 'ourTeam'])->name('ourTeam');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');

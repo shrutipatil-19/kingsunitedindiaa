@@ -855,7 +855,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .ms-bg-body {
   /* background-color: var(--clr-common-body); */
-  background-color: background-color: #0d0d0d85;;
+  background-color: #0d0d0d85;
 }
 
 .ms-bg-6 {

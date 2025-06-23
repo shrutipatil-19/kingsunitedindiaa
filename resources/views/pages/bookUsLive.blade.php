@@ -180,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                         <div class="col-xl-4 col-md-6">
+                        <div class="col-xl-4 col-md-6">
                             <div class="ms-event3-item mb-25">
                                 <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
                                     <a href="event-details.html"><img src="{{ asset('assets/img/event/event-03.jpg') }}"
@@ -200,57 +200,11 @@
                         </div>
                     </div>
                 </div>
-              
+
             </div>
         </section>
         <!-- Event Area End Here  -->
-
-        <!-- Partner Area Start Here  -->
-        <div class="ms-partner-area fix pb-130">
-            <div class="container">
-                <div class="swiper-container ms-partner-active">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-01.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-02.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-03.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-05.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-01.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-02.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-03.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-05.png') }}" alt="partner image">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Partner Area End Here  -->
+        @include('partial.client')
 
     </main>
     <!-- Footer Area End Here  -->
