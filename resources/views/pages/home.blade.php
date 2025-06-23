@@ -11,18 +11,18 @@
             <div class="ms-banner2-shape p-absolute"></div>
             {{-- <div class="ms-banner2-cover-img p-absolute custome-wh">
                 <img src="{{ asset('assets/img/kings img/lion_logo.png') }}" alt="banner" class="w-100 h-100" style="object-fit: contain;">
-            </div> --}}
-            {{-- <h2 class="ms-banner2-title">Musicly</h2> --}}
-            <div class="ms-banner2-video mb-10">
-                <a href="https://www.youtube.com/watch?v=_7oTMDqV3ew" class="popup-video ms-banner2-video-btn">
-                    <img class="ms-rotation-360" src="{{ asset('assets/img/banner/banner-border.png') }}" alt="banner">
-                    <span>play</span>
-                </a>
-            </div>
+        </div> --}}
+        {{-- <h2 class="ms-banner2-title">Musicly</h2> --}}
+        <div class="ms-banner2-video mb-10">
+            <a href="https://www.youtube.com/watch?v=_7oTMDqV3ew" class="popup-video ms-banner2-video-btn">
+                <img class="ms-rotation-360" src="{{ asset('assets/img/banner/banner-border.png') }}" alt="banner">
+                <span>play</span>
+            </a>
+        </div>
         </div>
     </section>
     <!-- Banner Area End Here  -->
-    
+
 
     <!-- Find Musician Area Start Here  -->
     <section class="ms-find-musician pt-70 pb-130 d-none">
@@ -482,7 +482,7 @@
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Performance Opportunities</span>
+                            <span class="trending__title">Suresh Mukund</span>
                             <!-- <div class="trending__price">
                                 <span>From $99</span>
                             </div> -->
@@ -492,11 +492,16 @@
                             </div>
                             <div class="ms-trending2-content">
                                 <div class="ms-trending2-shape">
-                                    <img src="" alt="trending shape">
+                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
                                 </div>
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="genres-details.html">Showcase your talent and passion on stage through our annual recitals, competitions, and showcases. Gain valuable performance experience, build confidence, and celebrate your hard work and dedication alongside your peers and instructors.</a>
+                                        href="genres-details.html">Suresh Mukund is an Internationally Acclaimed
+                                        Choreographer and the First Choreographer to Bring
+                                        International Championship Titles and Medals for India
+                                        In History. He is the Founder and Choreographer of
+                                        The Kings, a Globally Recognized Dance Crew Known
+                                        For Its Unique Fusion of Hip-hop and Bollywood.</a>
                                     <a class="ms-round-btn popup-image" href="{{ asset('assets/img/trending/07.jpg') }}"><i
                                             class="flaticon-right-arrow-1"></i></a>
                                 </div>
@@ -506,7 +511,7 @@
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Expert Instruction</span>
+                            <span class="trending__title">Award Trainers</span>
                             <!-- <div class="trending__price">
                                 <span>From $119</span>
                             </div> -->
@@ -530,7 +535,7 @@
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Variety of Dance Styles</span>
+                            <span class="trending__title">Creator crew</span>
                             <!-- <div class="trending__price">
                                 <span>From $55</span>
                             </div> -->
@@ -554,7 +559,7 @@
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">State-of-the-Art Facilities</span>
+                            <span class="trending__title">The Kings</span>
                             <!-- <div class="trending__price">
                                 <span>From $90</span>
                             </div> -->
@@ -568,14 +573,20 @@
                                 </div>
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="#">Our purpose-built dance studio is equipped with top-notch amenities and a spacious dance floor to enhance your training experience. Experience the thrill of dancing in a professional setting that is designed to inspire and elevate your performance.</a>
+                                        href="#">The Kings is all about being the tornadoes of
+                                        energy, direct beats of thoughts and emotions.
+                                        It is not about stages, it is not about praise,
+                                        it is all about the inherent strength of performing
+                                        arts to create intangible bridges of resistance to
+                                        status quo. The Kings are the natural truth that
+                                        shakes up the consciousness and shrinks the souls.</a>
                                     <a class="ms-round-btn popup-image" href="{{ asset('assets/img/trending/10.jpg') }}"><i
                                             class="flaticon-right-arrow-1"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide d-none">
                         <div class="ms-trending2-item fix">
                             <div class="ms-trending2-overlay p-absolute"></div>
                             <span class="trending__title">Community Engagement</span>
@@ -1110,7 +1121,7 @@
                             <span class="section__subtitle">Our Services</span>
                             <h2 class="section__title">Our Services to Support Your <span class="animated-underline active">
                                     Dance Journey</span>
-                                
+
                             </h2>
                         </div>
                     </div>
@@ -1191,7 +1202,7 @@
                         </div> -->
                     </div>
                 </div>
-                 <div class="col-lg-6">
+                <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Award Functions</a></h3>
                         <p class="ms-event-text">Performances in renowned award ceremonies at National & International Platforms</p>
@@ -1209,7 +1220,7 @@
                         </div> -->
                     </div>
                 </div>
-                 <div class="col-lg-6">
+                <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Celebrity Judge</a></h3>
                         <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/ Schools / Colleges/ Dance Events)</p>
@@ -1279,82 +1290,82 @@
                                         <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
                                             {{-- <div class="ms-tm2-signature w-img">
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
-                                                    alt="testimonial signature">
-                                            </div> --}}
-                                            <div class="m-img">
-                                                <img src="https://placehold.co/100x100"
-                                                    alt="testimonial image">
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm2-content pt-35">
-                                            <div class="ms-tm2-quotation mb-25">
-                                                <i class="flaticon-quotation"></i>
-                                            </div>
-                                            <p class="ms-tm2-text mb-30">This workshop was really amazing, as it gave a proper clarification about what all is gonna happen in the course and also what elements an individual has to work on to enter the fashion industry.A good path explainer and platform for those who want to enter this industry.</p>
-                                            <div class="ms-tm2-author">
-                                                <span class="section__subtitle">Anveshika Singh</span>
-                                                <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
-                                            </div>
+                                            alt="testimonial signature">
+                                        </div> --}}
+                                        <div class="m-img">
+                                            <img src="https://placehold.co/100x100"
+                                                alt="testimonial image">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="ms-tm2-item text-center">
-                                    <div class="ms-tm2-img-main">
-                                        <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
-                                            {{-- <div class="ms-tm2-signature w-img">
-                                                <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
-                                                    alt="testimonial signature">
-                                            </div> --}}
-                                            <div class="m-img">
-                                                <img src="https://placehold.co/100x100"
-                                                    alt="testimonial image">
-                                            </div>
+                                    <div class="ms-tm2-content pt-35">
+                                        <div class="ms-tm2-quotation mb-25">
+                                            <i class="flaticon-quotation"></i>
                                         </div>
-                                        <div class="ms-tm2-content pt-35">
-                                            <div class="ms-tm2-quotation mb-25"> 
-                                                <i class="flaticon-quotation"></i>
-                                            </div>
-                                            <p class="ms-tm2-text mb-30">Spacious studio in Andheri! We rented it to host some workshops and it was a great experience. A music system update would make it even better.</p>
-                                            <div class="ms-tm2-author">
-                                                <span class="section__subtitle">Soonruta Kothadia</span>
-                                                <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                          
-                                <div class="ms-tm2-item text-center">
-                                    <div class="ms-tm2-img-main">
-                                        <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
-                                            {{-- <div class="ms-tm2-signature w-img">
-                                                <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
-                                                    alt="testimonial signature">
-                                            </div> --}}
-                                            <div class="m-img">
-                                                <img src="https://placehold.co/100x100"
-                                                    alt="testimonial image">
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm2-content pt-35">
-                                            <div class="ms-tm2-quotation mb-25">
-                                                <i class="flaticon-quotation"></i>
-                                            </div>
-                                            <p class="ms-tm2-text mb-30">awesome and the class atmosphere is energetic.the teachers are very supportive and always ready to help</p>
-                                            <div class="ms-tm2-author">
-                                                <span class="section__subtitle">Anishek Singh</span>
-                                                <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
-                                            </div>
+                                        <p class="ms-tm2-text mb-30">This workshop was really amazing, as it gave a proper clarification about what all is gonna happen in the course and also what elements an individual has to work on to enter the fashion industry.A good path explainer and platform for those who want to enter this industry.</p>
+                                        <div class="ms-tm2-author">
+                                            <span class="section__subtitle">Anveshika Singh</span>
+                                            <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                class="ms-tm2-dots ms-tm-dots-horizontal ms-round-dots d-flex justify-content-center mt-20">
+                            <div class="ms-tm2-item text-center">
+                                <div class="ms-tm2-img-main">
+                                    <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
+                                        {{-- <div class="ms-tm2-signature w-img">
+                                                <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
+                                        alt="testimonial signature">
+                                    </div> --}}
+                                    <div class="m-img">
+                                        <img src="https://placehold.co/100x100"
+                                            alt="testimonial image">
+                                    </div>
+                                </div>
+                                <div class="ms-tm2-content pt-35">
+                                    <div class="ms-tm2-quotation mb-25">
+                                        <i class="flaticon-quotation"></i>
+                                    </div>
+                                    <p class="ms-tm2-text mb-30">Spacious studio in Andheri! We rented it to host some workshops and it was a great experience. A music system update would make it even better.</p>
+                                    <div class="ms-tm2-author">
+                                        <span class="section__subtitle">Soonruta Kothadia</span>
+                                        <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ms-tm2-item text-center">
+                            <div class="ms-tm2-img-main">
+                                <div class="ms-tm2-img-wrap p-relative d-inline-block mx-auto">
+                                    {{-- <div class="ms-tm2-signature w-img">
+                                                <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
+                                    alt="testimonial signature">
+                                </div> --}}
+                                <div class="m-img">
+                                    <img src="https://placehold.co/100x100"
+                                        alt="testimonial image">
+                                </div>
+                            </div>
+                            <div class="ms-tm2-content pt-35">
+                                <div class="ms-tm2-quotation mb-25">
+                                    <i class="flaticon-quotation"></i>
+                                </div>
+                                <p class="ms-tm2-text mb-30">awesome and the class atmosphere is energetic.the teachers are very supportive and always ready to help</p>
+                                <div class="ms-tm2-author">
+                                    <span class="section__subtitle">Anishek Singh</span>
+                                    <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div
+                    class="ms-tm2-dots ms-tm-dots-horizontal ms-round-dots d-flex justify-content-center mt-20">
+                </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
     </section>
     <!-- Testimonial area end here  -->
@@ -1891,41 +1902,41 @@
         </div>
     </section>
 
-           <!-- Partner Area Start Here  -->
-            <div class="ms-partner-area fix pb-130 d-none">
-                <div class="container">
-                    <div class="row justify-content-center bdFadeUp">
-                        <div class="col-xl-6">
-                            <div class="section__title-wrapper text-center mb-65 bd-title-anim">
-                                <h2 class="section__title">Our Clients 
-                                </h2>
+    <!-- Partner Area Start Here  -->
+    <div class="ms-partner-area fix pb-130 d-none">
+        <div class="container">
+            <div class="row justify-content-center bdFadeUp">
+                <div class="col-xl-6">
+                    <div class="section__title-wrapper text-center mb-65 bd-title-anim">
+                        <h2 class="section__title">Our Clients
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="swiper-container ms-partner-active">
+                    <div class="swiper-wrapper">
+                        <div class="col-lg-3 col-6 g-2">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/img/kings img/intel.webp') }}" alt="partner image">
                             </div>
                         </div>
-                    </div>
-                    <div class="">
-                        <div class="swiper-container ms-partner-active">
-                            <div class="swiper-wrapper">
-                                <div class="col-lg-3 col-6 g-2">
-                                    <div class="swiper-slide">
-                                        <img src="{{ asset('assets/img/kings img/intel.webp') }}" alt="partner image">
-                                    </div>
-                                </div>
-                               <div class="col-lg-3 col-6 g-2">
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/img/kings img/ipl_logo.jpg') }}" alt="partner image">
-                                </div>
-                               </div>
-                                <div class="col-lg-3 col-6 g-2">
-                                    <div class="swiper-slide">
-                                        <img src="{{ asset('assets/img/kings img/microsoft.png') }}" alt="partner image">
-                                    </div>
-                                </div>
-                               <div class="col-lg-3 col-6 g-2">
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('assets/img/kings img/red_bull.jpg') }}" alt="partner image">
-                                </div>
-                               </div>
-                                <!-- <div class="swiper-slide">
+                        <div class="col-lg-3 col-6 g-2">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/img/kings img/ipl_logo.jpg') }}" alt="partner image">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 g-2">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/img/kings img/microsoft.png') }}" alt="partner image">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 g-2">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('assets/img/kings img/red_bull.jpg') }}" alt="partner image">
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-slide">
                                     <img src="assets/img/partner/partner-05.png" alt="partner image">
                                 </div>
                                 <div class="swiper-slide">
@@ -1949,12 +1960,12 @@
                                 <div class="swiper-slide">
                                     <img src="assets/img/partner/partner-04.png" alt="partner image">
                                 </div> -->
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Partner Area End Here  -->
+        </div>
+    </div>
+    <!-- Partner Area End Here  -->
     <!-- Popular  area end -->
 
 </main>
