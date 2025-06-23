@@ -30,4 +30,8 @@ class HomeController extends Controller
     {
         return view('pages.ourTeam');
     }
+     public function sureshMukund()
+    {
+        return view('pages.fourPillers.sureshMukund');
+    }
 }
