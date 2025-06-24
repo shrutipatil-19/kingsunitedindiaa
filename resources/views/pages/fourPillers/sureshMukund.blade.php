@@ -39,92 +39,6 @@
         </section>
         <!-- About Area End Here  -->
 
-        <!-- Why Choose Us Area Start Here  -->
-        <section class="ms-choose-area pt-125 pb-105 d-none">
-            <div class="container">
-                <div class="row align-items-end mb-25 bdFadeUp">
-                    <div class="col-lg-7">
-                        <div class="section__title-wrapper mb-40">
-                            <h2 class="section__title mb-35 bd-title-anim">Why choose us?</h2>
-                            <p>Our hand-picked acts will guarantee you fantastic wedding <br> entertainment
-                                for
-                                each
-                                part.
-                                We'll provide help and support 24 hours a <br> day, 7 days a week, right up
-                                until</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="d-flex justify-content-lg-end">
-                            <div class="ms-review-part mb-40">
-                                <div class="ms-review-gap d-flex align-items-center">
-                                    <div class="ms-review-left">
-                                        <h3>Excellent :</h3>
-                                        <p>1050 Review On</p>
-                                    </div>
-                                    <div class="ms-review-right">
-                                        <img src="{{ asset('assets/img/footer/start-01.png') }}" alt="review img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-45 bdFadeUp">
-                    <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
-                            <div class="ms-choose-icon d-inline-block p-relative">
-                                <i class="flaticon-dollar"></i>
-                                <span>01</span>
-                            </div>
-                            <h3 class="ms-choose-title">Pay no more than booking
-                                direct</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
-                            <div class="ms-choose-icon d-inline-block p-relative">
-                                <i class="flaticon-theater"></i>
-                                <span>02</span>
-                            </div>
-                            <h3 class="ms-choose-title">Our acts are vetted and
-                                road-tested</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
-                            <div class="ms-choose-icon d-inline-block p-relative">
-                                <i class="flaticon-verified"></i>
-                                <span>03</span>
-                            </div>
-                            <h3 class="ms-choose-title">Your booking is secure
-                                in our site</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
-                            <div class="ms-choose-icon d-inline-block p-relative">
-                                <i class="flaticon-appointment"></i>
-                                <span>04</span>
-                            </div>
-                            <h3 class="ms-choose-title">Booking is just the
-                                begin night</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="ms-border2 pb-130">
-                    <div class="row bdFadeUp">
-                        <div class="col-xl-12">
-                            <div class="ms-choose-bg m-img ms-br-15 fix">
-                                <img src="{{ asset('assets/img/choose/choose-bg.png') }}" alt="choose img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Why Choose Us Area End Here  -->
-
         <!-- work area start -->
         <section class="work__area pt-100 pb-30 ">
             <div class="container">
@@ -133,8 +47,8 @@
                         <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60">
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
-                                    <div class="ms-overlay ms-overlay3 p-absolute"></div>
-                                    <img src="{{ asset('assets/img/work/work-thumb-06.png') }}" alt="work image">
+                                    <div class="p-absolute"></div>
+                                    <img src="{{ asset('assets/img/suresh/award.jpg') }}" alt="work image">
                                 </div>
 
                             </div>
@@ -180,8 +94,8 @@
                     <div class="col-lg-6">
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Key Achievements</span>
-                            <h2 class="section__title">Morning <span class="animated-underline active">Insight
-                                    Musicly</span>
+                            <h2 class="section__title">The <span class="animated-underline active">Kings
+                                    </span>
                             </h2>
                         </div>
                     </div>
@@ -191,13 +105,13 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <!-- <a class="ms-news4-cat" href="news-details.html">Winner</a> -->
-                            <div class="ms-news-thumb w-img">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
+                           
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="https://www.thehindu.com/entertainment/dance/suresh-mukund-exults-as-kings-united-wins-the-world-choreography-awards-2020-for-world-of-dance/article34647778.ece"><img src="{{ asset('assets/img/suresh/achievements/winnerWorldDance2020.jpg') }}"
+                                        alt="Winner of the World Choreography Award"></a>
                             </div>
                             <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="news-details.html">Winner of the World Choreography Award</a></h3>
+                                <h3 class="ms-news-title mb-15"><a href="https://www.thehindu.com/entertainment/dance/suresh-mukund-exults-as-kings-united-wins-the-world-choreography-awards-2020-for-world-of-dance/article34647778.ece">Winner of the World Choreography Award</a></h3>
 
                                 <div class="ms-news-meta d-inline-block">
                                     <span>Feb 23, 2020</span>
@@ -209,13 +123,13 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <!-- <a class="ms-news4-cat" href="news-details.html">NBC'S</a> -->
-                            <div class="ms-news-thumb w-img">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-01.png') }}"
-                                        alt="news image"></a>
+                           
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="https://www.moneycontrol.com/news/india/the-kings-mumbai-based-hip-hop-group-win-world-of-dance-season-3-3938891.html#google_vignette"><img src="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}"
+                                        alt="World Champion at Nbc's World of Dance"></a>
                             </div>
                             <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="news-details.html">World Champion at Nbc's World of Dance</a></h3>
+                                <h3 class="ms-news-title mb-15"><a href="https://www.moneycontrol.com/news/india/the-kings-mumbai-based-hip-hop-group-win-world-of-dance-season-3-3938891.html#google_vignette">World Champion at Nbc's World of Dance</a></h3>
                                 <div class="ms-news-meta d-inline-block">
                                     <span>Feb 15, 2019</span>
                                 </div>
@@ -225,13 +139,13 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <!-- <a class="ms-news4-cat" href="news-details.html">Emmy</a> -->
-                            <div class="ms-news-thumb w-img">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-02.png') }}"
-                                        alt="news image"></a>
+                          
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/emmy.jpg') }}"
+                                        alt="Emmy-nominated Choreocrapher"></a>
                             </div>
                             <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="news-details.html">Emmy-nominated Choreocrapher </a></h3>
+                                <h3 class="ms-news-title mb-15"><a href="#">Emmy-nominated Choreocrapher </a></h3>
 
                                 <div class="ms-news-meta d-inline-block">
                                     <span>Feb 20, 2019</span>
@@ -243,13 +157,13 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <!-- <a class="ms-news4-cat" href="news-details.html">Award</a> -->
-                            <div class="ms-news-thumb w-img">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
+                          
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dadaSahebPhalke.jpg') }}"
+                                        alt="Recipient of the Dada Saheb PhalKe Award"></a>
                             </div>
                             <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="news-details.html">Recipient of the Dada Saheb PhalKe Award</a></h3>
+                                <h3 class="ms-news-title mb-15"><a href="#">Recipient of the Dada Saheb PhalKe Award</a></h3>
 
                                 <div class="ms-news-meta d-inline-block">
                                     <span>Feb 23, 2019</span>
@@ -261,13 +175,13 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <!-- <a class="ms-news4-cat" href="news-details.html">Judge</a> -->
-                            <div class="ms-news-thumb w-img">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
+                          
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dancePlus.jpg') }}"
                                         alt="news image"></a>
                             </div>
                             <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="news-details.html">Judge on Dance Plus 5 (Reality Tv Show)</a></h3>
+                                <h3 class="ms-news-title mb-15"><a href="#">Judge on Dance Plus 5 (Reality Tv Show)</a></h3>
 
                                 <div class="ms-news-meta d-inline-block">
                                     <span>Feb 23, 2015</span>
@@ -279,13 +193,13 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <!-- <a class="ms-news4-cat" href="news-details.html">Inspiration</a> -->
-                            <div class="ms-news-thumb w-img">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
+                           
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/inspiration.jpg') }}"
                                         alt="news image"></a>
                             </div>
                             <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="news-details.html">The Film ABCD 2 (2015) Was Inspired by
+                                <h3 class="ms-news-title mb-15"><a href="#">The Film ABCD 2 (2015) Was Inspired by
                                         Suresh Mukund and the Kings, With Varun
                                         Dhawan Portraying Suresh Mukund's
                                         Character.</a></h3>
@@ -309,8 +223,8 @@
                     <div class="col-xl-6">
                         <div class="section__title-wrapper text-center mb-25 bd-title-anim">
                             <span class="section__subtitle">Choreography Work</span>
-                            <h2 class="section__title"><span class="ms-text1">Musicly</span>
-                                Morning Insight
+                            <h2 class="section__title"><span class="ms-text1">The</span>
+                                Kings
                             </h2>
                         </div>
                     </div>
@@ -320,47 +234,47 @@
                 <div class="swiper-container ms-news3-active">
                     <div class="ms-news3-slick">
                         <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Concert</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed 50 Cent's Concert</a></h3>
+                            <a class="ms-news3-cat" href="#">50 Cent's Concert</a>
+                            <h3 class="ms-news3-title"><a href="#">Choreographed 50 Cent's Concert</a></h3>
                             <div class="ms-news-meta">
                                 <ul>
-                                    <li><span>Feb 27, 2023</span></li>
+                                    <li><span>2023</span></li>
                                 </ul>
                             </div>
                             <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-01.png') }}"
-                                        alt="news image"></a>
+                                <a href="#"><img src="{{ asset('assets/img/suresh/work/choreographed50CentsConcert.jpg') }}"
+                                        alt="Choreographed 50 Cent's Concert"></a>
                             </div>
                         </div>
                     </div>
                     <div class="ms-news3-slick">
                         <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="#">Choreographed</a>
+                            <a class="ms-news3-cat" href="#">Trump's Inaugural Program</a>
                             <h3 class="ms-news3-title"><a href="#">Choreographed Donald Trump's Inaugural
-                                    Pro Cram</a></h3>
+                                    Program</a></h3>
                             <div class="ms-news-meta">
                                 <ul>
-                                    <li><span>Mar 01, 2016</span></li>
+                                    <li><span>2016</span></li>
 
                                 </ul>
                             </div>
                             <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-02.png') }}"
+                                <a href="news-details.html"><img src="{{ asset('assets/img/suresh/work/Donald_Trump_swearing_in_ceremony.jpg') }}"
                                         alt="news image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="ms-news3-slick">
                         <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed Divine's Popular Track Baazicar</a></h3>
+                            <a class="ms-news3-cat" href="news-details.html">Divine's - Baazigar</a>
+                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed Divine's Popular Track Baazigar</a></h3>
                             <div class="ms-news-meta">
                                 <ul>
                                     <li><span>Mar 02, 2023</span></li>
                                 </ul>
                             </div>
                             <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
+                                <a href="news-details.html"><img src="{{ asset('assets/img/suresh/work/bazigar.jpg') }}"
                                         alt="news image"></a>
                             </div>
                         </div>
@@ -547,10 +461,10 @@
                             <div class="ms-tm-img-wrap ms-tm-space p-relative mb-60">
                                 <div class="ms-tm-img-main p-relative m-img">
                                     <div class="ms-tm-bg-shape"></div>
-                                    <div class="ms-tm-signature">
+                                    <!-- <div class="ms-tm-signature">
                                         <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                             alt="testimonial signature">
-                                    </div>
+                                    </div> -->
                                     <img src="{{ asset('assets/img/testimonial/testimonial-05.png') }}" alt="testimonial image">
                                 </div>
 
@@ -646,8 +560,8 @@
                     <div class="col-xl-6 ">
                         <div class="section__title-wrapper text-center mb-25 bd-title-anim">
                             <span class="section__subtitle">Work Links</span>
-                            <h2 class="section__title"><span class="ms-text1">Musicly</span>
-                                Morning Insight
+                            <h2 class="section__title"><span class="ms-text1">The</span>
+                                Kings
                             </h2>
                         </div>
                     </div>
@@ -669,11 +583,11 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="genres-details.html">ABCD 2 Vande Mataram</a></h4>
+                                        <h4 class="ms-genres-title fw-light"><a href="">ABCD 2 Vande Mataram</a></h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
                                             <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 1.8M </a>
+                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 1.8M </a>
                                             </div>
 
                                         </div>
@@ -693,11 +607,11 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="genres-details.html">ABCD 2 Bezubaan Phir Se</a></h4>
+                                        <h4 class="ms-genres-title fw-light"><a href="">ABCD 2 Bezubaan Phir Se</a></h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
                                             <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 1.4M </a>
+                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 1.4M </a>
                                             </div>
 
                                         </div>
@@ -718,11 +632,11 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">DIVINE - Baazigar</a></h4>
+                                        <h4 class="ms-genres-title fw-light"><a href="">DIVINE - Baazigar</a></h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
                                             <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 763K</a>
+                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 763K</a>
                                             </div>
 
                                         </div>
@@ -742,7 +656,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="genres-details.html">Chakravyuh mein - Virat Kohli X DIVINE | PUMA</a></h4>
+                                        <h4 class="ms-genres-title fw-light"><a href="#">Chakravyuh mein - Virat Kohli X DIVINE | PUMA</a></h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
                                             <div class="ms-fun-brand-location">
@@ -766,7 +680,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="genres-details.html">World Dance Performace</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="#">World Dance Performace</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
@@ -791,7 +705,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="genres-details.html">The Kings TATTAD TATTAD Routine</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="#">The Kings TATTAD TATTAD Routine</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
@@ -816,7 +730,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">The Kings' "Malhari" Routine Is INSANE</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="">The Kings' "Malhari" Routine Is INSANE</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
@@ -841,7 +755,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">The Kings Winning Moment</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="">The Kings Winning Moment</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
@@ -866,7 +780,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">World of Dance Finals - Upper Team The Kings</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="">World of Dance Finals - Upper Team The Kings</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
@@ -891,7 +805,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">50 Cent X The kings | Live Show Mumbai</a></h4>
+                                        <h4 class="ms-genres-title fw-light"><a href="">50 Cent X The kings | Live Show Mumbai</a></h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
                                             <div class="ms-fun-brand-location">
@@ -915,7 +829,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">Kings United Ultimate Epic Comeback</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="">Kings United Ultimate Epic Comeback</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
@@ -940,7 +854,7 @@
                                     </div>
                                     <div class="ms-genres-content p-relative">
 
-                                        <h4 class="ms-genres-title"><a href="">Kings United Ultimate Showdown</a>
+                                        <h4 class="ms-genres-title fw-light"><a href="">Kings United Ultimate Showdown</a>
                                         </h4>
 
                                         <div class="ms-fun-brand-bottom ms-genres-rating">
