@@ -480,33 +480,31 @@
             <div class="swiper-container ms-trending-active">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="ms-trending2-item fix">
-                            <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Suresh Mukund</span>
-                            <!-- <div class="trending__price">
-                                <span>From $99</span>
-                            </div> -->
-                            <div class="ms-trending2-img w-img custome-h">
-                                <a href="#"><img src="{{ asset('assets/img/about/award.jpg')}}"
-                                        alt="trending image"></a>
-                            </div>
-                            <div class="ms-trending2-content">
-                                <div class="ms-trending2-shape">
-                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                        <a href="{{ route('sureshMukund') }}">
+                            <div class="ms-trending2-item fix">
+                                <div class="ms-trending2-overlay p-absolute"></div>
+                                <span class="trending__title">Suresh Mukund</span>
+                                <div class="ms-trending2-img w-img custome-h">
+                                    <a href="{{ route('sureshMukund') }}"><img src="{{ asset('assets/img/about/award.jpg')}}"
+                                            alt="trending image"></a>
                                 </div>
-                                <div class="ms-trending2-title-wrap">
-                                    <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="#">Suresh Mukund is an Internationally Acclaimed
-                                        Choreographer and the First Choreographer to Bring
-                                        International Championship Titles and Medals for India
-                                        In History. He is the Founder and Choreographer of
-                                        The Kings, a Globally Recognized Dance Crew Known
-                                        For Its Unique Fusion of Hip-hop and Bollywood.</a>
-                                    <a class="ms-round-btn popup-image" href="{{ asset('assets/img/about/award.jpg')}}"><i
-                                            class="flaticon-right-arrow-1"></i></a>
+                                <div class="ms-trending2-content">
+                                    <div class="ms-trending2-shape">
+                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                                    </div>
+                                    <div class="ms-trending2-title-wrap">
+                                        <a class="ms-trending2-title p-relative ms-title-border"
+                                            href="{{ route('sureshMukund') }}">Suresh Mukund is an Internationally Acclaimed
+                                            Choreographer and the First Choreographer to Bring
+                                            International Championship Titles and Medals for India
+                                            In History. He is the Founder and Choreographer of
+                                            The Kings, a Globally Recognized Dance Crew Known
+                                            For Its Unique Fusion of Hip-hop and Bollywood.</a>
+
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
                         <div class="ms-trending2-item fix">
@@ -526,8 +524,7 @@
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
                                         href="#">Our team of experienced dance instructors are dedicated to helping students of all levels achieve their dance goals. Whether you're a beginner looking to learn the basics or an experienced dancer aiming to refine your skills, our instructors are here to guide and support you every step of the way.</a>
-                                    <a class="ms-round-btn popup-image" href="{{ asset('assets/img/trending/08.jpg') }}"><i
-                                            class="flaticon-right-arrow-1"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -550,8 +547,7 @@
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
                                         href="#">From ballet and jazz to hip-hop and contemporary, Kings Dance Studio offers a diverse range of dance styles to cater to different interests and preferences. Explore new genres, challenge yourself creatively, and discover the joy of expression through movement.</a>
-                                    <a class="ms-round-btn popup-image" href="{{ asset('assets/img/trending/02.jpg') }}"><i
-                                            class="flaticon-right-arrow-1"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -580,8 +576,7 @@
                                         arts to create intangible bridges of resistance to
                                         status quo. The Kings are the natural truth that
                                         shakes up the consciousness and shrinks the souls.</a>
-                                    <a class="ms-round-btn popup-image" href="{{ asset('assets/img/trending/10.jpg') }}"><i
-                                            class="flaticon-right-arrow-1"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -1132,8 +1127,8 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Choreography</a></h3>
                         <p class="ms-event-text">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows, Serials, Advertisements,</p>
-                        <div class="work__features-btn">
-                            <a class="unfill__btn2" href="#">View More</a>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
@@ -1151,8 +1146,8 @@
                         <h3 class="ms-event-title"><a href="event-details.html">Music Videos</a>
                         </h3>
                         <p class="ms-event-text">Choreography for Music videos with Celebrities, Dance Music Video Collaboration.</p>
-                        <div class="work__features-btn">
-                            <a class="unfill__btn2" href="#">View More</a>
+                       <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
@@ -1170,8 +1165,8 @@
                         <h3 class="ms-event-title"><a href="event-details.html">Wedding</a>
                         </h3>
                         <p class="ms-event-text">Choreography and Training for Sangeet & Wedding</p>
-                        <div class="work__features-btn">
-                            <a class="unfill__btn2" href="#">View More</a>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
@@ -1188,8 +1183,8 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Corporate Events</a></h3>
                         <p class="ms-event-text">Performances for National & International Shows and Corporate Events</p>
-                        <div class="work__features-btn">
-                            <a class="unfill__btn2" href="#">View More</a>
+                       <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
@@ -1206,8 +1201,8 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Award Functions</a></h3>
                         <p class="ms-event-text">Performances in renowned award ceremonies at National & International Platforms</p>
-                        <div class="work__features-btn">
-                            <a class="unfill__btn2" href="#">View More</a>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
@@ -1224,8 +1219,8 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Celebrity Judge</a></h3>
                         <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/ Schools / Colleges/ Dance Events)</p>
-                        <div class="work__features-btn">
-                            <a class="unfill__btn2" href="#">View More</a>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
                         <!-- <div class="ms-event-inner">
                             <div class="ms-event-location">
@@ -1292,7 +1287,7 @@
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                             alt="testimonial signature">
                                         </div> --}}
-                                       
+
                                     </div>
                                     <div class="ms-tm2-content pt-35">
                                         <div class="ms-tm2-quotation mb-25">
@@ -1300,11 +1295,11 @@
                                         </div>
                                         <p class="ms-tm2-text mb-30">This workshop was really amazing, as it gave a proper clarification about what all is gonna happen in the course and also what elements an individual has to work on to enter the fashion industry.A good path explainer and platform for those who want to enter this industry.</p>
                                         <div class="ms-tm2-author">
-                                                <div class="d-flex justify-content-center align-items-center ">
-                                                    <img src="https://ui-avatars.com/api/?name=Anveshika%20Singh"
+                                            <div class="d-flex justify-content-center align-items-center ">
+                                                <img src="https://ui-avatars.com/api/?name=Anveshika%20Singh"
                                                     alt="testimonial image" class="h-10"> &nbsp;&nbsp;&nbsp;
-                                            <span class="section__subtitle mb-0">Anveshika Singh</span>
-                                                </div>
+                                                <span class="section__subtitle mb-0">Anveshika Singh</span>
+                                            </div>
                                             <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                         </div>
                                     </div>
@@ -1317,7 +1312,7 @@
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                         alt="testimonial signature">
                                     </div> --}}
-                                   
+
                                 </div>
                                 <div class="ms-tm2-content pt-35">
                                     <div class="ms-tm2-quotation mb-25">
@@ -1326,10 +1321,10 @@
                                     <p class="ms-tm2-text mb-30">Spacious studio in Andheri! We rented it to host some workshops and it was a great experience. A music system update would make it even better.</p>
                                     <div class="ms-tm2-author">
                                         <div class="d-flex justify-content-center align-items-center ">
-                                                <img src="https://ui-avatars.com/api/?name=Soonruta%20Kothadia"
-                                                    alt="testimonial image" class="h-10">&nbsp;&nbsp;&nbsp;
-                                        <span class="section__subtitle mb-0">Soonruta Kothadia</span>
-                                        <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                            <img src="https://ui-avatars.com/api/?name=Soonruta%20Kothadia"
+                                                alt="testimonial image" class="h-10">&nbsp;&nbsp;&nbsp;
+                                            <span class="section__subtitle mb-0">Soonruta Kothadia</span>
+                                            <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -1356,9 +1351,9 @@
                                 <div class="ms-tm2-author">
                                     <div class="d-flex justify-content-center align-items-center ">
                                         <img src="https://ui-avatars.com/api/?name=Anishek%20Singh"
-                                        alt="testimonial image" class="h-10">&nbsp;&nbsp;&nbsp;
-                                    <span class="section__subtitle mb-0">Anishek Singh</span>
-                                    <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                            alt="testimonial image" class="h-10">&nbsp;&nbsp;&nbsp;
+                                        <span class="section__subtitle mb-0">Anishek Singh</span>
+                                        <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                     </div>
                                 </div>
                             </div>

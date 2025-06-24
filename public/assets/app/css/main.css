@@ -72,7 +72,7 @@
 
   /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
 
-  
+
   --clr-common-white: #ffffff;
   --clr-common-black: #000000;
   --clr-common-placeholder: #858585;
@@ -1226,7 +1226,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   justify-content: center;
   /* border: 1px solid var(--clr-border-1); */
   background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
-  color:white;
+  color: white;
   padding: 0 15px;
   border-radius: 30px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -7235,8 +7235,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .ms-event-title:hover {
   /* color: var(--clr-theme-1); */
   background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .ms-event-text {
@@ -13083,16 +13083,19 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: relative;
   z-index: 5;
 }
-.unfill__btn2:hover{
+
+.unfill__btn2:hover {
   color: white;
   border: 2px solid white;
 }
-.text-bg{
+
+.text-bg {
   background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
 .contactInfoLogo {
   width: 90px !important;
   height: 90px !important;
@@ -13106,7 +13109,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border: solid 5px transparent;
   border-radius: 1em;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Optional shadow */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  /* Optional shadow */
 }
 
 .card-bg-black::before {
@@ -13120,4 +13124,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
   margin: -5px;
   border-radius: inherit;
   background: linear-gradient(to right, red, orange);
+}
+
+.border__btn {
+  padding: 0 15px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.border__btn:hover {
+  background: linear-gradient(90deg, #ff5a4d 0%, #ffc04d 100%);
+  box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4);
+  transform: scale(1.05);
+  color: #fff;
+  /* optional, in case color shifts */
+}
+
+.ms-footer-widget ul li a:hover {
+  letter-spacing: 0px;
 }
