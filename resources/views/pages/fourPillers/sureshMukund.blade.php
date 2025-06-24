@@ -17,7 +17,7 @@
                                 <p class="capitalize mb-65">CHOREOGRAPHER | EMMY-NOMINATED |
                                     INTERNATIONAL WORLD CHOREOGRAPHY AWARD WINNER
                                 </p>
-                                <div class="ms-about-round-btn d-inline-block bdFadeUp">
+                                <!-- <div class="ms-about-round-btn d-inline-block bdFadeUp">
                                     <a href="https://www.youtube.com/watch?v=Rf9flQISwok"
                                         class="popup-video ms-video-round p-relative">
                                         <div class="ms-video-img1">
@@ -30,7 +30,7 @@
                                             <i class="fa-sharp fa-regular fa-play"></i>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
         <!-- Why Choose Us Area End Here  -->
 
         <!-- work area start -->
-        <section class="work__area pt-30 pb-70 ">
+        <section class="work__area pt-100 pb-30 ">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -136,19 +136,7 @@
                                     <div class="ms-overlay ms-overlay3 p-absolute"></div>
                                     <img src="{{ asset('assets/img/work/work-thumb-06.png') }}" alt="work image">
                                 </div>
-                                <div class="work__features-bottom ms-work3-features pb-0">
-                                    <div class="work__features-action">
-                                        <div class="work__features-btn ms-work3-feature-btn">
-                                            <a class="ms-fill-btn" href="contact.html">Get Started</a>
-                                        </div>
-                                        <div class="features__btn-text">
-                                            <span>Book something <br> awesome !</span>
-                                        </div>
-                                    </div>
-                                    <div class="work__features-arrow">
-                                        <img src="{{ asset('assets/img/work/arrow.png') }}" alt="image not found">
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -173,6 +161,9 @@
                                     The Global Stage, Representing the Country at
                                     Prestigious International Competitions and Concerts.
                                 </p>
+                                <!-- <div class="work__features-btn ms-work3-feature-btn">
+                                    <a class="ms-fill-btn" href="#">The Kings</a>
+                                </div> -->
                             </div>
 
                         </div>
@@ -194,17 +185,13 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="ms-news-btn d-flex justify-content-lg-end mb-40">
-                            <a class="border__btn" href="event.html">View All Achievements</a>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="row bdFadeUp">
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <a class="ms-news4-cat" href="news-details.html">Winner</a>
+                            <!-- <a class="ms-news4-cat" href="news-details.html">Winner</a> -->
                             <div class="ms-news-thumb w-img">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
                                         alt="news image"></a>
@@ -222,7 +209,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <a class="ms-news4-cat" href="news-details.html">NBC'S</a>
+                            <!-- <a class="ms-news4-cat" href="news-details.html">NBC'S</a> -->
                             <div class="ms-news-thumb w-img">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/news/news-01.png') }}"
                                         alt="news image"></a>
@@ -238,7 +225,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <a class="ms-news4-cat" href="news-details.html">Emmy</a>
+                            <!-- <a class="ms-news4-cat" href="news-details.html">Emmy</a> -->
                             <div class="ms-news-thumb w-img">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/news/news-02.png') }}"
                                         alt="news image"></a>
@@ -256,7 +243,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <a class="ms-news4-cat" href="news-details.html">Award</a>
+                            <!-- <a class="ms-news4-cat" href="news-details.html">Award</a> -->
                             <div class="ms-news-thumb w-img">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
                                         alt="news image"></a>
@@ -274,7 +261,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <a class="ms-news4-cat" href="news-details.html">Judge</a>
+                            <!-- <a class="ms-news4-cat" href="news-details.html">Judge</a> -->
                             <div class="ms-news-thumb w-img">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
                                         alt="news image"></a>
@@ -292,7 +279,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="ms-news-item p-relative zindex-1 mb-40">
                             <div class="ms-news-overlay p-absolute"></div>
-                            <a class="ms-news4-cat" href="news-details.html">Inspiration</a>
+                            <!-- <a class="ms-news4-cat" href="news-details.html">Inspiration</a> -->
                             <div class="ms-news-thumb w-img">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
                                         alt="news image"></a>
@@ -529,7 +516,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="ms-news3-slick">
+                    <div class="ms-news3-slick">
                         <div class="ms-news3-item p-relative">
                             <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
                             <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: Led the Kings on a World Tour Across the Us &
@@ -550,643 +537,98 @@
         </section>
         <!-- News area end here  -->
 
-        <!-- team area start here  -->
-        <section class="ms-team-area ms-bg-2 pt-125 pb-90">
-            <div class="container">
-                <div class="row justify-content-center mb-25 bdFadeUp">
-                    <div class="col-xl-6">
-                        <div class="section__title-wrapper text-center mb-40">
-                            <h2 class="section__title bd-title-anim">Our awesome team</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ms-team-inner bdFadeUp">
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-team-item-wrap">
-                            <div class="ms-team-item p-relative">
-                                <div class="ms-team-img">
-                                    <a href="team-details.html"><img src="{{ asset('assets/img/team/team-01.jpg') }}"
-                                            alt="team image"></a>
-                                    <div class="ms-team-social">
-                                        <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                                        <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                                    </div>
-                                </div>
-                                <h3 class="ms-team-title"><a href="team-details.html">Essie L. Whitman</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-team-item-wrap">
-                            <div class="ms-team-item p-relative">
-                                <div class="ms-team-img">
-                                    <a href="team-details.html"><img src="{{ asset('assets/img/team/team-02.jpg') }}"
-                                            alt="team image"></a>
-                                    <div class="ms-team-social">
-                                        <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                                        <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                                    </div>
-                                </div>
-                                <h3 class="ms-team-title"><a href="team-details.html">Maria D. Guthrie</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-team-item-wrap">
-                            <div class="ms-team-item p-relative">
-                                <div class="ms-team-img">
-                                    <a href="team-details.html"><img src="{{ asset('assets/img/team/team-03.jpg') }}"
-                                            alt="team image"></a>
-                                    <div class="ms-team-social">
-                                        <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                                        <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                                    </div>
-                                </div>
-                                <h3 class="ms-team-title"><a class="ms-team-title" href="team-details.html">Mark
-                                        W.
-                                        Barrientes</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-team-item-wrap">
-                            <div class="ms-team-item p-relative">
-                                <div class="ms-team-img">
-                                    <a href="team-details.html"><img src="{{ asset('assets/img/team/team-04.jpg') }}"
-                                            alt="team image"></a>
-                                    <div class="ms-team-social">
-                                        <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                                        <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                                    </div>
-                                </div>
-                                <h3 class="ms-team-title"><a class="ms-team-title" href="team-details.html">John
-                                        L.
-                                        Dombrowski</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-team-item-wrap">
-                            <div class="ms-team-item p-relative">
-                                <div class="ms-team-img">
-                                    <a href="team-details.html"><img src="{{ asset('assets/img/team/team-05.jpg') }}"
-                                            alt="team image"></a>
-                                    <div class="ms-team-social">
-                                        <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                                        <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                                    </div>
-                                </div>
-                                <h3 class="ms-team-title"><a class="ms-team-title" href="team-details.html">Donald
-                                        J.
-                                        Green</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-team-item-wrap">
-                            <div class="ms-team-item p-relative">
-                                <div class="ms-team-img">
-                                    <a href="team-details.html"><img src="{{ asset('assets/img/team/team-06.jpg') }}"
-                                            alt="team image"></a>
-                                    <div class="ms-team-social">
-                                        <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                                        <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                                        <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                                    </div>
-                                </div>
-                                <h3 class="ms-team-title"><a class="ms-team-title" href="team-details.html">Mary
-                                        W.
-                                        Russell</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- team area end here  -->
 
-        <!-- FAQ area start -->
-        <section id="bd_has_accordion" class="ms-faq-area pt-120 pb-110 fix">
-            <div class="bd-accordion-fix">
-                <div class="container">
-                    <div class="row align-items-center mb-15 bdFadeUp">
-                        <div class="col-xl-7 col-lg-10">
-                            <div class="section__title-wrapper section__title-wrapper-faq mb-40">
-                                <h2 class="section__title mb-40 bd-title-anim">
-                                    Have questions? We have answers!
-                                </h2>
-                                <p>Our hand-picked acts will guarantee you fantastic wedding
-                                    entertainment
-                                    for
-                                    each
-                                    part. We'll provide help and support 24
-                                    hours a day, 7 days a week, right up until</p>
-                            </div>
-                        </div>
+        <!-- Testimonial Area Start Here  -->
+        <section class="ms-tm-area">
+            <div class="container">
+                <div class="pt-130 pb-70">
+                    <div class="row align-items-center bdFadeUp">
                         <div class="col-xl-5">
-                            <div class="ms-faq-tab mb-40">
-                                <nav>
-                                    <div class="nav nav-tabs mb-tab-button-style justify-content-xl-end"
-                                        id="nav-tab" role="tablist">
-                                        <button class="nav-link active" id="nav-faq-1-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-faq-1" type="button" role="tab"
-                                            aria-controls="nav-faq-1" aria-selected="true">Musical Acts</button>
-                                        <button class="nav-link" id="nav-faq-2-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-faq-2" type="button" role="tab"
-                                            aria-controls="nav-faq-2" aria-selected="false">Entertainers</button>
-                                        <button class="nav-link" id="nav-faq-3-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-faq-3" type="button" role="tab"
-                                            aria-controls="nav-faq-3" aria-selected="false">Event
-                                            Services</button>
+                            <div class="ms-tm-img-wrap ms-tm-space p-relative mb-60">
+                                <div class="ms-tm-img-main p-relative m-img">
+                                    <div class="ms-tm-bg-shape"></div>
+                                    <div class="ms-tm-signature">
+                                        <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
+                                            alt="testimonial signature">
                                     </div>
-                                </nav>
+                                    <img src="{{ asset('assets/img/testimonial/testimonial-05.png') }}" alt="testimonial image">
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    <div class="row bdFadeUp">
-                        <div class="col-xxl-12">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-faq-1" role="tabpanel"
-                                    aria-labelledby="nav-faq-1-tab" tabindex="0">
-                                    <div class="ms-faq-wrap ms-faq-2column">
-                                        <div class="accordion p-relative" id="accordionExample">
-                                            <div class="ms-faq-group">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingOne">
-                                                        <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                            aria-expanded="true" aria-controls="collapseOne">How do
-                                                            event
-                                                            planners find me on Musicly?</button>
-                                                    </h2>
-                                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                                        aria-labelledby="headingOne"
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingTwo">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                            aria-expanded="false" aria-controls="collapseTwo">
-                                                            Do I have to pay to receive or respond to leads?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingTwo"
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingThree">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                                            aria-controls="collapseThree">
-                                                            Why should I use Musicly over other sites?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingThree"
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
+                        <div class="col-xl-7">
+                            <div class="ms-tm-content-wrap ms-tm-content-space mb-60">
+
+                                <div class="section__title-wrapper mb-30 bd-title-anim">
+                                    <span class="section__subtitle mb-2">Services & Expertise</span>
+                                    <h2 class="ms-tm-author-title fw-normal">Choreography & Creative Direction
+                                        Areas of Work:
+                                    </h2>
+                                </div>
+                                <div class="ms-tm-content">
+                                    <div class="ms-tm-active">
+                                        <div class="ms-tm-slick">
+                                            <div class="ms-tm-slick-item">
+                                                <!-- <p>assumenda fugiat ut quibusdam aliquid qui molestiae
+                                                    itaque est atque
+                                                    iste
+                                                    ea
+                                                    ipsum
+                                                    adipisci ut rerum voluptas ex autem
+                                                    aliquid. Ut voluptatem voluptate et distinctio fuga vel
+                                                    dicta magni.</p> -->
+                                                <div class="ms-tm-author">
+                                                    <h4 class="section__title">Music Videos</h4>
+                                                    <span class="ms-tm-author-subtitle">Choreography & Direction</span>
                                                 </div>
                                             </div>
-                                            <div class="ms-faq-group">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingFour">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                            aria-expanded="true" aria-controls="collapseFour">How
-                                                            many leads
-                                                            and bookings can I expect to get?</button>
-                                                    </h2>
-                                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingFour"
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
+                                        </div>
+                                        <div class="ms-tm-slick">
+                                            <div class="ms-tm-slick-item">
+                                                <!-- <p>assumenda fugiat ut quibusdam aliquid qui molestiae
+                                                    itaque est atque
+                                                    iste
+                                                    ea
+                                                    ipsum
+                                                    adipisci ut rerum voluptas ex autem
+                                                    aliquid. Ut voluptatem voluptate et distinctio fuga vel
+                                                    dicta magni.</p> -->
+                                                <div class="ms-tm-author">
+                                                    <h4 class="section__title">Live Stage Performances</h4>
+                                                    <span class="ms-tm-author-subtitle">Concerts, Award Shows, TV Shows, Reality Shows</span>
                                                 </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingFive">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                                            aria-expanded="false" aria-controls="collapseFive">
-                                                            How do I get paid for my gigs?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingFive"
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="ms-tm-slick">
+                                            <div class="ms-tm-slick-item">
+
+                                                <div class="ms-tm-author">
+                                                    <h4 class="section__title">Bollywood Choreography</h4>
+                                                    <span class="ms-tm-author-subtitle">Films, Songs, Large scale production</span>
                                                 </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingSix">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                                            aria-expanded="false" aria-controls="collapseSix">
-                                                            What type of events are booked on Musicly?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseSix" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingSix"
-                                                        data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="ms-tm-slick">
+                                            <div class="ms-tm-slick-item">
+
+                                                <div class="ms-tm-author">
+                                                    <h4 class="section__title">Wedding Choreography</h4>
+                                                    <span class="ms-tm-author-subtitle">Sangeet, Couple Performances, Family Act</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ms-tm-slick">
+                                            <div class="ms-tm-slick-item">
+
+                                                <div class="ms-tm-author">
+                                                    <h4 class="section__title">Corporate & Special Event shows</h4>
+                                                    <span class="ms-tm-author-subtitle">Brand Launch, Award Nights, Festivals</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-faq-2" role="tabpanel"
-                                    aria-labelledby="nav-faq-2-tab" tabindex="0">
-                                    <div class="ms-faq-wrap ms-faq-2column">
-                                        <div class="accordion p-relative" id="accordionExample2">
-                                            <div class="ms-faq-group">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingSeven">
-                                                        <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseSeven" aria-expanded="true"
-                                                            aria-controls="collapseSeven">How do event
-                                                            planners find me on Musicly?</button>
-                                                    </h2>
-                                                    <div id="collapseSeven" class="accordion-collapse collapse show"
-                                                        aria-labelledby="headingSeven"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingEight">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseEight" aria-expanded="false"
-                                                            aria-controls="collapseEight">
-                                                            Do I have to pay to receive or respond to leads?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseEight" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingEight"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingNine">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseNine"
-                                                            aria-expanded="false" aria-controls="collapseNine">
-                                                            Why should I use Musicly over other sites?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseNine" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingNine"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-faq-group">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingTen">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseTen"
-                                                            aria-expanded="true" aria-controls="collapseTen">How
-                                                            many leads
-                                                            and bookings can I expect to get?</button>
-                                                    </h2>
-                                                    <div id="collapseTen" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingTen"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingEleven">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseEleven" aria-expanded="false"
-                                                            aria-controls="collapseEleven">
-                                                            How do I get paid for my gigs?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseEleven" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingEleven"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingTwelve">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseTwelve" aria-expanded="false"
-                                                            aria-controls="collapseTwelve">
-                                                            What type of events are booked on Musicly?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseTwelve" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingTwelve"
-                                                        data-bs-parent="#accordionExample2">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-faq-3" role="tabpanel"
-                                    aria-labelledby="nav-faq-3-tab" tabindex="0">
-                                    <div class="ms-faq-wrap ms-faq-2column">
-                                        <div class="accordion p-relative" id="accordionExample3">
-                                            <div class="ms-faq-group">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingThirteen">
-                                                        <button class="accordion-button" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseThirteen" aria-expanded="true"
-                                                            aria-controls="collapseThirteen">How do
-                                                            event
-                                                            planners find me on Musicly?</button>
-                                                    </h2>
-                                                    <div id="collapseThirteen"
-                                                        class="accordion-collapse collapse show"
-                                                        aria-labelledby="headingThirteen"
-                                                        data-bs-parent="#accordionExample3">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingFourteen">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseFourteen" aria-expanded="false"
-                                                            aria-controls="collapseFourteen">
-                                                            Do I have to pay to receive or respond to leads?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseFourteen" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingFourteen"
-                                                        data-bs-parent="#accordionExample3">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingFifteen">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseFifteen" aria-expanded="false"
-                                                            aria-controls="collapseFifteen">
-                                                            Why should I use Musicly over other sites?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseFifteen" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingFifteen"
-                                                        data-bs-parent="#accordionExample3">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="ms-faq-group">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingSixteen">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseSixteen" aria-expanded="true"
-                                                            aria-controls="collapseSixteen">How many
-                                                            leads
-                                                            and bookings can I expect to get?</button>
-                                                    </h2>
-                                                    <div id="collapseSixteen" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingSixteen"
-                                                        data-bs-parent="#accordionExample3">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingSeventeen">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseSeventeen"
-                                                            aria-expanded="false" aria-controls="collapseSeventeen">
-                                                            How do I get paid for my gigs?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseSeventeen" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingSeventeen"
-                                                        data-bs-parent="#accordionExample3">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingEighteen">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseEighteen" aria-expanded="false"
-                                                            aria-controls="collapseEighteen">
-                                                            What type of events are booked on Musicly?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseEighteen" class="accordion-collapse collapse"
-                                                        aria-labelledby="headingEighteen"
-                                                        data-bs-parent="#accordionExample3">
-                                                        <div class="accordion-body">We do not charge for
-                                                            leads.
-                                                            The
-                                                            only
-                                                            money you’ll ever pay to GigSalad is for your
-                                                            membership
-                                                            subscription which gives
-                                                            you additional features and exposure, and a
-                                                            small
-                                                            service fee.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div
+                                        class="ms-tm-dots ms-tm-dots-horizontal ms-round-dots d-flex justify-content-lg-end mt-lg-0 mt-30">
                                     </div>
                                 </div>
                             </div>
@@ -1195,56 +637,365 @@
                 </div>
             </div>
         </section>
-        <!-- Popular  area end -->
+        <!-- Testimonial Area End Here  -->
 
-        <!-- Partner Area Start Here  -->
-        <div class="ms-partner-area fix pb-130">
+        <!-- Genres Listing Area Start  -->
+        <div class="ms-genres-listing pt-130 pb-110 ms-bg-2">
             <div class="container">
-                <div class="ms-border5 pt-130">
-                    <div class="swiper-container ms-partner-active">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-01.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-02.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-03.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-05.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-01.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-02.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-03.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-05.png') }}" alt="partner image">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('assets/img/partner/partner-04.png') }}" alt="partner image">
-                            </div>
+                <div class="row justify-content-center bdFadeUp">
+                    <div class="col-xl-6 ">
+                        <div class="section__title-wrapper text-center mb-25 bd-title-anim">
+                            <span class="section__subtitle">Work Links</span>
+                            <h2 class="section__title"><span class="ms-text1">Musicly</span>
+                                Morning Insight
+                            </h2>
                         </div>
                     </div>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                        aria-labelledby="home-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="genres-details.html">
+                                            <img src="{{ asset('assets/img/genres/genres-01.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="genres-details.html">ABCD 2 Vande Mataram</a></h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 1.8M </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-01.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/xutBFUf3LoU?si=9Vzf9RC4dpSqpDFX"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="genres-details.html">ABCD 2 Bezubaan Phir Se</a></h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 1.4M </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-04.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/6Z7tW64jpTM?si=CbUIW6b4hiEv_DOo"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">DIVINE - Baazigar</a></h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 763K</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="genres-details.html">
+                                            <img src="{{ asset('assets/img/genres/genres-05.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/6KBE8iRTg8Y?si=WuTDM2yRgn7mtz8a"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="genres-details.html">Chakravyuh mein - Virat Kohli X DIVINE | PUMA</a></h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 139K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-06.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/UqBzpg6YMBg?si=otznrnTDkENI0iaM"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="genres-details.html">World Dance Performace</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 5.7K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="genres-details.html">
+                                            <img src="{{ asset('assets/img/genres/genres-07.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/0bve8unJ7e8?si=I1nLXN6g7NmU4dmM"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="genres-details.html">The Kings TATTAD TATTAD Routine</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 5.8K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-08.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/0j5Vyo4lGYc?si=mHyF1NeboZ0oG8IH"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">The Kings' "Malhari" Routine Is INSANE</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 47K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-09.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/E6rd0fy0DUY?si=ZmGKK7FePQiJ_QjH"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">The Kings Winning Moment</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 62K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="genres-details.html">
+                                            <img src="{{ asset('assets/img/genres/genres-10.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/zQGaZjJNIMg?si=xMb_Io3moYWvviaz"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">World of Dance Finals - Upper Team The Kings</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 38K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="genres-details.html">
+                                            <img src="{{ asset('assets/img/genres/genres-05.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/GHdzoot7rfg?si=fVBMhYv9wq8yzHaG"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">50 Cent X The kings | Live Show Mumbai</a></h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 300 </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-06.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/y4jv5bk8ato?si=rL-wV03FjxH5JFl7"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">Kings United Ultimate Epic Comeback</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 43K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
+                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                        <a href="">
+                                            <img src="{{ asset('assets/img/genres/genres-07.jpg') }}" alt="genres img">
+                                        </a>
+                                        <a class="popup-video ms-genres-video"
+                                            href="https://youtu.be/_7oTMDqV3ew?si=bj2FvCl7ZrCKbiYA"><i
+                                                class="fa-sharp fa-solid fa-play"></i></a>
+
+                                    </div>
+                                    <div class="ms-genres-content p-relative">
+
+                                        <h4 class="ms-genres-title"><a href="">Kings United Ultimate Showdown</a>
+                                        </h4>
+
+                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                            <div class="ms-fun-brand-location">
+                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 30K </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!-- Partner Area End Here  -->
+        <!-- Genres Listing Area End  -->
+        <!-- CTA Area Start Here  -->
+        <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10">
+            <div class="container">
+                <div class="ms-cta-bg black-bg fix">
+                    <div class="ms-cta-wrap">
+                        <div class="ms-cta-item">
+                            <div class="ms-cta-content">
+                                <h2 class="section__title mb-25">Contact Information
+                                </h2>
+                                <p class="mb-0"><i class="fas fa-phone-alt me-2"></i> +91 9975562947</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i> suresh@kingsunitedindia.com</p>
+                            </div>
+                        </div>
+                        <div class="ms-cta-item">
+                            <div class="ms-cta-img">
+                                <img src="{{ asset('assets/img/cta/cta-01.png')}}" alt="cta image">
+                            </div>
+                        </div>
+                        <div class="ms-cta-item">
+                            <div class="ms-cta-app">
+                                <a target="_blank" href="https://www.instagram.com/worldofdance/" class="contactInfoLogo">
+                                    <img src="{{ asset('assets/img/suresh/contactInfo.jpg')}}"
+                                        alt="app store" style="object-fit: contain;">
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/officialhhi/</a>" class="contactInfoLogo">
+                                    <img src="{{ asset('assets/img/suresh/contactInfo2.jpg')}}"
+                                        alt="play store" style="object-fit: contain;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Area End Here  -->
 
     </main>
 </div>
