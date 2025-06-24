@@ -12,26 +12,27 @@
         <div class="">
             <div class="swiper-container ms-partner-active">
                 <div class="swiper-wrapper">
-                    <div class="col-lg-3 col-6 g-2">
                         <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/kings img/intel.webp') }}" alt="partner image">
+                            <img src="{{ asset('assets/img/kings img/client/intel.webp') }}" alt="partner image">
                         </div>
-                    </div>
-                   <div class="col-lg-3 col-6 g-2">
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/img/kings img/ipl_logo.jpg') }}" alt="partner image">
+                        <img src="{{ asset('assets/img/kings img/client/ipl_logo.jpg') }}" alt="partner image">
                     </div>
-                   </div>
-                    <div class="col-lg-3 col-6 g-2">
                         <div class="swiper-slide">
-                            <img src="{{ asset('assets/img/kings img/microsoft.png') }}" alt="partner image">
+                            <img src="{{ asset('assets/img/kings img/client/microsoft.png') }}" alt="partner image">
                         </div>
-                    </div>
-                   <div class="col-lg-3 col-6 g-2">
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/img/kings img/red_bull.jpg') }}" alt="partner image">
+                        <img src="{{ asset('assets/img/kings img/client/red_bull.jpg') }}" alt="partner image">
                     </div>
-                   </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('assets/img/kings img/client/tata_motors.jpg') }}" alt="partner image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('assets/img/kings img/client/world_of_dance.jpg') }}" alt="partner image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('assets/img/kings img/client/oppo.jpg') }}" alt="partner image">
+                    </div>
                     <!-- <div class="swiper-slide">
                         <img src="assets/img/partner/partner-05.png" alt="partner image">
                     </div>

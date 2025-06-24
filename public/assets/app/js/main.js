@@ -442,7 +442,7 @@
 	========================================*/
 	var msPartnerActive = new Swiper(".ms-partner-active", {
 		rtl: rtl_setting,
-		loop: false,
+		loop: true,
 		spaceBetween: 45,
 		slidesPerView: 5,
 		slidesToScroll: 1,

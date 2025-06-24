@@ -5599,7 +5599,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 50%;
   z-index: 20;
   font-size: 14px;
-  color: var(--clr-bg-9);
+  color: #ffffff;
   text-transform: capitalize;
 }
 
@@ -5625,7 +5625,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .ms-banner2-video-btn:hover span {
-  color: var(--clr-theme-1);
+  color: #e2b253;
 }
 
 .ms-find-musician-title {
@@ -12661,7 +12661,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .ms-footer-social a:hover {
-  color: var(--clr-theme-1);
+  color: #e2b253;
 }
 
 .ms-footer-social a:hover::before {

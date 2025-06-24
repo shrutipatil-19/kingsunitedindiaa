@@ -1300,9 +1300,11 @@
                                         </div>
                                         <p class="ms-tm2-text mb-30">This workshop was really amazing, as it gave a proper clarification about what all is gonna happen in the course and also what elements an individual has to work on to enter the fashion industry.A good path explainer and platform for those who want to enter this industry.</p>
                                         <div class="ms-tm2-author">
-                                                <img src="https://ui-avatars.com/api/?name=Anveshika%20Singh"
-                                                    alt="testimonial image" class="h-10">
-                                            <span class="section__subtitle">Anveshika Singh</span>
+                                                <div class="d-flex justify-content-center align-items-center ">
+                                                    <img src="https://ui-avatars.com/api/?name=Anveshika%20Singh"
+                                                    alt="testimonial image" class="h-10"> &nbsp;&nbsp;&nbsp;
+                                            <span class="section__subtitle mb-0">Anveshika Singh</span>
+                                                </div>
                                             <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
                                         </div>
                                     </div>
@@ -1315,10 +1317,7 @@
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                         alt="testimonial signature">
                                     </div> --}}
-                                    <div class="m-img">
-                                        <img src="https://ui-avatars.com/api/?name=Soonruta%20Kothadia"
-                                            alt="testimonial image">
-                                    </div>
+                                   
                                 </div>
                                 <div class="ms-tm2-content pt-35">
                                     <div class="ms-tm2-quotation mb-25">
@@ -1326,8 +1325,12 @@
                                     </div>
                                     <p class="ms-tm2-text mb-30">Spacious studio in Andheri! We rented it to host some workshops and it was a great experience. A music system update would make it even better.</p>
                                     <div class="ms-tm2-author">
-                                        <span class="section__subtitle">Soonruta Kothadia</span>
+                                        <div class="d-flex justify-content-center align-items-center ">
+                                                <img src="https://ui-avatars.com/api/?name=Soonruta%20Kothadia"
+                                                    alt="testimonial image" class="h-10">&nbsp;&nbsp;&nbsp;
+                                        <span class="section__subtitle mb-0">Soonruta Kothadia</span>
                                         <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1340,10 +1343,10 @@
                                                 <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
                                     alt="testimonial signature">
                                 </div> --}}
-                                <div class="m-img">
+                                {{-- <div class="m-img">
                                     <img src="https://ui-avatars.com/api/?name=Anishek%20Singh"
                                         alt="testimonial image">
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="ms-tm2-content pt-35">
                                 <div class="ms-tm2-quotation mb-25">
@@ -1351,8 +1354,12 @@
                                 </div>
                                 <p class="ms-tm2-text mb-30">awesome and the class atmosphere is energetic.the teachers are very supportive and always ready to help</p>
                                 <div class="ms-tm2-author">
-                                    <span class="section__subtitle">Anishek Singh</span>
+                                    <div class="d-flex justify-content-center align-items-center ">
+                                        <img src="https://ui-avatars.com/api/?name=Anishek%20Singh"
+                                        alt="testimonial image" class="h-10">&nbsp;&nbsp;&nbsp;
+                                    <span class="section__subtitle mb-0">Anishek Singh</span>
                                     <!-- <span class="ms-tm2-designation">CEO - XYZ Innovation</span> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1451,7 +1458,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <div class="ms-popular__tab ms-popular-flex mb-40">
+                    <div class="ms-popular__tab ms-popular-flex mb-40 d-none">
                         <nav>
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <button class="nav-link active" id="nav-popular-1-tab" data-bs-toggle="tab"
@@ -1480,14 +1487,14 @@
                                         <div class="ms-popular__item p-relative mb-30">
                                             <div class="ms-popular__thumb">
                                                 <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team1.jpg') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/Amey.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="genres-details.html" class="ms-popular__link">
-                                                    <span>Kirti</span>
+                                                <a href="#" class="ms-popular__link">
+                                                    <span>Amey</span>
                                                 </a>
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="genres-details.html">Jazz Funk</a>
+                                            <h4 class="ms-popular__title"><a href="#">Jazz Funk</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1495,44 +1502,44 @@
                                         <div class="ms-popular__item p-relative mb-30">
                                             <div class="ms-popular__thumb">
                                                 <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team2.jpg') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/Amit.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="genres-details.html" class="ms-popular__link">
-                                                    <span>Rekha</span>
-                                                </a>
-                                            </div>
-                                            <h4 class="ms-popular__title"><a href="genres-details.html">Ballet / Contemporary</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="ms-popular__item p-relative mb-30">
-                                            <div class="ms-popular__thumb">
-                                                <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team3.jpg') }}"
-                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="genres-details.html" class="ms-popular__link">
-                                                    <span>Abhishek</span>
-                                                </a>
-                                            </div>
-                                            <h4 class="ms-popular__title"><a href="genres-details.html">Hip-Hop /Popping</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="ms-popular__item p-relative mb-30">
-                                            <div class="ms-popular__thumb">
-                                                <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team4.jpg') }}"
-                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="genres-details.html" class="ms-popular__link">
+                                                <a href="#" class="ms-popular__link">
                                                     <span>Amit</span>
                                                 </a>
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="genres-details.html">Locking And Soul Dancing
+                                            <h4 class="ms-popular__title"><a href="#">Ballet / Contemporary</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="ms-popular__item p-relative mb-30">
+                                            <div class="ms-popular__thumb">
+                                                <div class="ms-popular-overlay"></div>
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/BLUE.jpg') }}"
+                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
+                                                <a href="#" class="ms-popular__link">
+                                                    <span>Blue</span>
+                                                </a>
+                                            </div>
+                                            <h4 class="ms-popular__title"><a href="#">Hip-Hop /Popping</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="ms-popular__item p-relative mb-30">
+                                            <div class="ms-popular__thumb">
+                                                <div class="ms-popular-overlay"></div>
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/dance.png') }}"
+                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
+                                                <a href="#" class="ms-popular__link">
+                                                    <span>Dance</span>
+                                                </a>
+                                            </div>
+                                            <h4 class="ms-popular__title"><a href="#">Locking And Soul Dancing
                                                 </a></h4>
                                         </div>
                                     </div>
@@ -1540,14 +1547,59 @@
                                         <div class="ms-popular__item p-relative mb-30">
                                             <div class="ms-popular__thumb">
                                                 <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team5.jpg') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/Flying Machine.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="genres-details.html" class="ms-popular__link">
+                                                <a href="#" class="ms-popular__link">
+                                                    <span>Flying Machine</span>
+                                                </a>
+                                            </div>
+                                            <h4 class="ms-popular__title"><a href="#">House & Footwork</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="ms-popular__item p-relative mb-30">
+                                            <div class="ms-popular__thumb">
+                                                <div class="ms-popular-overlay"></div>
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/ROCKLEE.jpg') }}"
+                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
+                                                <a href="#" class="ms-popular__link">
+                                                    <span>Rocklee</span>
+                                                </a>
+                                            </div>
+                                            <h4 class="ms-popular__title"><a href="#">Footworks</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="ms-popular__item p-relative mb-30">
+                                            <div class="ms-popular__thumb">
+                                                <div class="ms-popular-overlay"></div>
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/Rohan Pal.jpg') }}"
+                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
+                                                <a href="#" class="ms-popular__link">
+                                                    <span>Rohan Pal</span>
+                                                </a>
+                                            </div>
+                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="ms-popular__item p-relative mb-30">
+                                            <div class="ms-popular__thumb">
+                                                <div class="ms-popular-overlay"></div>
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/SWAPNIL.jpg') }}"
+                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
+                                                <a href="#" class="ms-popular__link">
                                                     <span>Swapnil</span>
                                                 </a>
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="genres-details.html">House & Footwork</a>
+                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1555,26 +1607,11 @@
                                         <div class="ms-popular__item p-relative mb-30">
                                             <div class="ms-popular__thumb">
                                                 <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team6.jpg') }}"
-                                                        alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="genres-details.html" class="ms-popular__link">
-                                                    <span>Arvind</span>
-                                                </a>
-                                            </div>
-                                            <h4 class="ms-popular__title"><a href="genres-details.html">Footworks</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="ms-popular__item p-relative mb-30">
-                                            <div class="ms-popular__thumb">
-                                                <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
-                                                        src="{{ asset('assets/img/kings img/team/team7.jpg') }}"
+                                                <a href="#"><img
+                                                        src="{{ asset('assets/img/kings img/team/Tanya Bhushan.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
                                                 <a href="#" class="ms-popular__link">
-                                                    <span>Vivek</span>
+                                                    <span>Tanya Bhushan</span>
                                                 </a>
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
@@ -1585,7 +1622,7 @@
                                         <div class="ms-popular__item p-relative mb-30">
                                             <div class="ms-popular__thumb">
                                                 <div class="ms-popular-overlay"></div>
-                                                <a href="genres-details.html"><img
+                                                <a href="#"><img
                                                         src="{{ asset('assets/img/popular/popular-03.png') }}"
                                                         alt="popular band"></a>
                                                 <a href="genres-details.html" class="ms-popular__link">
