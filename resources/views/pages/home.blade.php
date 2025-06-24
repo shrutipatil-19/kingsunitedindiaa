@@ -1489,9 +1489,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Amey.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Amey</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Jazz Funk</a>
                                             </h4>
@@ -1504,9 +1504,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Amit.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Amit</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Ballet / Contemporary</a>
                                             </h4>
@@ -1519,9 +1519,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/BLUE.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Blue</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Hip-Hop /Popping</a>
                                             </h4>
@@ -1534,9 +1534,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/dance.png') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Dance</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Locking And Soul Dancing
                                                 </a></h4>
@@ -1549,9 +1549,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Flying Machine.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Flying Machine</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">House & Footwork</a>
                                             </h4>
@@ -1564,9 +1564,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/ROCKLEE.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Rocklee</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Footworks</a>
                                             </h4>
@@ -1579,9 +1579,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Rohan Pal.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Rohan Pal</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
                                             </h4>
@@ -1594,9 +1594,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/SWAPNIL.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Swapnil</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
                                             </h4>
@@ -1609,9 +1609,9 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Tanya Bhushan.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Tanya Bhushan</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
                                             <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
                                             </h4>
