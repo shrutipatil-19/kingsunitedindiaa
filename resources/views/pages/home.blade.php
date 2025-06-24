@@ -211,12 +211,16 @@
                         <div class="ms-work-round p-absolute two zindex--1 d-none d-sm-block"></div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 pl-30">
                     <div class="work__content-wrapper work__content-wrapper-space mb-70">
-                        <div class="section__title-wrapper mb-50 bd-title-anim">
+                        <div class="section__title-wrapper mb-30 bd-title-anim">
                             <span class="section__subtitle">About Kings</span>
-                            <h2 class="section__title two">
+                            <!-- <h2 class="section__title two">
                                 The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
+                                <span class="animated-underline active">Dance Champions</span>
+                            </h2> -->
+                             <h2 class="section__title two">
+                                The Kings: From Dreamers to International
                                 <span class="animated-underline active">Dance Champions</span>
                             </h2>
                         </div>
