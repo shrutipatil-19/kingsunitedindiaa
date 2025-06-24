@@ -14,4 +14,11 @@
  <link rel="stylesheet" href="{{ asset('assets/app/css/spacing.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/main.css') }}">
  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"></head>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+ <script src="{{ asset('assets/app/js/jquery-3.6.0.min.js') }}"></script>
+ <script src="{{ asset('assets/app/js/jquery.counterup.min.js') }}"></script>
+ 
+</head>
+
+ 

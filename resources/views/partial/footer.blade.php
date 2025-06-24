@@ -58,14 +58,30 @@
            </div>
            <div class="ms-footer-bottom">
                <div class="container">
-                   <div
-                       class="ms-footer-bottom-wrap align-items-center d-flex flex-wrap justify-content-between pt-10 pb-10">
+                   <div class="ms-footer-bottom-wrap align-items-center d-flex flex-wrap justify-content-between pt-10 pb-10">
                        <div class="ms-footer-copy">
                            <p>© Kings United 2025, All Rights Reserved</p>
                        </div>
+                       <!-- HTML -->
+                        {{-- <div class="counter-number">1024</div>
+                        <script>
+                            // JavaScript
+                                    $(".counter-number").counterUp({
+                                        delay: 10,
+                                        time: 1000,
+                                    });
+                        </script> --}}
+                       <div class="ms-footer-social mb-0">
+                        <p>Follow Us On :- </p>
+                        <a href="https://www.facebook.com/kingsunitedofficial?mibextid=LQQJ4d" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/kings_united_india?igsh=MWVyMjY1enVoZnEwaA==" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com/@kingsunitedindiaofficial5626?si=CT2vkO_2sjU4FwiU" title="Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        {{-- <a href="#" title="Pinterest" target="_blank"><i class="fa-brands fa-square-pinterest"></i></i></a> --}}
+                    </div>
                    </div>
                </div>
            </div>
        </div>
    </footer>
+   
    <!-- Footer Area End Here  -->

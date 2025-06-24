@@ -1,4 +1,4 @@
- <script src="{{ asset('assets/app/js/jquery-3.6.0.min.js') }}"></script>
+
  <script src="{{ asset('assets/app/js/waypoints.min.js') }}"></script>
  <script src="{{ asset('assets/app/js/bootstrap.bundle.min.js') }}"></script>
  <script src="{{ asset('assets/app/js/nice-select.min.js') }}"></script>
