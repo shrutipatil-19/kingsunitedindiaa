@@ -1126,7 +1126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row bdFadeUp">
+            <div class="row bdFadeUp justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Choreography</a></h3>
@@ -1223,6 +1223,24 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Celebrity Judge</a></h3>
                         <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/ Schools / Colleges/ Dance Events)</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                        <!-- <div class="ms-event-inner">
+                            <div class="ms-event-location">
+                                <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
+                                        class="flaticon-pin"></i>City Club</a>
+                            </div>
+                            <div class="ms-event-date">
+                                <span>9:00 PM, Saturday, January 1, 2023</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ms-event2-item mb-25">
+                        <h3 class="ms-event-title"><a href="#">Dance Traning</a></h3>
+                        <p class="ms-event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
@@ -1489,11 +1507,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Amey.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Amey</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Jazz Funk</a>
+                                            <h4 class="ms-popular__title"><a href="#">Amey</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1504,11 +1522,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Amit.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Amit</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Ballet / Contemporary</a>
+                                            <h4 class="ms-popular__title"><a href="#">Amit</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1519,11 +1537,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/BLUE.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Blue</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Hip-Hop /Popping</a>
+                                            <h4 class="ms-popular__title"><a href="#">Blue</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1534,11 +1552,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/dance.png') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Dance</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Locking And Soul Dancing
+                                            <h4 class="ms-popular__title"><a href="#">Dance
                                                 </a></h4>
                                         </div>
                                     </div>
@@ -1549,11 +1567,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Flying Machine.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Flying Machine</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">House & Footwork</a>
+                                            <h4 class="ms-popular__title"><a href="#">Flying Machine</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1564,11 +1582,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/ROCKLEE.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Rocklee</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Footworks</a>
+                                            <h4 class="ms-popular__title"><a href="#">Rocklee</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1579,11 +1597,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Rohan Pal.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Rohan Pal</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            <h4 class="ms-popular__title"><a href="#">Rohan Pal</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1594,11 +1612,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/SWAPNIL.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Swapnil</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            <h4 class="ms-popular__title"><a href="#">Swapnil</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1609,11 +1627,11 @@
                                                 <a href="#"><img
                                                         src="{{ asset('assets/img/kings img/team/Tanya Bhushan.jpg') }}"
                                                         alt="popular band" class="h-100 w-100 object-cover"></a>
-                                                <a href="#" class="ms-popular__link">
+                                                {{-- <a href="#" class="ms-popular__link">
                                                     <span>Tanya Bhushan</span>
-                                                </a>
+                                                </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            <h4 class="ms-popular__title"><a href="#">Tanya Bhushan</a>
                                             </h4>
                                         </div>
                                     </div>
