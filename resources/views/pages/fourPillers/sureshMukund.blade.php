@@ -276,7 +276,7 @@
                             <div class="ms-news3-img w-img ms-br-15 fix">
                                 <a href="news-details.html"><img src="{{ asset('assets/img/suresh/work/bazigar.jpg') }}"
                                         alt="news image"></a>
-                            </div>
+                            </div>l
                         </div>
                     </div>
                     <div class="ms-news3-slick">
