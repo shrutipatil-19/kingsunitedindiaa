@@ -1511,7 +1511,7 @@
                                                     <span>Amey</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Jazz Funk</a>
+                                            <h4 class="ms-popular__title"><a href="#">Amey</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1526,7 +1526,7 @@
                                                     <span>Amit</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Ballet / Contemporary</a>
+                                            <h4 class="ms-popular__title"><a href="#">Amit</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1541,7 +1541,7 @@
                                                     <span>Blue</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Hip-Hop /Popping</a>
+                                            <h4 class="ms-popular__title"><a href="#">Blue</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1556,7 +1556,7 @@
                                                     <span>Dance</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Locking And Soul Dancing
+                                            <h4 class="ms-popular__title"><a href="#">Dance
                                                 </a></h4>
                                         </div>
                                     </div>
@@ -1571,7 +1571,7 @@
                                                     <span>Flying Machine</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">House & Footwork</a>
+                                            <h4 class="ms-popular__title"><a href="#">Flying Machine</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1586,7 +1586,7 @@
                                                     <span>Rocklee</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Footworks</a>
+                                            <h4 class="ms-popular__title"><a href="#">Rocklee</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1601,7 +1601,7 @@
                                                     <span>Rohan Pal</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            <h4 class="ms-popular__title"><a href="#">Rohan Pal</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1616,7 +1616,7 @@
                                                     <span>Swapnil</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            <h4 class="ms-popular__title"><a href="#">Swapnil</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -1631,7 +1631,7 @@
                                                     <span>Tanya Bhushan</span>
                                                 </a> --}}
                                             </div>
-                                            <h4 class="ms-popular__title"><a href="#">Break Dancing</a>
+                                            <h4 class="ms-popular__title"><a href="#">Tanya Bhushan</a>
                                             </h4>
                                         </div>
                                     </div>

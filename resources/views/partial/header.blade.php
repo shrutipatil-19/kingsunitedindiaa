@@ -147,7 +147,7 @@
                                                         </ul> -->
                                                      </li>
                                                      <li>
-                                                         <a href="#">About us</a>
+                                                         <a href="{{ route('about') }}">About us</a>
                                                      </li>
                                                      <li class="has-dropdown">
                                                          <a href="#">Kings Dance Studio</a>

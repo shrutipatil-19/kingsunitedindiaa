@@ -13036,7 +13036,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .object-cover {
-  object-fit: cover;
+  object-fit: inherit;
 }
 
 .ms-popular__title a {
