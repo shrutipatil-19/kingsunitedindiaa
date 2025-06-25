@@ -1126,7 +1126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row bdFadeUp">
+            <div class="row bdFadeUp justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Choreography</a></h3>
@@ -1223,6 +1223,24 @@
                     <div class="ms-event2-item mb-25">
                         <h3 class="ms-event-title"><a href="#">Celebrity Judge</a></h3>
                         <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/ Schools / Colleges/ Dance Events)</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                        <!-- <div class="ms-event-inner">
+                            <div class="ms-event-location">
+                                <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
+                                        class="flaticon-pin"></i>City Club</a>
+                            </div>
+                            <div class="ms-event-date">
+                                <span>9:00 PM, Saturday, January 1, 2023</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ms-event2-item mb-25">
+                        <h3 class="ms-event-title"><a href="#">Dance Traning</a></h3>
+                        <p class="ms-event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
