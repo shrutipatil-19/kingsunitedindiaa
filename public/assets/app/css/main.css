@@ -13152,13 +13152,23 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .text-black-custome {
   color: rgb(0 0 0 / 84%);
-   line-height: 1.4;
+  line-height: 1.4;
 }
 
 .text-black-light-custome {
   color: rgb(0 0 0 / 74%);
- 
+
 }
-.text-justify{
+
+.text-justify {
   text-align: justify;
+}
+
+.custome-radius-top {
+  border-radius: 12px 12px 0px 0px;
+   /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
+}
+
+.custome-radius-bottom {
+  border-radius: 0px 0px 12px 12px;
 }
