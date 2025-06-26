@@ -1103,7 +1103,14 @@
         </div>
     </section>
     <!-- Download App Area Start Here -->
-
+<style>
+    .ms-event2-item:hover{
+        border: 2px solid #F24617;
+    }
+    .border__btn{
+        font-size: small;
+    }
+</style>
     <!-- Event Area Start Here  -->
     <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105"
         data-background="{{ asset('assets/img/kings img/banner/event-bg-3.png') }}" style="background-image: url('{{ asset('assets/img/kings img/tranding-bg.png') }}');">
@@ -1129,7 +1136,18 @@
             <div class="row bdFadeUp justify-content-center align-items-center">
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="#">Choreography</a></h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Choreography</a></h3>
+                            </div>
+                        </div>
+                        
+                       
                         <p class="ms-event-text">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows, Serials, Advertisements,</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -1147,8 +1165,18 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="event-details.html">Music Videos</a>
-                        </h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Music Videos</a>
+                                </h3>
+                            </div>
+                        </div>
+                       
                         <p class="ms-event-text">Choreography for Music videos with Celebrities, Dance Music Video Collaboration.</p>
                        <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -1166,8 +1194,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="event-details.html">Wedding</a>
-                        </h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Wedding</a>
+                                </h3>
+                            </div>
+                        </div>
                         <p class="ms-event-text">Choreography and Training for Sangeet & Wedding</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -1185,7 +1222,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="#">Corporate Events</a></h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Corporate Events</a>
+                                </h3>
+                            </div>
+                        </div>
                         <p class="ms-event-text">Performances for National & International Shows and Corporate Events</p>
                        <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -1203,7 +1250,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="#">Award Functions</a></h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Award Functions</a>
+                                </h3>
+                            </div>
+                        </div>
                         <p class="ms-event-text">Performances in renowned award ceremonies at National & International Platforms</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -1221,7 +1278,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="#">Celebrity Judge</a></h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Celebrity Judge</a>
+                                </h3>
+                            </div>
+                        </div>
                         <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/ Schools / Colleges/ Dance Events)</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -1239,7 +1306,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ms-event2-item mb-25">
-                        <h3 class="ms-event-title"><a href="#">Dance Traning</a></h3>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80" alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0"><a href="#">Dance Training</a>
+                                </h3>
+                            </div>
+                        </div>
                         <p class="ms-event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
