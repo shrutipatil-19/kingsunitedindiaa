@@ -13036,7 +13036,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .object-cover {
-  object-fit: inherit;
+  object-fit: cover;
 }
 
 .ms-popular__title a {
@@ -13144,8 +13144,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .work__area .section__title {
-        font-size: 28px;
-        line-height: 1.3;
-    }
+  .work__area .section__title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+}
+
+.text-black-custome {
+  color: rgb(0 0 0 / 84%);
+   line-height: 1.4;
+}
+
+.text-black-light-custome {
+  color: rgb(0 0 0 / 74%);
+ 
+}
+.text-justify{
+  text-align: justify;
 }
