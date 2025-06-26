@@ -34,4 +34,8 @@ class HomeController extends Controller
     {
         return view('pages.fourPillers.sureshMukund');
     }
+    public function theKings()
+    {
+        return view('pages.fourPillers.theKings');
+    }
 }

@@ -62,10 +62,10 @@
                         <div class="row g-4">
 
                             <!-- Card -->
-                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                                 <div class="achievement-card">
+                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
                                     <div class="inner-content">
-                                        <div class="achievement-icon"><i class="bi bi-trophy"></i></div>
                                         <div class="ms-news-meta d-inline-block">
                                             <span>Feb 23, 2020</span>
 
@@ -81,10 +81,11 @@
                             </div>
 
                             <!-- Repeat Cards -->
-                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                                 <div class="achievement-card">
+                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
                                     <div class="inner-content">
-                                        <div class="achievement-icon"><i class="bi bi-award"></i></div>
+
                                         <div class="ms-news-meta d-inline-block">
                                             <span>Feb 23, 2015</span>
 
@@ -101,10 +102,11 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                                 <div class="achievement-card">
+                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
                                     <div class="inner-content">
-                                        <div class="achievement-icon"><i class="bi bi-film"></i></div>
+
                                         <div class="ms-news-meta d-inline-block">
                                             <span>Feb 23, 2015</span>
 
@@ -120,10 +122,11 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 mt-lg-5" data-aos="fade-up" data-aos-delay="400">
+                            <div class="col-lg-4 col-md-6 mt-lg-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                                 <div class="achievement-card">
+                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
                                     <div class="inner-content">
-                                        <div class="achievement-icon"><i class="bi bi-film"></i></div>
+
                                         <div class="ms-news-meta d-inline-block">
                                             <span>Feb 23, 2010</span>
 
@@ -137,10 +140,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 mt-lg-5" data-aos="fade-up" data-aos-delay="500">
+                            <div class="col-lg-4 col-md-6 mt-lg-5" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                                 <div class="achievement-card">
+                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
                                     <div class="inner-content">
-                                        <div class="achievement-icon"><i class="bi bi-film"></i></div>
+
                                         <div class="ms-news-meta d-inline-block">
                                             <span>Feb 23, 2009</span>
 
@@ -154,10 +158,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 mt-lg-5" data-aos="fade-up" data-aos-delay="600">
+                            <div class="col-lg-4 col-md-6 mt-lg-5" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
                                 <div class="achievement-card">
+                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
                                     <div class="inner-content">
-                                        <div class="achievement-icon"><i class="bi bi-film"></i></div>
+
                                         <div class="ms-news-meta d-inline-block">
                                             <span>Feb 23, 2009</span>
 
@@ -204,7 +209,7 @@
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
-                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60">
+                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
                                     <div class="ms-overlay p-absolute"></div>
@@ -217,7 +222,7 @@
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">The <span class="text-bg">Kings</span></h2>
-                                <p>The Kings is all about being the tornadoes of
+                                <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
                                     energy, direct beats of thoughts and emotions.
                                     It is not about stages, it is not about praise,
                                     it is all about the inherent strength of performing
@@ -225,7 +230,7 @@
                                     status quo. The Kings are the natural truth that
                                     shakes up the consciousness and shrinks the souls.
                                 </p>
-                                <p>Dance is the most flexible way of communication we
+                                <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">Dance is the most flexible way of communication we
                                     articulate. A dialogue without words that is able to
                                     express it all. The Kings Dance studio is a place with
                                     a warm, supportive atmosphere and provide a social
@@ -235,7 +240,7 @@
                                     stages. Give our students a platform where they can
                                     showcase their talent and achieve their goals.</p>
                                 <div class="trending-btn d-flex">
-                                    <a class="border__btn zindex-5" href="#">View More</a>
+                                    <a class="border__btn zindex-5" href="{{ route('theKings') }}">View More</a>
                                 </div>
                             </div>
 
@@ -255,9 +260,9 @@
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg">Suresh Mukund</span> & his team – The Kings</h2>
-                                <p class="text-justify">Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
+                                <p class="text-justify" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
                                 </p>
-                                <p>Kings United, also known simply as “The Kings,” shot to global fame by winning the third season of the US reality show, “World of Dance.” Their victory was historic, as they walked away with a grand prize of USD 1 million. This monumental achievement placed them on the global dance map and cemented their reputation as one of the best dance crews in the world</p>
+                                <p class="text-justify" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">Kings United, also known simply as “The Kings,” shot to global fame by winning the third season of the US reality show, “World of Dance.” Their victory was historic, as they walked away with a grand prize of USD 1 million. This monumental achievement placed them on the global dance map and cemented their reputation as one of the best dance crews in the world</p>
                             </div>
 
                         </div>
@@ -267,7 +272,7 @@
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20 ms-lg-3 me-0">
                                     <div class="ms-overlay ms-overlay3 p-absolute"></div>
-                                    <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image">
+                                    <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
                                 </div>
                                 <div class="work__features-bottom ms-work3-features pb-0">
                                     <div class="work__features-action">
@@ -378,7 +383,7 @@
                                                 <div class="ms-popular__thumb">
                                                     <div class="ms-popular-overlay"></div>
                                                     <a href="#"><img
-                                                            src="{{ asset('assets/img/kings img/team/dance.png') }}"
+                                                            src="{{ asset('assets/img/kings img/team/dance.jpg') }}"
                                                             alt="popular band" class="h-100 w-100 object-cover"></a>
                                                     {{-- <a href="#" class="ms-popular__link">
                                                     <span>Dance</span>
@@ -783,17 +788,10 @@
             </div>
         </section>
         <!-- team  area end -->
-
-
         @include('partial.client')
-
     </main>
-
-
 </div>
 @endsection
-
-
 
 @push('style')
 <style>
@@ -815,8 +813,8 @@
 
     .inner-content {
         background: #fff8e1;
-        border-radius: 10px;
-        padding: 25px;
+        border-radius: 0px 0px 12px 12px;
+        padding: 12px 20px;
         height: 100%;
     }
 
