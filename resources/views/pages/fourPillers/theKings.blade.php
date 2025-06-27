@@ -26,7 +26,7 @@
         <!-- About Area End Here  -->
 
         <!-- work area start -->
-        <section class="work__area pt-100 pb-30 ">
+        <section class="work__area pt-100 pb-30 ms-bg-2">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -228,7 +228,7 @@
         </section>
         <!-- Why Choose Us Area End Here  -->
         <!-- Work System Area Start Here  -->
-        <section class="ms-work-system-area pt-130 pb-130 ">
+        <section class="ms-work-system-area pt-130 pb-130 ms-bg-2">
             <div class="container">
                 <div class="ms-work-system-wrap">
                     <div class="ms-work-system-img d-inline-block fix m-img ms-br-15 mb-60 w-100" style="height: 300px;">
