@@ -60,9 +60,140 @@
             </div>
         </section>
         <!-- work area end -->
+        <!-- Key achievement Area Start -->
+        <section class="ms-news-area ms-bg-2 pt-130 pb-90">
+            <div class="container">
+                <div class="row align-items-end mb-25 bdFadeUp">
+                    <div class="col-lg-6">
+                        <div class="section__title-wrapper mb-40 bd-title-anim">
+                            <span class="section__subtitle">Key Achievements</span>
+                            <h2 class="section__title">The <span class="animated-underline active">Kings
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
 
+                </div>
+                <!-- Swiper -->
+                <div class="swiper achievementSwiper pt-lg-5">
+                    <div class="swiper-wrapper pt-lg-4">
+
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="achievement-card">
+                                <div class="img-box">
+                                    <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
+                                    <div class="ms-news-meta d-inline-block">
+                                        <span>Feb 23, 2010</span>
+
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
+                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
+                                        scintillating performances.</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="achievement-card">
+                                <div class="img-box">
+                                    <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
+                                    <div class="ms-news-meta d-inline-block">
+                                        <span>Feb 23, 2010</span>
+
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
+                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
+                                        scintillating performances.</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="achievement-card">
+                                <div class="img-box">
+                                    <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="ABCD2" class="w-100 h-100 object-cover custome-radius-top">
+                                    <div class="ms-news-meta d-inline-block">
+                                        <span>Feb 23, 2010</span>
+
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
+                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
+                                        scintillating performances.</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="achievement-card">
+                                <div class="img-box">
+                                    <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
+                                    <div class="ms-news-meta d-inline-block">
+                                        <span>Feb 23, 2010</span>
+
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
+                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
+                                        scintillating performances.</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <div class="achievement-card">
+                                <div class="img-box">
+                                    <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="EKLKBK" class="w-100 h-100 object-cover custome-radius-top">
+                                    <div class="ms-news-meta d-inline-block">
+                                        <span>Feb 23, 2010</span>
+
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
+                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
+                                        scintillating performances.</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Key achievement Area End -->
         <!-- Work System Area Start Here  -->
-        <section class="ms-work-system-area pt-130 pb-130 ms-bg-2">
+        <section class="ms-work-system-area pt-130 pb-130 ">
             <div class="container">
                 <div class="ms-work-system-wrap">
                     <div class="ms-work-system-img d-inline-block fix m-img ms-br-15 mb-60 w-100" style="height: 300px;">
@@ -81,7 +212,7 @@
                                     stages. Give our students a platform where they can
                                     showcase their talent and achieve their goals.
                                 </p>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -90,471 +221,60 @@
         </section>
         <!-- Work System Area End Here  -->
 
-        <!-- Special Events Area Start -->
-        <section class="ms-news-area pt-130 pb-90">
+        <section class="timeline-section">
             <div class="container">
-                <div class="row align-items-end mb-25 bdFadeUp">
-                    <div class="col-lg-6">
-                        <div class="section__title-wrapper mb-40 bd-title-anim">
-                            <span class="section__subtitle">Key Achievements</span>
-                            <h2 class="section__title">The <span class="animated-underline active">Kings
-                                </span>
-                            </h2>
+                <h2 class="text-center mb-5" data-aos="fade-up">Key Achievements</h2>
+                <div class="timeline-line">
+
+                    <!-- Timeline Item -->
+                    <div class="row">
+
+
+                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <span class="year-badge">2020</span>
+                            <h4>World of Dance | Winner</h4>
+                            <p>First Indian Crew crowned as World Champions in NBC World of Dance.</p>
+                            <button class="btn-read-more" data-bs-toggle="modal" data-bs-target="#modal2020">Read More</button>
+                        </div>
+                        <div class="col-lg-6 w-auto">
+                            <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
-
-                </div>
-                <div class="row bdFadeUp">
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
-
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="https://www.thehindu.com/entertainment/dance/suresh-mukund-exults-as-kings-united-wins-the-world-choreography-awards-2020-for-world-of-dance/article34647778.ece"><img src="{{ asset('assets/img/suresh/achievements/winnerWorldDance2020.jpg') }}"
-                                        alt="Winner of the World Choreography Award"></a>
-                            </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="https://www.thehindu.com/entertainment/dance/suresh-mukund-exults-as-kings-united-wins-the-world-choreography-awards-2020-for-world-of-dance/article34647778.ece">Winner of the World Choreography Award</a></h3>
-
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2020</span>
-
-                                </div>
-                            </div>
-                        </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <span class="year-badge">2015</span>
+                        <h4>World Hip Hop Dance Championship | Bronze</h4>
+                        <p>First Indian team to reach finals and win Bronze on debut attempt.</p>
+                        <button class="btn-read-more" data-bs-toggle="modal" data-bs-target="#modal2015">Read More</button>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="https://www.moneycontrol.com/news/india/the-kings-mumbai-based-hip-hop-group-win-world-of-dance-season-3-3938891.html#google_vignette"><img src="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}"
-                                        alt="World Champion at Nbc's World of Dance"></a>
-                            </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="https://www.moneycontrol.com/news/india/the-kings-mumbai-based-hip-hop-group-win-world-of-dance-season-3-3938891.html#google_vignette">World Champion at Nbc's World of Dance</a></h3>
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 15, 2019</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <span class="year-badge">2015</span>
+                        <h4>ABCD 2 Movie</h4>
+                        <p>Their story was portrayed in Bollywood hit "Any Body Can Dance 2".</p>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/emmy.jpg') }}"
-                                        alt="Emmy-nominated Choreocrapher"></a>
-                            </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">Emmy-nominated Choreocrapher </a></h3>
-
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 20, 2019</span>
-
-                                </div>
-                            </div>
-                        </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                        <span class="year-badge">2010</span>
+                        <h4>India's Got Talent | Season 3 Winner</h4>
+                        <p>National recognition through their victory in India’s Got Talent.</p>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dadaSahebPhalke.jpg') }}"
-                                        alt="Recipient of the Dada Saheb PhalKe Award"></a>
-                            </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">Recipient of the Dada Saheb PhalKe Award</a></h3>
-
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2019</span>
-
-                                </div>
-                            </div>
-                        </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                        <span class="year-badge">2009</span>
+                        <h4>Entertainment Ke Liye Kuch Bhi Karega | Winner</h4>
+                        <p>Won hearts on one of the most entertaining talent shows on TV.</p>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dancePlus.jpg') }}"
-                                        alt="news image"></a>
-                            </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">Judge on Dance Plus 5 (Reality Tv Show)</a></h3>
-
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2015</span>
-
-                                </div>
-                            </div>
-                        </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                        <span class="year-badge">2009</span>
+                        <h4>Boogie Woogie India Winner</h4>
+                        <p>Winners of India’s first dance reality show — Boogie Woogie.</p>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/inspiration.jpg') }}"
-                                        alt="news image"></a>
-                            </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">The Film ABCD 2 (2015) Was Inspired by
-                                        Suresh Mukund and the Kings, With Varun
-                                        Dhawan Portraying Suresh Mukund's
-                                        Character.</a></h3>
-
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2015</span>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
-        <!-- Special Events Area End -->
 
-        <!-- News area end here  -->
-        <section class="ms-news3-area ms-bg-2 p-relative fix pt-130 pb-90">
-            <div class="container">
-                <div class="row justify-content-center bdFadeUp">
-                    <div class="col-xl-6">
-                        <div class="section__title-wrapper text-center mb-25 bd-title-anim">
-                            <span class="section__subtitle">Choreography Work</span>
-                            <h2 class="section__title"><span class="ms-text1">The</span>
-                                Kings
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ms-news3-wrap bdFadeUp">
-                <div class="swiper-container ms-news3-active">
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="#">50 Cent's Concert</a>
-                            <h3 class="ms-news3-title"><a href="#">Choreographed 50 Cent's Concert</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="#"><img src="{{ asset('assets/img/suresh/work/choreographed50CentsConcert.jpg') }}"
-                                        alt="Choreographed 50 Cent's Concert"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="#">Trump's Inaugural Program</a>
-                            <h3 class="ms-news3-title"><a href="#">Choreographed Donald Trump's Inaugural
-                                    Program</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>2016</span></li>
-
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/suresh/work/Donald_Trump_swearing_in_ceremony.jpg') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Divine's - Baazigar</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed Divine's Popular Track Baazigar</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 02, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/suresh/work/bazigar.jpg') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed Puma Ad Featuring Divine & Virat Kohli</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 04, 2023, 2023</span></li>
-
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-02.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed the Film ABCD 2</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html"> Choreographed Two Songs From Street Dancer 3</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for the Nba Halftime Show in The United States</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed Showcase for Redbull Dance Style World Finals</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: Zee Cine Awards</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: IIFA Awards</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: Star Screen Awards</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: Film Fare Awards</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: Big Star Entertainment Awards</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ms-news3-slick">
-                        <div class="ms-news3-item p-relative">
-                            <a class="ms-news3-cat" href="news-details.html">Choreographed</a>
-                            <h3 class="ms-news3-title"><a href="news-details.html">Choreographed for Prestigious Award Shows: Led the Kings on a World Tour Across the Us &
-                                    Canada</a></h3>
-                            <div class="ms-news-meta">
-                                <ul>
-                                    <li><span>Mar 05, 2023</span></li>
-                                </ul>
-                            </div>
-                            <div class="ms-news3-img w-img ms-br-15 fix">
-                                <a href="news-details.html"><img src="{{ asset('assets/img/news/news-03.png') }}"
-                                        alt="news image"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- News area end here  -->
-
-
-        <!-- Testimonial Area Start Here  -->
-        <section class="ms-tm-area">
-            <div class="container">
-                <div class="pt-130 pb-70">
-                    <div class="row align-items-center bdFadeUp">
-                        <div class="col-xl-5">
-                            <div class="ms-tm-img-wrap ms-tm-space p-relative mb-60">
-                                <div class="ms-tm-img-main p-relative m-img">
-                                    <div class="ms-tm-bg-shape"></div>
-                                    <!-- <div class="ms-tm-signature">
-                                        <img src="{{ asset('assets/img/testimonial/testimonial-signature.png') }}"
-                                            alt="testimonial signature">
-                                    </div> -->
-                                    <img src="{{ asset('assets/img/testimonial/testimonial-05.png') }}" alt="testimonial image">
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-xl-7">
-                            <div class="ms-tm-content-wrap ms-tm-content-space mb-60">
-
-                                <div class="section__title-wrapper mb-30 bd-title-anim">
-                                    <span class="section__subtitle mb-2">Services & Expertise</span>
-                                    <h2 class="ms-tm-author-title fw-normal">Choreography & Creative Direction
-                                        Areas of Work:
-                                    </h2>
-                                </div>
-                                <div class="ms-tm-content">
-                                    <div class="ms-tm-active">
-                                        <div class="ms-tm-slick">
-                                            <div class="ms-tm-slick-item">
-                                                <!-- <p>assumenda fugiat ut quibusdam aliquid qui molestiae
-                                                    itaque est atque
-                                                    iste
-                                                    ea
-                                                    ipsum
-                                                    adipisci ut rerum voluptas ex autem
-                                                    aliquid. Ut voluptatem voluptate et distinctio fuga vel
-                                                    dicta magni.</p> -->
-                                                <div class="ms-tm-author">
-                                                    <h4 class="section__title">Music Videos</h4>
-                                                    <span class="ms-tm-author-subtitle">Choreography & Direction</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm-slick">
-                                            <div class="ms-tm-slick-item">
-                                                <!-- <p>assumenda fugiat ut quibusdam aliquid qui molestiae
-                                                    itaque est atque
-                                                    iste
-                                                    ea
-                                                    ipsum
-                                                    adipisci ut rerum voluptas ex autem
-                                                    aliquid. Ut voluptatem voluptate et distinctio fuga vel
-                                                    dicta magni.</p> -->
-                                                <div class="ms-tm-author">
-                                                    <h4 class="section__title">Live Stage Performances</h4>
-                                                    <span class="ms-tm-author-subtitle">Concerts, Award Shows, TV Shows, Reality Shows</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm-slick">
-                                            <div class="ms-tm-slick-item">
-
-                                                <div class="ms-tm-author">
-                                                    <h4 class="section__title">Bollywood Choreography</h4>
-                                                    <span class="ms-tm-author-subtitle">Films, Songs, Large scale production</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm-slick">
-                                            <div class="ms-tm-slick-item">
-
-                                                <div class="ms-tm-author">
-                                                    <h4 class="section__title">Wedding Choreography</h4>
-                                                    <span class="ms-tm-author-subtitle">Sangeet, Couple Performances, Family Act</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-tm-slick">
-                                            <div class="ms-tm-slick-item">
-
-                                                <div class="ms-tm-author">
-                                                    <h4 class="section__title">Corporate & Special Event shows</h4>
-                                                    <span class="ms-tm-author-subtitle">Brand Launch, Award Nights, Festivals</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="ms-tm-dots ms-tm-dots-horizontal ms-round-dots d-flex justify-content-lg-end mt-lg-0 mt-30">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonial Area End Here  -->
 
         <!-- Genres Listing Area Start  -->
         <div class="ms-genres-listing pt-130 pb-110 ms-bg-2">
@@ -918,3 +638,163 @@
 </div>
 @endsection
 
+@push('style')
+<style>
+    .swiper {
+        padding-bottom: 60px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #111;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+    .achievement-card {
+        background: #fff;
+    }
+
+    .achievement-card:hover {
+        transform: translateY(-6px);
+        border: 1px solid red;
+    }
+
+    .img-box {
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        overflow: hidden;
+        height: 220px;
+    }
+
+
+    .content {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .achievementSwiper {
+        position: relative;
+    }
+
+    .achievementSwiper .swiper-button-next,
+    .achievementSwiper .swiper-button-prev {
+        top: 23px;
+        /* adjust as needed */
+        right: 10px;
+        /* keep both aligned to the right */
+        left: auto;
+        /* cancel default left position */
+        position: absolute;
+        z-index: 10;
+    }
+
+    .achievementSwiper .swiper-button-prev {
+        right: 66px;
+        /* push previous button to the left of next button */
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 25px !important;
+    }
+</style>
+
+
+<style>
+    .timeline-section {
+        padding: 80px 0;
+    }
+
+    .timeline-line {
+        border-left: 3px solid #de4038;
+        margin-left: 25px;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 60px;
+        padding-left: 60px;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: 25px;
+        top: 5px;
+        width: 20px;
+        height: 20px;
+        background-color: #de4038;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .timeline-item h4 {
+        font-weight: 600;
+        color: #222;
+    }
+
+    .timeline-item p {
+        color: #555;
+    }
+
+    .year-badge {
+        font-size: 14px;
+        font-weight: bold;
+        color: #de4038;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .btn-read-more {
+        padding: 6px 12px;
+        background: #de4038;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .btn-read-more:hover {
+        background: #b5312a;
+    }
+</style>
+@endpush
+
+@push('js')
+<!-- Scripts -->
+<!-- Bootstrap & AOS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".achievementSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        breakpoints: {
+            576: {
+                slidesPerView: 1.2
+            },
+            768: {
+                slidesPerView: 2
+            },
+            992: {
+                slidesPerView: 3
+            }
+        }
+    });
+</script>
+@endpush
