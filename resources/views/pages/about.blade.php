@@ -795,28 +795,8 @@
 
 @push('style')
 <style>
-    .achievement-card {
-        background: #fff;
-        /* box-shadow: linear-gradient(90deg, #ff5a4d 0%, #ffc04d 100%); */
-        /* box-shadow: 3px 3px 8px #ff5a4d; */
-        transition: all 0.3s ease;
-        padding: 2px;
-        height: 100%;
-        border: 2px solid transparent;
-        border-radius: 12px;
-        transition: all 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        background: linear-gradient(30deg, #ff5a4d, #ffc04d);
-        /* justify-content: space-between; */
-    }
-
-    .inner-content {
-        background: #fff8e1;
-        border-radius: 0px 0px 12px 12px;
-        padding: 12px 20px;
-        height: 100%;
-    }
+  
+   
 
     .achievement-card:hover {
         transform: translateY(-8px);
