@@ -170,7 +170,7 @@
         </section>
         <!-- Key achievement Area End -->
         <!-- work area start -->
-        <section class="work__area ms-bg-2 pt-125 pb-105">
+        <section class="work__area pt-125 pb-105">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -218,7 +218,7 @@
         <!-- work area end -->
 
         <!-- work area start -->
-        <section class="work__area pt-125 pb-105">
+        <section class="work__area pt-125 ms-bg-2 pb-105">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6 col-lg-10">
@@ -260,7 +260,7 @@
         </section>
         <!-- work area end -->
         <!-- team  area start -->
-        <section class="ms-popular__area ms-bg-2 pt-130 pb-100 fix">
+        <section class="ms-popular__area pt-130 pb-100 fix">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-xl-8 col-lg-8">
