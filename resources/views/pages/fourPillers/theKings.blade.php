@@ -43,7 +43,7 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">About Kings</h2>
+                                <h2 class="section__title mb-40 bd-title-anim">About Kings Crew</h2>
                                 <p class="">The Kings is all about being the tornadoes of
                                     energy, direct beats of thoughts and emotions.
                                     It is not about stages, it is not about praise,
@@ -337,7 +337,7 @@
         <!-- Event Area End Here  -->
         @include('partial.client')
         <!-- CTA Area Start Here  -->
-        <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10">
+        <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10 d-none">
             <div class="container">
                 <div class="ms-cta-bg black-bg fix">
                     <div class="ms-cta-wrap">

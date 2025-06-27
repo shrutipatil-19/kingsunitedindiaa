@@ -168,7 +168,7 @@
                                                                  </ul>
                                                              </li>
                                                              <li><a href="{{ route('creatorSpace') }}">Creator Space</a></li>
-                                                             <li><a href="{{ route('ourTeam') }}">Kings Crew</a></li>
+                                                             <li><a href="{{ route('theKings') }}">Kings Crew</a></li>
 
                                                          </ul>
                                                      </li>
