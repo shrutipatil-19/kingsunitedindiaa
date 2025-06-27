@@ -795,9 +795,6 @@
 
 @push('style')
 <style>
-  
-   
-
     .achievement-card:hover {
         transform: translateY(-8px);
         box-shadow: linear-gradient(90deg, #ff5a4d 0%, #ffc04d 100%);

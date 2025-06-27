@@ -221,383 +221,121 @@
         </section>
         <!-- Work System Area End Here  -->
 
-        <section class="timeline-section">
+
+        <!-- Event Area Start Here  -->
+        <section class="timeline-section ms-bg-2 ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
+            <div class="ms-overlay ms-overlay1 zindex--1"></div>
             <div class="container">
-                <h2 class="text-center mb-5" data-aos="fade-up">Key Achievements</h2>
+                <div class="row justify-content-center mb-25 bdFadeUp">
+                    <div class="col-xl-8">
+                        <div class="ms-event2-top text-center">
+
+                            <div class="section__title-wrapper mb-40 bd-title-anim">
+                                <span class="section__subtitle">Awards</span>
+                                <h2 class="section__title">Award Functions & Guest performances<span class="animated-underline active">
+                                        Dance Journey</span>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="timeline-line">
 
                     <!-- Timeline Item -->
                     <div class="row">
-
-
                         <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                            <span class="year-badge">2020</span>
-                            <h4>World of Dance | Winner</h4>
-                            <p>First Indian Crew crowned as World Champions in NBC World of Dance.</p>
-                            <button class="btn-read-more" data-bs-toggle="modal" data-bs-target="#modal2020">Read More</button>
+                            <div class="ms-news-meta d-inline-block">
+                                <span>Feb 23, 2010</span>
+
+                            </div>
+                            <h3 class="ms-event-title mt-4 mb-2"><a href="#">Jhalak Dikhala Ja Season 7</a></h3>
+                            <p class="text-white">Showcased an incredible achievement by winning
+                                Entertainment ke liye kuch bhi karega season 3</p>
                         </div>
-                        <div class="col-lg-6 w-auto">
+                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
-                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
-                        <span class="year-badge">2015</span>
-                        <h4>World Hip Hop Dance Championship | Bronze</h4>
-                        <p>First Indian team to reach finals and win Bronze on debut attempt.</p>
-                        <button class="btn-read-more" data-bs-toggle="modal" data-bs-target="#modal2015">Read More</button>
+                    <div class="row">
+                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="ms-news-meta d-inline-block">
+                                <span>Feb 23, 2010</span>
+
+                            </div>
+                            <h3 class="ms-event-title mt-4 mb-2"><a href="#">Season 8 IIFA Awards</a></h3>
+                            <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
+
+                        </div>
+                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                            <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
+                        </div>
                     </div>
 
-                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-                        <span class="year-badge">2015</span>
-                        <h4>ABCD 2 Movie</h4>
-                        <p>Their story was portrayed in Bollywood hit "Any Body Can Dance 2".</p>
+                    <div class="row">
+                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="ms-news-meta d-inline-block">
+                                <span>Feb 23, 2010</span>
+
+                            </div>
+                            <h3 class="ms-event-title mt-4 mb-2"><a href="#">Filmfare Award</a></h3>
+                            <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
+
+                        </div>
+                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                            <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="ms-news-meta d-inline-block">
+                                <span>Feb 23, 2010</span>
+
+                            </div>
+                            <h3 class="ms-event-title mt-4 mb-2"><a href="#">Star Screen Awards</a></h3>
+                            <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
+
+                        </div>
+                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                            <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
+                        </div>
                     </div>
 
-                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
-                        <span class="year-badge">2010</span>
-                        <h4>India's Got Talent | Season 3 Winner</h4>
-                        <p>National recognition through their victory in India’s Got Talent.</p>
+                    <div class="row">
+                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="ms-news-meta d-inline-block">
+                                <span>Feb 23, 2010</span>
+
+                            </div>
+                            <h3 class="ms-event-title mt-4 mb-2"><a href="#">Zee Cine Awards</a></h3>
+                            <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
+
+                        </div>
+                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                            <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
+                        </div>
                     </div>
 
-                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
-                        <span class="year-badge">2009</span>
-                        <h4>Entertainment Ke Liye Kuch Bhi Karega | Winner</h4>
-                        <p>Won hearts on one of the most entertaining talent shows on TV.</p>
-                    </div>
+                    <div class="row">
+                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="ms-news-meta d-inline-block">
+                                <span>Feb 23, 2010</span>
 
-                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
-                        <span class="year-badge">2009</span>
-                        <h4>Boogie Woogie India Winner</h4>
-                        <p>Winners of India’s first dance reality show — Boogie Woogie.</p>
+                            </div>
+                            <h3 class="ms-event-title mt-4 mb-2"><a href="#">Big Star Entertainment Awards</a></h3>
+                            <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
+
+                        </div>
+                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                            <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
+                        </div>
                     </div>
 
                 </div>
             </div>
         </section>
-
-
-        <!-- Genres Listing Area Start  -->
-        <div class="ms-genres-listing pt-130 pb-110 ms-bg-2">
-            <div class="container">
-                <div class="row justify-content-center bdFadeUp">
-                    <div class="col-xl-6 ">
-                        <div class="section__title-wrapper text-center mb-25 bd-title-anim">
-                            <span class="section__subtitle">Work Links</span>
-                            <h2 class="section__title"><span class="ms-text1">The</span>
-                                Kings
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
-                        aria-labelledby="home-tab" tabindex="0">
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="genres-details.html">
-                                            <img src="{{ asset('assets/img/genres/genres-01.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">ABCD 2 Vande Mataram</a></h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 1.8M </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-01.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/xutBFUf3LoU?si=9Vzf9RC4dpSqpDFX"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">ABCD 2 Bezubaan Phir Se</a></h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 1.4M </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-04.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/6Z7tW64jpTM?si=CbUIW6b4hiEv_DOo"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">DIVINE - Baazigar</a></h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 763K</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="genres-details.html">
-                                            <img src="{{ asset('assets/img/genres/genres-05.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/6KBE8iRTg8Y?si=WuTDM2yRgn7mtz8a"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="#">Chakravyuh mein - Virat Kohli X DIVINE | PUMA</a></h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 139K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-06.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/UqBzpg6YMBg?si=otznrnTDkENI0iaM"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="#">World Dance Performace</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 5.7K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="genres-details.html">
-                                            <img src="{{ asset('assets/img/genres/genres-07.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/0bve8unJ7e8?si=I1nLXN6g7NmU4dmM"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="#">The Kings TATTAD TATTAD Routine</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 5.8K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-08.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/0j5Vyo4lGYc?si=mHyF1NeboZ0oG8IH"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">The Kings' "Malhari" Routine Is INSANE</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 47K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-09.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/E6rd0fy0DUY?si=ZmGKK7FePQiJ_QjH"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">The Kings Winning Moment</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 62K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="genres-details.html">
-                                            <img src="{{ asset('assets/img/genres/genres-10.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/zQGaZjJNIMg?si=xMb_Io3moYWvviaz"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">World of Dance Finals - Upper Team The Kings</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 38K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="genres-details.html">
-                                            <img src="{{ asset('assets/img/genres/genres-05.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/GHdzoot7rfg?si=fVBMhYv9wq8yzHaG"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">50 Cent X The kings | Live Show Mumbai</a></h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 300 </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-06.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/y4jv5bk8ato?si=rL-wV03FjxH5JFl7"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">Kings United Ultimate Epic Comeback</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 43K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black">
-                                    <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                        <a href="">
-                                            <img src="{{ asset('assets/img/genres/genres-07.jpg') }}" alt="genres img">
-                                        </a>
-                                        <a class="popup-video ms-genres-video"
-                                            href="https://youtu.be/_7oTMDqV3ew?si=bj2FvCl7ZrCKbiYA"><i
-                                                class="fa-sharp fa-solid fa-play"></i></a>
-
-                                    </div>
-                                    <div class="ms-genres-content p-relative">
-
-                                        <h4 class="ms-genres-title fw-light"><a href="">Kings United Ultimate Showdown</a>
-                                        </h4>
-
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 30K </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Genres Listing Area End  -->
+        <!-- Event Area End Here  -->
+        @include('partial.client')
         <!-- CTA Area Start Here  -->
         <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10">
             <div class="container">
@@ -703,17 +441,31 @@
         font-size: 25px !important;
     }
 </style>
-
+<!-- award -->
 
 <style>
-    .timeline-section {
-        padding: 80px 0;
+    .timeline-line {
+        position: relative;
+        background: transparent;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding-left: 20px;
+        /* for space to see the colored strip */
     }
 
-    .timeline-line {
-        border-left: 3px solid #de4038;
-        margin-left: 25px;
+    .timeline-line::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 3px;
+        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+        border-radius: 2px;
     }
+
 
     .timeline-item {
         position: relative;
@@ -728,40 +480,9 @@
         top: 5px;
         width: 20px;
         height: 20px;
-        background-color: #de4038;
+        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
         border-radius: 50%;
         z-index: 1;
-    }
-
-    .timeline-item h4 {
-        font-weight: 600;
-        color: #222;
-    }
-
-    .timeline-item p {
-        color: #555;
-    }
-
-    .year-badge {
-        font-size: 14px;
-        font-weight: bold;
-        color: #de4038;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
-
-    .btn-read-more {
-        padding: 6px 12px;
-        background: #de4038;
-        color: #fff;
-        border: none;
-        border-radius: 4px;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-
-    .btn-read-more:hover {
-        background: #b5312a;
     }
 </style>
 @endpush
