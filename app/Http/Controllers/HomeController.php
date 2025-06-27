@@ -24,7 +24,7 @@ class HomeController extends Controller
     }
     public function creatorSpace()
     {
-        return view('pages.creatorSpace');
+        return view('pages.fourPillers.creatorSpace');
     }
     public function ourTeam()
     {

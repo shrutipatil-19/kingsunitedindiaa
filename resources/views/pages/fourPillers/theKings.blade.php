@@ -14,9 +14,6 @@
                             <div class="ms-about-content text-center">
                                 <h2 class="ms-title2 white-text mb-30 bd-title-anim">THE KINGS
                                 </h2>
-                                <p class="capitalize mb-65 d-none">CHOREOGRAPHER | EMMY-NOMINATED |
-                                    INTERNATIONAL WORLD CHOREOGRAPHY AWARD WINNER
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +57,6 @@
             </div>
         </section>
         <!-- work area end -->
-
 
         <!-- Why Choose Us Area Start Here  -->
         <section class="ms-choose-area pt-125 pb-105 ms-bg-2">
@@ -256,7 +252,6 @@
         </section>
         <!-- Work System Area End Here  -->
 
-
         <!-- Event Area Start Here  -->
         <section class="ms-bg-2 timeline-section ms-bg-2 ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
             <div class="ms-overlay ms-overlay1 zindex--1"></div>
@@ -370,7 +365,7 @@
             </div>
         </section>
         <!-- Event Area End Here  -->
-        @include('partial.client')
+        @include('partial.kings_gallary')
         <!-- CTA Area Start Here  -->
         <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10 d-none">
             <div class="container">

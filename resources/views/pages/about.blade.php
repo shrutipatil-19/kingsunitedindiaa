@@ -754,7 +754,6 @@
         </section>
         <!-- team  area end -->
         @include('partial.client')
-        @include('partial.kings_gallary')
     </main>
 </div>
 @endsection
