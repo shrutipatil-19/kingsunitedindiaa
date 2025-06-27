@@ -1,5 +1,5 @@
 <!-- Partner Area Start Here  -->
-<div class="ms-partner-area fix pb-60 pt-60">
+<div class="ms-partner-area fix pb-60 pt-60 ms-bg-2">
     <div class="container">
         <div class="row justify-content-center bdFadeUp">
             <div class="col-xl-6">
