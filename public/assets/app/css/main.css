@@ -4991,7 +4991,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 99;
 }
 
 .ms-header-fixed.sticky2 {
