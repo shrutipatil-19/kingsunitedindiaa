@@ -41,14 +41,8 @@
 
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">About Kings Crew</h2>
-                                <p class="">The Kings is all about being the tornadoes of
-                                    energy, direct beats of thoughts and emotions.
-                                    It is not about stages, it is not about praise,
-                                    it is all about the inherent strength of performing
-                                    arts to create intangible bridges of resistance to
-                                    status quo. The Kings are the natural truth that
-                                    shakes up the consciousness and shrinks the souls.</p>
+                                <h2 class="section__title mb-40 bd-title-anim">Kings Creator Space: Unleash Your Creativity</h2>
+                                <p class="">Welcome to Kings Creator Space, where imagination meets innovation. Our state-of-the-art studio is designed to provide you with everything you need to create high-quality, engaging content. Whether you’re an aspiring artist, a seasoned professional, or just looking to have some fun, Kings Creator Space has something for everyone.</p>
 
                             </div>
 
@@ -59,7 +53,7 @@
         </section>
         <!-- work area end -->
         <!-- Trending area start -->
-        <section class="trending__area p-relative z-index-11 pt-130 pb-60">
+        <section class="trending__area p-relative z-index-11 pt-130 pb-60 ms-bg-2">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-8">
@@ -206,31 +200,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-none d-sm-block">
-                                <div class="work__thumb-card ">
-                                    <div class="work__card-content">
-                                        <span>Excellent :</span>
-                                        <p>1050 Review On</p>
-                                    </div>
-                                    <div class="card__button">
-                                        <a class="card__btn" href="#">
-                                            <img src="{{ asset('assets/img/work/star.png') }}" alt="work icon">
-                                            <span>Trustpilot</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="work__content-wrapper work__content-space mb-70 pl-40">
                             <div class="section__title-wrapper mb-50 bd-title-anim">
                                 <span class="section__subtitle">How it Works</span>
-                                <h2 class="section__title two">
+                                <!-- <h2 class="section__title two">
                                     Welcome to the UK's leading
                                     live music
                                     <span class="animated-underline active">booking agency</span>
-                                </h2>
+                                </h2> -->
                             </div>
                             <div class="work__features-inner">
                                 <div class="work__features-item">
@@ -300,8 +281,8 @@
                                         </span>
                                     </div>
                                     <div class="work__features-content">
-                                        <h4>Browse and compare.</h4>
-                                        <p>Compare rates and availability of local entertainers and vendors.
+                                        <h4>Create Creative Videos</h4>
+                                        <p>Bring your ideas to life with our advanced video production facilities.
                                         </p>
                                     </div>
                                 </div>
@@ -356,9 +337,8 @@
                                         </span>
                                     </div>
                                     <div class="work__features-content">
-                                        <h4>Book securely.</h4>
-                                        <p>Booking through GigSalad ensures payment protection, amazing
-                                            service.</p>
+                                        <h4>Professional Photoshoots</h4>
+                                        <p>Capture stunning images with our professional studio setup.</p>
                                     </div>
                                 </div>
                                 <div class="work__features-item">
@@ -453,21 +433,152 @@
                                         </span>
                                     </div>
                                     <div class="work__features-content">
-                                        <h4>Enjoy your event.</h4>
-                                        <p>Sit back, relax, and watch your party come to life.</p>
+                                        <h4>Music Video Creation</h4>
+                                        <p>Craft and film your next music video in a creative environment that inspires..</p>
                                     </div>
                                 </div>
-                                <div class="work__features-bottom">
-                                    <div class="work__features-action">
-                                        <div class="work__features-btn">
-                                            <a class="unfill__btn" href="contact.html">Get Started</a>
-                                        </div>
-                                        <div class="features__btn-text">
-                                            <span>Book something <br>awesome !</span>
-                                        </div>
+                                <div class="work__features-item">
+                                    <div class="work__features-icon">
+                                        <span>
+                                            <svg width="46" height="27" viewBox="0 0 46 27" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_36_265)">
+                                                    <mask id="mask0_36_265" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="2" y="-1" width="42"
+                                                        height="27">
+                                                        <path
+                                                            d="M40.3981 0.0808105H5.59708C4.33871 0.0808105 3.3186 1.1096 3.3186 2.37868V23.0226C3.3186 24.2917 4.33871 25.3205 5.59708 25.3205H40.3981C41.6565 25.3205 42.6766 24.2917 42.6766 23.0226V2.37868C42.6766 1.1096 41.6565 0.0808105 40.3981 0.0808105Z"
+                                                            fill="#DFEFFF" stroke="#2690FF" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </mask>
+                                                    <g mask="url(#mask0_36_265)">
+                                                        <path
+                                                            d="M40.3981 0.0808105H5.59708C4.33871 0.0808105 3.3186 1.1096 3.3186 2.37868V23.0226C3.3186 24.2917 4.33871 25.3205 5.59708 25.3205H40.3981C41.6565 25.3205 42.6766 24.2917 42.6766 23.0226V2.37868C42.6766 1.1096 41.6565 0.0808105 40.3981 0.0808105Z"
+                                                            stroke="white" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </g>
+                                                    <mask id="mask1_36_265" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="23" width="46"
+                                                        height="4">
+                                                        <path
+                                                            d="M3.05673 25.8934C3.60661 26.3559 4.56615 26.7308 5.19913 26.7308H41.5731C42.2065 26.7308 43.1378 26.2914 43.6562 25.7464L45.0058 24.3275C45.523 23.7838 45.4265 23.343 44.7957 23.343H1.17102C0.537823 23.343 0.470957 23.7185 1.02017 24.1805L3.05673 25.8934Z"
+                                                            fill="#2690FF" />
+                                                    </mask>
+                                                    <g mask="url(#mask1_36_265)">
+                                                        <path
+                                                            d="M3.05673 25.8934C3.60661 26.3559 4.56615 26.7308 5.19913 26.7308H41.5731C42.2065 26.7308 43.1378 26.2914 43.6562 25.7464L45.0058 24.3275C45.523 23.7838 45.4265 23.343 44.7957 23.343H1.17102C0.537823 23.343 0.470957 23.7185 1.02017 24.1805L3.05673 25.8934Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M14.6847 16.2461H16.1739L15.057 10.614H11.7063L10.9617 16.2461H12.4509V17.7478C12.4509 18.368 12.9509 18.8743 13.5678 18.8743C14.1889 18.8743 14.6847 18.37 14.6847 17.7478V16.2462V16.2461Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M21.7584 18.8743H20.2692L18.4077 10.6139H23.6199L21.7584 18.8743Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M13.3817 9.48762C14.3069 9.48762 15.057 8.73116 15.057 7.79801C15.057 6.86486 14.3069 6.1084 13.3817 6.1084C12.4564 6.1084 11.7063 6.86486 11.7063 7.79801C11.7063 8.73116 12.4564 9.48762 13.3817 9.48762Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M20.8277 9.48762C21.753 9.48762 22.5031 8.73116 22.5031 7.79801C22.5031 6.86486 21.753 6.1084 20.8277 6.1084C19.9024 6.1084 19.1523 6.86486 19.1523 7.79801C19.1523 8.73116 19.9024 9.48762 20.8277 9.48762Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M27.9299 7.56274H34.8759" stroke="white"
+                                                        stroke-linecap="round" />
+                                                    <path d="M27.9299 10.4714H34.8759" stroke="white"
+                                                        stroke-linecap="round" />
+                                                    <path d="M27.9299 13.3801H34.8759" stroke="white"
+                                                        stroke-linecap="round" />
+                                                    <path d="M27.9299 16.2888H32.5446" stroke="white"
+                                                        stroke-linecap="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_36_265">
+                                                        <rect width="45" height="27" fill="white"
+                                                            transform="translate(0.523438)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
                                     </div>
-                                    <div class="work__features-arrow">
-                                        <img src="{{ asset('assets/img/work/arrow.png') }}" alt="image not found">
+                                    <div class="work__features-content">
+                                        <h4>Host Workshops, Events & Parties</h4>
+                                        <p>Looking for a venue to host your next workshop, event, or party? Kings Creator Space is the perfect place.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="work__features-item">
+                                    <div class="work__features-icon">
+                                        <span>
+                                            <svg width="46" height="27" viewBox="0 0 46 27" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_36_265)">
+                                                    <mask id="mask0_36_265" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="2" y="-1" width="42"
+                                                        height="27">
+                                                        <path
+                                                            d="M40.3981 0.0808105H5.59708C4.33871 0.0808105 3.3186 1.1096 3.3186 2.37868V23.0226C3.3186 24.2917 4.33871 25.3205 5.59708 25.3205H40.3981C41.6565 25.3205 42.6766 24.2917 42.6766 23.0226V2.37868C42.6766 1.1096 41.6565 0.0808105 40.3981 0.0808105Z"
+                                                            fill="#DFEFFF" stroke="#2690FF" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </mask>
+                                                    <g mask="url(#mask0_36_265)">
+                                                        <path
+                                                            d="M40.3981 0.0808105H5.59708C4.33871 0.0808105 3.3186 1.1096 3.3186 2.37868V23.0226C3.3186 24.2917 4.33871 25.3205 5.59708 25.3205H40.3981C41.6565 25.3205 42.6766 24.2917 42.6766 23.0226V2.37868C42.6766 1.1096 41.6565 0.0808105 40.3981 0.0808105Z"
+                                                            stroke="white" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </g>
+                                                    <mask id="mask1_36_265" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="23" width="46"
+                                                        height="4">
+                                                        <path
+                                                            d="M3.05673 25.8934C3.60661 26.3559 4.56615 26.7308 5.19913 26.7308H41.5731C42.2065 26.7308 43.1378 26.2914 43.6562 25.7464L45.0058 24.3275C45.523 23.7838 45.4265 23.343 44.7957 23.343H1.17102C0.537823 23.343 0.470957 23.7185 1.02017 24.1805L3.05673 25.8934Z"
+                                                            fill="#2690FF" />
+                                                    </mask>
+                                                    <g mask="url(#mask1_36_265)">
+                                                        <path
+                                                            d="M3.05673 25.8934C3.60661 26.3559 4.56615 26.7308 5.19913 26.7308H41.5731C42.2065 26.7308 43.1378 26.2914 43.6562 25.7464L45.0058 24.3275C45.523 23.7838 45.4265 23.343 44.7957 23.343H1.17102C0.537823 23.343 0.470957 23.7185 1.02017 24.1805L3.05673 25.8934Z"
+                                                            fill="white" />
+                                                    </g>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M14.6847 16.2461H16.1739L15.057 10.614H11.7063L10.9617 16.2461H12.4509V17.7478C12.4509 18.368 12.9509 18.8743 13.5678 18.8743C14.1889 18.8743 14.6847 18.37 14.6847 17.7478V16.2462V16.2461Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M21.7584 18.8743H20.2692L18.4077 10.6139H23.6199L21.7584 18.8743Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M13.3817 9.48762C14.3069 9.48762 15.057 8.73116 15.057 7.79801C15.057 6.86486 14.3069 6.1084 13.3817 6.1084C12.4564 6.1084 11.7063 6.86486 11.7063 7.79801C11.7063 8.73116 12.4564 9.48762 13.3817 9.48762Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M20.8277 9.48762C21.753 9.48762 22.5031 8.73116 22.5031 7.79801C22.5031 6.86486 21.753 6.1084 20.8277 6.1084C19.9024 6.1084 19.1523 6.86486 19.1523 7.79801C19.1523 8.73116 19.9024 9.48762 20.8277 9.48762Z"
+                                                        fill="white" stroke="white" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M27.9299 7.56274H34.8759" stroke="white"
+                                                        stroke-linecap="round" />
+                                                    <path d="M27.9299 10.4714H34.8759" stroke="white"
+                                                        stroke-linecap="round" />
+                                                    <path d="M27.9299 13.3801H34.8759" stroke="white"
+                                                        stroke-linecap="round" />
+                                                    <path d="M27.9299 16.2888H32.5446" stroke="white"
+                                                        stroke-linecap="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_36_265">
+                                                        <rect width="45" height="27" fill="white"
+                                                            transform="translate(0.523438)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="work__features-content">
+                                        <h4>In-House Production Services</h4>
+                                        <p>Professional Videographers | Video Editing & Music Editing | Camera, Lenses, and Lighting Equipment
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -477,8 +588,6 @@
             </div>
         </section>
         <!-- work area end -->
-
-
     </main>
 </div>
 @endsection
