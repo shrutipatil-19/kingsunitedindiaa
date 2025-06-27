@@ -57,7 +57,7 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">About Suresh Mukund</h2>
+                                <h2 class="section__title mb-40 bd-title-anim">About <span class="text-bg">Suresh Mukund</span></h2>
                                 <p class="">Suresh Mukund is an Internationally Acclaimed
                                     Choreographer and the First Choreographer to Bring
                                     International Championship Titles and Medals for India
@@ -223,7 +223,7 @@
                     <div class="col-xl-6">
                         <div class="section__title-wrapper text-center mb-25 bd-title-anim">
                             <span class="section__subtitle">Choreography Work</span>
-                            <h2 class="section__title"><span class="ms-text1">The</span>
+                            <h2 class="section__title"><span class="">The</span>
                                 Kings
                             </h2>
                         </div>
@@ -560,7 +560,7 @@
                     <div class="col-xl-6 ">
                         <div class="section__title-wrapper text-center mb-25 bd-title-anim">
                             <span class="section__subtitle">Work Links</span>
-                            <h2 class="section__title"><span class="ms-text1">The</span>
+                            <h2 class="section__title"><span class="">The</span>
                                 Kings
                             </h2>
                         </div>
@@ -585,12 +585,12 @@
 
                                         <h4 class="ms-genres-title fw-light"><a href="">ABCD 2 Vande Mataram</a></h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
+                                        {{-- <div class="ms-fun-brand-bottom ms-genres-rating">
                                             <div class="ms-fun-brand-location">
                                                 <a href="#" target="_blank"> <i class="flaticon-heart"></i> 1.8M </a>
                                             </div>
 
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -609,12 +609,7 @@
 
                                         <h4 class="ms-genres-title fw-light"><a href="">ABCD 2 Bezubaan Phir Se</a></h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 1.4M </a>
-                                            </div>
-
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -634,12 +629,7 @@
 
                                         <h4 class="ms-genres-title fw-light"><a href="">DIVINE - Baazigar</a></h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="#" target="_blank"> <i class="flaticon-heart"></i> 763K</a>
-                                            </div>
-
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -658,12 +648,7 @@
 
                                         <h4 class="ms-genres-title fw-light"><a href="#">Chakravyuh mein - Virat Kohli X DIVINE | PUMA</a></h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 139K </a>
-                                            </div>
-
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -683,12 +668,7 @@
                                         <h4 class="ms-genres-title fw-light"><a href="#">World Dance Performace</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 5.7K </a>
-                                            </div>
-
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -708,12 +688,6 @@
                                         <h4 class="ms-genres-title fw-light"><a href="#">The Kings TATTAD TATTAD Routine</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 5.8K </a>
-                                            </div>
-
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -733,12 +707,7 @@
                                         <h4 class="ms-genres-title fw-light"><a href="">The Kings' "Malhari" Routine Is INSANE</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 47K </a>
-                                            </div>
-
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -758,12 +727,7 @@
                                         <h4 class="ms-genres-title fw-light"><a href="">The Kings Winning Moment</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 62K </a>
-                                            </div>
-
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -783,12 +747,6 @@
                                         <h4 class="ms-genres-title fw-light"><a href="">World of Dance Finals - Upper Team The Kings</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 38K </a>
-                                            </div>
-
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -807,12 +765,7 @@
 
                                         <h4 class="ms-genres-title fw-light"><a href="">50 Cent X The kings | Live Show Mumbai</a></h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 300 </a>
-                                            </div>
-
-                                        </div>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -832,12 +785,6 @@
                                         <h4 class="ms-genres-title fw-light"><a href="">Kings United Ultimate Epic Comeback</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 43K </a>
-                                            </div>
-
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -857,12 +804,6 @@
                                         <h4 class="ms-genres-title fw-light"><a href="">Kings United Ultimate Showdown</a>
                                         </h4>
 
-                                        <div class="ms-fun-brand-bottom ms-genres-rating">
-                                            <div class="ms-fun-brand-location">
-                                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-heart"></i> 30K </a>
-                                            </div>
-
-                                        </div>
                                     </div>
                                 </div>
                             </div>
