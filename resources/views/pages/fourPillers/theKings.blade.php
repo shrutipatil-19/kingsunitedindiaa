@@ -5,8 +5,7 @@
     <main>
         <!-- About Area Start Here  -->
         <section class="ms-about-area fix">
-            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
-                data-background="{{ asset('assets/img/about/about3.jpg') }}">
+            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"  style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');">
                 <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -59,7 +58,8 @@
         <!-- work area end -->
 
         <!-- Why Choose Us Area Start Here  -->
-        <section class="ms-choose-area pt-125 pb-105 ms-bg-2">
+        <section class="ms-choose-area pt-125 pb-105 ms-bg-2 include__bg p-relative zindex-1" style="background-image: url('{{ asset('assets/img/kings crew/5.jpg')}}');background-attachment: fixed;">
+            <div class="ms-overlay ms-overlay5 p-absolute zindex--1" bis_skin_checked="1"></div>
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-7">
@@ -78,9 +78,7 @@
                 </div>
                 <div class="card-container">
                     <div class="container">
-
                         <div class="row g-4">
-
                             <!-- Card -->
                             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                                 <div class="achievement-card">
@@ -253,7 +251,7 @@
         <!-- Work System Area End Here  -->
 
         <!-- Event Area Start Here  -->
-        <section class="ms-bg-2 timeline-section ms-bg-2 ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
+        <section class="ms-bg-2 timeline-section ms-bg-2 ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');background-attachment: fixed;">
             <div class="ms-overlay ms-overlay1 zindex--1"></div>
             <div class="container">
                 <div class="row justify-content-center mb-25 bdFadeUp">
