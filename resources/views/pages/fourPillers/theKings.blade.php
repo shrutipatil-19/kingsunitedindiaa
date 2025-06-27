@@ -26,7 +26,7 @@
         <!-- About Area End Here  -->
 
         <!-- work area start -->
-        <section class="work__area pt-100 pb-30 ms-bg-2">
+        <section class="work__area pt-100 pb-30">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -63,7 +63,7 @@
 
 
         <!-- Why Choose Us Area Start Here  -->
-        <section class="ms-choose-area pt-125 pb-105">
+        <section class="ms-choose-area pt-125 pb-105 ms-bg-2">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-7">
@@ -228,7 +228,7 @@
         </section>
         <!-- Why Choose Us Area End Here  -->
         <!-- Work System Area Start Here  -->
-        <section class="ms-work-system-area pt-130 pb-130 ms-bg-2">
+        <section class="ms-work-system-area pt-130 pb-130">
             <div class="container">
                 <div class="ms-work-system-wrap">
                     <div class="ms-work-system-img d-inline-block fix m-img ms-br-15 mb-60 w-100" style="height: 300px;">
@@ -258,7 +258,7 @@
 
 
         <!-- Event Area Start Here  -->
-        <section class="timeline-section ms-bg-2 ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
+        <section class="ms-bg-2 timeline-section ms-bg-2 ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
             <div class="ms-overlay ms-overlay1 zindex--1"></div>
             <div class="container">
                 <div class="row justify-content-center mb-25 bdFadeUp">
