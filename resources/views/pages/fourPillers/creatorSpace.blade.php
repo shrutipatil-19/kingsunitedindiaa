@@ -21,7 +21,6 @@
             </div>
         </section>
         <!-- About Area End Here  -->
-
         <!-- work area start -->
         <section class="work__area pt-100 pb-30">
             <div class="container">
@@ -52,132 +51,9 @@
             </div>
         </section>
         <!-- work area end -->
-        <!-- Trending area start -->
-        <section class="trending__area p-relative z-index-11 pt-130 pb-60 ms-bg-2">
-            <div class="container">
-                <div class="row align-items-end mb-25 bdFadeUp">
-                    <div class="col-lg-8">
-                        <div class="section__title-wrapper mb-40 bd-title-anim">
-                            <span class="section__subtitle">Creator space</span>
-                            <h2 class="section__title">Creator <span class="ms-text1">Space</span>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="border__btn" href="">View All</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Swiper -->
-                <div class="swiper achievementSwiper pt-lg-5 ms-trending3-wrap bdFadeUp">
-                    <div class="swiper-wrapper pt-lg-4">
-                        <!-- Slide 1 -->
-                        <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                                <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
-                                        alt="trending image"></a>
-                                <div class="trending__arrow">
-                                    <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
 
-                                <div class="trending__number">
-                                    <span>01</span>
-                                </div>
-                            </div>
-                            <div class="ms-trending3-content">
-                                <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 1 - 100 SQ.FT</a></h3>
-                                <p class="ms-trending3-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nobis! Beatae, dolorum.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                                <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
-                                        alt="trending image"></a>
-                                <div class="trending__arrow">
-                                    <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
+        @include('partial.rental-studio')
 
-                                <div class="trending__number">
-                                    <span>02</span>
-                                </div>
-                            </div>
-                            <div class="ms-trending3-content">
-                                <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 2 - 750 SQ.FT</a></h3>
-                                <p class="ms-trending3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt iste quis.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                                <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
-                                        alt="trending image"></a>
-                                <div class="trending__arrow">
-                                    <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-
-                                <div class="trending__number">
-                                    <span>03</span>
-                                </div>
-                            </div>
-                            <div class="ms-trending3-content">
-                                <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 3A- 650 SQ.FT</a></h3>
-                                <p class="ms-trending3-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugiat corrupti sint.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                                <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
-                                        alt="trending image"></a>
-                                <div class="trending__arrow">
-                                    <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-
-                                <div class="trending__number">
-                                    <span>04</span>
-                                </div>
-                            </div>
-                            <div class="ms-trending3-content">
-                                <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 3B- 650 SQ.FT</a></h3>
-                                <p class="ms-trending3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, harum eligendi! Dolorum!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                                <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
-                                        alt="trending image"></a>
-                                <div class="trending__arrow">
-                                    <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-
-                                <div class="trending__number">
-                                    <span>05</span>
-                                </div>
-                            </div>
-                            <div class="ms-trending3-content">
-                                <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 3 FULL</a></h3>
-                                <p class="ms-trending3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, harum eligendi! Dolorum!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Navigation -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-
-            </div>
-        </section>
-        <!-- Trending area start -->
         <!-- work area start -->
         <section class="work__area pt-125 pb-60 include__bg" alt="vactoe-shape.png">
 
@@ -279,91 +155,99 @@
                     </div>
                 </div>
             </div>
+
+        </section>
+        <!-- work area end -->
+        <!-- Why Choose Us Area Start Here  -->
+        <section class="ms-choose-area pt-125 pb-105 ms-bg-2">
+            <div class="container">
+                <div class="row align-items-end mb-25 bdFadeUp">
+                    <div class="col-lg-7">
+                        <div class="section__title-wrapper mb-40">
+                            <h2 class="section__title mb-35 bd-title-anim">Equipment & Gears</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit laudantium nulla asperiores nisi fugiat natus, perspiciatis magnam odio laborum voluptatem. Temporibus aspernatur ducimus rem, quas iste odit nostrum quo laudantium.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-5">
+                        <div class="d-flex justify-content-lg-end">
+                            <div class="ms-review-part mb-40">
+                                <div class="ms-review-gap d-flex align-items-center">
+                                    <div class="ms-review-left">
+                                        <h3>Excellent :</h3>
+                                        <p>1050 Review On</p>
+                                    </div>
+                                    <div class="ms-review-right">
+                                        <img src="assets/img/footer/start-01.png" alt="review img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="row mb-45 bdFadeUp">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ms-choose-item mb-25">
+                            <div class="ms-choose-icon d-inline-block p-relative">
+                                <i class="flaticon-dollar"></i>
+                                <span>01</span>
+                            </div>
+                            <h3 class="ms-choose-title">Pay no more than booking
+                                direct</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ms-choose-item mb-25">
+                            <div class="ms-choose-icon d-inline-block p-relative">
+                                <i class="flaticon-theater"></i>
+                                <span>02</span>
+                            </div>
+                            <h3 class="ms-choose-title">Our acts are vetted and
+                                road-tested</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ms-choose-item mb-25">
+                            <div class="ms-choose-icon d-inline-block p-relative">
+                                <i class="flaticon-verified"></i>
+                                <span>03</span>
+                            </div>
+                            <h3 class="ms-choose-title">Your booking is secure
+                                in our site</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ms-choose-item mb-25">
+                            <div class="ms-choose-icon d-inline-block p-relative">
+                                <i class="flaticon-appointment"></i>
+                                <span>04</span>
+                            </div>
+                            <h3 class="ms-choose-title">Booking is just the
+                                begin night</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-border2 pb-130">
+                    <div class="row bdFadeUp">
+                        <div class="col-xl-12">
+                            <div class="ms-choose-bg m-img ms-br-15 fix">
+                                <img src="{{ asset('assets/img/choose/choose-bg.png') }}" alt="choose img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose Us Area End Here  -->
+    </main>
 </div>
-</section>
-<!-- work area end -->
-</main>
-</div>
+
 @endsection
 
-@push('style')
-
-<style>
-    .swiper {
-        padding-bottom: 60px;
-    }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-        color: #111;
-        background-color: #fff;
-        border-radius: 50%;
-        padding: 20px;
-    }
-
-    .achievement-card {
-        background: #fff;
-    }
-
-    .achievement-card:hover {
-        transform: translateY(-6px);
-        border: 1px solid red;
-    }
-
-    .img-box {
-        position: relative;
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        overflow: hidden;
-        height: 220px;
-    }
-
-
-    .content {
-        padding: 20px;
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .achievementSwiper {
-        position: relative;
-    }
-
-    .achievementSwiper .swiper-button-next,
-    .achievementSwiper .swiper-button-prev {
-        top: 23px;
-        /* adjust as needed */
-        right: 10px;
-        /* keep both aligned to the right */
-        left: auto;
-        /* cancel default left position */
-        position: absolute;
-        z-index: 10;
-    }
-
-    .achievementSwiper .swiper-button-prev {
-        right: 66px;
-        /* push previous button to the left of next button */
-    }
-
-    .swiper-button-next:after,
-    .swiper-button-prev:after {
-        font-size: 25px !important;
-    }
-</style>
-@endpush
-
-
 @push('js')
-<!-- Scripts -->
-<!-- Bootstrap & AOS Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 <script>
     AOS.init();
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper(".achievementSwiper", {
         slidesPerView: 1,

@@ -12,7 +12,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-10 col-lg-10">
                             <div class="ms-about-content text-center">
-                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">STUDIO 1
+                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">STUDIO 3A
                                 </h2>
                             </div>
                         </div>
@@ -33,25 +33,10 @@
                                 </div>
                                
                                 <div class="ms-border2 pb-20 mb-30">
-                                    <h2 class="ms-event-dtitle">Studio 1</h2>
+                                    <h2 class="ms-event-dtitle">Studio 3A</h2>
                                 </div>
-                                <p class="mb-25">Our hand-picked acts will guarantee you fantastic wedding
-                                    entertainment for each
-                                    part. We'll provide help and support 24
-                                    hours a day, 7 days a week, right up until Outstanding wedding band playing
-                                    chart, indie, rock anthems and Britpop and
-                                    featuring guitars, keyboards.</p>
-                                <p class="mb-35">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
-                                    nihil
-                                    expetendis in
-                                    mei. Mei an pericula euripidis, hinc
-                                    partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem
-                                    tincidunt vix at, vel pertinax sensibus id,
-                                    error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei
-                                    rationibus
-                                    definiebas, eu qui purto zril laoreet.
-                                    Ex error omnium interpretaris pro, alia illum ea vim. Lorem ipsum dolor sit
-                                    amet, te ridens.</p>
+                                <p class="mb-25">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias illo vero veritatis blanditiis distinctio accusamus inventore dolorem suscipit impedit quibusdam.</p>
+                                <p class="mb-35">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sed delectus nemo numquam doloribus. Nulla ratione, quam animi nesciunt vitae ut nostrum cupiditate a illo necessitatibus neque omnis optio aspernatur deserunt tempora dignissimos dolore beatae?.</p>
                                
 
                               
@@ -91,15 +76,15 @@
                                 <div class="ms-event-sidebar-item">
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Area of studio</h4>
-                                        <span class="ms-event-stext">100 SQ.FT</span>
+                                        <span class="ms-event-stext">650 SQ.FT</span>
                                     </div>
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Charge per hour</h4>
-                                        <span class="ms-event-stext">INR 1500/HOUR</span>
+                                        <span class="ms-event-stext">INR 2000/HOUR</span>
                                     </div>
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Shift Charge</h4>
-                                        <span class="ms-event-stext">INR 4000 (3HOUR SHIFT)</span>
+                                        <span class="ms-event-stext">INR 5500 (3 HOUR SHIFT)</span>
                                     </div>
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Service</h4>

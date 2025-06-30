@@ -758,84 +758,12 @@
 </div>
 @endsection
 
-@push('style')
-
-<style>
-    .swiper {
-        padding-bottom: 60px;
-    }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-        color: #111;
-        background-color: #fff;
-        border-radius: 50%;
-        padding: 20px;
-    }
-
-    .achievement-card {
-        background: #fff;
-    }
-
-    .achievement-card:hover {
-        transform: translateY(-6px);
-        border: 1px solid red;
-    }
-
-    .img-box {
-        position: relative;
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        overflow: hidden;
-        height: 220px;
-    }
-
-
-    .content {
-        padding: 20px;
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .achievementSwiper {
-        position: relative;
-    }
-
-    .achievementSwiper .swiper-button-next,
-    .achievementSwiper .swiper-button-prev {
-        top: 23px;
-        /* adjust as needed */
-        right: 10px;
-        /* keep both aligned to the right */
-        left: auto;
-        /* cancel default left position */
-        position: absolute;
-        z-index: 10;
-    }
-
-    .achievementSwiper .swiper-button-prev {
-        right: 66px;
-        /* push previous button to the left of next button */
-    }
-
-    .swiper-button-next:after,
-    .swiper-button-prev:after {
-        font-size: 25px !important;
-    }
-</style>
-@endpush
-
 
 @push('js')
-<!-- Scripts -->
-<!-- Bootstrap & AOS Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script>
     const swiper = new Swiper(".achievementSwiper", {
         slidesPerView: 1,

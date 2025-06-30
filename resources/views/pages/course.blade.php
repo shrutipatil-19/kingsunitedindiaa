@@ -20,11 +20,12 @@
             </div>
         </section>
         <!-- banner Area End Here  -->
+        @include('partial.goldenPass')
 
         <!-- courses Area Start -->
         <section class="ms-news-area ms-bg-2 pt-130 pb-90 ">
             <div class="container ">
-                <div class="row align-items-end mb-25 bdFadeUp">
+                <div class="row align-items-end bdFadeUp">
                     <div class="col-lg-6">
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Courses We Offer</span>
@@ -38,7 +39,7 @@
                 <!-- Swiper -->
                 <div class="row">
                     <!-- <div class="col-lg-6 pt-lg-4"> -->
-                    <div class="col-lg-6 mt-lg-4 mt-3">
+                    <div class="col-lg-6 mt-3">
                         <div class="achievement-card d-flex flex-row">
                             <div class="img-box">
                                 <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
@@ -54,7 +55,7 @@
                     </div>
 
                     <!-- Slide 2 -->
-                    <div class="col-lg-6 mt-lg-4 mt-3">
+                    <div class="col-lg-6 mt-3">
                         <div class="achievement-card d-flex flex-row">
                             <div class="img-box">
                                 <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
