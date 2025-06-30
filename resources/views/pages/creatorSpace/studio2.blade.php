@@ -12,8 +12,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-10 col-lg-10">
                             <div class="ms-about-content text-center">
-                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">STUDIO 1
-                                </h2>
+                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">STUDIO 2                                </h2>
                             </div>
                         </div>
                     </div>
@@ -33,7 +32,7 @@
                                 </div>
                                
                                 <div class="ms-border2 pb-20 mb-30">
-                                    <h2 class="ms-event-dtitle">Studio 1</h2>
+                                    <h2 class="ms-event-dtitle">Studio 2</h2>
                                 </div>
                                 <p class="mb-25">Our hand-picked acts will guarantee you fantastic wedding
                                     entertainment for each
@@ -57,16 +56,7 @@
                               
                                 <div class="ms-border5 pt-30 mt-70">
                                     <div class="row">
-                                        <!-- <div class="col-lg-8">
-                                            <div class="ms-tags-wrap d-flex mb-20">
-                                                <span class="ms-tag-title d-inline-block mr-20">Tags :</span>
-                                                <span class="ms-tags">
-                                                    <a href="#">Music</a>
-                                                    <a href="#">Singer</a>
-                                                    <a href="#">Bands</a>
-                                                </span>
-                                            </div>
-                                        </div> -->
+                                        
                                         <div class="col-lg-4">
                                             <div class="ms-social2-wrap mb-20 d-flex justify-content-lg-end">
                                                 <span class="ms-social-text mr-20"><i class="flaticon-share"></i>
@@ -91,7 +81,7 @@
                                 <div class="ms-event-sidebar-item">
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Area of studio</h4>
-                                        <span class="ms-event-stext">100 SQ.FT</span>
+                                        <span class="ms-event-stext">750 SQ.FT</span>
                                     </div>
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Charge per hour</h4>
@@ -99,7 +89,7 @@
                                     </div>
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Shift Charge</h4>
-                                        <span class="ms-event-stext">INR 4000 (3HOUR SHIFT)</span>
+                                        <span class="ms-event-stext">INR 4000 (3 HOUR SHIFT)</span>
                                     </div>
                                     <div class="ms-event-sidebar-inner">
                                         <h4 class="ms-event-title2">Service</h4>
