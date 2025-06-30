@@ -1,6 +1,6 @@
   <!-- Trending area start -->
-  <section class="trending__area p-relative z-index-11 pt-130 pb-60 ms-bg-2" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');background-attachment: fixed;">
-     <div class="ms-overlay ms-overlay1 zindex--1"></div>
+  <section class="trending__area p-relative z-index-11 pt-130 pb-60">
+     
       <div class="container">
           <div class="row align-items-end mb-25 bdFadeUp">
               <div class="col-lg-8">
@@ -22,7 +22,7 @@
                   <!-- Slide 1 -->
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                          <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
+                          <a href="{{ route('studio1') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
                               <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
@@ -34,14 +34,14 @@
                           </div>
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 1 - 100 SQ.FT</a></h3>
+                          <h3 class="ms-trending3-title mb-25"><a href="{{ route('studio1') }}">STUDIO 1 - 100 SQ.FT</a></h3>
                           <p class="ms-trending3-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nobis! Beatae, dolorum.
                           </p>
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                          <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
+                          <a href="{{ route('studio2') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
                               <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
@@ -53,14 +53,14 @@
                           </div>
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 2 - 750 SQ.FT</a></h3>
+                          <h3 class="ms-trending3-title mb-25"><a href="{{ route('studio2') }}">STUDIO 2 - 750 SQ.FT</a></h3>
                           <p class="ms-trending3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt iste quis.
                           </p>
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                          <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
+                          <a href="{{ route('studio3') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
                               <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
@@ -79,7 +79,7 @@
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                          <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
+                          <a href="{{ route('studio4') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
                               <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
@@ -91,14 +91,14 @@
                           </div>
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 3B- 650 SQ.FT</a></h3>
+                          <h3 class="ms-trending3-title mb-25"><a href="{{ route('studio4') }}">STUDIO 3B- 650 SQ.FT</a></h3>
                           <p class="ms-trending3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, harum eligendi! Dolorum!
                           </p>
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
-                          <a href="#"><img src="{{ asset('assets/img/trending/01.jpg') }}"
+                          <a href="{{ route('studio5') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
                               <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
@@ -110,7 +110,7 @@
                           </div>
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-25"><a href="#">STUDIO 3 FULL</a></h3>
+                          <h3 class="ms-trending3-title mb-25"><a href="{{ route('studio5') }}">STUDIO 3 FULL</a></h3>
                           <p class="ms-trending3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, harum eligendi! Dolorum!
                           </p>
                       </div>

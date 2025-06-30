@@ -13326,3 +13326,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .swiper-button-prev:after {
   font-size: 25px !important;
 }
+
+.section__subtitle-with-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.section__subtitle-with-lines::before,
+.section__subtitle-with-lines::after {
+  content: "";
+  flex: 1;
+  border-top: 2px solid #EDC967;
+  /* adjust color and thickness as needed */
+  margin: 0 10px;
+  /* space between text and line */
+}

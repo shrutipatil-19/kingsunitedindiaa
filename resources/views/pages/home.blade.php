@@ -85,63 +85,67 @@
                                 </div>
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="#">Our team of experienced dance instructors are dedicated to helping students of all levels achieve their dance goals. Whether you're a beginner looking to learn the basics or an experienced dancer aiming to refine your skills, our instructors are here to guide and support you every step of the way.</a>
+                                        href="">Our team of experienced dance instructors are dedicated to helping students of all levels achieve their dance goals. Whether you're a beginner looking to learn the basics or an experienced dancer aiming to refine your skills, our instructors are here to guide and support you every step of the way.</a>
 
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="ms-trending2-item fix">
-                            <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Creator Space</span>
-                            <!-- <div class="trending__price">
+                        <a href="{{ route('creatorSpace') }}">
+                            <div class="ms-trending2-item fix">
+                                <div class="ms-trending2-overlay p-absolute"></div>
+                                <span class="trending__title">Creator Space</span>
+                                <!-- <div class="trending__price">
                                 <span>From $55</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img custome-h">
-                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
-                                        alt="trending image"></a>
-                            </div>
-                            <div class="ms-trending2-content">
-                                <div class="ms-trending2-shape">
-                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                                <div class="ms-trending2-img w-img custome-h">
+                                    <a href="{{ route('creatorSpace') }}"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                            alt="trending image"></a>
                                 </div>
-                                <div class="ms-trending2-title-wrap">
-                                    <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="#">From ballet and jazz to hip-hop and contemporary, Kings Dance Studio offers a diverse range of dance styles to cater to different interests and preferences. Explore new genres, challenge yourself creatively, and discover the joy of expression through movement.</a>
+                                <div class="ms-trending2-content">
+                                    <div class="ms-trending2-shape">
+                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                                    </div>
+                                    <div class="ms-trending2-title-wrap">
+                                        <a class="ms-trending2-title p-relative ms-title-border"
+                                            href="{{ route('creatorSpace') }}">From ballet and jazz to hip-hop and contemporary, Kings Dance Studio offers a diverse range of dance styles to cater to different interests and preferences. Explore new genres, challenge yourself creatively, and discover the joy of expression through movement.</a>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="ms-trending2-item fix">
-                            <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">The Kings Crew</span>
-                            <!-- <div class="trending__price">
+                        <a href="{{ route('theKings') }}">
+                            <div class="ms-trending2-item fix">
+                                <div class="ms-trending2-overlay p-absolute"></div>
+                                <span class="trending__title">The Kings Crew</span>
+                                <!-- <div class="trending__price">
                                 <span>From $90</span>
                             </div> -->
-                            <div class="ms-trending2-img w-img custome-h">
-                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
-                                        alt="trending image"></a>
-                            </div>
-                            <div class="ms-trending2-content">
-                                <div class="ms-trending2-shape">
-                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                                <div class="ms-trending2-img w-img custome-h">
+                                    <a href="{{ route('theKings') }}"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                            alt="trending image"></a>
                                 </div>
-                                <div class="ms-trending2-title-wrap">
-                                    <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="#">The Kings is all about being the tornadoes of
-                                        energy, direct beats of thoughts and emotions.
-                                        It is not about stages, it is not about praise,
-                                        it is all about the inherent strength of performing
-                                        arts to create intangible bridges of resistance to
-                                        status quo. The Kings are the natural truth that
-                                        shakes up the consciousness and shrinks the souls.</a>
+                                <div class="ms-trending2-content">
+                                    <div class="ms-trending2-shape">
+                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}" alt="trending shape">
+                                    </div>
+                                    <div class="ms-trending2-title-wrap">
+                                        <a class="ms-trending2-title p-relative ms-title-border"
+                                            href="{{ route('theKings') }}">The Kings is all about being the tornadoes of
+                                            energy, direct beats of thoughts and emotions.
+                                            It is not about stages, it is not about praise,
+                                            it is all about the inherent strength of performing
+                                            arts to create intangible bridges of resistance to
+                                            status quo. The Kings are the natural truth that
+                                            shakes up the consciousness and shrinks the souls.</a>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide d-none">
                         <div class="ms-trending2-item fix">
@@ -174,6 +178,10 @@
     </section>
     <!-- main page area start -->
 
+    @include('partial.goldenPass')
+
+
+
     <!-- courses Area Start -->
     <section class="ms-news-area ms-bg-2 pt-130 pb-90 ">
         <div class="container ">
@@ -197,10 +205,10 @@
                             <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
                         </div>
                         <div class="content">
-                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Diploma In Street Style</a></h3>
+                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="{{ route('diploma') }}">Diploma In Street Style</a></h3>
                             <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos, quis modi et.</p>
                             <div class="trending-btn d-flex">
-                                <a class="border__btn zindex-5" href="#">View More</a>
+                                <a class="border__btn zindex-5" href="{{ route('diploma') }}">View More</a>
                             </div>
                         </div>
                     </div>
@@ -300,7 +308,7 @@
                             <div class="work__features-bottom">
                                 <div class="work__features-action">
                                     <div class="work__features-btn">
-                                        <a class="unfill__btn" href="contact.html">Get Started</a>
+                                        <a class="unfill__btn" href="{{ route('theKings') }}">Get Started</a>
                                     </div>
                                     <div class="features__btn-text">
                                         <span>Book something <br> awesome !</span>
@@ -622,6 +630,10 @@
     .achievement-card:hover {
         transform: none;
         border: none;
+    }
+
+    .ms-trending2-item:hover .trending__title {
+        color: white;
     }
 </style>
 @endpush
