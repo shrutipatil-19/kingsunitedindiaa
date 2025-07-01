@@ -50,66 +50,62 @@
                      </form>
                  </div>
                  <!-- </div> -->
-                 <!-- <div class="col-md-6 col-12"> -->
                  <div class="form-container sign-in col-md-6 col-12">
-                     <form>
+                     <form method="POST" action="{{ route('studio.book') }}">
+                         @csrf
                          <div class="ms-cta-content d-flex flex-column">
                              <h2 class="text-center section__title two text-black">Book Now</h2>
                          </div>
                          <div class="row transparent-bg mt-4">
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label for="name" class="text-white">Enter Name</label>
-                                     <input type="text" placeholder="Name">
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class="ms-input2-box ">
-                                     <label for="email" class="text-white">Enter Email</label>
-                                     <input type="email" placeholder="Email">
+                                     <label class="text-white">Enter Name</label>
+                                     <input name="name" type="text" placeholder="Name" required>
                                  </div>
                              </div>
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label for="phone" class="text-white">Enter Phone</label>
-                                     <input type="phone" placeholder="Phone">
+                                     <label class="text-white">Enter Email</label>
+                                     <input name="email" type="email" placeholder="Email" required>
                                  </div>
                              </div>
                              <div class="col-md-6">
-                                 <label for="studio" class="text-white">Studio</label>
-                                 <select class="form-select" aria-label="Default select example">
-                                     <option selected>Select Studio</option>
-                                     <option value="1">One</option>
-                                     <option value="2">Two</option>
-                                     <option value="3">Three</option>
+                                 <div class="ms-input2-box">
+                                     <label class="text-white">Enter Phone</label>
+                                     <input name="phone" type="text" placeholder="Phone" required>
+                                 </div>
+                             </div>
+                             <div class="col-md-6">
+                                 <label class="text-white">Studio</label>
+                                 <select name="studio" class="form-select" required>
+                                     <option value="" selected>Select Studio</option>
+                                     <option value="One">One</option>
+                                     <option value="Two">Two</option>
+                                     <option value="Three">Three</option>
                                  </select>
-
-
                              </div>
                              <div class="col-md-6">
-                                 <label for="date" class="text-white">Date</label>
-                                 <input type="date" placeholder="Date">
+                                 <label class="text-white">Date</label>
+                                 <input name="date" type="date" required>
                              </div>
                              <div class="col-md-6">
-                                 <label for="time" class="text-white">Time</label>
-                                 <select class="form-select" aria-label="Default select example">
+                                 <label class="text-white">Time</label>
+                                 <select name="time" class="form-select" required>
                                      <option selected>Select Time</option>
-                                     <option value="1">11:30 AM</option>
-                                     <option value="2">03:30 AM</option>
-                                     <option value="3">05:30 AM</option>
+                                     <!-- dynamically filled -->
                                  </select>
-
                              </div>
-                             <div class="col-12">
+                             <div class="col-12 mt-3">
                                  <div class="trending-btn d-flex justify-content-center">
-                                     <a class="border__btn zindex-5" href="http://localhost/kingsunitedindiaa/course/diploma-in-street-dance">Enquire Now</a>
+                                     <button type="submit" class="border__btn zindex-5">Enquire Now</button>
                                  </div>
                              </div>
                          </div>
-
                      </form>
                  </div>
-                 <!-- </div> -->
+
+
+
                  <div class="col-md-6 col-12">
                      <div class="toggle-container">
                          <div class="toggle">
@@ -412,7 +408,34 @@
  </style>
  @endpush
  @push('js')
-
+ <!-- time slot Start -->
+ <script>
+     $(document).ready(function() {
+         $('input[name="date"]').on('change', function() {
+             var selectedDate = $(this).val();
+             $.ajax({
+                 url: '{{ url("creator-space/studio-1/available-times") }}', // no leading slash
+                 data: {
+                     date: selectedDate
+                 },
+                 success: function(response) {
+                     var timeSelect = $('select[name="time"]');
+                     timeSelect.empty();
+                     timeSelect.append('<option selected>Select Time</option>');
+                     $.each(response, function(i, slot) {
+                         timeSelect.append('<option value="' + slot + '">' + slot + '</option>');
+                     });
+                 },
+                 error: function(err) {
+                     console.log(err);
+                     alert("Error loading times, please check console.");
+                 }
+             });
+         });
+     });
+ </script>
+ <!-- time slot end -->
+ <!-- toggle Start -->
  <script>
      const container = document.getElementById("container");
      const registerBtn = document.getElementById("register");
@@ -426,4 +449,5 @@
          container.classList.remove("active");
      });
  </script>
+ <!-- toggle end -->
  @endpush
