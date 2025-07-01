@@ -27,3 +27,5 @@ Route::get('/creator-space/studio-5', [creatorSpaceController::class, 'studio5']
 Route::get('/courses', [CourseController::class, 'course'])->name('course');
 Route::get('/course/diploma-in-street-dance', [CourseController::class, 'diploma'])->name('diploma');
 Route::get('/course/kings-golden-pass', [CourseController::class, 'golden'])->name('golden');
+Route::get('/course/dance-2-dance', [CourseController::class, 'D2D'])->name('D2D');
+Route::get('/course/choreo-lab', [CourseController::class, 'choreoLab'])->name('choreoLab');

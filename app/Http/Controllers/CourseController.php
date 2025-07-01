@@ -18,4 +18,12 @@ class CourseController extends Controller
     {
         return view('pages.courses.kingsGoldenPass');
     }
+    public function D2D()
+    {
+        return view('pages.courses.D2D');
+    }
+    public function choreoLab()
+    {
+        return view('pages.courses.choreoLab');
+    }
 }

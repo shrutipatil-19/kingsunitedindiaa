@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
-                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60">
+                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
                                     <div class="p-absolute"></div>
@@ -40,7 +40,7 @@
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">About Kings Crew</h2>
-                                <p class="">The Kings is all about being the tornadoes of
+                                <p class="" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
                                     energy, direct beats of thoughts and emotions.
                                     It is not about stages, it is not about praise,
                                     it is all about the inherent strength of performing
@@ -225,13 +225,13 @@
         <section class="ms-work-system-area pt-130 pb-130">
             <div class="container">
                 <div class="ms-work-system-wrap">
-                    <div class="ms-work-system-img d-inline-block fix m-img ms-br-15 mb-60 w-100" style="height: 300px;">
+                    <div class="ms-work-system-img d-inline-block fix m-img ms-br-15 mb-60 w-100" style="height: 300px;" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
                         <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="work system image" class="w-100 h-100">
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-xl-10">
                             <div class="ms-work-system-inner text-center">
-                                <p class="text-center">Dance is the most flexible way of communication we
+                                <p class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Dance is the most flexible way of communication we
                                     articulate. A dialogue without words that is able to
                                     express it all. The Kings Dance studio is a place with
                                     a warm, supportive atmosphere and provide a social

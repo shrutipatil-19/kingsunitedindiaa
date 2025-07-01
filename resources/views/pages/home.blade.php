@@ -200,7 +200,7 @@
             <div class="row">
                 <!-- <div class="col-lg-6 pt-lg-4"> -->
                 <div class="col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row">
+                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                         <div class="img-box">
                             <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
                         </div>
@@ -216,7 +216,7 @@
 
                 <!-- Slide 2 -->
                 <div class="col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row">
+                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                         <div class="img-box">
                             <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
 
@@ -233,7 +233,7 @@
 
                 <!-- Slide 3 -->
                 <div class=" col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row">
+                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                         <div class="img-box">
                             <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="ABCD2" class="w-100 h-100 object-cover custome-radius-top">
 
@@ -250,7 +250,7 @@
 
                 <!-- Slide 4 -->
                 <div class="col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row">
+                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                         <div class="img-box">
                             <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
 
@@ -277,7 +277,7 @@
         <div class="container">
             <div class="row align-items-center bdFadeUp">
                 <div class="col-xl-6">
-                    <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block">
+                    <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
                         <div class="work__thumb-inner p-relative zindex-5">
                             <div class="work__thumb m-img">
                                 <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
@@ -301,8 +301,8 @@
                             </h2>
                         </div>
                         <div class="work__features-inner">
-                            <p>At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
-                            <p>
+                            <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
+                            <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
                                 Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
 
                             <div class="work__features-bottom">

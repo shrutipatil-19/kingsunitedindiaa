@@ -21,7 +21,7 @@
               <div class="swiper-wrapper pt-lg-4">
                   <!-- Slide 1 -->
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                           <a href="{{ route('studio1') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
@@ -40,7 +40,7 @@
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                           <a href="{{ route('studio2') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
@@ -59,7 +59,7 @@
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                           <a href="{{ route('studio3') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
@@ -78,7 +78,7 @@
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                           <a href="{{ route('studio4') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">
@@ -97,7 +97,7 @@
                       </div>
                   </div>
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
-                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                      <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                           <a href="{{ route('studio5') }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
                           <div class="trending__arrow">

@@ -43,10 +43,10 @@
         <section class="work__area pt-100 pb-30 ">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6" >
                         <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60">
                             <div class="ms-work3-inner">
-                                <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
+                                <div class="ms-work3-thumb m-img p-relative fix ms-br-20" >
                                     <div class="p-absolute"></div>
                                     <img src="{{ asset('assets/img/suresh/award.jpg') }}" alt="work image">
                                 </div>
@@ -58,7 +58,7 @@
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">About <span class="text-bg">Suresh Mukund</span></h2>
-                                <p class="">Suresh Mukund is an Internationally Acclaimed
+                                <p class="" >Suresh Mukund is an Internationally Acclaimed
                                     Choreographer and the First Choreographer to Bring
                                     International Championship Titles and Medals for India
                                     In History. He is the Founder and Choreographer of
