@@ -332,10 +332,7 @@
             <div class="row justify-content-center mb-25 bdFadeUp">
                 <div class="col-xl-6">
                     <div class="ms-event2-top text-center">
-                        <!-- <div class="ms-event2 mb-40">
-                            <a href="https://www.youtube.com/watch?v=Rf9flQISwok"
-                                class="ms-round2-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
-                        </div> -->
+                      
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Our Services</span>
                             <h2 class="section__title">Our Services to Support Your <span class="animated-underline active">
