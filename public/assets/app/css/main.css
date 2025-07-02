@@ -13174,6 +13174,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border-radius: 0px 0px 12px 12px;
 }
 
+.custome-radius {
+  border-radius: 12px;
+}
+
 .achievement-card {
   background: #fff;
   /* box-shadow: linear-gradient(90deg, #ff5a4d 0%, #ffc04d 100%); */
@@ -13343,4 +13347,25 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* adjust color and thickness as needed */
   margin: 0 10px;
   /* space between text and line */
+}
+
+.border-color {
+  border: 4px solid transparent;
+  border-radius: 12px;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #de4038 0%, #dea738 100%) border-box;
+  padding: 20px;
+  /* optional, for spacing inside the box */
+}
+
+.border-color-bg-black {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(black, black) padding-box,
+    linear-gradient(90deg, #de4038 0%, #dea738 100%) border-box;
+}
+
+.ms-choose-icon {
+  font-size: 30px;
 }

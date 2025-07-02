@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\creatorSpaceController;
+use App\Http\Controllers\EventsController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudioBookingController;
@@ -31,21 +32,11 @@ Route::get('/course/kings-golden-pass', [CourseController::class, 'golden'])->na
 Route::get('/course/dance-2-dance', [CourseController::class, 'D2D'])->name('D2D');
 Route::get('/course/choreo-lab', [CourseController::class, 'choreoLab'])->name('choreoLab');
 
-// // page to display the form
-// Route::get('/creator-space/studio-1', [creatorSpaceController::class, 'studio1'])->name('studio1');
-
-// // store booking data from the form
-// Route::post('/creator-space/studio-1', [StudioBookingController::class, 'store'])->name('studio.book');
-
-// // fetch available time slots
-// Route::get('/creator-space/studio-1/available-times', [StudioBookingController::class, 'availableTimes'])->name('studio1.available-times');
-
-
-// Route::get('/creator-space/studio-1', [creatorSpaceController::class, 'studio1'])->name('studio1');
-// Route::post('/creator-space/studio-1', [StudioBookingController::class, 'store'])->name('studio.book');
-// Route::get('/creator-space/studio-1/available-times', [StudioBookingController::class, 'availableTimes'])->name('studio1.available-times');
-
+// rental studio
 Route::get('/creator-space/{studio}', [StudioBookingController::class, 'showBookingForm'])->name('studio.book.form');
 Route::post('/creator-space/{studio}', [StudioBookingController::class, 'store'])->name('studio.book');
 
 Route::get('/creator-space/{studio}/available-times', [StudioBookingController::class, 'availableTimes'])->name('studio.available-times');
+
+// events
+Route::get('/events', [EventsController::class, 'events'])->name('events');

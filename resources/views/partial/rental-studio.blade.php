@@ -24,10 +24,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                          <div class="trending__arrow">
-                              <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                      class="fa-regular fa-arrow-right-long"></i></a>
-                          </div>
+                         
 
                           <div class="trending__number">
                               <span>01</span>
@@ -43,10 +40,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                          <div class="trending__arrow">
-                              <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                      class="fa-regular fa-arrow-right-long"></i></a>
-                          </div>
+                        
 
                           <div class="trending__number">
                               <span>02</span>
@@ -62,10 +56,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                          <div class="trending__arrow">
-                              <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                      class="fa-regular fa-arrow-right-long"></i></a>
-                          </div>
+                         
 
                           <div class="trending__number">
                               <span>03</span>
@@ -81,10 +72,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                          <div class="trending__arrow">
-                              <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                      class="fa-regular fa-arrow-right-long"></i></a>
-                          </div>
+                         
 
                           <div class="trending__number">
                               <span>04</span>
@@ -100,10 +88,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                          <div class="trending__arrow">
-                              <a href="{{ asset('assets/img/trending/01.jpg') }}" class="popup-image"><i
-                                      class="fa-regular fa-arrow-right-long"></i></a>
-                          </div>
+                         
 
                           <div class="trending__number">
                               <span>05</span>

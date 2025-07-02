@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
-                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60" >
+                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60">
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
                                     <div class="p-absolute"></div>
@@ -933,9 +933,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="trending-btn d-flex justify-content-center">
-                                <a class="border__btn zindex-5" href="#">Apply Now</a>
-                            </div>
 
                         </div>
                     </div>
@@ -944,7 +941,7 @@
 
         </section>
         <!-- payment Area End Here  -->
-
+       @include('pages.courses.popupForm')
     </main>
 </div>
 @endsection

@@ -804,7 +804,7 @@
 
         </section>
         <!-- payment Area End Here  -->
-
+        @include('pages.courses.popupForm')
     </main>
 </div>
 @endsection

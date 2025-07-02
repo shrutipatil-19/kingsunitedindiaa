@@ -186,40 +186,39 @@
                 </div>
                 <div class="row mb-45 bdFadeUp">
                     <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
+                        <div class="ms-choose-item mb-25 border-color">
                             <div class="ms-choose-icon d-inline-block p-relative">
                                 <i class="flaticon-dollar"></i>
-                                <span>01</span>
+                                <!-- <span>01</span> -->
                             </div>
-                            <h3 class="ms-choose-title">Pay no more than booking
-                                direct</h3>
+                            <h3 class="ms-choose-title">Pay no more than booking direct</h3>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
-                            <div class="ms-choose-icon d-inline-block p-relative">
+                        <div class="ms-choose-item mb-25 border-color">
+                            <div class="ms-choose-icon d-inline-block p-relative ">
                                 <i class="flaticon-theater"></i>
-                                <span>02</span>
+                                <!-- <span>02</span> -->
                             </div>
                             <h3 class="ms-choose-title">Our acts are vetted and
                                 road-tested</h3>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
+                        <div class="ms-choose-item mb-25 border-color">
                             <div class="ms-choose-icon d-inline-block p-relative">
                                 <i class="flaticon-verified"></i>
-                                <span>03</span>
+                                <!-- <span>03</span> -->
                             </div>
                             <h3 class="ms-choose-title">Your booking is secure
                                 in our site</h3>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
-                        <div class="ms-choose-item mb-25">
+                        <div class="ms-choose-item mb-25 border-color">
                             <div class="ms-choose-icon d-inline-block p-relative">
                                 <i class="flaticon-appointment"></i>
-                                <span>04</span>
+                                <!-- <span>04</span> -->
                             </div>
                             <h3 class="ms-choose-title">Booking is just the
                                 begin night</h3>
@@ -242,6 +241,14 @@
 </div>
 
 @endsection
+
+@push('style')
+<style>
+    .ms-choose-title {
+        color: var(--clr-common-heading);
+    }
+</style>
+@endpush
 
 @push('js')
 

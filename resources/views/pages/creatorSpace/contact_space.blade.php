@@ -7,9 +7,8 @@
                  <div class="ms-event2-top text-center">
                      <div class="section__title-wrapper mb-40 bd-title-anim">
                          <span class="section__subtitle">Book Now</span>
-                         <h2 class="section__title">The Floor is Yours — Claim Your <span class="animated-underline active">
-                                 Studio Booking!</span>
-
+                         <h2 class="section__title">Book Us for events <span class="animated-underline active">
+                             </span>
                          </h2>
                      </div>
                  </div>
@@ -21,32 +20,50 @@
                  <div class="form-container sign-up col-md-6 col-12">
                      <form>
                          <div class="ms-cta-content d-flex flex-column">
-                             <h2 class="text-center section__title two text-black">Contact us</h2>
+                             <h2 class="text-center section__title two text-black">Contact us for Events</h2>
                          </div>
-                         <div class="row">
+                         <div class="row transparent-bg mt-4">
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label for="name">Name</label>
-                                     <input type="text" placeholder="Name">
+                                     <label for="name" class="text-white">Name</label>
+                                     <input type="text" name="name" placeholder="Name">
                                  </div>
                              </div>
                              <div class="col-md-6">
                                  <div class="ms-input2-box ">
-                                     <label for="email">Email</label>
-                                     <input type="email" placeholder="Email">
+                                     <label for="email" class="text-white">Email</label>
+                                     <input type="email" name="email" placeholder="Email">
                                  </div>
                              </div>
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label for="phone">Phone</label>
-                                     <input type="phone" placeholder="Phone">
+                                     <label for="phone" class="text-white">Phone</label>
+                                     <input type="phone" name="phone" placeholder="Phone">
                                  </div>
                              </div>
+                             <div class="col-md-6">
+                                 <div class="ms-input2-box mb-30">
+                                     <label class="text-white" for="service">Choose our Services</label>
+                                     <select name="service" required>
+                                         <option value="Choose">Choose Service</option>
+                                         <option value="Book Us for Event">Book us for Event</option>
+                                         <option value="Enroll Course">Enroll For Dance Course</option>
+                                         <option value="book creator space">Book our creator space</option>
+                                     </select>
+                                 </div>
+                             </div>
+                             <!-- <div class="col-md-12">
+                                 <div class="ms-input2-box mb-30">
+                                     <label class="text-white" for="message">Message</label>
+                                     <textarea cols="10" rows="5" name="message"
+                                         placeholder="Write Message . . ." class="mt-2"></textarea>
+                                 </div>
+                             </div> -->
+                             <div class="trending-btn d-flex justify-content-center">
+                                 <a class="border__btn zindex-5" href="http://localhost/kingsunitedindiaa/course/diploma-in-street-dance">Enquire Now</a>
+                             </div>
+                         </div>
 
-                         </div>
-                         <div class="trending-btn d-flex justify-content-center">
-                             <a class="border__btn zindex-5" href="http://localhost/kingsunitedindiaa/course/diploma-in-street-dance">Enquire Now</a>
-                         </div>
                      </form>
                  </div>
                  <!-- </div> -->
@@ -54,7 +71,7 @@
                      <form method="POST" action="{{ route('studio.book', ['studio' => $studio]) }}">
                          @csrf
                          <div class="ms-cta-content d-flex flex-column">
-                             <h2 class="text-center section__title two text-black">Book Now</h2>
+                             <h2 class="text-center section__title two text-black">Book Now - Studio</h2>
                          </div>
                          <div class="row transparent-bg mt-4">
                              <div class="col-md-6">
@@ -76,24 +93,30 @@
                                  </div>
                              </div>
                              <div class="col-md-6">
-                                 <label>Studio</label>
-                                 <select name="studio" class="form-select" required>
-                                     @foreach($studios as $s)
-                                     <option value="{{ $s }}" {{ $s === $studio ? 'selected' : '' }}>
-                                         {{ ucfirst($s) }}
-                                     </option>
-                                     @endforeach
-                                 </select>
+                                 <div class="ms-input2-box">
+                                     <label class="text-white" for="studio">Studio</label>
+                                     <select name="studio" class="form-select" required>
+                                         @foreach($studios as $s)
+                                         <option value="{{ $s }}" {{ $s === $studio ? 'selected' : '' }}>
+                                             {{ ucfirst($s) }}
+                                         </option>
+                                         @endforeach
+                                     </select>
+                                 </div>
                              </div>
                              <div class="col-md-6">
-                                 <label>Date</label>
-                                 <input name="date" type="date" class="form-control" required>
+                                 <div class="ms-input2-box">
+                                     <label class="text-white" for="date">Date</label>
+                                     <input name="date" type="date" class="form-control" required>
+                                 </div>
                              </div>
                              <div class="col-md-6">
-                                 <label>Time</label>
-                                 <select name="time" class="form-select" required>
-                                     <option>Select Time</option>
-                                 </select>
+                                 <div class="ms-input2-box">
+                                     <label class="text-white" for="time">Time</label>
+                                     <select name="time" class="form-select" required>
+                                         <option>Select Time</option>
+                                     </select>
+                                 </div>
                              </div>
                              <div class="col-12 mt-3">
                                  <div class="trending-btn d-flex justify-content-center">
@@ -104,8 +127,6 @@
                      </form>
                  </div>
 
-
-
                  <div class="col-md-6 col-12">
                      <div class="toggle-container">
                          <div class="toggle">
@@ -114,7 +135,7 @@
                                      <h2 class="text-center section__title two custome-font-size">Ready to Dance? Reserve Your Studio — Fill the Form!</h2>
                                  </div>
                                  <p>Unlock the perfect space for your next rehearsal, class, or performance! Our studio offers a professional, comfortable environment for dancers of all styles and levels. Complete the form below to secure your preferred time slot and take your dance practice to the next level. Don’t wait — your ideal dance space is just a click away!</p>
-                                 <button class="hidden" id="login">Book Now</button>
+                                 <button class="hidden" id="login">Book Studio</button>
                              </div>
                              <div class="toggle-panel toggle-right">
                                  <div class="ms-cta-content d-flex flex-column">
@@ -133,8 +154,6 @@
      </div>
  </section>
  <!-- Contact Area End Here  -->
-
-
 
  @push('style')
  <style>
@@ -285,7 +304,7 @@
          overflow: hidden;
          transition: all 0.6s ease-in-out;
          border-radius: 150px 0 0 100px;
-         z-index: 1000;
+         z-index: 1;
      }
 
      .contact.active .toggle-container {

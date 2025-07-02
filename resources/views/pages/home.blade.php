@@ -1,4 +1,5 @@
 @extends('layout.app')
+
 @section('content')
 <main>
     <!-- Banner Area Start Here  -->
@@ -29,11 +30,6 @@
                     <div class="section__title-wrapper mb-40 bd-title-anim">
                         <span class="section__subtitle">Crowned Moves</span>
                         <h2 class="section__title"><span class="animated-underline active">Kings Dance Studio: </span> Where Passion Meets Movement!</h2>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                        <a class="border__btn zindex-5" href="genres.html">View All</a>
                     </div>
                 </div>
             </div>
@@ -180,11 +176,66 @@
 
     @include('partial.goldenPass')
 
+    <!-- courses Area Start -->
+    <section class="ms-news-area ms-bg-2 pt-130 pb-90">
+        <div class="container">
+            <div class="row align-items-end mb-25 bdFadeUp">
+                <div class="col-lg-6">
+                    <div class="section__title-wrapper mb-40 bd-title-anim">
+                        <span class="section__subtitle">Courses We Offer</span>
+                        <h2 class="section__title">The <span class="animated-underline active">Kings</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-lg-4 mt-3">
+                    <div class="main-card">
+                        <a href="https://www.mythrillfiction.com/the-dark-rider" target="_blank">
+                            <div class="mycard">
+                                <div class="wrapper">
+                                    <img
+                                        src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg"
+                                        class="cover-image" />
+                                </div>
+                                <img
+                                    src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                                    class="title" />
+                                <img
+                                    src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp"
+                                    class="character" />
 
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-lg-4 mt-3">
+                    <div class="main-card">
+                        <a href="https://www.mythrillfiction.com/force-mage" target="_blank">
+                            <div class="mycard">
+                                <div class="wrapper">
+                                    <img
+                                        src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg"
+                                        class="cover-image" />
+                                </div>
+                                <img
+                                    src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png"
+                                    class="title" />
+                                <img
+                                    src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp"
+                                    class="character" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- courses Area End -->
 
     <!-- courses Area Start -->
     <section class="ms-news-area ms-bg-2 pt-130 pb-90 ">
-        <div class="container ">
+        <div class="container">
             <div class="row align-items-end mb-25 bdFadeUp">
                 <div class="col-lg-6">
                     <div class="section__title-wrapper mb-40 bd-title-anim">
@@ -332,7 +383,7 @@
             <div class="row justify-content-center mb-25 bdFadeUp">
                 <div class="col-xl-6">
                     <div class="ms-event2-top text-center">
-                      
+
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Our Services</span>
                             <h2 class="section__title">Our Services to Support Your <span class="animated-underline active">
