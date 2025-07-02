@@ -1,6 +1,8 @@
 @extends('layout.app')
 
 @section('content')
+
+
 <div class="ms-all-content ms-content-mobile-space pt-130">
     <main>
         <!-- About Area Start Here  -->
@@ -132,9 +134,8 @@
             </div>
         </section>
         <!-- Event Details Area End Here  -->
-        @include('pages.creatorSpace.contact_space')
 
-        <!-- work area end -->
+        @include('pages.creatorSpace.contact_space', ['studio' => $studio, 'studios' => $studios])
     </main>
 </div>
 @endsection

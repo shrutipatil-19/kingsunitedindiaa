@@ -51,7 +51,7 @@
                  </div>
                  <!-- </div> -->
                  <div class="form-container sign-in col-md-6 col-12">
-                     <form method="POST" action="{{ route('studio.book') }}">
+                     <form method="POST" action="{{ route('studio.book', ['studio' => $studio]) }}">
                          @csrf
                          <div class="ms-cta-content d-flex flex-column">
                              <h2 class="text-center section__title two text-black">Book Now</h2>
@@ -76,23 +76,23 @@
                                  </div>
                              </div>
                              <div class="col-md-6">
-                                 <label class="text-white">Studio</label>
+                                 <label>Studio</label>
                                  <select name="studio" class="form-select" required>
-                                     <option value="" selected>Select Studio</option>
-                                     <option value="One">One</option>
-                                     <option value="Two">Two</option>
-                                     <option value="Three">Three</option>
+                                     @foreach($studios as $s)
+                                     <option value="{{ $s }}" {{ $s === $studio ? 'selected' : '' }}>
+                                         {{ ucfirst($s) }}
+                                     </option>
+                                     @endforeach
                                  </select>
                              </div>
                              <div class="col-md-6">
-                                 <label class="text-white">Date</label>
-                                 <input name="date" type="date" required>
+                                 <label>Date</label>
+                                 <input name="date" type="date" class="form-control" required>
                              </div>
                              <div class="col-md-6">
-                                 <label class="text-white">Time</label>
+                                 <label>Time</label>
                                  <select name="time" class="form-select" required>
-                                     <option selected>Select Time</option>
-                                     <!-- dynamically filled -->
+                                     <option>Select Time</option>
                                  </select>
                              </div>
                              <div class="col-12 mt-3">
@@ -411,27 +411,34 @@
  <!-- time slot Start -->
  <script>
      $(document).ready(function() {
-         $('input[name="date"]').on('change', function() {
-             var selectedDate = $(this).val();
-             $.ajax({
-                 url: '{{ url("creator-space/studio-1/available-times") }}', // no leading slash
-                 data: {
-                     date: selectedDate
-                 },
-                 success: function(response) {
-                     var timeSelect = $('select[name="time"]');
-                     timeSelect.empty();
-                     timeSelect.append('<option selected>Select Time</option>');
-                     $.each(response, function(i, slot) {
-                         timeSelect.append('<option value="' + slot + '">' + slot + '</option>');
-                     });
-                 },
-                 error: function(err) {
-                     console.log(err);
-                     alert("Error loading times, please check console.");
-                 }
-             });
-         });
+         function loadTimes() {
+             var selectedDate = $('input[name="date"]').val();
+             var selectedStudio = $('select[name="studio"]').val();
+
+             if (selectedDate && selectedStudio) {
+                 $.ajax({
+                     url: '{{ url("creator-space/$studio/available-times") }}',
+                     data: {
+                         date: selectedDate,
+                         studio: selectedStudio
+                     },
+                     success: function(response) {
+                         var timeSelect = $('select[name="time"]');
+                         timeSelect.empty();
+                         timeSelect.append('<option>Select Time</option>');
+                         $.each(response, function(i, slot) {
+                             timeSelect.append('<option value="' + slot + '">' + slot + '</option>');
+                         });
+                     },
+                     error: function(err) {
+                         console.log(err);
+                         alert("Error loading available times");
+                     }
+                 });
+             }
+         }
+
+         $('input[name="date"], select[name="studio"]').on('change', loadTimes);
      });
  </script>
  <!-- time slot end -->

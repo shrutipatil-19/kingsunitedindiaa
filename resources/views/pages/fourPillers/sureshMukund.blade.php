@@ -451,7 +451,6 @@
         </section>
         <!-- News area end here  -->
 
-
         <!-- Testimonial Area Start Here  -->
         <section class="ms-tm-area">
             <div class="container">
