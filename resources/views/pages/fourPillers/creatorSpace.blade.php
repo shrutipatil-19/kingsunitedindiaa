@@ -52,11 +52,129 @@
         </section>
         <!-- work area end -->
 
-        @include('partial.rental-studio')
+        <section class="studio-detail py-5">
+            <div class="container">
+
+                <!-- Studio 1 -->
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="studio-gallery mb-4">
+                            <img src="{{ asset('assets/img/trending/01.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 1">
+                            <img src="{{ asset('assets/img/trending/01b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 1 side">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>STUDIO 1 - 100 SQ.FT</h2>
+                        <p class="text-muted">Perfect for dance rehearsals, workshops, video shoots.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><strong>Features:</strong> AC, Mirrors, Sound System, Private Washroom</li>
+                            <li><strong>Floor Type:</strong> Wooden sprung floor</li>
+                            <li><strong>Parking:</strong> 2 vehicles</li>
+                        </ul>
+                        <h4 class="text-primary">₹500/hr</h4>
+                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
+                        <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}" class="btn btn-success">Book Studio</a>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Studio 2 -->
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="studio-gallery mb-4">
+                            <img src="{{ asset('assets/img/trending/02.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 2">
+                            <img src="{{ asset('assets/img/trending/02b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 2 side">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>STUDIO 2 - 200 SQ.FT</h2>
+                        <p class="text-muted">Ideal for group classes and events.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><strong>Features:</strong> AC, Mirrors, Sound System</li>
+                            <li><strong>Floor Type:</strong> Vinyl floor</li>
+                            <li><strong>Parking:</strong> 4 vehicles</li>
+                        </ul>
+                        <h4 class="text-primary">₹800/hr</h4>
+                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
+                        <a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}" class="btn btn-success">Book Studio</a>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Studio 3 -->
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="studio-gallery mb-4">
+                            <img src="{{ asset('assets/img/trending/03.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 3">
+                            <img src="{{ asset('assets/img/trending/03b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 3 side">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>STUDIO 3 - 150 SQ.FT</h2>
+                        <p class="text-muted">Great for yoga and meditation sessions.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><strong>Features:</strong> AC, Mirrors, Sound System</li>
+                            <li><strong>Floor Type:</strong> Wooden floor</li>
+                            <li><strong>Parking:</strong> 3 vehicles</li>
+                        </ul>
+                        <h4 class="text-primary">₹600/hr</h4>
+                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
+                        <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}" class="btn btn-success">Book Studio</a>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Studio 4 -->
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="studio-gallery mb-4">
+                            <img src="{{ asset('assets/img/trending/04.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 4">
+                            <img src="{{ asset('assets/img/trending/04b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 4 side">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>STUDIO 4 - 250 SQ.FT</h2>
+                        <p class="text-muted">Large studio for big dance classes or workshops.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><strong>Features:</strong> AC, Mirrors, Sound System, Changing Room</li>
+                            <li><strong>Floor Type:</strong> Sprung wooden floor</li>
+                            <li><strong>Parking:</strong> 5 vehicles</li>
+                        </ul>
+                        <h4 class="text-primary">₹1000/hr</h4>
+                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
+                        <a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}" class="btn btn-success">Book Studio</a>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Studio 5 -->
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="studio-gallery mb-4">
+                            <img src="{{ asset('assets/img/trending/05.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 5">
+                            <img src="{{ asset('assets/img/trending/05b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 5 side">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>STUDIO 5 - 300 SQ.FT</h2>
+                        <p class="text-muted">Premium studio for events, shoots, and rehearsals.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><strong>Features:</strong> AC, Mirrors, Sound System, Washroom, Green Room</li>
+                            <li><strong>Floor Type:</strong> Marble floor</li>
+                            <li><strong>Parking:</strong> 6 vehicles</li>
+                        </ul>
+                        <h4 class="text-primary">₹1200/hr</h4>
+                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
+                        <a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}" class="btn btn-success">Book Studio</a>
+                    </div>
+                </div>
+                <hr>
+
+            </div>
+        </section>
 
         <!-- work area start -->
         <section class="work__area pt-125 pb-60 include__bg" alt="vactoe-shape.png">
-
             <div class="container">
                 <div class="row justify-content-center mb-25 bdFadeUp">
                     <div class="col-xl-8">

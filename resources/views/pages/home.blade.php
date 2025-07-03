@@ -177,7 +177,7 @@
     @include('partial.goldenPass')
 
     <!-- courses Area Start -->
-    <section class="ms-news-area ms-bg-2 pt-130 pb-90">
+    <section class="ms-news-area ms-bg-2 pt-130 pb-90 d-none">
         <div class="container">
             <div class="row align-items-end mb-25 bdFadeUp">
                 <div class="col-lg-6">
@@ -233,94 +233,7 @@
 
     <!-- courses Area End -->
 
-    <!-- courses Area Start -->
-    <section class="ms-news-area ms-bg-2 pt-130 pb-90 ">
-        <div class="container">
-            <div class="row align-items-end mb-25 bdFadeUp">
-                <div class="col-lg-6">
-                    <div class="section__title-wrapper mb-40 bd-title-anim">
-                        <span class="section__subtitle">Courses We Offer</span>
-                        <h2 class="section__title">The <span class="animated-underline active">Kings
-                            </span>
-                        </h2>
-                    </div>
-                </div>
-
-            </div>
-            <!-- Swiper -->
-            <div class="row">
-                <!-- <div class="col-lg-6 pt-lg-4"> -->
-                <div class="col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                        <div class="img-box">
-                            <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
-                        </div>
-                        <div class="content">
-                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="{{ route('diploma') }}">Diploma In Street Style</a></h3>
-                            <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos, quis modi et.</p>
-                            <div class="trending-btn d-flex">
-                                <a class="border__btn zindex-5" href="{{ route('diploma') }}">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="img-box">
-                            <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
-
-                        </div>
-                        <div class="content">
-                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Choreo Lab</a></h3>
-                            <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam moti aliquam id, quis modi et.</p>
-                            <div class="trending-btn d-flex">
-                                <a class="border__btn zindex-5" href="#">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class=" col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                        <div class="img-box">
-                            <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="ABCD2" class="w-100 h-100 object-cover custome-radius-top">
-
-                        </div>
-                        <div class="content">
-                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#"> Dream 2 Dance </a></h3>
-                            <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos, quis modi et.</p>
-                            <div class="trending-btn d-flex">
-                                <a class="border__btn zindex-5" href="#">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 4 -->
-                <div class="col-lg-6 mt-lg-4 mt-3">
-                    <div class="achievement-card d-flex flex-row" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
-                        <div class="img-box">
-                            <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
-
-                        </div>
-                        <div class="content">
-                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Kings Golden Pass</a></h3>
-                            <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos, quis modi et.</p>
-                            <div class="trending-btn d-flex">
-                                <a class="border__btn zindex-5" href="#">View More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- courses Area End -->
-
+    @include('partial.course-grid')
     @include('partial.rental-studio')
 
     <!-- work area start -->
@@ -658,10 +571,6 @@
 @endsection
 @push('style')
 <style>
-    .achievement-card {
-        height: auto;
-    }
-
     .img-box {
         height: auto;
         clip-path: none;
@@ -673,11 +582,6 @@
 
     .content {
         padding: 15px 25px;
-    }
-
-    .achievement-card:hover {
-        transform: none;
-        border: none;
     }
 
     .ms-trending2-item:hover .trending__title {

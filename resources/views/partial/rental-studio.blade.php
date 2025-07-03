@@ -22,25 +22,41 @@
                   <!-- Slide 1 -->
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                          <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
-                                  alt="trending image"></a>
-                         
-
+                          <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">
+                              <img src="{{ asset('assets/img/trending/01.jpg') }}" alt="Studio 1 Image">
+                          </a>
                           <div class="trending__number">
                               <span>01</span>
                           </div>
+                          <!-- availability -->
+                          <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 end-0 m-2">
+                              Available
+                          </div>
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-25"><a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">STUDIO 1 - 100 SQ.FT</a></h3>
-                          <p class="ms-trending3-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nobis! Beatae, dolorum.
+                          <h3 class="ms-trending3-title mb-15">
+                              <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">STUDIO 1 - 100 SQ.FT</a>
+                          </h3>
+                          <p class="ms-trending3-text mb-10">
+                              Perfect for small dance groups and video shoots.
                           </p>
+                          <ul class="list-inline mb-15 small">
+                              <li class="list-inline-item"><i class="fa-solid fa-music"></i> Sound System</li>
+                              <li class="list-inline-item"><i class="fa-solid fa-snowflake"></i> AC</li>
+                              <li class="list-inline-item"><i class="fa-solid fa-mirror"></i> Mirrors</li>
+                          </ul>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <span class="fw-bold text-primary">₹500/hr</span>
+                              <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}" class="btn btn-primary btn-sm">Book Now</a>
+                          </div>
                       </div>
                   </div>
+
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                        
+
 
                           <div class="trending__number">
                               <span>02</span>
@@ -56,7 +72,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                         
+
 
                           <div class="trending__number">
                               <span>03</span>
@@ -72,7 +88,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                         
+
 
                           <div class="trending__number">
                               <span>04</span>
@@ -88,7 +104,7 @@
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}"><img src="{{ asset('assets/img/trending/01.jpg') }}"
                                   alt="trending image"></a>
-                         
+
 
                           <div class="trending__number">
                               <span>05</span>
