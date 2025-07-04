@@ -363,7 +363,8 @@
             </div>
         </section>
         <!-- Event Area End Here  -->
-        @include('partial.kings_gallary')
+         @include('partial.kings_gallary2')
+        <!-- @include('partial.kings_gallary') -->
         <!-- CTA Area Start Here  -->
         <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10 d-none">
             <div class="container">
