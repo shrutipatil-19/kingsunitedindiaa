@@ -119,10 +119,12 @@
                                  </div>
                              </div>
                              <div class="col-12 mt-3">
-                                
-                                   <div class="trending-btn d-flex justify-content-center">
+                                 <div class="trending-btn d-flex justify-content-center">
+                                     <button type="submit" class="border__btn zindex-5">Enquire Now</button>
+                                 </div>
+                                 <!-- <div class="trending-btn d-flex justify-content-center">
                                  <a class="border__btn zindex-5" href="#">Enquire Now</a>
-                             </div>
+                             </div> -->
                              </div>
                          </div>
                      </form>
