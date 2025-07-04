@@ -66,9 +66,8 @@
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
-                                        scintillating performances.</p>
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
+                                    <p class="text-black-light-custome">History created as the first Indian Crew being crowned as World Champions in NBC World of Dance.</p>
                                     <div class="trending-btn d-flex">
                                         <a class="border__btn zindex-5" href="#">View More</a>
                                     </div>
@@ -87,9 +86,8 @@
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
-                                        scintillating performances.</p>
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
+                                    <p class="text-black-light-custome">We are the first dance crew from India to achieve a Bronze Medal for our country India which was an incredible achievement.</p>
                                     <div class="trending-btn d-flex">
                                         <a class="border__btn zindex-5" href="#">View More</a>
                                     </div>
@@ -108,9 +106,9 @@
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
-                                        scintillating performances.</p>
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
+                                    <p class="text-black-light-custome">An inspiring journey of the THE KINGS was showcased on a big screen in the form of movie Any Body Can Dance 2 directed by Remo
+                                        D'Souza.</p>
                                     <div class="trending-btn d-flex">
                                         <a class="border__btn zindex-5" href="#">View More</a>
                                     </div>
@@ -130,8 +128,7 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
-                                        scintillating performances.</p>
+                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their scintillating performances.</p>
                                     <div class="trending-btn d-flex">
                                         <a class="border__btn zindex-5" href="#">View More</a>
                                     </div>
@@ -150,9 +147,28 @@
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                    <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
-                                        scintillating performances.</p>
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
+                                    <p class="text-black-light-custome">Showcased an incredible achievement by winning Entertainment ke liye kuch bhi karega season 3</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="achievement-card">
+                                <div class="img-box">
+                                    <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="EKLKBK" class="w-100 h-100 object-cover custome-radius-top">
+                                    <div class="ms-news-meta d-inline-block">
+                                        <span>Feb 23, 2010</span>
+
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
+                                    <p class="text-black-light-custome">The only dance group in
+                                        India who mesmerized the world with so many accolades during their
+                                        journey.</p>
                                     <div class="trending-btn d-flex">
                                         <a class="border__btn zindex-5" href="#">View More</a>
                                     </div>
@@ -757,7 +773,14 @@
     </main>
 </div>
 @endsection
+@push('style')
+<style>
+    .content {
+        padding: 0px 20px 20px 20px;
+    }
+</style>
 
+@endpush
 
 @push('js')
 <script>

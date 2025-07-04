@@ -52,126 +52,298 @@
         </section>
         <!-- work area end -->
 
-        <section class="studio-detail py-5">
+
+        <!-- courses Area Start -->
+        <section class="ms-news-area ms-bg-2 pt-130 pb-90 ">
             <div class="container">
-
-                <!-- Studio 1 -->
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="studio-gallery mb-4">
-                            <img src="{{ asset('assets/img/trending/01.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 1">
-                            <img src="{{ asset('assets/img/trending/01b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 1 side">
+                <div class="row align-items-end mb-25 bdFadeUp">
+                    <div class="col-lg-6">
+                        <div class="section__title-wrapper mb-40 bd-title-anim">
+                            <span class="section__subtitle">Creator space</span>
+                            <h2 class="section__title">Creator <span class="animated-underline active">space
+                                </span>
+                            </h2>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h2>STUDIO 1 - 100 SQ.FT</h2>
-                        <p class="text-muted">Perfect for dance rehearsals, workshops, video shoots.</p>
-                        <ul class="list-unstyled mb-3">
-                            <li><strong>Features:</strong> AC, Mirrors, Sound System, Private Washroom</li>
-                            <li><strong>Floor Type:</strong> Wooden sprung floor</li>
-                            <li><strong>Parking:</strong> 2 vehicles</li>
-                        </ul>
-                        <h4 class="text-primary">₹500/hr</h4>
-                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
-                        <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}" class="btn btn-success">Book Studio</a>
-                    </div>
-                </div>
-                <hr>
 
-                <!-- Studio 2 -->
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="studio-gallery mb-4">
-                            <img src="{{ asset('assets/img/trending/02.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 2">
-                            <img src="{{ asset('assets/img/trending/02b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 2 side">
+                </div>
+                <!-- Swiper -->
+                <div class="row">
+                    <!-- <div class="col-lg-6 pt-lg-4"> -->
+                    <div class="col-lg-12 mt-lg-1 mt-3">
+                        <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                            <div class="row">
+                                <div class="img-box position-relative col-4">
+                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+
+                                    <!-- offer badge -->
+                                    <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
+                                        10% OFF
+                                    </div>
+                                    <!-- <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 start-1 m-2">
+                                        Available
+                                    </div> -->
+                                </div>
+
+                                <div class="content col-lg-5 col-12">
+                                    <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                                        Duration: 4 months</p>
+                                    <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">STUDIO 1 - 100 SQ.FT</a></h3>
+
+                                    <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p><span class="bg-light font-mini">Mirrors</span> <span class="bg-light font-mini">Sound system</span> <span class="bg-light font-mini">Cameras</span> <span class="bg-light font-mini">Changing rooms</span> <span class="bg-light font-mini">Air conditioning</span></p>
+                                    <p class="text-black-light-custome mb-1">
+                                        <i class="fa-solid fa-rotate-left me-1"></i>
+                                        Free cancellation up to 24 hours before booking
+                                    </p>
+
+                                </div>
+                                <div class="pricing col-3 d-flex flex-column justify-content-center">
+                                    <p class="fw-bold mb-1 text-black fs-4">
+                                        ₹1,500/Hour
+                                        <!-- <del class="text-muted ms-2">₹59,999</del> -->
+                                    </p>
+                                    <p class="fw-bold mb-1 text-black">
+                                        ₹3,000/3 Hour
+                                        <!-- <del class="text-muted ms-2">₹1,00000</del> -->
+                                    </p>
+                                    <p class="text-success small">Limited-time offer — save ₹1,500!</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="col-lg-12 mt-lg-3 mt-3">
+                        <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                            <div class="row">
+                                <div class="img-box position-relative col-4">
+                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+
+                                    <!-- offer badge -->
+                                    <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
+                                    20% OFF
+                                </div> -->
+                                    <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 start-1 m-2">
+                                        Available
+                                    </div>
+                                </div>
+
+                                <div class="content col-lg-5 col-12">
+                                    <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                                        Duration: 4 months</p>
+                                    <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">STUDIO 2 - 750 SQ.FT</a></h3>
+
+                                    <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p><span class="bg-light font-mini">Mirrors</span> <span class="bg-light font-mini">Sound system</span> <span class="bg-light font-mini">Cameras</span> <span class="bg-light font-mini">Changing rooms</span> <span class="bg-light font-mini">Air conditioning</span></p>
+
+                                </div>
+                                <div class="pricing col-3 d-flex flex-column justify-content-center">
+                                    <p class="fw-bold mb-1 text-black fs-4">
+                                        ₹1,500/Hour
+                                        <!-- <del class="text-muted ms-2">₹59,999</del> -->
+                                    </p>
+                                    <p class="fw-bold mb-1 text-black">
+                                        ₹3,000 - 3 Hour
+                                        <!-- <del class="text-muted ms-2">₹1,00000</del> -->
+                                    </p>
+                                    <p class="text-success small">Limited-time offer — save ₹1,500!</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h2>STUDIO 2 - 200 SQ.FT</h2>
-                        <p class="text-muted">Ideal for group classes and events.</p>
-                        <ul class="list-unstyled mb-3">
-                            <li><strong>Features:</strong> AC, Mirrors, Sound System</li>
-                            <li><strong>Floor Type:</strong> Vinyl floor</li>
-                            <li><strong>Parking:</strong> 4 vehicles</li>
-                        </ul>
-                        <h4 class="text-primary">₹800/hr</h4>
-                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
-                        <a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}" class="btn btn-success">Book Studio</a>
-                    </div>
-                </div>
-                <hr>
 
-                <!-- Studio 3 -->
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="studio-gallery mb-4">
-                            <img src="{{ asset('assets/img/trending/03.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 3">
-                            <img src="{{ asset('assets/img/trending/03b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 3 side">
+                    <!-- Slide 3 -->
+                    <div class="col-lg-12 mt-lg-3 mt-3">
+                        <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                            <div class="row">
+                                <div class="img-box position-relative col-4">
+                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+
+                                    <!-- offer badge -->
+                                    <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
+                                    20% OFF
+                                </div> -->
+                                    <!-- <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 start-1 m-2">
+                                        Available
+                                    </div> -->
+                                </div>
+
+                                <div class="content col-lg-5 col-12">
+                                    <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                                        Duration: 4 months</p>
+                                    <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">STUDIO 3A- 650 SQ.FT</a></h3>
+
+                                    <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p><span class="bg-light font-mini">Mirrors</span> <span class="bg-light font-mini">Sound system</span> <span class="bg-light font-mini">Cameras</span> <span class="bg-light font-mini">Changing rooms</span> <span class="bg-light font-mini">Air conditioning</span></p>
+
+                                </div>
+                                <div class="pricing col-3 d-flex flex-column justify-content-center">
+                                    <p class="fw-bold mb-1 text-black fs-4">
+                                        ₹2,000/Hour
+                                        <!-- <del class="text-muted ms-2">₹59,999</del> -->
+                                    </p>
+                                    <p class="fw-bold mb-1 text-black">
+                                        ₹5,500 - 3 Hour
+                                        <!-- <del class="text-muted ms-2">₹1,00000</del> -->
+                                    </p>
+                                    <p class="text-success small">Limited-time offer — save ₹500!</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>STUDIO 3 - 150 SQ.FT</h2>
-                        <p class="text-muted">Great for yoga and meditation sessions.</p>
-                        <ul class="list-unstyled mb-3">
-                            <li><strong>Features:</strong> AC, Mirrors, Sound System</li>
-                            <li><strong>Floor Type:</strong> Wooden floor</li>
-                            <li><strong>Parking:</strong> 3 vehicles</li>
-                        </ul>
-                        <h4 class="text-primary">₹600/hr</h4>
-                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
-                        <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}" class="btn btn-success">Book Studio</a>
-                    </div>
-                </div>
-                <hr>
 
-                <!-- Studio 4 -->
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="studio-gallery mb-4">
-                            <img src="{{ asset('assets/img/trending/04.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 4">
-                            <img src="{{ asset('assets/img/trending/04b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 4 side">
+
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="col-lg-12 mt-lg-3 mt-3">
+                        <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+                            <div class="row">
+                                <div class="img-box position-relative col-4">
+                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+
+                                    <!-- offer badge -->
+                                    <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
+                                    20% OFF
+                                </div> -->
+                                    <!-- <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 start-1 m-2">
+                                        Available
+                                    </div> -->
+                                </div>
+
+                                <div class="content col-lg-5 col-12">
+                                    <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                                        Duration: 4 months</p>
+                                    <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">STUDIO 3B- 650 SQ.FT</a></h3>
+
+                                    <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p><span class="bg-light font-mini">Mirrors</span> <span class="bg-light font-mini">Sound system</span> <span class="bg-light font-mini">Cameras</span> <span class="bg-light font-mini">Changing rooms</span> <span class="bg-light font-mini">Air conditioning</span></p>
+
+                                </div>
+                                <div class="pricing col-3 d-flex flex-column justify-content-center">
+                                    <p class="fw-bold mb-1 text-black fs-4">
+                                        ₹2,000/Hour
+                                        <!-- <del class="text-muted ms-2">₹59,999</del> -->
+                                    </p>
+                                    <p class="fw-bold mb-1 text-black">
+                                        ₹5,500 - 3 Hour
+                                        <!-- <del class="text-muted ms-2">₹1,00000</del> -->
+                                    </p>
+                                    <p class="text-success small">Limited-time offer — save ₹500!</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>STUDIO 4 - 250 SQ.FT</h2>
-                        <p class="text-muted">Large studio for big dance classes or workshops.</p>
-                        <ul class="list-unstyled mb-3">
-                            <li><strong>Features:</strong> AC, Mirrors, Sound System, Changing Room</li>
-                            <li><strong>Floor Type:</strong> Sprung wooden floor</li>
-                            <li><strong>Parking:</strong> 5 vehicles</li>
-                        </ul>
-                        <h4 class="text-primary">₹1000/hr</h4>
-                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
-                        <a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}" class="btn btn-success">Book Studio</a>
-                    </div>
-                </div>
-                <hr>
 
-                <!-- Studio 5 -->
-                <div class="row mb-5">
-                    <div class="col-md-6">
-                        <div class="studio-gallery mb-4">
-                            <img src="{{ asset('assets/img/trending/05.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 5">
-                            <img src="{{ asset('assets/img/trending/05b.jpg') }}" class="img-fluid rounded mb-3" alt="Studio 5 side">
+
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="col-lg-12 mt-lg-4 mt-4">
+                        <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+                            <div class="row">
+                                <div class="img-box position-relative col-4">
+                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+
+                                    <!-- offer badge -->
+                                    <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
+                                    20% OFF
+                                </div> -->
+                                    <!-- <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 start-1 m-2">
+                                        Available
+                                    </div> -->
+                                </div>
+
+                                <div class="content col-lg-5 col-12">
+                                    <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                                        Duration: 4 months</p>
+                                    <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">STUDIO 3 FULL</a></h3>
+
+                                    <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p><span class="bg-light font-mini">Mirrors</span> <span class="bg-light font-mini">Sound system</span> <span class="bg-light font-mini">Cameras</span> <span class="bg-light font-mini">Changing rooms</span> <span class="bg-light font-mini">Air conditioning</span></p>
+
+
+                                </div>
+                                <div class="pricing col-3 d-flex flex-column justify-content-center">
+                                    <p class="fw-bold mb-1 text-black fs-4">
+                                        ₹4,000/Hour
+                                        <!-- <del class="text-muted ms-2">₹59,999</del> -->
+                                    </p>
+                                    <p class="fw-bold mb-1 text-black">
+                                        ₹11,000 - 3 Hour
+                                        <!-- <del class="text-muted ms-2">₹1,00000</del> -->
+                                    </p>
+                                    <p class="text-success small">Limited-time offer — save ₹1,000!</p>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>STUDIO 5 - 300 SQ.FT</h2>
-                        <p class="text-muted">Premium studio for events, shoots, and rehearsals.</p>
-                        <ul class="list-unstyled mb-3">
-                            <li><strong>Features:</strong> AC, Mirrors, Sound System, Washroom, Green Room</li>
-                            <li><strong>Floor Type:</strong> Marble floor</li>
-                            <li><strong>Parking:</strong> 6 vehicles</li>
-                        </ul>
-                        <h4 class="text-primary">₹1200/hr</h4>
-                        <p class="small text-secondary">Cancellation up to 24 hours before booking allowed.</p>
-                        <a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}" class="btn btn-success">Book Studio</a>
-                    </div>
-                </div>
-                <hr>
 
+
+                    </div>
+
+                </div>
             </div>
         </section>
+        <!-- courses Area End -->
+
+
+        @push('style')
+        <style>
+            .achievement-card {
+                height: auto;
+                box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4);
+                border: 1px solid red;
+            }
+
+            .font-mini {
+                font-size: 0.7rem !important;
+                border-radius: 12px;
+                padding: 2px 6px !important;
+                color: grey;
+            }
+
+            .ms-event-title {
+                background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .img-box {
+                height: auto;
+                clip-path: none;
+            }
+
+            .custome-radius-top {
+                border-radius: 12px 12px 12px 12px;
+            }
+
+            .content {}
+
+            .content {
+                padding: 15px 25px;
+                justify-content: start;
+            }
+
+            .ms-trending2-item:hover .trending__title {
+                color: white;
+            }
+        </style>
+        @endpush
 
         <!-- work area start -->
         <section class="work__area pt-125 pb-60 include__bg" alt="vactoe-shape.png">
