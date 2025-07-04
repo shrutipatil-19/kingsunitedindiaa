@@ -155,19 +155,33 @@
                                                              <li class="has-dropdown">
                                                                  <a href="javascript:void(0)">Courses</a>
                                                                  <ul class="submenu">
-                                                                     <li><a href="#">Kings Golden Pass - One Year Unlimited</a>
+                                                                     <li><a href="{{ route('diploma') }}">Diploma In Street Style</a>
                                                                      </li>
-                                                                     <li><a href="#">Professional Training Courses</a>
+                                                                     <li><a href="{{ route('choreoLab') }}">Choreo Lab</a>
                                                                      </li>
-                                                                     <li><a href="#">Intensive Training Courses</a>
+                                                                     <li><a href="{{ route('D2D') }}">Dream 2 Dance</a>
                                                                      </li>
-                                                                     <li><a href="#">Regular Classes</a>
+                                                                     <!-- <li><a href="#">Regular Classes</a>
                                                                      </li>
                                                                      <li><a href="#">Personal/Reality show Training</a>
+                                                                     </li> -->
+                                                                 </ul>
+                                                             </li>
+                                                             <li class="has-dropdown">
+                                                                 <a href="{{ route('creatorSpace') }}">Creator Space</a>
+                                                                 <ul class="submenu">
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">Studio 1</a>
+                                                                     </li>
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">Studio 2</a>
+                                                                     </li>
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Studio 3A</a>
+                                                                     </li>
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Studio 3B</a>
+                                                                     </li>
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Studio 3 Full</a>
                                                                      </li>
                                                                  </ul>
                                                              </li>
-                                                             <li><a href="{{ route('creatorSpace') }}">Creator Space</a></li>
                                                              <li><a href="{{ route('theKings') }}">Kings Crew</a></li>
 
                                                          </ul>
@@ -250,14 +264,14 @@
                                                         </ul>
                                                     </li> -->
                                                      <li class="has-dropdown">
-                                                         <a href="#">Book Us Live</a>
+                                                         <a href="{{ route('events') }}">Book Us Live</a>
                                                          <ul class="submenu">
-                                                             <li><a href="#">Book Us For Live Event</a></li>
+                                                             <li><a href="{{ route('events') }}">Book Us For Live Event</a></li>
 
                                                          </ul>
                                                      </li>
                                                      <li>
-                                                         <a href="#">Contact Us</a>
+                                                         <a href="{{ route('contact') }}">Contact Us</a>
                                                      </li>
                                                  </ul>
                                              </nav>

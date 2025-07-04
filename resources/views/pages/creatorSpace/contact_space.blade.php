@@ -60,7 +60,7 @@
                                  </div>
                              </div> -->
                              <div class="trending-btn d-flex justify-content-center">
-                                 <a class="border__btn zindex-5" href="http://localhost/kingsunitedindiaa/course/diploma-in-street-dance">Enquire Now</a>
+                                 <a class="border__btn zindex-5" href="#">Enquire Now</a>
                              </div>
                          </div>
 
@@ -119,9 +119,10 @@
                                  </div>
                              </div>
                              <div class="col-12 mt-3">
-                                 <div class="trending-btn d-flex justify-content-center">
-                                     <button type="submit" class="border__btn zindex-5">Enquire Now</button>
-                                 </div>
+                                
+                                   <div class="trending-btn d-flex justify-content-center">
+                                 <a class="border__btn zindex-5" href="#">Enquire Now</a>
+                             </div>
                              </div>
                          </div>
                      </form>
@@ -197,7 +198,6 @@
          font-size: 12px;
          padding: 10px 45px;
          border: 1px solid transparent;
-         border-radius: 8px;
          font-weight: 600;
          letter-spacing: 0.5px;
          text-transform: uppercase;

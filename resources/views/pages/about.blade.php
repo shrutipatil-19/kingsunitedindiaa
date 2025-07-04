@@ -185,7 +185,7 @@
             </div>
         </section>
         <!-- Key achievement Area End -->
-        <!-- work area start -->
+        <!-- king area start -->
         <section class="work__area pt-125 pb-105">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
@@ -231,9 +231,9 @@
                 </div>
             </div>
         </section>
-        <!-- work area end -->
+        <!-- king area end -->
 
-        <!-- work area start -->
+        <!-- suresh Mukund area start -->
         <section class="work__area pt-125 ms-bg-2 pb-105">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
@@ -274,7 +274,7 @@
                 </div>
             </div>
         </section>
-        <!-- work area end -->
+        <!-- suresh mukund area end -->
         <!-- team  area start -->
         <section class="ms-popular__area pt-130 pb-100 fix">
             <div class="container">

@@ -6,8 +6,8 @@
               <div class="col-lg-8">
                   <div class="section__title-wrapper mb-40 bd-title-anim">
                       <span class="section__subtitle">Creator space</span>
-                      <h2 class="section__title">Creator <span class="ms-text1">Space</span>
-                      </h2>
+
+                      <h2 class="section__title">Creator <span class="animated-underline active">Space</span></h2>
                   </div>
               </div>
               <div class="col-lg-4">

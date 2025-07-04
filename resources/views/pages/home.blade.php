@@ -271,16 +271,11 @@
 
                             <div class="work__features-bottom">
                                 <div class="work__features-action">
-                                    <div class="work__features-btn">
-                                        <a class="unfill__btn" href="{{ route('theKings') }}">Get Started</a>
-                                    </div>
-                                    <div class="features__btn-text">
-                                        <span>Book something <br> awesome !</span>
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('theKings') }}" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
                                     </div>
                                 </div>
-                                <div class="work__features-arrow">
-                                    <img src="{{ asset('assets/img/work/arrow.png') }}" alt="image not found">
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
