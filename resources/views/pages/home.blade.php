@@ -96,7 +96,7 @@
                                 <span>From $55</span>
                             </div> -->
                                 <div class="ms-trending2-img w-img custome-h">
-                                    <a href="{{ route('creatorSpace') }}"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                    <a href="{{ route('creatorSpace') }}"><img src="{{ asset('assets/img/studio/studio1.jpg') }}"
                                             alt="trending image"></a>
                                 </div>
                                 <div class="ms-trending2-content">
@@ -121,7 +121,7 @@
                                 <span>From $90</span>
                             </div> -->
                                 <div class="ms-trending2-img w-img custome-h">
-                                    <a href="{{ route('theKings') }}"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                    <a href="{{ route('theKings') }}"><img src="{{ asset('assets/img/kings crew/4.jpg') }}"
                                             alt="trending image"></a>
                                 </div>
                                 <div class="ms-trending2-content">
