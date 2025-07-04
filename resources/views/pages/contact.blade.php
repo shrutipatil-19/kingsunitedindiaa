@@ -23,10 +23,10 @@
                 <div class="ms-contact-map-grid">
 
                     <div class="p-4 ms-bg-6 custome-radius">
-                        <div class="ms-contact-flag mb-5">
-                            <img src="{{ asset('assets/img/contact/flag-02.jpg') }}" alt="flag image">
+                        <div class="ms-round-icon mb-20 text-center">
+                            <i class="fa fa-envelope"></i>
                         </div>
-                        <h3 class="ms-title3 white-text mb-40">Kings Dance Studio</h3>
+                        <h3 class="ms-title3 mb-20 text-bg">Kings Dance Studio</h3>
                         <div class="ms-contact-map-content ms-footer2-contact border-0">
                             <ul>
                                 <li><i class="flaticon-pin"></i><a href="#">Shah industrial estate, Ghanshyam Industrial Estate, Plot No.1, Off Link Rd, near SUPREME CHAMBERS, Industrial Area, Andheri West, Mumbai, Maharashtra 400047</a></li>
@@ -36,11 +36,15 @@
                     </div>
 
                     <div class="ms-bg-6 p-4 custome-radius">
-                        <div class="ms-contact-flag mb-5">
+                        {{-- <div class="ms-contact-flag mb-5">
                             <img src="{{ asset('assets/img/contact/flag-02.jpg') }}" alt="flag image">
+                            <i class="flaticon-phone-call"></i>
+                        </div> --}}
+                        <div class="ms-round-icon mb-20 text-center">
+                            <i class="flaticon-phone-call"></i>
                         </div>
 
-                        <h3 class="ms-title3 white-text mb-40">For Shows and Events</h3>
+                        <h3 class="ms-title3 text-bg mb-20">For Shows and Events</h3>
                         <div class="ms-contact-map-content ms-footer2-contact border-0">
                             <ul>
                                 <li><i class="flaticon-phone-call"></i><a href="tel:+919166664556">91 9166664556</a></li>
@@ -50,11 +54,11 @@
                     </div>
 
                     <div class="ms-bg-6 p-4 custome-radius">
-                        <div class="ms-contact-flag mb-5">
-                            <img src="{{ asset('assets/img/contact/flag-03.jpg') }}" alt="flag image">
+                        <div class="ms-round-icon mb-20 text-center">
+                            <i class="fa fa-map-marker"></i>
                         </div>
 
-                        <h3 class="ms-title3 white-text mb-40">Email Address</h3>
+                        <h3 class="ms-title3 text-bg mb-20">Email Address</h3>
                         <div class="ms-contact-map-content ms-footer2-contact border-0">
                             <ul>
                                 <li><i class="flaticon-mail"></i><a
@@ -146,7 +150,8 @@
         <!-- Contact Map Area Start Here  -->
         <section class="ms-contact-map-area">
             <div class="ms-contact-img w-img">
-                <img class="mh-200" src="{{ asset('assets/img/bg/contact-bg.jpg') }}" alt="contact bg">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9020.962220051464!2d72.82904740160632!3d19.135347938161473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b714ce94aa0f%3A0xb9d55b129c6f5612!2sThe%20Kings%20Dance%20Studio%20Andheri!5e1!3m2!1sen!2sin!4v1751608171813!5m2!1sen!2sin" width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                {{-- <img class="mh-200" src="{{ asset('assets/img/bg/contact-bg.jpg') }}" alt="contact bg"> --}}
             </div>
         </section>
         <!-- Contact Map Area End Here  -->

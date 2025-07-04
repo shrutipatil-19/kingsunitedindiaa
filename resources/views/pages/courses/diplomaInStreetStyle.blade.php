@@ -4,8 +4,7 @@
     <main>
         <!-- banner Area Start Here  -->
         <section class="ms-about-area fix">
-            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
-                data-background="{{ asset('assets/img/about/about3.jpg') }}">
+            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');background-attachment: fixed;">
                 <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -39,7 +38,7 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">Diploma In Street Dance <span class="text-bg"></span></h2>
+                                <h2 class="section__title mb-40 bd-title-anim">Diploma In <span class="text-bg">Street Dance</span></h2>
                                 <p class="">Diploma In Street Styles Is A 4-month Certified Dance
                                     Program Designed For Beginners To Intermediate
                                     Level Dancers Who Are Passionate About Exploring
@@ -620,7 +619,7 @@
 
                             </div>
                             <div class="trending-btn d-flex justify-content-center">
-                                <a class="border__btn zindex-5" href="#">Apply Now</a>
+                                <a class="border__btn zindex-5" href="#popupform">Apply Now</a>
                             </div>
                             <!-- <div class="ms-work-system-inner text-center">
                                 <ul>
@@ -694,14 +693,14 @@
                     <div class="col-lg-8">
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Dance Style</span>
-                            <h2 class="section__title">Dance Styles <span class="ms-text1">Progression Levels
+                            <h2 class="section__title">Dance Styles <span class="text-bg">Progression Levels
                                 </span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="unfill__btn" href="assets/file/pdf/musicly-pdf-fle.pdf" download>Download
+                            <a class="unfill__btn" href="{{ asset('assets/file/pdf/Diploma In Street Styles_Kings.pdf') }}" download>Download
                                 PDF <i class="flaticon-downloads"></i></a>
                         </div>
                     </div>
@@ -709,14 +708,14 @@
                 <div class="row mb-45">
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Old Skool</h4>
+                            <h4 class="text-bg">Old Skool</h4>
                             <ul>
-                                <li>Basic: Introduction To Party Dances Like
+                                <li><span class="text-white">Basic:</span> Introduction To Party Dances Like
                                     Running Man, Cabbage Patch And Reebok.
                                     Focus On Groove, Bounce And Rhythm.</li>
-                                <li>Intermediate: Drills For Body Control And
+                                <li><span class="text-white"><span class="text-white">Intermediate:</span></span> Drills For Body Control And
                                     Timing. Combining Grooves With Musicality.</li>
-                                <li>Advanced: Freestyle Transitions, Routine
+                                <li><span class="text-white">Advanced:</span> Freestyle Transitions, Routine
                                     Building, And Applying Personality And
                                     Historical Context</li>
                             </ul>
@@ -724,15 +723,15 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>House</h4>
+                            <h4 class="text-bg">House</h4>
                             <ul>
                                 <li>
-                                    Basic: Jacking Fundamentals, Footwork
+                                    <span class="text-white">Basic:</span> Jacking Fundamentals, Footwork
                                     Drills (Farmer, Skate, Sidewalk).
                                 </li>
-                                <li>Intermediate: Lofting, Rhүтhm Layers And
+                                <li><span class="text-white">Intermediate:</span> Lofting, Rhүтhm Layers And
                                     Smooth Transitions.</li>
-                                <li>Advanced: Musical Phrasing, Combо
+                                <li><span class="text-white">Advanced:</span> Musical Phrasing, Combо
                                     Development And Freestyle Application.</li>
                             </ul>
 
@@ -740,14 +739,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Footwork</h4>
+                            <h4 class="text-bg">Footwork</h4>
                             <ul>
-                                <li>Basic: Rhythm-focused Basic Foot Patterns.
+                                <li><span class="text-white">Basic:</span> Rhythm-focused Basic Foot Patterns.
                                     Weight Shifts And Timing Drills.</li>
                                 <li>
-                                    Intermediate: Directional Changes, Diagonal
+                                    <span class="text-white">Intermediate:</span> Directional Changes, Diagonal
                                     Steps And Speed Variations.</li>
-                                <li>Advanced: Complex Transitions, Syncopation
+                                <li><span class="text-white">Advanced:</span> Complex Transitions, Syncopation
                                     And Stylistic Layering.</li>
                             </ul>
 
@@ -755,15 +754,15 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Afro</h4>
+                            <h4 class="text-bg">Afro</h4>
                             <ul>
                                 <li>
-                                    Basic: Afrobeat Foundations, Groove
+                                    <span class="text-white">Basic:</span> Afrobeat Foundations, Groove
                                     Exercises And Basic Cultural Moves.
                                 </li>
-                                <li>Intermediate: Afro Fusion Choreography,
+                                <li><span class="text-white">Intermediate:</span> Afro Fusion Choreography,
                                     Stamina Building And Foot Isolations.</li>
-                                <li>Advanced: Expressive Combinations With
+                                <li><span class="text-white">Advanced:</span> Expressive Combinations With
                                     Head, Chest, Hips And Storytelling
                                     Through Dance.</li>
                             </ul>
@@ -771,14 +770,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Soul Dancing</h4>
+                            <h4 class="text-bg">Soul Dancing</h4>
                             <ul>
                                 <li>
-                                    Basic: Funk And Soul Groove Foundations Like
+                                    <span class="text-white">Basic:</span> Funk And Soul Groove Foundations Like
                                     Bounce, Rock, And Boogaloo.</li>
-                                <li>Intermediate: Full-body Rhythm Training With
+                                <li><span class="text-white">Intermediate:</span> Full-body Rhythm Training With
                                     Movement Control.</li>
-                                <li>Advanced: Performance Freestyle, Attitude, And
+                                <li><span class="text-white">Advanced:</span> Performance Freestyle, Attitude, And
                                     Funk Character Mastery.</li>
                             </ul>
 
@@ -786,14 +785,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Freestyle Dance</h4>
+                            <h4 class="text-bg">Freestyle Dance</h4>
                             <ul>
                                 <li>
-                                    Basic: Comfort With Movement, Simple Rhythm
+                                    <span class="text-white">Basic:</span> Comfort With Movement, Simple Rhythm
                                     Shifts, And Self-expression.</li>
-                                <li>Intermediate: Improvisational Drills, Response
+                                <li><span class="text-white">Intermediate:</span> Improvisational Drills, Response
                                     Games, And Movement Development.</li>
-                                <li>Advanced: Freestyle Battling, Character-based
+                                <li><span class="text-white">Advanced:</span> Freestyle Battling, Character-based
                                     Movement, And On-the-spot Storytelling.
                                 </li>
                             </ul>
@@ -802,14 +801,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Breaking</h4>
+                            <h4 class="text-bg">Breaking</h4>
                             <ul>
                                 <li>
-                                    Basic: Toprock Patterns, Simple Footwork, And
+                                    <span class="text-white">Basic:</span> Toprock Patterns, Simple Footwork, And
                                     Basic Freezes.</li>
-                                <li>Intermediate: Level Transitions, Baby Freezes,
+                                <li><span class="text-white">Intermediate:</span> Level Transitions, Baby Freezes,
                                     Ccs, And First Power Moves.</li>
-                                <li>Advanced: Combo Building, Flow Mastery, And
+                                <li><span class="text-white">Advanced:</span> Combo Building, Flow Mastery, And
                                     Power Tricks Like Windmills And Flares.
                                 </li>
                             </ul>
@@ -818,14 +817,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Advance Choreography Sessions</h4>
+                            <h4 class="text-bg">Advance Choreography Sessions</h4>
                             <ul>
                                 <li>
-                                    Basic: Learning Choreography Accurately And
+                                    <span class="text-white">Basic:</span> Learning Choreography Accurately And
                                     Confidently.</li>
-                                <li>Intermediate: Performance Dynamics, Musical
+                                <li><span class="text-white">Intermediate:</span> Performance Dynamics, Musical
                                     Transitions And Energy Variations.</li>
-                                <li>Advanced: Emotional Delivery, Creative
+                                <li><span class="text-white">Advanced:</span> Emotional Delivery, Creative
                                     Storytelling, Stage Blocking, And High-level
                                     Combos.
 
@@ -848,6 +847,7 @@
 
         <!-- about course start -->
         <section class="work__area pt-100 pb-30 ms-bg-2">
+            {{-- <div class="ms-overlay ms-overlay1 zindex--1" bis_skin_checked="1"></div> --}}
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
 
