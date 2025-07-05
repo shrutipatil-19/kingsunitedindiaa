@@ -16,6 +16,7 @@
  <link rel="stylesheet" href="{{ asset('assets/app/css/3D.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/up-down-card.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/gallary.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/app/css/banner.css') }}">
 
  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
