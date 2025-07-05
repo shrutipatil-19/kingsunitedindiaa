@@ -22,6 +22,55 @@
     </section>
     <!-- Banner Area End Here  -->
 
+    <!-- about kings area start -->
+    <section class="work__area ms-bg-2 pt-130 pb-60 p-relative">
+        <div class="container">
+            <div class="row align-items-center bdFadeUp">
+                <div class="col-xl-6">
+                    <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
+                        <div class="work__thumb-inner p-relative zindex-5">
+                            <div class="work__thumb m-img">
+                                <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
+                            </div>
+                        </div>
+                        <div class="ms-work-round p-absolute zindex--1 d-none d-sm-block"></div>
+                        <div class="ms-work-round p-absolute two zindex--1 d-none d-sm-block"></div>
+                    </div>
+                </div>
+                <div class="col-xl-6 pl-30">
+                    <div class="work__content-wrapper work__content-wrapper-space mb-70">
+                        <div class="section__title-wrapper mb-30 bd-title-anim">
+                            <span class="section__subtitle">About Kings</span>
+                            <!-- <h2 class="section__title two">
+                                The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
+                                <span class="animated-underline active">Dance Champions</span>
+                            </h2> -->
+                            <h2 class="section__title two">
+                                The Kings: From Dreamers to International
+                                <span class="animated-underline active">Dance Champions</span>
+                            </h2>
+                        </div>
+                        <div class="work__features-inner">
+                            <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
+                            <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
+                                Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
+
+                            <div class="work__features-bottom">
+                                <div class="work__features-action">
+                                    <div class="trending-btn d-flex">
+                                        <a class="border__btn zindex-5" href="{{ route('theKings') }}" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about kings area end -->
+
     <!-- main page area start -->
     <section class="trending__area p-relative fix pt-130 include__bg pb-130">
         <div class="container">
@@ -235,55 +284,6 @@
 
     @include('partial.course-grid')
     @include('partial.rental-studio')
-
-    <!-- work area start -->
-    <section class="work__area ms-bg-2 pt-130 pb-60 p-relative">
-        <div class="container">
-            <div class="row align-items-center bdFadeUp">
-                <div class="col-xl-6">
-                    <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
-                        <div class="work__thumb-inner p-relative zindex-5">
-                            <div class="work__thumb m-img">
-                                <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
-                            </div>
-                        </div>
-                        <div class="ms-work-round p-absolute zindex--1 d-none d-sm-block"></div>
-                        <div class="ms-work-round p-absolute two zindex--1 d-none d-sm-block"></div>
-                    </div>
-                </div>
-                <div class="col-xl-6 pl-30">
-                    <div class="work__content-wrapper work__content-wrapper-space mb-70">
-                        <div class="section__title-wrapper mb-30 bd-title-anim">
-                            <span class="section__subtitle">About Kings</span>
-                            <!-- <h2 class="section__title two">
-                                The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
-                                <span class="animated-underline active">Dance Champions</span>
-                            </h2> -->
-                            <h2 class="section__title two">
-                                The Kings: From Dreamers to International
-                                <span class="animated-underline active">Dance Champions</span>
-                            </h2>
-                        </div>
-                        <div class="work__features-inner">
-                            <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
-                            <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
-                                Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
-
-                            <div class="work__features-bottom">
-                                <div class="work__features-action">
-                                    <div class="trending-btn d-flex">
-                                        <a class="border__btn zindex-5" href="{{ route('theKings') }}" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- work area end -->
 
     <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');background-attachment: fixed;">
         <div class="ms-overlay ms-overlay1 zindex--1"></div>
