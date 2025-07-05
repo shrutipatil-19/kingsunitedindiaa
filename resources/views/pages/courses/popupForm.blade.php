@@ -22,30 +22,28 @@
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
                                      <label>First Name</label>
-                                     <input type="text" placeholder="NIck Jonas">
+                                     <input type="text" placeholder="Enter First Name">
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
-                                     <label>Last Name</label>
-                                     <input type="text" placeholder="Haiden">
+                                     <label>Contact Number</label>
+                                     <input type="text" placeholder="Enter Contact Number">
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
                                      <label>Email</label>
-                                     <input type="text" placeholder="Soul Graffiti Entertainment">
+                                     <input type="text" placeholder="Enter Email Id">
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
                                      <label>Select Course</label>
                                      <select class="ms-nice-select">
-                                         <option>Tidal</option>
-                                         <option>Deezer</option>
-                                         <option>Spotify</option>
-                                         <option>iHeartRadio</option>
-                                         <option>YouTube Music</option>
+                                         <option>Diploma In Street Style</option>
+                                         <option>Choreo Lab</option>
+                                         <option>Dream 2 Dance</option>
                                      </select>
                                  </div>
                              </div>
