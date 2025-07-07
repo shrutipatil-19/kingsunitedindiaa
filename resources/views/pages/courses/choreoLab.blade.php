@@ -39,7 +39,8 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">Choreo Lab<span class="text-bg"></span></h2>
+                               
+                                 <h2 class="section__title mb-40 bd-title-anim">Choreo <span class="text-bg">Lab</span></h2>
                                 <p class="">CHOREO LAB is a training ground for dancers who dream of going professional.
                                     Whether you're aspiring to PERFORM, TEACH or CHOREOGRAPH at the highest level,
                                     this SPACE is for you.</p>
@@ -686,7 +687,8 @@
                     <div class="col-lg-8">
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Dance Style</span>
-                            <h2 class="section__title">Dance Styles <span class="ms-text1">Progression Levels
+                          
+                             <h2 class="section__title">Dance Styles <span class="text-bg">Progression Levels
                                 </span>
                             </h2>
                         </div>
@@ -701,7 +703,7 @@
                 <div class="row mb-45">
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>What You'll Gain</h4>
+                             <h4 class="text-bg">What You'll Gain</h4>
                             <ul>
                                 <li>Foundation + Choreography Training</li>
                                 <li>Styles and Execution drills</li>
@@ -714,7 +716,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Our Vision</h4>
+                            <h4 class="text-bg">Our Vision</h4>
                             <ul>
                                 <li>
 
@@ -729,7 +731,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                            <h4>Your Commitment</h4>
+                            <h4 class="text-bg">Your Commitment</h4>
                             <ul>
                                 <li>Show up every Sunday with full energy</li>
                                 <li>
@@ -793,9 +795,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="trending-btn d-flex justify-content-center">
+                            <!-- <div class="trending-btn d-flex justify-content-center">
                                 <a class="border__btn zindex-5" href="#">Apply Now</a>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>

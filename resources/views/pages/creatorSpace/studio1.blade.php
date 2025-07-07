@@ -134,8 +134,8 @@
             </div>
         </section>
         <!-- Event Details Area End Here  -->
-
-        @include('pages.creatorSpace.contact_space', ['studio' => $studio, 'studios' => $studios])
+        @include('pages.creatorSpace.form_space', ['studio' => $studio, 'studios' => $studios])
+        
     </main>
 </div>
 @endsection

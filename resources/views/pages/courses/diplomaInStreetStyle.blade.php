@@ -643,46 +643,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Text scroll area start -->
-            <div class="text__scroll-area include__bg p-relative fix mt-5"
-                data-background="assets/img/bg/text-scroll-bg.png">
-                <div class="text__scroll-wrapper">
-                    <div class="ms-text-line-1">
-                        <div class="swiper-container ms-st-active scroll__text pt-20 pb-20">
-                            <div class="swiper-wrapper ms-st-active-wrapper">
-                                <div class="swiper-slide">
-                                    <h3>DIPLOMA IN
-                                    </h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>STREET STYLES</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3><span class="text-color-1">DIPLOMA IN</span></h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>STREET STYLES</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3><span class="text-color-1">DIPLOMA IN</span></h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>STREET STYLES</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>DIPLOMA IN</h3>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <h3>STREET STYLES</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Text scroll area end -->
         </section>
         <!-- Work System Area End Here  -->
 

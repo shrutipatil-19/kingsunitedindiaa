@@ -8,19 +8,26 @@
             <div class="item">
                 <img src="{{ asset('assets/img/course/bg.png') }}">
                 <div class="introduce">
-                    <div class="title">Hip Hop</div>
+                    <div class="title">
+                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Hip Hop</h2>
+                    </div>
                     <!-- <div class="topic">Aerphone hello</div> -->
                     <div class="des">
                         <!-- 20 lorem -->
-                        A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.
+                        <p>
+                            A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
+
                     </div>
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Hip Hop</div>
+                    <div class="title">
+                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Hip Hop</h2>
+                    </div>
                     <div class="des">
                         <!-- lorem 50 -->
-                        A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.
+                        <p>
+                            A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
                     </div>
                     <div class="specifications">
                         <div>
@@ -54,19 +61,25 @@
             <div class="item">
                 <img src="{{ asset('assets/img/course/bg.png') }}">
                 <div class="introduce">
-                    <div class="title">Bollywood Fusion</div>
+                    <div class="title">
+                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Bollywood Fusion</h2>
+                    </div>
                     <!-- <div class="topic">Aerphone vjvjck</div> -->
                     <div class="des">
                         <!-- 20 lorem -->
-                        A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.
+                        <p>
+                            A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
                     </div>
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Bollywood Fusion</div>
+                    <div class="title">
+                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Bollywood Fusion</h2>
+                    </div>
                     <div class="des">
                         <!-- lorem 50 -->
-                        A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.
+                        <p>
+                            A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
                     </div>
                     <div class="specifications">
                         <div>
@@ -100,19 +113,26 @@
             <div class="item">
                 <img src="{{ asset('assets/img/course/bg.png') }}">
                 <div class="introduce">
-                    <div class="title">Contemporary</div>
+
+                    <div class="title">
+                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Contemporary</h2>
+                    </div>
                     <!-- <div class="topic">Aerphone</div> -->
                     <div class="des">
                         <!-- 20 lorem -->
-                        Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.
+                        <p>
+                            Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
                     </div>
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Contemporary</div>
+                    <div class="title">
+                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Contemporary</h2>
+                    </div>
                     <div class="des">
                         <!-- lorem 50 -->
-                        Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.
+                        <p>
+                            Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
                     </div>
                     <div class="specifications">
                         <div>
@@ -711,6 +731,8 @@
         </div>
     </section>
     <!-- Special Events Area End -->
+
+    @include('partial.universalForm')
 </main>
 @endsection
 @push('style')

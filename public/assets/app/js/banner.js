@@ -63,3 +63,43 @@ seeMoreButtons.forEach((button) => {
 backButton.onclick = function(){
   carousel.classList.remove('showDetail');
 };
+
+let touchStartY = 0;
+let touchEndY = 0;
+
+carouselSection.addEventListener('touchstart', (e) => {
+  touchStartY = e.changedTouches[0].screenY;
+});
+
+carouselSection.addEventListener('touchend', (e) => {
+  touchEndY = e.changedTouches[0].screenY;
+  handleGesture();
+});
+
+function handleGesture() {
+  const now = Date.now();
+  if (now - lastScrollTime < 1500) return;
+  lastScrollTime = now;
+
+  if (!carouselSection.classList.contains('active')) return;
+
+  if (touchStartY - touchEndY > 50) {
+    // swipe up
+    if (currentIndex < totalItems - 1) {
+      currentIndex++;
+      moveSlider('next');
+    } else {
+      carouselSection.classList.remove('active');
+      document.body.style.overflowY = 'auto';
+    }
+  } else if (touchEndY - touchStartY > 50) {
+    // swipe down
+    if (currentIndex > 0) {
+      currentIndex--;
+      moveSlider('prev');
+    } else {
+      carouselSection.classList.remove('active');
+      document.body.style.overflowY = 'auto';
+    }
+  }
+}

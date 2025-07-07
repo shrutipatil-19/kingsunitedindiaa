@@ -58,101 +58,8 @@
         </section>
         <!-- about course area end -->
 
-        <!-- Trending area start -->
-        <section class="trending__area p-relative z-index-11 pt-130 pb-60 ms-bg-2">
-            <div class="container">
-                <div class="row align-items-end mb-25 bdFadeUp">
-                    <div class="col-lg-8">
-                        <div class="section__title-wrapper mb-40 bd-title-anim">
-                            <span class="section__subtitle">What You’ll Learn</span>
-                            <p>The course is divided into three structured stages:</p>
-                            <h2 class="section__title">Kings Style<span class="ms-text1">
-                                </span>
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="unfill__btn" href="assets/file/pdf/musicly-pdf-fle.pdf" download>Download
-                                PDF <i class="flaticon-downloads"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-45">
-                    <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
-                            <h4>Stage 1: LEARN (85 Sessions) - Modern Styles</h4>
-                            <ul>
-                                <li>Ballet – Technique, posture, balance & grace</li>
-                                <li>Jazz – Sharp lines, turns, kicks & choreography</li>
-                                <li>Contemporary – Floorwork, fluidity, expression</li>
-                                <li>Choreography Sessions – Applying modern styles in creative routines</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
-                            <h4>Street Styles</h4>
-                            <ul>
-                                <li>Old Skool Hip Hop – Grooves, social dances, funk base</li>
-                                <li>House – Footwork, rhythm, jacking</li>
-                                <li>Footwork – Speed, clarity & agility</li>
-                                <li>Soul Dancing – Groove, feel, funk foundation</li>
-                                <li>Popping – Isolations, hits, animation, freestyle foundation</li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="ms-booking-item mb-25">
-                            <h4>Stage 2: - EXPLORE (15 Sessions)</h4>
-                            <p>Dive into power styles and advanced tricks:</p>
-                            <ul>
-                                <li>Breaking – Toprock, footwork, freezes, power techniques</li>
-                                <li>Flips & Tricks – Acrobatics, transitions, performance tricks</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
-                            <h4>Stage 3: - PERFORM (20 Sessions)</h4>
-                            <p>Unlock your creative identity through:</p>
-                            <ul>
-                                <li>Musicality & Freestyle Drills</li>
-                                <li>Hook Steps & Battle Practice</li>
-                                <li>Fusion Routines & Improvisation Labs</li>
-                                <li>Choreography Tasks & Performance Practice</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
-                            <h4>Masterclasses (4 Total)</h4>
-                            <ul>
-                                <li>
-                                    1 with Suresh Mukund – Emmy-nominated choreographer & founder of
-                                    The Kings</li>
-                                <li>3 with India’s top industry professionals</li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="ms-booking-load-btn text-center">
-                            <a href="#" class="ms-load-btn">load more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Trending area start -->
-
-        <!-- Work System Area Start Here  -->
-        <section class="ms-work-system-area pt-130 pb-130 ">
+         <!-- Work System Area Start Here  -->
+        <section class="ms-work-system-area pt-130 pb-130 ms-bg-2">
             <div class="container">
                 <div class="ms-work-system-wrap">
                     <div class="row justify-content-center">
@@ -461,6 +368,99 @@
         </section>
         <!-- Work System Area End Here  -->
 
+        <!-- Trending area start -->
+        <section class="trending__area p-relative z-index-11 pt-130 pb-60 ">
+            <div class="container">
+                <div class="row align-items-end mb-25 bdFadeUp">
+                    <div class="col-lg-8">
+                        <div class="section__title-wrapper mb-40 bd-title-anim">
+                            <span class="section__subtitle">What You’ll Learn</span>
+                            <p>The course is divided into three structured stages:</p>
+                            <h2 class="section__title">Kings Style<span class="ms-text1">
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="trending-btn mb-40 d-flex justify-content-lg-end">
+                            <a class="unfill__btn" href="assets/file/pdf/musicly-pdf-fle.pdf" download>Download
+                                PDF <i class="flaticon-downloads"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-45">
+                    <div class="col-lg-6">
+                        <div class="ms-booking-item mb-25">
+                            <h4 class="text-bg">Stage 1: LEARN (85 Sessions) - Modern Styles</h4>
+                            <ul>
+                                <li>Ballet – Technique, posture, balance & grace</li>
+                                <li>Jazz – Sharp lines, turns, kicks & choreography</li>
+                                <li>Contemporary – Floorwork, fluidity, expression</li>
+                                <li>Choreography Sessions – Applying modern styles in creative routines</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-booking-item mb-25">
+                            <h4 class="text-bg">Street Styles</h4>
+                            <ul>
+                                <li>Old Skool Hip Hop – Grooves, social dances, funk base</li>
+                                <li>House – Footwork, rhythm, jacking</li>
+                                <li>Footwork – Speed, clarity & agility</li>
+                                <li>Soul Dancing – Groove, feel, funk foundation</li>
+                                <li>Popping – Isolations, hits, animation, freestyle foundation</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="ms-booking-item mb-25">
+                            <h4 class="text-bg">Stage 2: - EXPLORE (15 Sessions)</h4>
+                            <p>Dive into power styles and advanced tricks:</p>
+                            <ul>
+                                <li>Breaking – Toprock, footwork, freezes, power techniques</li>
+                                <li>Flips & Tricks – Acrobatics, transitions, performance tricks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-booking-item mb-25">
+                            <h4 class="text-bg">Stage 3: - PERFORM (20 Sessions)</h4>
+                            <p>Unlock your creative identity through:</p>
+                            <ul>
+                                <li>Musicality & Freestyle Drills</li>
+                                <li>Hook Steps & Battle Practice</li>
+                                <li>Fusion Routines & Improvisation Labs</li>
+                                <li>Choreography Tasks & Performance Practice</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ms-booking-item mb-25">
+                            <h4 class="text-bg">Masterclasses (4 Total)</h4>
+                            <ul>
+                                <li>
+                                    1 with Suresh Mukund – Emmy-nominated choreographer & founder of
+                                    The Kings</li>
+                                <li>3 with India’s top industry professionals</li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="row">
+                    <div class="col-xl-12">
+                        <div class="ms-booking-load-btn text-center">
+                            <a href="#" class="ms-load-btn">load more</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- Trending area start -->
+
         <!-- Work System Area Start Here  -->
         <section class="ms-work-system-area pt-130 pb-130 ms-bg-2">
             <div class="container">
@@ -518,9 +518,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="trending-btn d-flex justify-content-center">
+                            <!-- <div class="trending-btn d-flex justify-content-center">
                                 <a class="border__btn zindex-5" href="#">Apply Now</a>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
