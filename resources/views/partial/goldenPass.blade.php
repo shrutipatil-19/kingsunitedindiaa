@@ -4,7 +4,7 @@
         <div class="container">
             <div class="ms-cta-bg black-bg fix ">
                 <div class="ms-cta-wrap row">
-                    <div class="ms-cta-item col-lg-6">
+                    <div class="ms-cta-item col-lg-6 pt-lg-0 pt-4 pb-lg-0 pb-4">
                         <div class="ms-cta-content d-flex flex-column">
                             <span class="section__subtitle text-center text-white section__subtitle-with-lines">One Year Unlimited Access</span>
                             <a href="{{ route('golden') }}">

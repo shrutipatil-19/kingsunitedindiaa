@@ -2,6 +2,29 @@
 
 @section('content')
 <main>
+    <!-- <div class="container-bg">
+        <div class="circle" style="--i:0;"></div>
+        <div class="circle" style="--i:1;"></div>
+        <div class="circle" style="--i:2;"></div>
+        <div class="circle" style="--i:3;"></div>
+        <div class="circle" style="--i:4;"></div>
+        <div class="circle" style="--i:5;"></div>
+        <div class="circle" style="--i:6;"></div>
+        <div class="circle" style="--i:7;"></div>
+        <div class="circle" style="--i:8;"></div>
+        <div class="circle" style="--i:9;"></div>
+        <div class="circle" style="--i:10;"></div>
+        <div class="circle" style="--i:11;"></div>
+        <div class="circle" style="--i:12;"></div>
+        <div class="circle" style="--i:13;"></div>
+        <div class="circle" style="--i:14;"></div>
+        <div class="circle" style="--i:15;"></div>
+        <div class="circle" style="--i:16;"></div>
+        <div class="circle" style="--i:17;"></div>
+        <div class="circle" style="--i:18;"></div>
+        <div class="circle" style="--i:19;"></div>
+        <div class="circle" style="--i:20;"></div>
+    </div> -->
     <div class="carousel carousel-section ms-banner2-area fix ms-banner2-height pt-80">
         <div class="list">
 
@@ -163,11 +186,12 @@
                 </div>
             </div>
         </div>
-        <div class="arrows d-none">
+        <div class="arrows">
             <button id="prev">
-                << /button>
+                <
+                    </button>
                     <button id="next">></button>
-                    <button id="back">See All &#8599</button>
+                    <button id="back" class="d-none">See All &#8599</button>
         </div>
     </div>
 
@@ -220,8 +244,8 @@
                             </h2>
                         </div>
                         <div class="work__features-inner">
-                            <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
-                            <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
+                            <p>At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
+                            <p>
                                 Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
 
                             <div class="work__features-bottom">
@@ -235,9 +259,12 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
+
     <!-- about kings area end -->
 
     <!-- main page area start -->
@@ -754,6 +781,68 @@
         color: white;
     }
 </style>
+<!-- <style>
+    .content body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #000;
+        overflow: hidden;
+    }
+
+    .container-bg {
+        position: fixed;
+
+        height: 0%;
+        pointer-events: none;
+
+        opacity: 0.2;
+        z-index: 0;
+        left: 50%;
+        position: absolute;
+        top: 20%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.2;
+    }
+
+    .carousel {
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .circle {
+        position: absolute;
+        background: transparent;
+        width: calc(var(--i) * 6.5vmin);
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 3px solid rgb(0, 255, 13);
+        transform-style: preserve-3d;
+        transform: rotateX(70deg) translateZ(50px);
+        animation: animate 3s ease-in-out calc(var(--i) * 0.08s) infinite;
+        box-shadow: 0 0 15px rgb(124, 124, 124),
+            inset 0 0 15px rgb(124, 124, 124);
+    }
+
+    @keyframes animate {
+
+        0%,
+        100% {
+            transform: rotateX(70deg) translateZ(50px) translateY(0);
+            filter: hue-rotate(0);
+        }
+
+        50% {
+            transform: rotateX(70deg) translateZ(50px) translateY(-50vmin);
+            filter: hue-rotate(360deg);
+        }
+    }
+</style> -->
 @endpush
 @push('js')
 

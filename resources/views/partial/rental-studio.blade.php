@@ -4,21 +4,21 @@
       <div class="container">
           <div class="row align-items-end mb-25 bdFadeUp">
               <div class="col-lg-8">
-                  <div class="section__title-wrapper mb-40 bd-title-anim">
-                      <span class="section__subtitle">Creator space</span>
+                  <div class="section__title-wrapper mb-40 bd-title-anim d-flex flex-column  align-items-lg-start align-items-center">
+                      <span class="section__subtitle ">Creator space</span>
 
-                      <h2 class="section__title">Creator <span class="animated-underline active">Space</span></h2>
+                      <h2 class="section__title text-lg-left">Creator <span class="animated-underline active">Space</span></h2>
                   </div>
               </div>
               <div class="col-lg-4">
-                  <div class="trending-btn mb-40 d-flex justify-content-lg-end">
+                  <div class="trending-btn mb-40 d-flex justify-content-lg-end justify-content-center d-none d-lg-block">
                       <a class="border__btn" href="{{ route('creatorSpace') }}">View All</a>
                   </div>
               </div>
           </div>
           <!-- Swiper -->
-          <div class="swiper achievementSwiper pt-lg-5 ms-trending3-wrap bdFadeUp">
-              <div class="swiper-wrapper pt-lg-4">
+          <div class="swiper achievementSwiper pt-5 ms-trending3-wrap bdFadeUp">
+              <div class="swiper-wrapper pt-4">
                   <!-- Slide 1 -->
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
@@ -199,6 +199,10 @@
       .ms-trending3-content {
           padding-inline-end: 15px;
           padding-inline-start: 15px;
+      }
+
+      .pt-5 {
+          padding-top: 2rem !important;
       }
   </style>
 

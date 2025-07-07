@@ -14,7 +14,7 @@
          <div class="row">
              <!-- <div class="col-lg-6 pt-lg-4"> -->
              <div class="col-lg-6 mt-lg-4 mt-3">
-                 <div class="achievement-card d-flex flex-row ">
+                 <div class="achievement-card d-flex flex-lg-row flex-column">
                      <div class="img-box position-relative">
                          <img src="{{ asset('assets/img/course/course.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
 
@@ -47,7 +47,7 @@
 
              <!-- Slide 2 -->
              <div class="col-lg-6 mt-lg-4 mt-3">
-                 <div class="achievement-card d-flex flex-row ">
+                 <div class="achievement-card d-flex flex-lg-row flex-column">
                      <div class="img-box ">
                          <img src="{{ asset('assets/img/course/course5.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
 
@@ -73,7 +73,7 @@
 
              <!-- Slide 3 -->
              <div class=" col-lg-6 mt-lg-5 mt-3">
-                 <div class="achievement-card d-flex flex-row ">
+                 <div class="achievement-card d-flex flex-lg-row flex-column">
                      <div class="img-box position-relative">
                          <img src="{{ asset('assets/img/course/d2d.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
 
@@ -105,7 +105,7 @@
              <!-- Slide 4 -->
              <div class="col-lg-6 mt-lg-5 mt-3">
                  <!-- <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"> -->
-                 <div class="achievement-card d-flex flex-row ">
+                 <div class="achievement-card d-flex flex-lg-row flex-column">
                      <div class="img-box ">
                          <img src="{{ asset('assets/img/course/course1.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
 
