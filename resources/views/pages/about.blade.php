@@ -52,8 +52,8 @@
 
                 </div>
                 <!-- Swiper -->
-                <div class="swiper achievementSwiper pt-lg-5">
-                    <div class="swiper-wrapper pt-lg-4">
+                <div class="swiper achievementSwiper pt-5">
+                    <div class="swiper-wrapper pt-4">
 
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
@@ -203,7 +203,7 @@
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">The <span class="text-bg">Kings</span></h2>
-                                <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
+                                <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
                                     energy, direct beats of thoughts and emotions.
                                     It is not about stages, it is not about praise,
                                     it is all about the inherent strength of performing
@@ -211,7 +211,7 @@
                                     status quo. The Kings are the natural truth that
                                     shakes up the consciousness and shrinks the souls.
                                 </p>
-                                <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">Dance is the most flexible way of communication we
+                                <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Dance is the most flexible way of communication we
                                     articulate. A dialogue without words that is able to
                                     express it all. The Kings Dance studio is a place with
                                     a warm, supportive atmosphere and provide a social
@@ -236,14 +236,18 @@
         <!-- suresh Mukund area start -->
         <section class="work__area pt-125 ms-bg-2 pb-105">
             <div class="container">
-                <div class="row align-items-center bdFadeUp">
+                <div class="row align-items-center bdFadeUp flex-column-reverse flex-lg-row">
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg">Suresh Mukund</span> & his team – The Kings</h2>
-                                <p class="text-justify" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
+                                <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg"> Suresh Mukund </span> & his team - The Kings</h2>
+                                <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
                                 </p>
-                                <p class="text-justify" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">Kings United, also known simply as “The Kings,” shot to global fame by winning the third season of the US reality show, “World of Dance.” Their victory was historic, as they walked away with a grand prize of USD 1 million. This monumental achievement placed them on the global dance map and cemented their reputation as one of the best dance crews in the world</p>
+                                <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Kings United, also known simply as “The Kings,” shot to global fame by winning the third season of the US reality show, “World of Dance.” Their victory was historic, as they walked away with a grand prize of USD 1 million. This monumental achievement placed them on the global dance map and cemented their reputation as one of the best dance crews in the world</p>
+
+                                <div class="trending-btn d-flex">
+                                    <a class="border__btn zindex-5" href="{{ route('sureshMukund') }}">View More</a>
+                                </div>
                             </div>
 
                         </div>
@@ -255,19 +259,7 @@
                                     <div class="ms-overlay ms-overlay3 p-absolute"></div>
                                     <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
                                 </div>
-                                <div class="work__features-bottom ms-work3-features pb-0">
-                                    <div class="work__features-action">
-                                        <div class="work__features-btn ms-work3-feature-btn">
-                                            <a class="unfill__btn" href="{{ route('sureshMukund') }}">Get Started</a>
-                                        </div>
-                                        <div class="features__btn-text">
-                                            <span>Book something <br> awesome !</span>
-                                        </div>
-                                    </div>
-                                    <div class="work__features-arrow">
-                                        <img src="{{ asset('assets/img/work/arrow.png')}}" alt="image not found">
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -777,6 +769,10 @@
 <style>
     .content {
         padding: 0px 20px 20px 20px;
+    }
+
+    .pt-5 {
+        padding-top: 2rem !important;
     }
 </style>
 

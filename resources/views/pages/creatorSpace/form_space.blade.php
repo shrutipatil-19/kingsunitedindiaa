@@ -76,7 +76,7 @@
                  </form>
              </div>
 
-             <div class="col-md-4 col-12">
+             <div class="col-md-4 col-12 mt-lg-0 mt-4">
                  <div class="text-section toggle d-flex flex-column justify-content-center" id="textSection">
 
                      <h2 class="mb-3 text-center ms-event-title" id="dynamicHead">Ready to Flex Your Space?</h2>
@@ -212,53 +212,105 @@
  </script>
  <!-- time slot end -->
  <script>
-     document.addEventListener("DOMContentLoaded", () => {
-         const form = document.getElementById("rentalForm");
-         const head = document.getElementById("dynamicHead");
-         const para = document.getElementById("dynamicPara");
-         const textSection = document.getElementById("textSection");
+     $(document).ready(function() {
+         // ========== Dynamic time loading ==========
+         function loadTimes() {
+             const selectedDate = $('input[name="date"]').val();
+             const selectedStudio = $('select[name="studio"]').val();
 
-         function typeWriter(element, text, speed = 50) {
+             if (selectedDate && selectedStudio) {
+                 $.ajax({
+                     url: `/creator-space/${selectedStudio}/available-times`,
+                     data: {
+                         date: selectedDate,
+                         studio: selectedStudio
+                     },
+                     success: function(response) {
+                         const timeSelect = $('select[name="time"]');
+                         timeSelect.empty().append('<option>Select Time</option>');
+                         $.each(response, function(i, slot) {
+                             timeSelect.append(`<option value="${slot}">${slot}</option>`);
+                         });
+                     },
+                     error: function() {
+                         alert("Error loading available times");
+                     }
+                 });
+             }
+         }
+
+         $('input[name="date"], select[name="studio"]').on('change', loadTimes);
+
+         // ========== Typing Logic + Background ==========
+         const $head = $('#dynamicHead');
+         const $para = $('#dynamicPara');
+         const $textSection = $('#textSection');
+
+         const defaultHead = 'Ready to Flex Your Space?';
+         const defaultPara = 'Book your vibe. Own your moment';
+         const defaultBg = "{{ asset('assets/img/course/bg.png') }}";
+
+         const typingHead = 'Big Moves!';
+         const typingPara = 'Lock in the place before someone else steals your spotlight.';
+         const typingBg = "{{ asset('assets/img/course/bg2.png') }}";
+
+         const ghostHead = 'Hey, Don’t Ghost!';
+         const ghostPara = 'You’re this close to booking your dream spot — don’t sleep on it.';
+         const ghostBg = "{{ asset('assets/img/kings img/tranding-bg.png') }}";
+
+         const thankYouHead = 'Thank You!';
+         const thankYouPara = 'We’ll be in touch shortly.';
+         const thankYouBg = "{{ asset('assets/img/course/bg.png') }}";
+
+         let typing = false;
+         let idleTimer;
+
+         function resetIdleTimer() {
+             clearTimeout(idleTimer);
+             if (!typing) {
+                 typing = true;
+                 updateText(typingHead, typingPara, typingBg);
+             }
+             idleTimer = setTimeout(() => {
+                 updateText(ghostHead, ghostPara, ghostBg);
+                 typing = false;
+             }, 5000);
+         }
+
+         function typeWriter($element, text, speed = 30) {
              let i = 0;
-             element.classList.add("typing");
-             element.textContent = "";
+             $element.addClass("typing").text("");
 
              function typing() {
                  if (i < text.length) {
-                     element.textContent += text.charAt(i);
+                     $element.append(text.charAt(i));
                      i++;
                      setTimeout(typing, speed);
                  } else {
-                     element.classList.remove("typing");
+                     $element.removeClass("typing");
                  }
              }
              typing();
          }
 
-         // initial
-         typeWriter(head, "Ready to Flex Your Space?", 70);
-         typeWriter(para, "Book your vibe. Own your moment.", 40);
-         textSection.style.backgroundImage = "url('{{ asset('assets/img/course/bg.png') }}')";
+         function updateText(head, para, bg = defaultBg) {
+             typeWriter($head, head);
+             typeWriter($para, para);
+             $textSection.css('background-image', `url('${bg}')`);
+         }
 
-         form.addEventListener("focusin", () => {
-             typeWriter(head, "Big Moves!", 70);
-             typeWriter(para, "Lock in the place before someone else steals your spotlight.", 30);
-             textSection.style.backgroundImage = "url('{{ asset('assets/img/course/bg2.png') }}')";
+         $('form#rentalForm :input').on('input change', resetIdleTimer);
+
+         $('form#rentalForm').on('submit', function() {
+             clearTimeout(idleTimer);
+             updateText(thankYouHead, thankYouPara, thankYouBg);
          });
 
-         form.addEventListener("focusout", () => {
-             typeWriter(head, "Hey, Don’t Ghost!", 70);
-             typeWriter(para, "You’re this close to booking your dream spot — don’t sleep on it.", 30);
-             textSection.style.backgroundImage = "url('{{ asset('assets/img/kings img/tranding-bg.png') }}')";
-         });
-
-         form.addEventListener("submit", (e) => {
-             // if you want to actually submit, do NOT preventDefault
-             typeWriter(head, "You Did That!", 70);
-             typeWriter(para, "Thanks for trusting us with your next big moment. We’ll be in touch!", 30);
-             textSection.style.backgroundImage = "url('{{ asset('assets/img/course/bg.png') }}')";
-             // allow submit
-         });
+         // On initial load
+         updateText(defaultHead, defaultPara, defaultBg);
      });
  </script>
+
+
+
  @endpush
