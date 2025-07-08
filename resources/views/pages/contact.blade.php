@@ -103,7 +103,7 @@
                                 <div class="ms-input2-box mb-30">
                                     <label class="text-white" for="service">Choose our Services</label>
                                     <select name="service" class="form-select mt-2" required>
-                                        <option value="Choose">Choose Service</option>
+                                        <option value="Choose" disabled>Choose Service</option>
                                         <option value="Book Us for Event">Book us for Event</option>
                                         <option value="Enroll Course">Enroll For Dance Course</option>
                                         <option value="book creator space">Book our creator space</option>

@@ -33,6 +33,7 @@ Route::get('/course/diploma-in-street-dance', [CourseController::class, 'diploma
 Route::get('/course/kings-golden-pass', [CourseController::class, 'golden'])->name('golden');
 Route::get('/course/dance-2-dance', [CourseController::class, 'D2D'])->name('D2D');
 Route::get('/course/choreo-lab', [CourseController::class, 'choreoLab'])->name('choreoLab');
+Route::post('/courseEnquiry', [CourseController::class, 'courseEnquiry'])->name('courseEnquiry');
 
 // rental studio
 Route::get('/creator-space/{studio}', [StudioBookingController::class, 'showBookingForm'])->name('studio.book.form');

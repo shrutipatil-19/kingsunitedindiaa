@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use Illuminate\Http\Request;
 
 class CourseController extends Controller
@@ -25,5 +26,18 @@ class CourseController extends Controller
     public function choreoLab()
     {
         return view('pages.courses.choreoLab');
+    }
+
+    public function courseEnquiry(Request $request)
+    {
+        $validate = $request->validate([
+            'name'    => 'required',
+            'email'   => 'required|email',
+            'phone'   => 'required',
+            'course' => 'required',
+            'date' => 'nullable',
+        ]);
+        Course::create($validate);
+        return redirect()->back();
     }
 }

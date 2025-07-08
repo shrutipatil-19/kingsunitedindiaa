@@ -18,7 +18,7 @@
              <div class="row">
                  <!-- coruse form -->
                  <div class="form-container sign-up col-md-6 col-12">
-                     <form method="POST" action="">
+                     <form method="post" action="{{ route('courseEnquiry') }}">
                          @csrf
                          <div class="ms-cta-content d-flex flex-column">
                              <h2 class="text-center section__title two text-black">Explore dance courses</h2>
@@ -26,20 +26,20 @@
                          <div class="row transparent-bg mt-4">
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label class="text-white">Enter Name</label>
+                                     <label class="text-white" for="name">Enter Name</label>
                                      <input name="name" type="text" placeholder="Name" required>
                                  </div>
                              </div>
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label class="text-white">Enter Email</label>
-                                     <input name="email" type="email" placeholder="Email" required>
+                                     <label class="text-white" for="phone">Enter Phone</label>
+                                     <input name="phone" type="text" placeholder="Phone" required>
                                  </div>
                              </div>
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label class="text-white">Enter Phone</label>
-                                     <input name="phone" type="text" placeholder="Phone" required>
+                                     <label class="text-white" for="email">Enter Email</label>
+                                     <input name="email" type="email" placeholder="Email" required>
                                  </div>
                              </div>
 
@@ -47,8 +47,8 @@
                                  <div class="ms-input2-box">
                                      <label class="text-white" for="course">Select Course</label>
                                      <!-- <label>Select Course</label> -->
-                                     <select class="form-select">
-                                         <option value="">Select Course</option>
+                                     <select class="form-select"  name="course">
+                                         <option value="" disabled>Select Course</option>
                                          <option value="Diploma In Street Style">Diploma In Street Style</option>
                                          <option value="Choreo Lab">Choreo Lab</option>
                                          <option value="Dream 2 Dance">Dream 2 Dance</option>

@@ -17,40 +17,42 @@
              <div class="col-xl-12">
                  <div class="ms-join-wrap ms-join-space mb-70 ms-bg-2">
                      <!-- <h3 class="white-text ms-title3 mb-60">Join with us</h3> -->
-                     <form>
+                     <form method="post" action="{{ route('courseEnquiry') }}">
+                         @csrf
                          <div class="row">
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
-                                     <label>First Name</label>
-                                     <input type="text" placeholder="Enter First Name">
+                                     <label for="name">First Name</label>
+                                     <input type="text" name="name" placeholder="Enter First Name">
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
-                                     <label>Contact Number</label>
-                                     <input type="text" placeholder="Enter Contact Number">
+                                     <label for="phone">Contact Number</label>
+                                     <input type="text" name="phone" placeholder="Enter Contact Number">
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
-                                     <label>Email</label>
-                                     <input type="text" placeholder="Enter Email Id">
+                                     <label for="email">Email</label>
+                                     <input type="text" name="email" placeholder="Enter Email Id">
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
-                                     <label>Select Course</label>
-                                     <select class="ms-nice-select">
-                                         <option>Diploma In Street Style</option>
-                                         <option>Choreo Lab</option>
-                                         <option>Dream 2 Dance</option>
+                                     <label for="course">Select Course</label>
+                                     <select class="ms-nice-select" name="course">
+                                         <option value="Choose" disabled>Choose Service</option>
+                                         <option value="Diploma In Street Style">Diploma In Street Style</option>
+                                         <option value="Choreo Lab">Choreo Lab</option>
+                                         <option value="Dream 2 Dance">Dream 2 Dance</option>
                                      </select>
                                  </div>
                              </div>
                              <div class="col-lg-6">
                                  <div class="ms-input-box style-2">
-                                     <label>Expected Date of Join</label>
-                                     <input type="date" placeholder="Haiden">
+                                     <label for="date">Expected Date of Join</label>
+                                     <input type="date" name="date" placeholder="Haiden">
                                  </div>
                              </div>
 
@@ -72,10 +74,11 @@
 
  @push('style')
  <style>
-     .ms-input-box input, .ms-input-box select, .ms-input-box .nice-select {
+     .ms-input-box input,
+     .ms-input-box select,
+     .ms-input-box .nice-select {
 
          border-radius: 12px;
      }
  </style>
  @endpush
-
