@@ -58,7 +58,7 @@
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">
-                              <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Studio 1 Image">
+                              <img src="{{ asset('assets/img/studio/studio2/Studio 2 (2).jpg') }}" alt="Studio 1 Image">
                           </a>
 
                       </div>
@@ -90,7 +90,7 @@
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">
-                              <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Studio 1 Image">
+                              <img src="{{ asset('assets/img/studio/studio3A/Studio 3A.jpg') }}" alt="Studio 1 Image">
                           </a>
 
                       </div>
@@ -122,7 +122,7 @@
                   <div class="swiper-slide ms-trending3-item p-relative fix mb-40">
                       <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                           <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">
-                              <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Studio 1 Image">
+                              <img src="{{ asset('assets/img/studio/studio3B/Studio 3B (6).jpg') }}" alt="Studio 1 Image">
                           </a>
 
                       </div>

@@ -123,7 +123,7 @@
                         <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                             <div class="row">
                                 <div class="img-box position-relative col-lg-4">
-                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+                                    <img src="{{ asset('assets/img/studio/studio2/Studio 2 (2).jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
 
                                     <!-- offer badge -->
                                     <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
@@ -169,7 +169,7 @@
                         <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                             <div class="row">
                                 <div class="img-box position-relative col-lg-4">
-                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+                                    <img src="{{ asset('assets/img/studio/studio3A/Studio 3A.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
 
                                     <!-- offer badge -->
                                     <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
@@ -216,7 +216,7 @@
                         <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                             <div class="row">
                                 <div class="img-box position-relative col-lg-4">
-                                    <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+                                    <img src="{{ asset('assets/img/studio/studio3B/Studio 3B (6).jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
 
                                     <!-- offer badge -->
                                     <!-- <div class="offer-badge position-absolute top-0 start-1 bg-danger text-white px-2 py-1 fw-bold custome-radius ">

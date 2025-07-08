@@ -6,7 +6,7 @@
         <!-- About Area Start Here  -->
         <section class="ms-about-area fix">
             <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
-                data-background="{{ asset('assets/img/about/about3.jpg') }}">
+                data-background="{{ asset('assets/img/studio/mainStudio3B.jpg') }}">
                 <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -27,9 +27,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-12">
-                        <div class="ms-event-details-content mb-40 border-color-bg-black">
+                        <div class="ms-event-details-content mb-40 ">
                             <div class="ms-event-dimg m-img d-inline-block fix ms-br-15 mb-30">
-                                <img src="{{ asset('assets/img/choose/choose-bg.png') }}" alt="event image">
+                                <img src="{{ asset('assets/img/studio/studio3B/Studio 3B (6).jpg') }}" alt="event image">
                             </div>
 
                             <div class="ms-border2 pb-20 mb-30">
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-8">
-                        <div class="ms-event-sidebar mb-60">
+                        <div class="ms-event-sidebar mb-60 border-color-bg-black">
                             <h3 class="ms-event-sidebar-title">Studio Details Information</h3>
                             <div class="ms-event-sidebar-item">
                                 <div class="ms-event-sidebar-inner">
