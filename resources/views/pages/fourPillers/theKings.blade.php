@@ -5,7 +5,7 @@
     <main>
         <!-- About Area Start Here  -->
         <section class="ms-about-area fix">
-            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"  style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');">
+            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');">
                 <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -39,8 +39,8 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">About Kings Crew</h2>
-                                <p class="" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
+                                <h2 class="section__title mb-40 bd-title-anim">About <span class="text-bg">Kings Crew</span></h2>
+                                <p class="" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
                                     energy, direct beats of thoughts and emotions.
                                     It is not about stages, it is not about praise,
                                     it is all about the inherent strength of performing
@@ -272,7 +272,7 @@
 
                     <!-- Timeline Item -->
                     <div class="row">
-                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-item col-lg-6 mb-lg-0 mb-2" data-aos="fade-up" data-aos-delay="100">
                             <div class="ms-news-meta d-inline-block">
                                 <span>Feb 23, 2010</span>
 
@@ -281,12 +281,12 @@
                             <p class="text-white">Showcased an incredible achievement by winning
                                 Entertainment ke liye kuch bhi karega season 3</p>
                         </div>
-                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                        <div class="col-lg-6 mt-lg-0 mb-lg-0 mb-5 height-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-item col-lg-6 mb-lg-0 mb-2" data-aos="fade-up" data-aos-delay="100">
                             <div class="ms-news-meta d-inline-block">
                                 <span>Feb 23, 2010</span>
 
@@ -295,13 +295,13 @@
                             <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
 
                         </div>
-                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                        <div class="col-lg-6 mt-lg-0 mb-lg-0 mb-5 height-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-item col-lg-6 mb-lg-0 mb-2" data-aos="fade-up" data-aos-delay="100">
                             <div class="ms-news-meta d-inline-block">
                                 <span>Feb 23, 2010</span>
 
@@ -310,12 +310,12 @@
                             <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
 
                         </div>
-                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                        <div class="col-lg-6 mt-lg-0 mb-lg-0 mb-5 height-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-item col-lg-6 mb-lg-0 mb-2" data-aos="fade-up" data-aos-delay="100">
                             <div class="ms-news-meta d-inline-block">
                                 <span>Feb 23, 2010</span>
 
@@ -324,13 +324,13 @@
                             <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
 
                         </div>
-                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                        <div class="col-lg-6 mt-lg-0 mb-lg-0 mb-5 height-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-item col-lg-6 mb-lg-0 mb-2" data-aos="fade-up" data-aos-delay="100">
                             <div class="ms-news-meta d-inline-block">
                                 <span>Feb 23, 2010</span>
 
@@ -339,13 +339,13 @@
                             <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
 
                         </div>
-                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                        <div class="col-lg-6 mt-lg-0 mb-lg-0 mb-5 height-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="timeline-item col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-item col-lg-6 mb-lg-0 mb-2" data-aos="fade-up" data-aos-delay="100">
                             <div class="ms-news-meta d-inline-block">
                                 <span>Feb 23, 2010</span>
 
@@ -354,7 +354,7 @@
                             <p class="text-white">First Indian Crew crowned as World Champions in NBC World of Dance.</p>
 
                         </div>
-                        <div class="col-lg-6 mt-3 height-200" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
+                        <div class="col-lg-6 mt-lg-0 mb-lg-0 mb-5 height-200" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                             <img src="{{ asset('assets/img/kings img/banner/bann2.jpg') }}" alt="" class="w-100 h-100 object-cover">
                         </div>
                     </div>
@@ -363,7 +363,7 @@
             </div>
         </section>
         <!-- Event Area End Here  -->
-         @include('partial.kings_gallary2')
+        @include('partial.kings_gallary2')
         <!-- @include('partial.kings_gallary') -->
         <!-- CTA Area Start Here  -->
         <section class="ms-cta-area pt-130 pb-130 p-relative zindex-10 d-none">
@@ -405,6 +405,14 @@
 </div>
 @endsection
 
+
+@push('style')
+<style>
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+</style>
+@endpush
 @push('js')
 <!-- Bootstrap & AOS Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
