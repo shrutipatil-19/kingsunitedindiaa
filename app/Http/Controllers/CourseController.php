@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\CourseLeadNotification;
+use App\Mail\CourseThankYou;
 use App\Models\Course;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class CourseController extends Controller
 {
@@ -37,6 +40,11 @@ class CourseController extends Controller
             'course' => 'required',
             'date' => 'nullable',
         ]);
+         // Send mail to admin
+        Mail::to('shruti.sociomark@gmail.com')->send(new CourseLeadNotification($validate));
+
+        // Send thank-you mail to the user
+        Mail::to($validate['email'])->send(new CourseThankYou($validate));
         Course::create($validate);
         return redirect()->back();
     }
