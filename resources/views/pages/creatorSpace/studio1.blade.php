@@ -89,7 +89,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-8">
                         <div class="ms-event-sidebar mb-60 border-color-bg-black">
-                            <h3 class="ms-event-sidebar-title">Studio Details Information</h3>
+                            <h3 class="ms-event-title">Studio Details Information</h3>
                             <div class="ms-event-sidebar-item">
                                 <div class="ms-event-sidebar-inner">
                                     <h4 class="ms-event-title2">Area of studio</h4>
