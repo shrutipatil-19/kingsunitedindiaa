@@ -11,7 +11,7 @@
                   </div>
               </div>
               <div class="col-lg-4">
-                  <div class="trending-btn mb-40 d-flex justify-content-lg-end justify-content-center d-none d-lg-block">
+                  <div class="trending-btn mb-40 d-flex justify-content-lg-end justify-content-center">
                       <a class="border__btn" href="{{ route('creatorSpace') }}">View All</a>
                   </div>
               </div>
