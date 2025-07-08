@@ -45,3 +45,7 @@
 
  <script src="{{ asset('assets/app/js/jquery-3.6.0.min.js') }}"></script>
  <script src="{{ asset('assets/app/js/jquery.counterup.min.js') }}"></script>
+ <!-- 2. Select2 Core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<!-- This links the specific theme for Bootstrap 5. It must be after Select2 core CSS. -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />

@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\StudioLeadNotification;
+use App\Mail\StudioThankYou;
 use App\Models\StudioBooking;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class StudioBookingController extends Controller
 {
@@ -26,7 +29,7 @@ class StudioBookingController extends Controller
 
     public function store(Request $request, $studio)
     {
-        $validated = $request->validate([
+        $validate = $request->validate([
             'name'  => 'required',
             'email' => 'required|email',
             'phone' => 'required',
@@ -35,8 +38,12 @@ class StudioBookingController extends Controller
             'time'  => 'required',
         ]);
 
-        StudioBooking::create($validated);
+        StudioBooking::create($validate);
+        // Send mail to admin
+        Mail::to('shruti.sociomark@gmail.com')->send(new StudioLeadNotification($validate));
 
+        // Send thank-you mail to the user
+        Mail::to($validate['email'])->send(new StudioThankYou($validate));
         return redirect()->back()->with('success', 'Booking submitted successfully!');
     }
 

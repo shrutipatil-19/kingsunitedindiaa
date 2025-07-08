@@ -114,22 +114,6 @@ body {
     color: #5559;
 }
 
-.carousel .list .item .introduce .seeMore {
-    font-family: Poppins;
-    margin-top: 1.2em;
-    padding: 5px 0;
-    border: none;
-    border-bottom: 1px solid #555;
-    background-color: transparent;
-    font-weight: bold;
-    letter-spacing: 3px;
-    transition: background 0.5s;
-}
-
-.carousel .list .item .introduce .seeMore:hover {
-    background: #eee;
-}
-
 .carousel .list .item:nth-child(1) {
     transform: var(--item1-transform);
     filter: var(--item1-filter);
@@ -306,7 +290,7 @@ body {
 
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
     display: flex;
-    gap: 10px;
+    gap: 60px;
     width: 100%;
     border-top: 1px solid #5553;
     margin-top: 20px;
@@ -468,10 +452,6 @@ body {
         font-size: 0.9em;
         line-height: 1.4;
         height: auto;
-    }
-
-    .carousel .list .item .introduce .seeMore {
-        font-size: 0.8em;
     }
 
     .carousel.showDetail .list .item:nth-child(2) .detail {

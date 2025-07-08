@@ -1,4 +1,5 @@
  <!-- Contact Area Start Here  -->
+
  <section class="ms-contact-area pb-60 pt-130 ms-bg-2">
 
      <div class="container ">
@@ -47,7 +48,7 @@
                                  <div class="ms-input2-box">
                                      <label class="text-white" for="course">Select Course</label>
                                      <!-- <label>Select Course</label> -->
-                                     <select class="form-select"  name="course">
+                                     <select class="form-select" name="course">
                                          <option value="" disabled>Select Course</option>
                                          <option value="Diploma In Street Style">Diploma In Street Style</option>
                                          <option value="Choreo Lab">Choreo Lab</option>
@@ -104,17 +105,29 @@
 
                              <div class="col-md-6">
                                  <div class="ms-input2-box">
-                                     <label class="text-white" for="service">Service</label>
+                                     <label class="text-white" for="service">Choose our Services</label>
                                      <select name="service" class="form-select" required>
-
-                                         <option value="Choose">Choose Service</option>
+                                         <option value="Choose" disabled>Choose Service</option>
                                          <option value="Book Us for Event">Book us for Event</option>
                                          <option value="Enroll Course">Enroll For Dance Course</option>
                                          <option value="book creator space">Book our creator space</option>
-
                                      </select>
                                  </div>
                              </div>
+                             <!-- <div class="col-md-6">
+                                 <div class="ms-input2-box">
+                                     <label class="text-white" for="service">Service</label>
+
+                                     <select class="form-select" id="multiple-select-field" data-placeholder="Choose Service" name="service[]" multiple required>
+                                         <option value="Choose" disabled>Choose Service</option>
+                                         <option value="Book Us for Event">Book us for Event</option>
+                                         <option value="Enroll Course">Enroll For Dance Course</option>
+                                         <option value="book creator space">Book our creator space</option>
+                                     </select>
+
+                                 </div>
+                             </div> -->
+
                              <!-- <div class="col-md-12">
                                  <div class="ms-input2-box mb-30">
                                      <label class="text-white" for="message">Message</label>
@@ -434,7 +447,14 @@
  </style>
  @endpush
  @push('js')
-
+ <script>
+     $('#multiple-select-field').select2({
+         theme: "bootstrap-5",
+         width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+         placeholder: $(this).data('placeholder'),
+         closeOnSelect: false,
+     });
+ </script>
  <!-- toggle Start -->
  <script>
      const container = document.getElementById("container");
@@ -449,5 +469,6 @@
          container.classList.remove("active");
      });
  </script>
+
  <!-- toggle end -->
  @endpush

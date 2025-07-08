@@ -16,10 +16,12 @@ class EnquiryController extends Controller
             'name'    => 'required',
             'email'   => 'required|email',
             'phone'   => 'required',
-            'service' => 'required',
+            'service' => 'required| array',
             'message' => 'nullable',
         ]);
-
+        // Convert array to comma-separated string
+        $validate['service'] = implode(', ', $validate['service']);
+        
         Enquiry::create($validate);
 
         // Send mail to admin

@@ -41,7 +41,10 @@
                             A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
 
                     </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
+                   
+                    <div class="trending-btn d-flex">
+                        <a class="border__btn zindex-5 seeMore">View More</a>
+                    </div>
                 </div>
                 <div class="detail">
                     <div class="title">
@@ -69,10 +72,7 @@
                             <p>Bluetooth</p>
                             <p>5.3</p>
                         </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
+                      
                     </div>
                     <div class="checkout">
                         <button>Apply Now</button>
@@ -93,7 +93,9 @@
                         <p>
                             A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
                     </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
+                     <div class="trending-btn d-flex">
+                        <a class="border__btn zindex-5 seeMore">View More</a>
+                    </div>
                 </div>
                 <div class="detail">
                     <div class="title">
@@ -121,10 +123,7 @@
                             <p>Bluetooth</p>
                             <p>5.3</p>
                         </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
+                       
                     </div>
                     <div class="checkout">
                         <button>Apply Now</button>
@@ -146,7 +145,9 @@
                         <p>
                             Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
                     </div>
-                    <button class="seeMore">SEE MORE &#8599</button>
+                     <div class="trending-btn d-flex">
+                        <a class="border__btn zindex-5 seeMore">View More</a>
+                    </div>
                 </div>
                 <div class="detail">
                     <div class="title">
@@ -174,10 +175,7 @@
                             <p>Bluetooth</p>
                             <p>5.3</p>
                         </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
+                       
                     </div>
                     <div class="checkout">
                         <button>Apply Now</button>
