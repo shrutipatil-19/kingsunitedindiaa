@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\creatorSpaceController;
+use App\Http\Controllers\EnquiryController;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +21,7 @@ Route::get('/creator-space', [HomeController::class, 'creatorSpace'])->name('cre
 Route::get('/our-team', [HomeController::class, 'ourTeam'])->name('ourTeam');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
+Route::post('/contact', [EnquiryController::class, 'enquiry'])->name('enquiry');
 // Route::get('/creator-space/studio-1', [creatorSpaceController::class, 'studio1'])->name('studio1');
 // Route::get('/creator-space/studio-2', [creatorSpaceController::class, 'studio2'])->name('studio2');
 // Route::get('/creator-space/studio-3', [creatorSpaceController::class, 'studio3'])->name('studio3');

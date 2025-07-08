@@ -77,7 +77,8 @@
                  <!-- enquiry form -->
                  <div class="form-container sign-in col-md-6 col-12">
 
-                     <form>
+                     <form method="POST" action="{{ route('enquiry') }}">
+                         @csrf
                          <div class="ms-cta-content d-flex flex-column">
                              <h3 class="text-center section__title two text-black">Contact us for any events</h3>
                          </div>
@@ -121,8 +122,11 @@
                                          placeholder="Write Message . . ." class="mt-2"></textarea>
                                  </div>
                              </div> -->
-                             <div class="trending-btn d-flex justify-content-center">
+                             <!-- <div class="trending-btn d-flex justify-content-center">
                                  <a class="border__btn zindex-5" href="#">Enquire Now</a>
+                             </div> -->
+                             <div class="trending-btn d-flex justify-content-center">
+                                 <button type="submit" class="border__btn zindex-5">Enquire Now</button>
                              </div>
                          </div>
 
