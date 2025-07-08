@@ -705,7 +705,8 @@
                                     Weight Shifts And Timing Drills.</li>
                                 <li>
                                     <span class="text-white">Intermediate:</span> Directional Changes, Diagonal
-                                    Steps And Speed Variations.</li>
+                                    Steps And Speed Variations.
+                                </li>
                                 <li><span class="text-white">Advanced:</span> Complex Transitions, Syncopation
                                     And Stylistic Layering.</li>
                             </ul>
@@ -734,7 +735,8 @@
                             <ul>
                                 <li>
                                     <span class="text-white">Basic:</span> Funk And Soul Groove Foundations Like
-                                    Bounce, Rock, And Boogaloo.</li>
+                                    Bounce, Rock, And Boogaloo.
+                                </li>
                                 <li><span class="text-white">Intermediate:</span> Full-body Rhythm Training With
                                     Movement Control.</li>
                                 <li><span class="text-white">Advanced:</span> Performance Freestyle, Attitude, And
@@ -749,7 +751,8 @@
                             <ul>
                                 <li>
                                     <span class="text-white">Basic:</span> Comfort With Movement, Simple Rhythm
-                                    Shifts, And Self-expression.</li>
+                                    Shifts, And Self-expression.
+                                </li>
                                 <li><span class="text-white">Intermediate:</span> Improvisational Drills, Response
                                     Games, And Movement Development.</li>
                                 <li><span class="text-white">Advanced:</span> Freestyle Battling, Character-based
@@ -765,7 +768,8 @@
                             <ul>
                                 <li>
                                     <span class="text-white">Basic:</span> Toprock Patterns, Simple Footwork, And
-                                    Basic Freezes.</li>
+                                    Basic Freezes.
+                                </li>
                                 <li><span class="text-white">Intermediate:</span> Level Transitions, Baby Freezes,
                                     Ccs, And First Power Moves.</li>
                                 <li><span class="text-white">Advanced:</span> Combo Building, Flow Mastery, And
@@ -781,7 +785,8 @@
                             <ul>
                                 <li>
                                     <span class="text-white">Basic:</span> Learning Choreography Accurately And
-                                    Confidently.</li>
+                                    Confidently.
+                                </li>
                                 <li><span class="text-white">Intermediate:</span> Performance Dynamics, Musical
                                     Transitions And Energy Variations.</li>
                                 <li><span class="text-white">Advanced:</span> Emotional Delivery, Creative
@@ -796,8 +801,9 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="ms-booking-load-btn text-center">
-                            <a href="#" class="ms-load-btn">load more</a>
+
+                        <div class="trending-btn d-flex justify-content-center">
+                            <a href="#" class="border__btn zindex-5 ms-load-btn">Load More</a>
                         </div>
                     </div>
                 </div>
@@ -901,7 +907,7 @@
 
         </section>
         <!-- payment Area End Here  -->
-       @include('pages.courses.popupForm')
+        @include('pages.courses.popupForm')
     </main>
 </div>
 @endsection
