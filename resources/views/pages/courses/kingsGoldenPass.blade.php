@@ -41,9 +41,7 @@
                             <div class="section__title-wrapper mb-20 bd-title-anim">
                                 <span class="section__subtitle">
                                     One Year Unlimited Access</span>
-                                <h2 class="section__title two">
-                                    Kings <span class="ms-text1">Golden Pass</span>
-                                </h2>
+                                <h2 class="section__title">Kings <span class="animated-underline active">Golden Pass</span></h2>
                             </div>
                             <p class="mb-4">Join The Golden Pass Membership And Experience A Year Of Unlimited Dance Training And Unparalleled Opportunities.</p>
                             <div class="work__features-inner">
@@ -288,7 +286,9 @@
                         <div class="col-xl-12">
                             <div class="ms-work-system-inner text-center">
                                 <span class="section__subtitle">Kings Golden Pass -one Year Program</span>
-                                <h2 class="section__title mb-40 bd-title-anim">Course Highlights<span class="text-bg"></span></h2>
+
+                                <h2 class="section__title mb-40">Course Highlights</h2>
+
                             </div>
                             <div class="ms-work-system-grid mb-10">
                                 <div class="work__features-item">
@@ -354,8 +354,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Intensive Training </h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p> <b>Intensive Training </b></p>
                                         <p>Gain Access To All Our Professional
                                             Dance Course For A Full Year.</p>
                                     </div>
@@ -403,8 +403,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Diverse Dance Styles</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p> <b>Diverse Dance Styles </b></p>
                                         <p>Explore A Wide Range Of Dance Styles</p>
                                     </div>
                                 </div>
@@ -490,7 +490,7 @@
                                         </span>
                                     </div>
                                     <div class="work__features-content">
-                                        <h4>Street Styles </h4>
+                                        <p><b>Street Styles </b></p>
                                         <p>Hip-hop, House, Locking, Popping,
                                             Breaking</p>
                                     </div>
@@ -576,8 +576,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Mordern Styles </h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p> <b>Mordern Styles</b> </p>
                                         <p>Ballet, Jazz, Contemporary</p>
                                     </div>
                                 </div>
@@ -662,62 +662,23 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Other Styles
-                                        </h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p><b>Other Styles</b>
+                                        </p>
                                         <p>Acrobatics, Bolly Wood, Open Style
                                             Choreography</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="trending-btn d-flex justify-content-center">
+                            <!-- <div class="trending-btn d-flex justify-content-center">
                                 <a class="border__btn zindex-5" href="#">Apply Now</a>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Text scroll area start -->
-            <div class="text__scroll-area include__bg p-relative fix mt-5"
-                data-background="assets/img/bg/text-scroll-bg.png">
-                <div class="text__scroll-wrapper">
-                    <div class="ms-text-line-1">
-                        <div class="swiper-container ms-st-active scroll__text pt-20 pb-20">
-                            <div class="swiper-wrapper ms-st-active-wrapper">
-                                <div class="swiper-slide">
-                                    <h3>Kings</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3><span class="text-color-1">Golden Pass</span></h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>Kings</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3><span class="text-color-1">Golden Pass</span></h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>Kings</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3><span class="text-color-1">Golden Pass</span></h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3>Kings</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <h3><span class="text-color-1">Golden Pass</span></h3>
-                                </div>
 
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Text scroll area end -->
         </section>
         <!-- Work System Area End Here  -->
 
@@ -728,15 +689,12 @@
                     <div class="col-lg-8">
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Dance Style</span>
-                            <h2 class="section__title">Why Choose The Kings
-                                <span class="ms-text1">Golden Pass?
-                                </span>
-                            </h2>
+                            <h2 class="section__title">Why Choose The Kings <span class="animated-underline active">Golden Pass?</span></h2>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="unfill__btn" href="assets/file/pdf/musicly-pdf-fle.pdf" download>Download
+                            <a class="unfill__btn" href="{{ asset('assets/file/pdf/golden_pass.pdf') }}" download>Download
                                 PDF <i class="flaticon-downloads"></i></a>
                         </div>
                     </div>
@@ -744,7 +702,7 @@
                 <div class="row mb-45">
                     <div class="col-lg-4">
                         <div class="ms-booking-item mb-25">
-                            <h4>Comprehensive Training:</h4>
+                            <h4 class="text-bg">Comprehensive Training:</h4>
                             <ul>
                                 <li>Cover Every Aspect Of Dance With
                                 </li>
@@ -755,7 +713,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="ms-booking-item mb-25">
-                            <h4>Top-notch Instructors:</h4>
+                            <h4 class="text-bg">Top-notch Instructors:</h4>
                             <ul>
                                 <li>
                                     Learn From Experienced And
@@ -769,7 +727,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="ms-booking-item mb-25">
-                            <h4>Community & Culture:</h4>
+                            <h4 class="text-bg">Community & Culture:</h4>
                             <ul>
                                 <li>Be Part Of A Vibrant Dance
                                 </li>
@@ -928,6 +886,14 @@
 
     .ms-booking-item {
         padding: 35px 30px;
+    }
+
+    @media (max-width: 767px) {
+        .work__features-item {
+            display: block;
+
+            padding: 11px;
+        }
     }
 </style>
 @endpush

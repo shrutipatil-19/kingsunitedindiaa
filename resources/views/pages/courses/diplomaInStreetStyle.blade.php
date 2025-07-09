@@ -133,8 +133,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Daily Training: 2 Hrs + 2 Hrs Addittional Practice Space</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Daily Training: 2 Hrs + 2 Hrs Addittional Practice Space</p>
 
                                     </div>
                                 </div>
@@ -181,8 +181,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Duration: 4 Months</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Duration: 4 Months</p>
 
                                     </div>
                                 </div>
@@ -267,8 +267,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Styles: 8 Street Dance Styles (10 Sessions Per Style)</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Styles: 8 Street Dance Styles (10 Sessions Per Style)</p>
 
                                     </div>
                                 </div>
@@ -353,8 +353,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>2 Masterclasses With Industry Experts</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>2 Masterclasses With Industry Experts</p>
 
                                     </div>
                                 </div>
@@ -439,8 +439,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Certification Upon Completion</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Certification Upon Completion</p>
 
                                     </div>
                                 </div>
@@ -525,8 +525,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Opportunities To Perform With Global Artists</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Opportunities To Perform With Global Artists</p>
 
                                     </div>
                                 </div>
@@ -951,6 +951,14 @@
     .achievement-card:hover {
         transform: none;
         border: none;
+    }
+
+    @media (max-width: 767px) {
+        .work__features-item {
+            display: block;
+           
+            padding: 11px;
+        }
     }
 </style>
 @endpush

@@ -58,7 +58,7 @@
         </section>
         <!-- about course area end -->
 
-         <!-- Work System Area Start Here  -->
+        <!-- Work System Area Start Here  -->
         <section class="ms-work-system-area pt-130 pb-130 ms-bg-2">
             <div class="container">
                 <div class="ms-work-system-wrap">
@@ -132,8 +132,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Participate in ocial battles & competitions</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Participate in ocial battles & competitions</p>
 
                                     </div>
                                 </div>
@@ -180,9 +180,9 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Attend auditions for professional shows
-                                        </h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Attend auditions for professional shows
+</p>
 
                                     </div>
                                 </div>
@@ -267,8 +267,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Shoot video collaborations with The Kings</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Shoot video collaborations with The Kings</p>
 
                                     </div>
                                 </div>
@@ -353,9 +353,9 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Get selected for internships/assistant roles with The Kings Management
-                                            Team</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Get selected for internships/assistant roles with The Kings Management
+                                            Team</p>
 
                                     </div>
                                 </div>
@@ -383,7 +383,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="unfill__btn" href="assets/file/pdf/musicly-pdf-fle.pdf" download>Download
+                            <a class="unfill__btn" href="{{ asset('assets/file/pdf/D2D.pdf') }}" download>Download
                                 PDF <i class="flaticon-downloads"></i></a>
                         </div>
                     </div>
@@ -569,6 +569,14 @@
 
     .ms-booking-item {
         padding: 35px 30px;
+    }
+
+    @media (max-width: 767px) {
+        .work__features-item {
+            display: block;
+
+            padding: 11px;
+        }
     }
 </style>
 @endpush

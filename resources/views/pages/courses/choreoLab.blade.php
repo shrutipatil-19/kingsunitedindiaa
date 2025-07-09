@@ -39,8 +39,8 @@
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper mb-50">
-                               
-                                 <h2 class="section__title mb-40 bd-title-anim">Choreo <span class="text-bg">Lab</span></h2>
+
+                                <h2 class="section__title mb-40 bd-title-anim">Choreo <span class="text-bg">Lab</span></h2>
                                 <p class="">CHOREO LAB is a training ground for dancers who dream of going professional.
                                     Whether you're aspiring to PERFORM, TEACH or CHOREOGRAPH at the highest level,
                                     this SPACE is for you.</p>
@@ -353,8 +353,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>1.5 Hours: Foundation Training</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>1.5 Hours: Foundation Training</p>
 
                                     </div>
                                 </div>
@@ -401,9 +401,9 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Focus on strength, flexibility, performance, groove,
-                                            control, and musicality</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Focus on strength, flexibility, performance, groove,
+                                            control, and musicality</p>
 
                                     </div>
                                 </div>
@@ -488,8 +488,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>1.5 Hours: Choreography Rehearsals</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>1.5 Hours: Choreography Rehearsals</p>
 
                                     </div>
                                 </div>
@@ -574,8 +574,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Learn and polish a new routine monthly</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Learn and polish a new routine monthly</p>
 
                                     </div>
                                 </div>
@@ -660,8 +660,8 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
-                                        <h4>Participate in monthly video shoots or live productions</h4>
+                                    <div class="work__features-content mt-3 mt-lg-0">
+                                        <p>Participate in monthly video shoots or live productions</p>
 
                                     </div>
                                 </div>
@@ -687,15 +687,15 @@
                     <div class="col-lg-8">
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Dance Style</span>
-                          
-                             <h2 class="section__title">Dance Styles <span class="text-bg">Progression Levels
+
+                            <h2 class="section__title">Dance Styles <span class="text-bg">Progression Levels
                                 </span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="unfill__btn" href="assets/file/pdf/musicly-pdf-fle.pdf" download>Download
+                            <a class="unfill__btn" href="{{ asset('assets/file/pdf/choreo_lab.pdf') }}" download>Download
                                 PDF <i class="flaticon-downloads"></i></a>
                         </div>
                     </div>
@@ -703,7 +703,7 @@
                 <div class="row mb-45">
                     <div class="col-lg-6">
                         <div class="ms-booking-item mb-25">
-                             <h4 class="text-bg">What You'll Gain</h4>
+                            <h4 class="text-bg">What You'll Gain</h4>
                             <ul>
                                 <li>Foundation + Choreography Training</li>
                                 <li>Styles and Execution drills</li>
@@ -854,6 +854,14 @@
 
     .work__features-inner .work__features-item {
         margin-bottom: 25px;
+    }
+
+    @media (max-width: 767px) {
+        .work__features-item {
+            display: block;
+
+            padding: 11px;
+        }
     }
 </style>
 @endpush
