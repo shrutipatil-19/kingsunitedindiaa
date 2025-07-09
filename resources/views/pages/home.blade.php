@@ -25,176 +25,180 @@
         <div class="circle" style="--i:19;"></div>
         <div class="circle" style="--i:20;"></div>
     </div> -->
-    <div class="carousel carousel-section ms-banner2-area fix ms-banner2-height pt-80">
-        <div class="list">
+    <section class="ms-banner2-area fix corousel-section-main d-none">
+        <div class="container">
+            <div class="carousel carousel-section ms-banner2-area fix ms-banner2-height pt-80">
+                <div class="list">
 
-            <div class="item">
-                <img src="{{ asset('assets/img/course/bg.png') }}">
-                <div class="introduce">
-                    <div class="title">
-                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Hip Hop</h2>
-                    </div>
-                    <!-- <div class="topic">Aerphone hello</div> -->
-                    <div class="des">
-                        <!-- 20 lorem -->
-                        <p>
-                            A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
+                    <div class="item">
+                        <img src="{{ asset('assets/img/course/bg.png') }}">
+                        <div class="introduce">
+                            <div class="title">
+                                <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Hip Hop</h2>
+                            </div>
+                            <!-- <div class="topic">Aerphone hello</div> -->
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                <p>
+                                    A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
 
+                            </div>
+
+                            <div class="trending-btn d-flex">
+                                <a class="border__btn zindex-5 seeMore">View More</a>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="title">
+                                <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Hip Hop</h2>
+                            </div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                <p>
+                                    A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
+                            </div>
+                            <div class="specifications">
+                                <div>
+                                    <p>Used Time</p>
+                                    <p>6 hours</p>
+                                </div>
+                                <div>
+                                    <p>Charging port</p>
+                                    <p>Type-C</p>
+                                </div>
+                                <div>
+                                    <p>Compatible</p>
+                                    <p>Android</p>
+                                </div>
+                                <div>
+                                    <p>Bluetooth</p>
+                                    <p>5.3</p>
+                                </div>
+
+                            </div>
+                            <div class="checkout">
+                                <button>Apply Now</button>
+
+                            </div>
+                        </div>
                     </div>
-                   
-                    <div class="trending-btn d-flex">
-                        <a class="border__btn zindex-5 seeMore">View More</a>
+
+                    <div class="item">
+                        <img src="{{ asset('assets/img/course/bg.png') }}">
+                        <div class="introduce">
+                            <div class="title">
+                                <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Bollywood Fusion</h2>
+                            </div>
+                            <!-- <div class="topic">Aerphone vjvjck</div> -->
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                <p>
+                                    A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
+                            </div>
+                            <div class="trending-btn d-flex">
+                                <a class="border__btn zindex-5 seeMore">View More</a>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="title">
+                                <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Bollywood Fusion</h2>
+                            </div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                <p>
+                                    A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
+                            </div>
+                            <div class="specifications">
+                                <div>
+                                    <p>Used Time</p>
+                                    <p>6 hours</p>
+                                </div>
+                                <div>
+                                    <p>Charging port</p>
+                                    <p>Type-C</p>
+                                </div>
+                                <div>
+                                    <p>Compatible</p>
+                                    <p>Android</p>
+                                </div>
+                                <div>
+                                    <p>Bluetooth</p>
+                                    <p>5.3</p>
+                                </div>
+
+                            </div>
+                            <div class="checkout">
+                                <button>Apply Now</button>
+                                <!-- <button>CHECKOUT</button> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="{{ asset('assets/img/course/bg.png') }}">
+                        <div class="introduce">
+
+                            <div class="title">
+                                <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Contemporary</h2>
+                            </div>
+                            <!-- <div class="topic">Aerphone</div> -->
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                <p>
+                                    Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
+                            </div>
+                            <div class="trending-btn d-flex">
+                                <a class="border__btn zindex-5 seeMore">View More</a>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="title">
+                                <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Contemporary</h2>
+                            </div>
+                            <div class="des">
+                                <!-- lorem 50 -->
+                                <p>
+                                    Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
+                            </div>
+                            <div class="specifications">
+                                <div>
+                                    <p>Used Time</p>
+                                    <p>6 hours</p>
+                                </div>
+                                <div>
+                                    <p>Charging port</p>
+                                    <p>Type-C</p>
+                                </div>
+                                <div>
+                                    <p>Compatible</p>
+                                    <p>Android</p>
+                                </div>
+                                <div>
+                                    <p>Bluetooth</p>
+                                    <p>5.3</p>
+                                </div>
+
+                            </div>
+                            <div class="checkout">
+                                <button>Apply Now</button>
+                                <!-- <button>CHECKOUT</button> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="detail">
-                    <div class="title">
-                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Hip Hop</h2>
-                    </div>
-                    <div class="des">
-                        <!-- lorem 50 -->
-                        <p>
-                            A core style at Kings, focusing on rhythm, grooves, and street-style movements. It’s energetic and expressive, forming the base of many of their routines.</p>
-                    </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                      
-                    </div>
-                    <div class="checkout">
-                        <button>Apply Now</button>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="{{ asset('assets/img/course/bg.png') }}">
-                <div class="introduce">
-                    <div class="title">
-                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Bollywood Fusion</h2>
-                    </div>
-                    <!-- <div class="topic">Aerphone vjvjck</div> -->
-                    <div class="des">
-                        <!-- 20 lorem -->
-                        <p>
-                            A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
-                    </div>
-                     <div class="trending-btn d-flex">
-                        <a class="border__btn zindex-5 seeMore">View More</a>
-                    </div>
-                </div>
-                <div class="detail">
-                    <div class="title">
-                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Bollywood Fusion</h2>
-                    </div>
-                    <div class="des">
-                        <!-- lorem 50 -->
-                        <p>
-                            A vibrant mix of Bollywood dance with modern styles like hip hop or contemporary, often used in performances to connect with Indian culture.</p>
-                    </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                       
-                    </div>
-                    <div class="checkout">
-                        <button>Apply Now</button>
-                        <!-- <button>CHECKOUT</button> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="{{ asset('assets/img/course/bg.png') }}">
-                <div class="introduce">
-
-                    <div class="title">
-                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Contemporary</h2>
-                    </div>
-                    <!-- <div class="topic">Aerphone</div> -->
-                    <div class="des">
-                        <!-- 20 lorem -->
-                        <p>
-                            Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
-                    </div>
-                     <div class="trending-btn d-flex">
-                        <a class="border__btn zindex-5 seeMore">View More</a>
-                    </div>
-                </div>
-                <div class="detail">
-                    <div class="title">
-                        <h2 class="ms-event-title text-black-custome mt-1 mb-3 fs-3">Contemporary</h2>
-                    </div>
-                    <div class="des">
-                        <!-- lorem 50 -->
-                        <p>
-                            Known for its emotion-driven movement, this style uses fluid body motion, floor work, and expression to tell powerful stories.</p>
-                    </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                       
-                    </div>
-                    <div class="checkout">
-                        <button>Apply Now</button>
-                        <!-- <button>CHECKOUT</button> -->
-                    </div>
+                <div class="arrows">
+                    <button id="prev">
+                        <
+                            </button>
+                            <button id="next">></button>
+                            <button id="back" class="d-none">See All &#8599</button>
                 </div>
             </div>
         </div>
-        <div class="arrows">
-            <button id="prev">
-                <
-                    </button>
-                    <button id="next">></button>
-                    <button id="back" class="d-none">See All &#8599</button>
-        </div>
-    </div>
 
+    </section>
     <!-- Banner Area Start Here  -->
-    <!-- <section class="ms-banner2-area fix">
+    <section class="ms-banner2-area fix">
         <div class="ms-banner2-wrap ms-banner2-height p-relative ms-bg custom-bg w-100"
             data-background="{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}"
             style="background-image: url('{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}');">
@@ -210,7 +214,7 @@
             </a>
         </div>
         </div>
-    </section> -->
+    </section>
     <!-- Banner Area End Here  -->
 
     <!-- about kings area start -->
