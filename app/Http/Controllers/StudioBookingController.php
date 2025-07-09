@@ -7,6 +7,7 @@ use App\Mail\StudioThankYou;
 use App\Models\StudioBooking;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Str;
 
 class StudioBookingController extends Controller
 {
@@ -37,23 +38,26 @@ class StudioBookingController extends Controller
             'date'  => 'required|date',
             'time'  => 'required',
         ]);
+        $validate['token'] = Str::uuid(); // Unique secure token
+        $booking = StudioBooking::create($validate);
 
-        StudioBooking::create($validate);
+        // StudioBooking::create($validate);
         // Send mail to admin
-        Mail::to('shruti.sociomark@gmail.com')->send(new StudioLeadNotification($validate));
+        Mail::to('shruti.sociomark@gmail.com')->send(new StudioLeadNotification($booking));
 
         // Send thank-you mail to the user
         Mail::to($validate['email'])->send(new StudioThankYou($validate));
         return redirect()->back()->with('success', 'Booking submitted successfully!');
     }
-
     public function availableTimes(Request $request, $studio)
     {
         $date = $request->date;
         $selectedStudio = $request->studio ?? $studio;
 
+        // Only get times from bookings that are NOT cancelled
         $booked = StudioBooking::where('date', $date)
             ->where('studio', $selectedStudio)
+            ->where('status', 'booked') // Only include active bookings
             ->pluck('time')
             ->toArray();
 
@@ -70,5 +74,19 @@ class StudioBookingController extends Controller
         $available = array_diff($allSlots, $booked);
 
         return response()->json($available);
+    }
+
+    public function adminCancel($id, $token)
+    {
+        $booking = StudioBooking::findOrFail($id);
+
+        if ($booking->token !== $token) {
+            abort(403, 'Unauthorized access');
+        }
+
+        $booking->status = 'cancelled';
+        $booking->save();
+
+        return redirect()->route('home')->with('success', 'Booking successfully cancelled.');
     }
 }

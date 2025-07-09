@@ -13,5 +13,7 @@ class StudioBooking extends Model
         'studio',
         'date',
         'time',
+        'token',
+        'status',
     ];
 }

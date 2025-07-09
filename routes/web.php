@@ -38,6 +38,7 @@ Route::post('/courseEnquiry', [CourseController::class, 'courseEnquiry'])->name(
 // rental studio
 Route::get('/creator-space/{studio}', [StudioBookingController::class, 'showBookingForm'])->name('studio.book.form');
 Route::post('/creator-space/{studio}', [StudioBookingController::class, 'store'])->name('studio.book');
+Route::get('/admin/studio/cancel/{booking}/{token}', [StudioBookingController::class, 'adminCancel'])->name('admin.studio.cancel');
 
 Route::get('/creator-space/{studio}/available-times', [StudioBookingController::class, 'availableTimes'])->name('studio.available-times');
 

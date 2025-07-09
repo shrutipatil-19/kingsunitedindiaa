@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
@@ -9,16 +10,23 @@ class StudioLeadNotification extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
+    public $booking;
 
-    public function __construct($data)
+    /**
+     * Create a new message instance.
+     */
+    public function __construct($booking) // Rename $data to $booking for clarity
     {
-        $this->data = $data;
+        $this->booking = $booking; // ✅ Assign booking directly
     }
 
+    /**
+     * Build the message.
+     */
     public function build()
     {
         return $this->subject('New Lead Enquiry Received')
-            ->view('mail.studio.notification');
+            ->view('mail.studio.notification')
+            ->with(['booking' => $this->booking]);
     }
 }
