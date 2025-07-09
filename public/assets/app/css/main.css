@@ -6840,7 +6840,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     padding-bottom: 15px;
   }
 }
-
+.ms-trending3-img {
+    width: 100%;
+    aspect-ratio: 1.5;
+}
 .ms-trending2-content {
   bottom: 0;
   left: 22px;

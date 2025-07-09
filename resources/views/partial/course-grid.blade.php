@@ -111,10 +111,14 @@
 
                      </div>
                      <div class="content col-lg-6 col-12">
-                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Kings Golden Pass</a></h3>
-                         <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos, quis modi et.</p>
+                        <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                            Duration: 6 months</p>
+                         <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="#">Kings Golden Pass</a></h3>
+                         <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos.</p>
+                         <p><span class="bg-light font-mini">Every Sunday</span> <span class="bg-light font-mini">3 Hour/Session</span> <span class="bg-light font-mini">Foundation Traning</span> <span class="bg-light font-mini">Choreo Rehearsals</span> </p>
+                       
                          <div class="trending-btn d-flex">
-                             <a class="border__btn zindex-5" href="#">View More</a>
+                             <a class="border__btn zindex-5" href="{{ route('golden') }}">View More</a>
                          </div>
                      </div>
                  </div>
