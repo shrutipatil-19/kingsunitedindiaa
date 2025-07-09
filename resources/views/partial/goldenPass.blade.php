@@ -23,7 +23,7 @@
                             </a>
                             <p class="text-center"><i class="flaticon-phone-call"></i> Call Us: 7276539771/ 9326961717</p>
                             <div class="trending-btn d-flex justify-content-center">
-                                <a class="border__btn zindex-5" href="http://localhost/kingsunitedindiaa/course/diploma-in-street-dance">Enquire Now</a>
+                                <a class="border__btn zindex-5" href="{{ route('golden') }}">Enquire Now</a>
                             </div>
                         </div>
                     </div>

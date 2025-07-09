@@ -111,7 +111,7 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
+                                    <div class="work__features-content mt-3 mt-lg-0">
                                         <h4>Unlimited Workshops Access
 
                                         </h4>
@@ -168,7 +168,7 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
+                                    <div class="work__features-content mt-3 mt-lg-0">
                                         <h4>In-house Competitions & Battles</h4>
                                         <!-- <p>Booking through GigSalad <br> ensures payment protection.</p> -->
                                     </div>
@@ -264,7 +264,7 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <div class="work__features-content">
+                                    <div class="work__features-content mt-3 mt-lg-0">
                                         <h4>Flexible Training Patterns</h4>
                                         <!-- <p>Sit back, relax, and watch <br> your party come to life.</p> -->
                                     </div>
