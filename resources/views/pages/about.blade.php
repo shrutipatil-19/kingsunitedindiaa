@@ -820,7 +820,19 @@
     .ms-work3-thumb:hover::after {
         left: 125%;
     }
-    
+
+    .work__area::before {
+        content: '';
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 500px;
+        height: 500px;
+        background: radial-gradient(circle, rgba(255, 0, 102, 0.15), transparent 70%);
+        z-index: 0;
+        pointer-events: none;
+    }
 </style>
 
 @endpush
