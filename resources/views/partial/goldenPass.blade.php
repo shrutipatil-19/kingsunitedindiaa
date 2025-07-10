@@ -2,8 +2,8 @@
     <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');background-attachment: fixed;">
         <div class="ms-overlay ms-overlay1 zindex--1"></div>
         <div class="container">
-            <div class="ms-cta-bg black-bg fix ">
-                <div class="ms-cta-wrap row">
+            <div class="ms-cta-bg fix border-custome">
+                <div class="ms-cta-wrap row black-bg">
                     <div class="ms-cta-item col-lg-6 pt-lg-0 pt-4 pb-lg-0 pb-4">
                         <div class="ms-cta-content d-flex flex-column">
                             <span class="section__subtitle text-center text-white section__subtitle-with-lines">One Year Unlimited Access</span>
@@ -66,6 +66,12 @@
         .ms-cta-bg i {
             color: #EDC967;
             margin-right: 10px;
+        }
+
+        .border-custome {
+            padding: 12px 22px;
+            border-radius: 20px;
+            border: 2px solid gold;
         }
     </style>
     @endpush

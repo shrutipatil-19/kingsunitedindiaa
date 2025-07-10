@@ -16,6 +16,7 @@
              <div class="form-container sign-in col-md-8 col-12">
                  <form method="POST" action="{{ route('studio.book', ['studio' => $studio]) }}" id="rentalForm" class="contact">
                      @csrf
+                      <input name="status" type="text" value="booked" hidden >
                      <div class="ms-cta-content d-flex flex-column">
                          <h2 class="text-center section__title two text-black">Book Now - Studio</h2>
                      </div>
@@ -81,6 +82,7 @@
 
                      <h2 class="mb-3 text-center ms-event-title" id="dynamicHead">Ready to Flex Your Space?</h2>
                      <p id="dynamicPara" class="text-center text-white">Book your vibe. Own your moment</p>
+                     
                  </div>
              </div>
          </div>
