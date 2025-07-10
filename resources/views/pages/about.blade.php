@@ -410,7 +410,7 @@
                                                 <h4 class="ms-popular__title"><a href="#">Rohan Pal</a>
                                                 </h4>
                                             </div>
-                                        </div>
+                                        </div> 
                                         <div class="swiper-slide">
                                             <div class="ms-popular__item p-relative mb-30">
                                                 <div class="ms-popular__thumb">
