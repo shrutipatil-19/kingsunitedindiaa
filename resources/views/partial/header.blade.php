@@ -53,7 +53,7 @@
                  <div class="row align-items-center">
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
-                             <div class="header__main d-flex align-items-center justify-content-around">
+                             <div class="header__main d-flex align-items-center justify-content-md-around justify-content-between">
                                  <div class="header__logo pt-10 pb-10" style="width: 100px;">
                                      <a href="{{ route('home') }}">
                                          <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
