@@ -269,6 +269,7 @@
         <!-- suresh mukund area end -->
         <!-- team  area start -->
         <section class="ms-popular__area pt-130 pb-100 fix">
+            
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-xl-8 col-lg-8">
