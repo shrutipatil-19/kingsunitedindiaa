@@ -50,151 +50,151 @@
         </style> --}}
         <!-- Key achievement Area Start -->
         <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative">
-                <div class="trangle2">
-                    <div class="container">
-                        <div class="row align-items-end mb-25 bdFadeUp">
-                            <div class="col-lg-6">
-                                <div class="section__title-wrapper mb-40 bd-title-anim">
-                                    <span class="section__subtitle">Key Achievements</span>
-                                    <h2 class="section__title">The <span class="animated-underline active">Kings
-                                        </span>
-                                    </h2>
-                                </div>
+            <div class="trangle2">
+                <div class="container">
+                    <div class="row align-items-end mb-25 bdFadeUp">
+                        <div class="col-lg-6">
+                            <div class="section__title-wrapper mb-40 bd-title-anim">
+                                <span class="section__subtitle">Key Achievements</span>
+                                <h2 class="section__title">The <span class="animated-underline active">Kings
+                                    </span>
+                                </h2>
                             </div>
-                        </div>
-                        <!-- Swiper -->
-                        <div class="swiper achievementSwiper pt-5">
-                            <div class="swiper-wrapper pt-4">
-
-                                <!-- Slide 1 -->
-                                <div class="swiper-slide">
-                                    <div class="achievement-card">
-                                        <div class="img-box">
-                                            <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
-                                            <div class="ms-news-meta d-inline-block">
-                                                <span>Feb 23, 2010</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
-                                            <p class="text-black-light-custome">History created as the first Indian Crew being crowned as World Champions in NBC World of Dance.</p>
-                                            <div class="trending-btn d-flex">
-                                                <a class="border__btn zindex-5" href="#">View More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Slide 2 -->
-                                <div class="swiper-slide">
-                                    <div class="achievement-card">
-                                        <div class="img-box">
-                                            <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
-                                            <div class="ms-news-meta d-inline-block">
-                                                <span>Feb 23, 2010</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
-                                            <p class="text-black-light-custome">We are the first dance crew from India to achieve a Bronze Medal for our country India which was an incredible achievement.</p>
-                                            <div class="trending-btn d-flex">
-                                                <a class="border__btn zindex-5" href="#">View More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Slide 3 -->
-                                <div class="swiper-slide">
-                                    <div class="achievement-card">
-                                        <div class="img-box">
-                                            <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="ABCD2" class="w-100 h-100 object-cover custome-radius-top">
-                                            <div class="ms-news-meta d-inline-block">
-                                                <span>Feb 23, 2010</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
-                                            <p class="text-black-light-custome">An inspiring journey of the THE KINGS was showcased on a big screen in the form of movie Any Body Can Dance 2 directed by Remo
-                                                D'Souza.</p>
-                                            <div class="trending-btn d-flex">
-                                                <a class="border__btn zindex-5" href="#">View More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Slide 4 -->
-                                <div class="swiper-slide">
-                                    <div class="achievement-card">
-                                        <div class="img-box">
-                                            <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
-                                            <div class="ms-news-meta d-inline-block">
-                                                <span>Feb 23, 2010</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                            <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their scintillating performances.</p>
-                                            <div class="trending-btn d-flex">
-                                                <a class="border__btn zindex-5" href="#">View More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Slide 5 -->
-                                <div class="swiper-slide">
-                                    <div class="achievement-card">
-                                        <div class="img-box">
-                                            <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="EKLKBK" class="w-100 h-100 object-cover custome-radius-top">
-                                            <div class="ms-news-meta d-inline-block">
-                                                <span>Feb 23, 2010</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
-                                            <p class="text-black-light-custome">Showcased an incredible achievement by winning Entertainment ke liye kuch bhi karega season 3</p>
-                                            <div class="trending-btn d-flex">
-                                                <a class="border__btn zindex-5" href="#">View More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="achievement-card">
-                                        <div class="img-box">
-                                            <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="EKLKBK" class="w-100 h-100 object-cover custome-radius-top">
-                                            <div class="ms-news-meta d-inline-block">
-                                                <span>Feb 23, 2010</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
-                                            <p class="text-black-light-custome">The only dance group in
-                                                India who mesmerized the world with so many accolades during their
-                                                journey.</p>
-                                            <div class="trending-btn d-flex">
-                                                <a class="border__btn zindex-5" href="#">View More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- Navigation -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
+                    <!-- Swiper -->
+                    <div class="swiper achievementSwiper pt-5">
+                        <div class="swiper-wrapper pt-4">
+
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="achievement-card">
+                                    <div class="img-box">
+                                        <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="WOD" class="w-100 h-100 object-cover custome-radius-top">
+                                        <div class="ms-news-meta d-inline-block">
+                                            <span>Feb 23, 2010</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
+                                        <p class="text-black-light-custome">History created as the first Indian Crew being crowned as World Champions in NBC World of Dance.</p>
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="#">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="achievement-card">
+                                    <div class="img-box">
+                                        <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
+                                        <div class="ms-news-meta d-inline-block">
+                                            <span>Feb 23, 2010</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
+                                        <p class="text-black-light-custome">We are the first dance crew from India to achieve a Bronze Medal for our country India which was an incredible achievement.</p>
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="#">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="achievement-card">
+                                    <div class="img-box">
+                                        <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="ABCD2" class="w-100 h-100 object-cover custome-radius-top">
+                                        <div class="ms-news-meta d-inline-block">
+                                            <span>Feb 23, 2010</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
+                                        <p class="text-black-light-custome">An inspiring journey of the THE KINGS was showcased on a big screen in the form of movie Any Body Can Dance 2 directed by Remo
+                                            D'Souza.</p>
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="#">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide">
+                                <div class="achievement-card">
+                                    <div class="img-box">
+                                        <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
+                                        <div class="ms-news-meta d-inline-block">
+                                            <span>Feb 23, 2010</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
+                                        <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their scintillating performances.</p>
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="#">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 5 -->
+                            <div class="swiper-slide">
+                                <div class="achievement-card">
+                                    <div class="img-box">
+                                        <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="EKLKBK" class="w-100 h-100 object-cover custome-radius-top">
+                                        <div class="ms-news-meta d-inline-block">
+                                            <span>Feb 23, 2010</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
+                                        <p class="text-black-light-custome">Showcased an incredible achievement by winning Entertainment ke liye kuch bhi karega season 3</p>
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="#">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="achievement-card">
+                                    <div class="img-box">
+                                        <img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="EKLKBK" class="w-100 h-100 object-cover custome-radius-top">
+                                        <div class="ms-news-meta d-inline-block">
+                                            <span>Feb 23, 2010</span>
+
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
+                                        <p class="text-black-light-custome">The only dance group in
+                                            India who mesmerized the world with so many accolades during their
+                                            journey.</p>
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="#">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Navigation -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
+            </div>
         </section>
         <!-- Key achievement Area End -->
         <!-- king area start -->
@@ -424,7 +424,7 @@
                                                 <h4 class="ms-popular__title"><a href="#">Rohan Pal</a>
                                                 </h4>
                                             </div>
-                                        </div> 
+                                        </div>
                                         <div class="swiper-slide">
                                             <div class="ms-popular__item p-relative mb-30">
                                                 <div class="ms-popular__thumb">
@@ -787,6 +787,38 @@
 
     .pt-5 {
         padding-top: 2rem !important;
+    }
+
+    .section__title-wrapper::before {
+        content: 'KINGS';
+        position: absolute;
+        top: -30px;
+        left: 0;
+        font-size: 120px;
+        color: rgba(255, 255, 255, 0.03);
+        font-weight: 900;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .ms-work3-thumb::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -75%;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(75deg,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(255, 255, 255, 0.3) 50%,
+                rgba(255, 255, 255, 0.1) 100%);
+        transform: skewX(-20deg);
+        transition: left 0.5s ease;
+        z-index: 2;
+    }
+
+    .ms-work3-thumb:hover::after {
+        left: 125%;
     }
 </style>
 
