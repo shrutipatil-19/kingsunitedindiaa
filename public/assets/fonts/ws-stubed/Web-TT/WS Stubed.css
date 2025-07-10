@@ -1,0 +1,12 @@
+/* Webfont: WSStubed-Regular */@font-face {
+    font-family: 'WSStubed';
+    src: url('WS Stubed.eot'); /* IE9 Compat Modes */
+    src: url('WS Stubed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('WS Stubed.woff') format('woff'), /* Modern Browsers */
+         url('WS Stubed.woff2') format('woff2'), /* Modern Browsers */
+         url('WS Stubed.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
