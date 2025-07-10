@@ -41,7 +41,9 @@
  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
  <!-- Google Fonts -->
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
  <script src="{{ asset('assets/app/js/jquery-3.6.0.min.js') }}"></script>
  <script src="{{ asset('assets/app/js/jquery.counterup.min.js') }}"></script>

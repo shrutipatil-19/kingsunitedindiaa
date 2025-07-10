@@ -58,13 +58,24 @@
 /* ------------------------------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Oregano&family=Poppins:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap");
 
+@font-face {
+  font-family: 'Brooklyn';
+  src: url('../../fonts/brooklyn/TTF/Brooklyn-Normal.ttf');
+}
+
+@font-face {
+  font-family: 'Damicty';
+  src: url('../../fonts/damicty/TTF/Damicty-Regular.ttf');
+}
+
 :root {
   /**
   @font family declaration
   */
-  --bd-ff-body: 'Marko One', serif;
-  --bd-ff-heading: 'Marko One', serif;
-  --bd-ff-subtitle: 'Marko One', serif;
+  --bd-ff-body: "Brooklyn", "Montserrat", Arial, Helvetica, sans-serif;
+  /* --bd-ff-body: "Brooklyn", Arial, Helvetica, sans-serif; */
+  --bd-ff-heading: "Brooklyn", "Montserrat", Arial, Helvetica, sans-serif;
+  --bd-ff-subtitle: "Brooklyn", "Montserrat", Arial, Helvetica, sans-serif;
   --bd-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
