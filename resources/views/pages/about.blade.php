@@ -54,7 +54,7 @@
                 <div class="container">
                     <div class="row align-items-end mb-25 bdFadeUp">
                         <div class="col-lg-6">
-                            <div class="section__title-wrapper mb-40 bd-title-anim">
+                            <div class="section__title-wrapper achievement mb-40 bd-title-anim">
                                 <span class="section__subtitle">Key Achievements</span>
                                 <h2 class="section__title">The <span class="animated-underline active">Kings
                                     </span>
@@ -198,8 +198,8 @@
         </section>
         <!-- Key achievement Area End -->
         <!-- king area start -->
-        <section class="work__area include__bg zindex-1 pt-125 pb-105 p-relative" style="background-image: url('{{ asset('assets/img/kings crew/11.jpg')}}');background-attachment: fixed;">
-            <div class="ms-overlay ms-overlay1 zindex--1"></div>
+        <section class="work__area include__bg zindex-1 pt-125 pb-105 p-relative">
+            <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -214,7 +214,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
-                            <div class="section__title-wrapper mb-50">
+                            <div class="section__title-wrapper kings mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">The <span class="text-bg">Kings</span></h2>
                                 <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
                                     energy, direct beats of thoughts and emotions.
@@ -252,7 +252,7 @@
                 <div class="row align-items-center bdFadeUp flex-column-reverse flex-lg-row">
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
-                            <div class="section__title-wrapper mb-50">
+                            <div class="section__title-wrapper suresh mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg"> Suresh Mukund </span> & his team - The Kings</h2>
                                 <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
                                 </p>
@@ -286,7 +286,7 @@
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-xl-8 col-lg-8">
-                        <div class="section__title-wrapper mb-40 bd-title-anim">
+                        <div class="section__title-wrapper Professional mb-40 bd-title-anim">
                             <span class="section__subtitle">Meet Our Professional</span>
                             <h2 class="section__title msg_title">
                                 <span class="animated-underline active">The Passionate Instructors</span> <br>
@@ -789,7 +789,7 @@
         padding-top: 2rem !important;
     }
 
-    .section__title-wrapper::before {
+    .kings::before {
         content: 'KINGS';
         position: absolute;
         top: -30px;
@@ -820,6 +820,7 @@
     .ms-work3-thumb:hover::after {
         left: 125%;
     }
+    
 </style>
 
 @endpush
