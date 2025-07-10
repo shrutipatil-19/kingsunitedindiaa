@@ -45,3 +45,6 @@ Route::get('/creator-space/{studio}/available-times', [StudioBookingController::
 // events
 Route::get('/events', [EventsController::class, 'events'])->name('events');
 Route::get('/event/wedding-event', [EventsController::class, 'weddingEvent'])->name('weddingEvent');
+
+
+Route::get('/thank-you', [HomeController::class, 'thankyou'])->name('thankyou');

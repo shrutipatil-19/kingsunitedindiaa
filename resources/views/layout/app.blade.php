@@ -10,15 +10,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Anton');
 
-        html,
-        body {
-            cursor: none;
-            background-color: #2d2b2b;
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
         /* Real custom cursor */
         .cursor {
             position: fixed;
@@ -53,9 +44,9 @@
 
 <body>
     @include('partial.header')
-    <div>
+    <!-- <div >
         <br><span></span>
-    </div>
+    </div> -->
     @yield('content')
     @include('partial.footer')
     @include('partial.jsLink')

@@ -38,4 +38,8 @@ class HomeController extends Controller
     {
         return view('pages.fourPillers.theKings');
     }
+    public function thankyou()
+    {
+        return view('pages.thankYou.thankYou');
+    }
 }

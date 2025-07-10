@@ -48,7 +48,7 @@ class StudioBookingController extends Controller
 
         // Send thank-you mail to the user
         Mail::to($validate['email'])->send(new StudioThankYou($validate));
-        return redirect()->back()->with('success', 'Booking submitted successfully!');
+        return redirect()->route('thankyou')->with('success', 'Booking submitted successfully!');
     }
     public function availableTimes(Request $request, $studio)
     {
