@@ -46,12 +46,12 @@ body {
 
 
 /* carousel */
-.carousel {
+/* .carousel {
     position: relative;
     height: 800px;
     overflow: hidden;
     margin-top: -50px;
-}
+} */
 
 .carousel .list {
     position: absolute;
@@ -515,11 +515,11 @@ body {
 }
 
 
-.carousel-section {
+/* .carousel-section {
     height: 100vh;
     overflow: hidden;
     position: relative;
-}
+} */
 
 .next-section {
     height: 100vh;

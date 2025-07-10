@@ -37,6 +37,7 @@ class StudioBookingController extends Controller
             'studio' => 'required',   // from select
             'date'  => 'required|date',
             'time'  => 'required',
+            'status'  => 'nullable',
         ]);
         $validate['token'] = Str::uuid(); // Unique secure token
         $booking = StudioBooking::create($validate);
