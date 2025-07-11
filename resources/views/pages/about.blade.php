@@ -12,9 +12,9 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-10 col-lg-10">
                             <div class="ms-about-content text-center">
-                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h2 class="ms-title2 white-text mb-30 bd-title-anim">Started Small, Moved Big, Danced Bold. Made History.
                                 </h2>
-                                <p class="capitalize mb-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate debitis nam reprehenderit minima consequuntur ducimus beatae!
+                                <p class="capitalize mb-65">Founded by Emmy-nominated choreographer Suresh Mukund, Kings United began as a small crew with a big dream and went on to rewrite the story of the Indian dance scene. With wins in top global competitions and performances at major award shows, the crew rose to become world champions, putting India on the international dance map. Today, Kings United is not only known for offering the best dance classes in Mumbai but also for being one of the top training destinations in India and among the most respected in the world.
                                 </p>
                                 <div class="ms-about-round-btn d-inline-block bdFadeUp ms-choose-area pt-125 pb-105">
                                     <a href="https://www.youtube.com/watch?v=y4jv5bk8ato"
@@ -55,8 +55,8 @@
                     <div class="row align-items-end mb-25 bdFadeUp">
                         <div class="col-lg-6">
                             <div class="section__title-wrapper achievement mb-40 bd-title-anim">
-                                <span class="section__subtitle">Key Achievements</span>
-                                <h2 class="section__title">The <span class="animated-underline active">Kings
+                                <span class="section__subtitle">From Studio to Stardom </span>
+                                <h2 class="section__title">Steps That Made <span class="animated-underline active">History
                                     </span>
                                 </h2>
                             </div>
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
-                                        <p class="text-black-light-custome">History created as the first Indian Crew being crowned as World Champions in NBC World of Dance.</p>
+                                        <p class="text-black-light-custome">The first Indian team to claim the World Champion title on NBC’s World of Dance.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -98,7 +98,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
-                                        <p class="text-black-light-custome">We are the first dance crew from India to achieve a Bronze Medal for our country India which was an incredible achievement.</p>
+                                        <p class="text-black-light-custome">India’s first dance crew to secure a medal at the World Hip-Hop Dance Championship.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -118,8 +118,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
-                                        <p class="text-black-light-custome">An inspiring journey of the THE KINGS was showcased on a big screen in the form of movie Any Body Can Dance 2 directed by Remo
-                                            D'Souza.</p>
+                                        <p class="text-black-light-custome">Our story was celebrated on screen in Remo D’Souza’s “Any Body Can Dance 2”.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -139,7 +138,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                        <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their scintillating performances.</p>
+                                        <p class="text-black-light-custome">Lifted the trophy in Season 3 of India’s Got Talent with unforgettable performances.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -159,7 +158,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
-                                        <p class="text-black-light-custome">Showcased an incredible achievement by winning Entertainment ke liye kuch bhi karega season 3</p>
+                                        <p class="text-black-light-custome">Brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -177,9 +176,7 @@
                                     </div>
                                     <div class="content">
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
-                                        <p class="text-black-light-custome">The only dance group in
-                                            India who mesmerized the world with so many accolades during their
-                                            journey.</p>
+                                        <p class="text-black-light-custome">Showcased our unique style on the iconic Boogie Woogie, earning nationwide appreciation.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -230,14 +227,14 @@
                                 </h2>
                             </div>
                             <div class="work__features-inner">
-                                <p>At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
+                                <p>At Kings United, dance is more than just steps, it’s a combination of energy, emotion, and self-expression. We don’t just perform for the stage or the clapping; we dance to challenge the normal, to tell stories without using words, and to connect deeply with people.</p>
                                 <p>
-                                    Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
+                                    As a dance academy, our goal is to create a welcoming space where anyone, from beginners to advanced dancers can learn, grow, and shine. We’re here to guide, support, and give every student a platform to explore their talent, push the limits, and celebrate their own unique style without trying to fit in.</p>
 
                                 <div class="work__features-bottom">
                                     <div class="work__features-action">
                                         <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="{{ route('theKings') }}" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
+                                            <a class="border__btn zindex-5" href="{{ route('theKings') }}" >View More</a>
                                         </div>
                                     </div>
 
@@ -261,9 +258,9 @@
                         <div class="work__content-wrapper p-relative mb-60">
                             <div class="section__title-wrapper suresh mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg"> Suresh Mukund </span> & his team - The Kings</h2>
-                                <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Suresh Mukund, the visionary founder and choreographer of Kings United, has a story that mirrors the plot of a Bollywood film: an impossible dream, an underdog team starting from scratch, and ultimately winning the biggest championship. Over a decade ago, Suresh Mukund and his dedicated group of dancers entered their first dance reality show, marking the beginning of an incredible journey.
+                                <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Suresh Mukund, the founder and choreographer of Kings United, has a story that feels like a Bollywood movie. Chasing a dream, building a team from the ground up, and winning one of the biggest dance championships in the entire world. Over a decade ago, Suresh and his group of passionate performers entered their first dance reality show, marking the start of a journey that would change their lives and put India on the global map in the dance scene.
                                 </p>
-                                <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Kings United, also known simply as “The Kings,” shot to global fame by winning the third season of the US reality show, “World of Dance.” Their victory was historic, as they walked away with a grand prize of USD 1 million. This monumental achievement placed them on the global dance map and cemented their reputation as one of the best dance crews in the world</p>
+                                <p class="text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Known to many as “The Kings,” Kings United rose to international fame after winning Season 3 of the US reality show World of Dance. Their performance earned them the top prize of 1 million USD and global recognition. This incredible win not only put them on the world stage but also established them as one of the best dance crews to ever represent India.</p>
 
                                 <div class="trending-btn d-flex">
                                     <a class="border__btn zindex-5" href="{{ route('sureshMukund') }}">View More</a>
@@ -794,11 +791,6 @@
 
     .pt-5 {
         padding-top: 2rem !important;
-    }
-
-    .suresh::before {
-        content: 'ABOUT';
-
     }
 
     .ms-work3-thumb::after {

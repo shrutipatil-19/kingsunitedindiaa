@@ -29,7 +29,7 @@
                              Duration: 4 months</p>
                          <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('diploma') }}">Diploma In Street Style</a></h3>
 
-                         <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                         <p class="text-black-light-custome mb-1">A focused program that builds core technique and expressive strength in both hip-hop and contemporary dance.</p>
                          <p><span class="bg-light font-mini">8 Street Styles</span> <span class="bg-light font-mini">10 Sessions/Style</span> <span class="bg-light font-mini">Certified Course</span> <span class="bg-light font-mini">Installment</span></p>
                          <p class="fw-bold mb-1 text-black">
                              ₹49,999
@@ -57,7 +57,7 @@
                              Duration: 1 months</p>
                          <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('choreoLab') }}">Choreo Lab</a></h3>
 
-                         <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                         <p class="text-black-light-custome mb-1">A one-month intensive program designed to sharpen your hip-hop technique and choreographic execution.</p>
                          <p><span class="bg-light font-mini">Every Sunday</span> <span class="bg-light font-mini">3 Hour/Session</span> <span class="bg-light font-mini">Foundation Traning</span> <span class="bg-light font-mini">Choreo Rehearsals</span> </p>
                          <p class="fw-bold mb-1 text-black">
                              ₹2,000 - 3,000
@@ -88,7 +88,7 @@
                              Duration: 6 months</p>
                          <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="{{ route('D2D') }}">Dream 2 Dance</a></h3>
 
-                         <p class="text-black-light-custome mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                         <p class="text-black-light-custome mb-1">This program strengthens your foundation, refines your movement, and transforms you into a well-rounded dancer.</p>
                          <p><span class="bg-light font-mini">4 Stage(Sessions)</span> <span class="bg-light font-mini">Career Opportunities</span> <span class="bg-light font-mini">Installment</span></p>
                          <p class="fw-bold mb-1 text-black">
                              ₹90,000
@@ -114,7 +114,7 @@
                          <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
                              Duration: 6 months</p>
                          <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="#">Kings Golden Pass</a></h3>
-                         <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos.</p>
+                         <p class="text-black-light-custome">Train without limits for an entire year with the Golden Pass, giving you complete access to our classes and workshops.</p>
                          <p><span class="bg-light font-mini">Every Sunday</span> <span class="bg-light font-mini">3 Hour/Session</span> <span class="bg-light font-mini">Foundation Traning</span> <span class="bg-light font-mini">Choreo Rehearsals</span> </p>
 
                          <div class="trending-btn d-flex">
@@ -135,7 +135,7 @@
      .achievement-card {
          height: auto;
          box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4);
-         border: 1px solid red;
+         border: 1px solid #de4038;
      }
 
      .font-mini {

@@ -38,15 +38,16 @@
                     </div>
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
-                            <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">About <span class="text-bg">Kings Crew</span></h2>
-                                <p class="" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
-                                    energy, direct beats of thoughts and emotions.
-                                    It is not about stages, it is not about praise,
-                                    it is all about the inherent strength of performing
-                                    arts to create intangible bridges of resistance to
-                                    status quo. The Kings are the natural truth that
-                                    shakes up the consciousness and shrinks the souls.</p>
+                            <div class="section__title-wrapper kings mb-50">
+                                <span class="section__subtitle">Kings United</span>
+                                <h2 class="section__title two">
+                                    The Story Behind
+                                    <span class="animated-underline active">the Crown</span>
+                                </h2>
+
+                                <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">At Kings United, dance is more than just steps, it’s a combination of energy, emotion, and self-expression. We don’t just perform for the stage or the clapping; we dance to challenge the normal, to tell stories without using words, and to connect deeply with people.</p>
+                                <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                                    As a dance academy, our goal is to create a welcoming space where anyone, from beginners to advanced dancers can learn, grow, and shine. We’re here to guide, support, and give every student a platform to explore their talent, push the limits, and celebrate their own unique style without trying to fit in.</p>
 
                             </div>
 

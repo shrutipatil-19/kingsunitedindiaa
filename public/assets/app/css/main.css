@@ -13451,3 +13451,47 @@ only screen and (min-width: 576px) and (max-width: 767px),
   content: 'ABOUT';
 
 }
+
+/* 
+.custome-border {
+  border: 2px solid #de4038;
+  border-image: linear-gradient(to bottom, #181818, #dea738, #181818) 1 100%;
+  border-radius: 20px;
+} */
+.custome-border {
+  position: relative;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, #181818, #dea738) 1 100%;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.custome-border::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #dea738;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 1;
+}
+
+.suresh::before {
+  content: 'ABOUT';
+
+}
+
+.achievement::before {
+  content: 'ACHIEVEMENTS';
+}
+.services::before{
+   content: 'SERVICES';
+}
+.studio::before{
+  content: 'STUDIO';
+}

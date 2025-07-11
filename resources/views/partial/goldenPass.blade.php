@@ -14,11 +14,9 @@
                                 </h2>
                             </a>
                             <a href="{{ route('golden') }}">
-                                <p class="text-center">Join The Golden Pass
-                                    Membership And Experience A Year Of
-                                    <span class="gold-color">Unlimited Dance
-                                        Training And Unparalleled
-                                    </span>Opportunities.
+                                <p class="text-center">Train without limits for an entire year with the Golden Pass,
+                                    <span class="gold-color">giving you complete access to our 
+                                    </span>classes and workshops.
                                 </p>
                             </a>
                             <p class="text-center"><i class="flaticon-phone-call"></i> Call Us: 7276539771/ 9326961717</p>

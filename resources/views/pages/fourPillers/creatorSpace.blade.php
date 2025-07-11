@@ -40,7 +40,7 @@
                     <div class="col-xl-6 col-lg-10">
 
                         <div class="work__content-wrapper p-relative mb-60">
-                            <div class="section__title-wrapper mb-50">
+                            <div class="section__title-wrapper studio mb-50">
                                 <h2 class="section__title mb-40 bd-title-anim">Kings Creator Space:<span class="text-bg"> Unleash Your</span> Creativity</h2>
                                 <p class="" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">Welcome to Kings Creator Space, where imagination meets innovation. Our state-of-the-art studio is designed to provide you with everything you need to create high-quality, engaging content. Whether you’re an aspiring artist, a seasoned professional, or just looking to have some fun, Kings Creator Space has something for everyone.</p>
 

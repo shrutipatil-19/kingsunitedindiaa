@@ -244,15 +244,15 @@
                                 The Kings: From Dreamers to International
                                 <span class="animated-underline active">Dance Champions</span>
                             </h2> -->
-                              <h2 class="section__title two">
-                                The Story Behind 
+                            <h2 class="section__title two">
+                                The Story Behind
                                 <span class="animated-underline active">the Crown</span>
                             </h2>
                         </div>
                         <div class="work__features-inner">
-                            <p>At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
+                            <p>What started in 2009 as a small team of passionate dancers has grown into a name known around the world. From Mumbai to international stages, we’ve trained, performed, and earned the title of world champions through hard work, discipline, and dedication to the craft.</p>
                             <p>
-                                Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
+                                Our studio is more than a training space. It is a place where dancers build strong foundations, explore their style, and grow into confident performers. With expert-led programs in hip-hop, contemporary, Bollywood, and classical Indian dance, we welcome dancers of all levels to be part of our journey.</p>
 
                             <div class="work__features-bottom">
                                 <div class="work__features-action">
@@ -303,12 +303,7 @@
                                     </div>
                                     <div class="ms-trending2-title-wrap">
                                         <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="{{ route('sureshMukund') }}">Suresh Mukund is an Internationally Acclaimed
-                                            Choreographer and the First Choreographer to Bring
-                                            International Championship Titles and Medals for India
-                                            In History. He is the Founder and Choreographer of
-                                            The Kings, a Globally Recognized Dance Crew Known
-                                            For Its Unique Fusion of Hip-hop and Bollywood.</a>
+                                            href="{{ route('sureshMukund') }}">Suresh Mukund is an internationally known choreographer and the first to win international titles and medals for India. He is the founder and choreographer of The Kings—a world-famous dance crew known for blending hip-hop and Bollywood in a powerful way. His passion and hard work are the reason behind the success of the best dance academy in India.</a>
 
                                     </div>
                                 </div>
@@ -332,7 +327,7 @@
                                 </div>
                                 <div class="ms-trending2-title-wrap">
                                     <a class="ms-trending2-title p-relative ms-title-border"
-                                        href="">Our team of experienced dance instructors are dedicated to helping students of all levels achieve their dance goals. Whether you're a beginner looking to learn the basics or an experienced dancer aiming to refine your skills, our instructors are here to guide and support you every step of the way.</a>
+                                        href="">Our experienced instructors are here to shape dance lovers at every level. Be it building strong foundations or sharpening advanced techniques, as kings we focus on progress with purpose, making us a trusted dance academy in India known for discipline and excellence.</a>
 
                                 </div>
                             </div>
@@ -356,7 +351,7 @@
                                     </div>
                                     <div class="ms-trending2-title-wrap">
                                         <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="{{ route('creatorSpace') }}">From ballet and jazz to hip-hop and contemporary, Kings Dance Studio offers a diverse range of dance styles to cater to different interests and preferences. Explore new genres, challenge yourself creatively, and discover the joy of expression through movement.</a>
+                                            href="{{ route('creatorSpace') }}">From ballet and jazz to hip-hop and contemporary, Kings Dance Studio offers a wide range of styles to match every dancer’s passion. As a leading dance institute, we encourage you to explore new genres, push your creative boundaries, and experience the true joy of expression through movement.</a>
 
                                     </div>
                                 </div>
@@ -381,13 +376,7 @@
                                     </div>
                                     <div class="ms-trending2-title-wrap">
                                         <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="{{ route('theKings') }}">The Kings is all about being the tornadoes of
-                                            energy, direct beats of thoughts and emotions.
-                                            It is not about stages, it is not about praise,
-                                            it is all about the inherent strength of performing
-                                            arts to create intangible bridges of resistance to
-                                            status quo. The Kings are the natural truth that
-                                            shakes up the consciousness and shrinks the souls.</a>
+                                            href="{{ route('theKings') }}">The Kings represent a storm of energy, driven by thought and emotion. It’s not about the stage or the applause, it’s about the raw power of performance to challenge mediocrity and push boundaries. As a dance academy, The Kings believe in a deeper truth that moves people and awakens something within.</a>
 
                                     </div>
                                 </div>
@@ -506,7 +495,7 @@
             </div>
             <div class="row bdFadeUp justify-content-center align-items-center">
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -524,7 +513,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -553,7 +542,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -581,7 +570,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -609,7 +598,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -637,7 +626,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -665,7 +654,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25">
+                    <div class="ms-event2-item mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -786,7 +775,6 @@
     .ms-trending2-item:hover .trending__title {
         color: white;
     }
-  
 </style>
 <!-- <style>
     .content body {

@@ -56,25 +56,11 @@
                     </div>
                     <div class="col-xl-6 col-lg-10">
                         <div class="work__content-wrapper p-relative mb-60">
-                            <div class="section__title-wrapper mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">About <span class="text-bg">Suresh Mukund</span></h2>
-                                <p class="">Suresh Mukund is an Internationally Acclaimed
-                                    Choreographer and the First Choreographer to Bring
-                                    International Championship Titles and Medals for India
-                                    In History. He is the Founder and Choreographer of
-                                    The Kings, a Globally Recognized Dance Crew Known
-                                    For Its Unique Fusion of Hip-hop and Bollywood, Grand
-                                    Formations, and Breathtaking 'wow' Moments That
-                                    Have Captivated Audiences Worldwide.</p>
-                                <p>
-                                    In the Early 2000's, He Played a Pioneering Role in
-                                    Introducing and Growing Hip-hop and Crew
-                                    Choreography Culture in India, Helping It Gain
-                                    Mainstream Recognition Through Nationwide Reality
-                                    Shows. Over the Years, He Has Taken Indian Dance to
-                                    The Global Stage, Representing the Country at
-                                    Prestigious International Competitions and Concerts.
+                            <div class="section__title-wrapper suresh mb-50">
+                                <h2 class="section__title mb-40 bd-title-anim">Story of <span class="text-bg"> Suresh Mukund </span> & his team - The Kings</h2>
+                                <p class="text-justify">Suresh Mukund, the founder and choreographer of Kings United, has a story that feels like a Bollywood movie. Chasing a dream, building a team from the ground up, and winning one of the biggest dance championships in the entire world. Over a decade ago, Suresh and his group of passionate performers entered their first dance reality show, marking the start of a journey that would change their lives and put India on the global map in the dance scene.
                                 </p>
+                                <p class="text-justify">Known to many as “The Kings,” Kings United rose to international fame after winning Season 3 of the US reality show World of Dance. Their performance earned them the top prize of 1 million USD and global recognition. This incredible win not only put them on the world stage but also established them as one of the best dance crews to ever represent India.</p>
                                 <!-- <div class="work__features-btn ms-work3-feature-btn">
                                     <a class="ms-fill-btn" href="#">The Kings</a>
                                 </div> -->
@@ -92,7 +78,7 @@
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-6">
-                        <div class="section__title-wrapper mb-40 bd-title-anim">
+                        <div class="section__title-wrapper achievement mb-40 bd-title-anim">
                             <span class="section__subtitle">Key Achievements</span>
                             <h2 class="section__title">The <span class="animated-underline active">Kings
                                 </span>
@@ -472,7 +458,7 @@
                         <div class="col-xl-7">
                             <div class="ms-tm-content-wrap ms-tm-content-space mb-60">
 
-                                <div class="section__title-wrapper mb-30 bd-title-anim">
+                                <div class="section__title-wrapper services mb-30 bd-title-anim">
                                     <span class="section__subtitle mb-2">Services & Expertise</span>
                                     <h2 class="ms-tm-author-title fw-normal">Choreography & Creative Direction
                                         Areas of Work:
