@@ -3,7 +3,7 @@
      <div class="container">
          <div class="row align-items-end mb-25 bdFadeUp">
              <div class="col-lg-6">
-                 <div class="section__title-wrapper mb-40 bd-title-anim">
+                 <div class="section__title-wrapper course mb-40 bd-title-anim">
                      <span class="section__subtitle">Courses We Offer</span>
                      <h2 class="section__title">The <span class="animated-underline active">Kings</span></h2>
                  </div>
@@ -111,12 +111,12 @@
 
                      </div>
                      <div class="content col-lg-6 col-12">
-                        <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
-                            Duration: 6 months</p>
+                         <p class="text-black-light-custome mb-1"><i class="fa-solid fa-calendar-days"></i>
+                             Duration: 6 months</p>
                          <h3 class="ms-event-title text-black-custome mt-1 mb-3"><a href="#">Kings Golden Pass</a></h3>
                          <p class="text-black-light-custome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae eos.</p>
                          <p><span class="bg-light font-mini">Every Sunday</span> <span class="bg-light font-mini">3 Hour/Session</span> <span class="bg-light font-mini">Foundation Traning</span> <span class="bg-light font-mini">Choreo Rehearsals</span> </p>
-                       
+
                          <div class="trending-btn d-flex">
                              <a class="border__btn zindex-5" href="{{ route('golden') }}">View More</a>
                          </div>
@@ -166,6 +166,11 @@
 
      .ms-trending2-item:hover .trending__title {
          color: white;
+     }
+
+     .course::before {
+         content: 'COURSES';
+
      }
  </style>
  @endpush

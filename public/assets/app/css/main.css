@@ -67,6 +67,7 @@
   font-family: 'Damicty';
   src: url('../../fonts/damicty/TTF/Damicty-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Stubed';
   src: url('../../fonts/ws-stubed/WS\ Stubed.ttf');
@@ -6855,10 +6856,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     padding-bottom: 15px;
   }
 }
+
 .ms-trending3-img {
-    width: 100%;
-    aspect-ratio: 1.5;
+  width: 100%;
+  aspect-ratio: 1.5;
 }
+
 .ms-trending2-content {
   bottom: 0;
   left: 22px;
@@ -13408,16 +13411,41 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* border: 0.4rem solid #ffffff; */
   /* filter: blur(10px); */
   background: #ffffff;
-    backdrop-filter: invert(1);
+  backdrop-filter: invert(1);
   /* box-shadow: 0 0 0.7rem 0.5rem #ffffffc9, 0 0 0.7rem 0.5rem #ffffffdb inset; */
   /* z-index: 6; */
   animation-name: rotate;
   animation-duration: 15s;
-  animation-iteration-count: infinite; /* THIS IS THE KEY CHANGE */
-  animation-timing-function: linear; /* Often good for continuous rotation */
-}
-@keyframes rotate{
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); } /* Full rotation */
+  animation-iteration-count: infinite;
+  /* THIS IS THE KEY CHANGE */
+  animation-timing-function: linear;
+  /* Often good for continuous rotation */
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+  /* Full rotation */
+}
+
+.section__title-wrapper::before {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.03);
+  font-weight: 900;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.kings::before {
+  content: 'KINGS';
+
+}

@@ -234,7 +234,7 @@
                 </div>
                 <div class="col-xl-6 pl-30">
                     <div class="work__content-wrapper work__content-wrapper-space mb-70">
-                        <div class="section__title-wrapper mb-30 bd-title-anim">
+                        <div class="section__title-wrapper kings mb-30 bd-title-anim">
                             <span class="section__subtitle">About Kings</span>
                             <!-- <h2 class="section__title two">
                                 The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
@@ -428,7 +428,7 @@
         <div class="container">
             <div class="row align-items-end mb-25 bdFadeUp">
                 <div class="col-lg-6">
-                    <div class="section__title-wrapper mb-40 bd-title-anim">
+                    <div class="section__title-wrapper course mb-40 bd-title-anim">
                         <span class="section__subtitle">Courses We Offer</span>
                         <h2 class="section__title">The <span class="animated-underline active">Kings</span></h2>
                     </div>
@@ -782,6 +782,7 @@
     .ms-trending2-item:hover .trending__title {
         color: white;
     }
+  
 </style>
 <!-- <style>
     .content body {

@@ -4,7 +4,7 @@
       <div class="container">
           <div class="row align-items-end mb-25 bdFadeUp">
               <div class="col-lg-8">
-                  <div class="section__title-wrapper mb-40 bd-title-anim d-flex flex-column  align-items-lg-start align-items-center">
+                  <div class="section__title-wrapper space mb-40 bd-title-anim d-flex flex-column  align-items-lg-start align-items-center">
                       <span class="section__subtitle ">Creator space</span>
 
                       <h2 class="section__title text-lg-left">Creator <span class="animated-underline active">Space</span></h2>
@@ -203,6 +203,11 @@
 
       .pt-5 {
           padding-top: 2rem !important;
+      }
+
+      .space::before {
+          content: 'SPACE';
+
       }
   </style>
 

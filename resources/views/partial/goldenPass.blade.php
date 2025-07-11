@@ -68,10 +68,23 @@
             margin-right: 10px;
         }
 
-        .border-custome {
-            padding: 12px 22px;
-            border-radius: 20px;
-            border: 2px solid gold;
+        :root {
+            --neon-gold: #ffd700;
         }
+
+        .border-custome {
+            border: 4px solid var(--neon-gold);
+            border-radius: 20px;
+            /* padding: 12px 18px; */
+            transition: box-shadow 0.3s ease;
+            box-shadow:
+                0 0 4px var(--neon-gold);
+        }
+
+        /* .border-custome:hover {
+            box-shadow:
+                0 0 6px var(--neon-gold),
+                0 0 10px var(--neon-gold);
+        } */
     </style>
     @endpush

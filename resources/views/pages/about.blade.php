@@ -789,16 +789,9 @@
         padding-top: 2rem !important;
     }
 
-    .kings::before {
-        content: 'KINGS';
-        position: absolute;
-        top: -30px;
-        left: 0;
-        font-size: 120px;
-        color: rgba(255, 255, 255, 0.03);
-        font-weight: 900;
-        z-index: 0;
-        pointer-events: none;
+    .suresh::before {
+        content: 'SURESH';
+
     }
 
     .ms-work3-thumb::after {
@@ -821,18 +814,18 @@
         left: 125%;
     }
 
-    .work__area::before {
+    /* .work__area::before {
         content: '';
         position: absolute;
-        top: 10%;
-        left: 50%;
+        top: -8%;
+        left: 8%;
         transform: translateX(-50%);
         width: 500px;
         height: 500px;
-        background: radial-gradient(circle, rgba(255, 0, 102, 0.15), transparent 70%);
+        background: radial-gradient(circle, rgba(222, 64, 56, 0.15), transparent 70%);
         z-index: 0;
         pointer-events: none;
-    }
+    } */
 </style>
 
 @endpush
