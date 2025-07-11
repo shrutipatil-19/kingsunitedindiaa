@@ -25,7 +25,7 @@
         <div class="circle" style="--i:19;"></div>
         <div class="circle" style="--i:20;"></div>
     </div> -->
-    <section class="ms-banner2-area fix corousel-section-main ">
+    <section class="ms-banner2-area fix corousel-section-main d-none">
         <div class="container">
             <div class="carousel carousel-section ms-banner2-area fix ms-banner2-height pt-80">
                 <div class="list">
@@ -198,7 +198,7 @@
 
     </section>
     <!-- Banner Area Start Here  -->
-    <!-- <section class="ms-banner2-area fix">
+    <section class="ms-banner2-area fix">
         <div class="ms-banner2-wrap ms-banner2-height p-relative ms-bg custom-bg w-100"
             data-background="{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}"
             style="background-image: url('{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}');">
@@ -214,7 +214,7 @@
             </a>
         </div>
         </div>
-    </section> -->
+    </section>
     <!-- Banner Area End Here  -->
 
     <!-- about kings area start -->
