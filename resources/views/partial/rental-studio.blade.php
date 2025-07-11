@@ -5,9 +5,9 @@
           <div class="row align-items-end mb-25 bdFadeUp">
               <div class="col-lg-8">
                   <div class="section__title-wrapper space mb-40 bd-title-anim d-flex flex-column  align-items-lg-start align-items-center">
-                      <span class="section__subtitle ">Creator space</span>
+                      <span class="section__subtitle ">the Vibe</span>
 
-                      <h2 class="section__title text-lg-left">Creator <span class="animated-underline active">Space</span></h2>
+                      <h2 class="section__title text-lg-left">Your Stage. <span class="animated-underline active">Your Rules</span></h2>
                   </div>
               </div>
               <div class="col-lg-4">
@@ -206,7 +206,7 @@
       }
 
       .space::before {
-          content: 'SPACE';
+          content: 'RENT';
 
       }
   </style>

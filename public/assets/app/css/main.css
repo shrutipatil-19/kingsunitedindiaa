@@ -13438,7 +13438,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: absolute;
   top: -30px;
   left: 0;
-  font-size: 120px;
+  font-size: clamp(32px, 6vw, 77px);
+
+  /* font-size: 120px; */
   color: rgba(255, 255, 255, 0.03);
   font-weight: 900;
   z-index: 0;
@@ -13446,6 +13448,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .kings::before {
-  content: 'KINGS';
+  content: 'ABOUT';
 
 }

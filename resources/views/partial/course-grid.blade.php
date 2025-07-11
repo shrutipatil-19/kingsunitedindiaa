@@ -4,8 +4,8 @@
          <div class="row align-items-end mb-25 bdFadeUp">
              <div class="col-lg-6">
                  <div class="section__title-wrapper course mb-40 bd-title-anim">
-                     <span class="section__subtitle">Courses We Offer</span>
-                     <h2 class="section__title">The <span class="animated-underline active">Kings</span></h2>
+                     <span class="section__subtitle">We provide</span>
+                     <h2 class="section__title">Find Your Flow, Steal  <span class="animated-underline active">the Show</span></h2>
                  </div>
              </div>
 

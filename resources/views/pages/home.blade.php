@@ -235,14 +235,18 @@
                 <div class="col-xl-6 pl-30">
                     <div class="work__content-wrapper work__content-wrapper-space mb-70">
                         <div class="section__title-wrapper kings mb-30 bd-title-anim">
-                            <span class="section__subtitle">About Kings</span>
+                            <span class="section__subtitle">Kings United</span>
                             <!-- <h2 class="section__title two">
                                 The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
                                 <span class="animated-underline active">Dance Champions</span>
                             </h2> -->
-                            <h2 class="section__title two">
+                            <!-- <h2 class="section__title two">
                                 The Kings: From Dreamers to International
                                 <span class="animated-underline active">Dance Champions</span>
+                            </h2> -->
+                              <h2 class="section__title two">
+                                The Story Behind 
+                                <span class="animated-underline active">the Crown</span>
                             </h2>
                         </div>
                         <div class="work__features-inner">
@@ -492,8 +496,8 @@
 
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Our Services</span>
-                            <h2 class="section__title">Our Services to Support Your <span class="animated-underline active">
-                                    Dance Journey</span>
+                            <h2 class="section__title">Here’s the Heat <span class="animated-underline active">
+                                    We Offer</span>
 
                             </h2>
                         </div>

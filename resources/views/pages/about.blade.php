@@ -197,54 +197,61 @@
             </div>
         </section>
         <!-- Key achievement Area End -->
-        <!-- king area start -->
-        <section class="work__area include__bg zindex-1 pt-125 pb-105 p-relative">
-            <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
+        <!-- about kings area start -->
+        <section class="work__area pt-130 pb-60 p-relative">
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
-                        <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
-                            <div class="ms-work3-inner">
-                                <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
-                                    <div class="ms-overlay p-absolute"></div>
-                                    <img src="{{ asset('assets/img/kings img/banner/bann3.jpg')}}" alt="work image">
+                        <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
+                            <div class="work__thumb-inner p-relative zindex-5">
+                                <div class="work__thumb m-img">
+                                    <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
+                                </div>
+                            </div>
+                            <div class="ms-work-round p-absolute zindex--1 d-none d-sm-block"></div>
+                            <div class="ms-work-round p-absolute two zindex--1 d-none d-sm-block"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 pl-30">
+                        <div class="work__content-wrapper work__content-wrapper-space mb-70">
+                            <div class="section__title-wrapper kings mb-30 bd-title-anim">
+                                <span class="section__subtitle">Kings United</span>
+                                <!-- <h2 class="section__title two">
+                                The Kings: From <span class="text-bg">Dreamers</span> to <span class="text-bg">International</span>
+                                <span class="animated-underline active">Dance Champions</span>
+                            </h2> -->
+                                <!-- <h2 class="section__title two">
+                                The Kings: From Dreamers to International
+                                <span class="animated-underline active">Dance Champions</span>
+                            </h2> -->
+                                <h2 class="section__title two">
+                                    The Story Behind
+                                    <span class="animated-underline active">the Crown</span>
+                                </h2>
+                            </div>
+                            <div class="work__features-inner">
+                                <p>At The Kings, we don’t just dance; we elevate it to an art form. From our humble beginnings to becoming international champions, our journey has been nothing short of spectacular. Established in Mumbai, our dance studio is not just a place to learn dance; it’s a vibrant community where passion meets excellence.</p>
+                                <p>
+                                    Founded in 2009, The Kings began as a small group of dedicated dancers with a dream. Today, we are renowned for our innovative choreography, high-energy performances, and unmatched dedication to the craft. Our studio offers a diverse range of dance styles including hip-hop, contemporary, Bollywood, and classical Indian dance, catering to dancers of all ages and skill levels.</p>
+
+                                <div class="work__features-bottom">
+                                    <div class="work__features-action">
+                                        <div class="trending-btn d-flex">
+                                            <a class="border__btn zindex-5" href="{{ route('theKings') }}" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-10">
-                        <div class="work__content-wrapper p-relative mb-60">
-                            <div class="section__title-wrapper kings mb-50">
-                                <h2 class="section__title mb-40 bd-title-anim">The <span class="text-bg">Kings</span></h2>
-                                <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">The Kings is all about being the tornadoes of
-                                    energy, direct beats of thoughts and emotions.
-                                    It is not about stages, it is not about praise,
-                                    it is all about the inherent strength of performing
-                                    arts to create intangible bridges of resistance to
-                                    status quo. The Kings are the natural truth that
-                                    shakes up the consciousness and shrinks the souls.
-                                </p>
-                                <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Dance is the most flexible way of communication we
-                                    articulate. A dialogue without words that is able to
-                                    express it all. The Kings Dance studio is a place with
-                                    a warm, supportive atmosphere and provide a social
-                                    and entertainment forum for people with diverse
-                                    interests, backgrounds and ages by educating people
-                                    for all the levels in dance from beginner to advanced
-                                    stages. Give our students a platform where they can
-                                    showcase their talent and achieve their goals.</p>
-                                <div class="trending-btn d-flex">
-                                    <a class="border__btn zindex-5" href="{{ route('theKings') }}">View More</a>
-                                </div>
-                            </div>
 
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
-        <!-- king area end -->
+
+
+        <!-- about kings area end -->
 
         <!-- suresh Mukund area start -->
         <section class="work__area pt-125 ms-bg-2 pb-105">
@@ -790,7 +797,7 @@
     }
 
     .suresh::before {
-        content: 'SURESH';
+        content: 'ABOUT';
 
     }
 
