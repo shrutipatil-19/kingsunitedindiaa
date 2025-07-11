@@ -397,8 +397,8 @@ body {
 }
 
 .carousel::before {
-    width: 500px;
-    height: 300px;
+    /* width: 500px;
+    height: 300px; */
     content: '';
     background-image: linear-gradient(90deg, #de4038 0%, #dea738 100%);
     /* background-image: linear-gradient(70deg, #DC422A, blue); */
@@ -424,21 +424,30 @@ body {
     transform: translate(-10%, -50%);
     transition: 1s;
 } */
+.corousel-section-main {
+    position: relative;
+    overflow: hidden;
+}
+
 .corousel-section-main::before {
     content: '';
-    background-image: 
-        url('assets/img/kings img/lion_logo.png'), 
-        linear-gradient(90deg, #de4038 0%, #dea738 100%);
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-10%, -50%);
+    width: 150%;
+    height: 150%;
+    background-image:
+        url('https://test.apogeedigitech.in/kingsunitedindia-v2/public/assets/img/kings%20img/banner/video_banner4.jpg');
     background-size: cover;
     background-position: center;
-    position: absolute;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    /* filter: blur(150px); */
     z-index: -1;
-    border-radius: 20% 30% 80% 10%;
-    filter: blur(150px);
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, -50%);
+    /* border-radius: 20% 30% 80% 10%; */
     transition: 1s;
+    opacity: 0.1;
 }
 
 .carousel.showDetail::before {
