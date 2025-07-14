@@ -21,7 +21,7 @@ class EnquiryController extends Controller
         ]);
         // Convert array to comma-separated string
         $validate['service'] = implode(', ', $validate['service']);
-        
+
         Enquiry::create($validate);
 
         // Send mail to admin
@@ -30,6 +30,6 @@ class EnquiryController extends Controller
         // Send thank-you mail to the user
         Mail::to($validate['email'])->send(new EnquiryThankYou($validate));
 
-        return redirect()->back()->with('success', 'Booking submitted successfully!');
+        return redirect()->route('thankyou')->with('success', 'Booking submitted successfully!');
     }
 }

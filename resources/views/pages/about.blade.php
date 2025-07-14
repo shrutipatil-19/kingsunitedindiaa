@@ -50,7 +50,7 @@
         </style> --}}
         <!-- Key achievement Area Start -->
         <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative">
-            <div class="trangle2">
+            <div class="">
                 <div class="container">
                     <div class="row align-items-end mb-25 bdFadeUp">
                         <div class="col-lg-6">

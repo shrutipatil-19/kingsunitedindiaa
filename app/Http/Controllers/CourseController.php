@@ -40,12 +40,12 @@ class CourseController extends Controller
             'course' => 'required',
             'date' => 'nullable',
         ]);
-         // Send mail to admin
+        // Send mail to admin
         Mail::to('shruti.sociomark@gmail.com')->send(new CourseLeadNotification($validate));
 
         // Send thank-you mail to the user
         Mail::to($validate['email'])->send(new CourseThankYou($validate));
         Course::create($validate);
-        return redirect()->back();
+        return redirect()->route('thankyou')->with('success', 'Booking submitted successfully!');
     }
 }
