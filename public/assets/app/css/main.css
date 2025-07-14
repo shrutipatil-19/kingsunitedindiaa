@@ -6837,6 +6837,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   bottom: 0;
   width: 100%;
   z-index: -1;
+  filter: hue-rotate(245deg);
 }
 
 .ms-trending2-shape img {
@@ -9502,7 +9503,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   inset-inline-end: -8px;
   font-weight: 600;
   font-size: 12px;
-  background: var(--clr-bg-1);
+  background: #dea038;
   width: 22px;
   height: 22px;
   line-height: 22px;
