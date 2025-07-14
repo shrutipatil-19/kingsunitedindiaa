@@ -59,7 +59,7 @@
                          </div>
                          <div class="col-md-6">
                              <div class="ms-input2-box">
-                                 <label class="text-white" for="time">Time</label>
+                                 <label for="time">Time</label>
                                  <select name="time" class="form-select" required>
                                      <option>Select Time</option>
                                  </select>
