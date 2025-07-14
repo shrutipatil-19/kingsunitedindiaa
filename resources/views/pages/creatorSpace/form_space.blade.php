@@ -201,10 +201,10 @@
                              timeSelect.append('<option value="' + slot + '">' + slot + '</option>');
                          });
                      },
-                     error: function(err) {
-                         console.log(err);
-                         alert("Error loading available times");
-                     }
+                    //  error: function(err) {
+                    //      console.log(err);
+                    //      alert("Error loading available times");
+                    //  }
                  });
              }
          }
@@ -256,12 +256,12 @@
          const typingPara = 'Lock in the place before someone else steals your spotlight.';
          const typingBg = "{{ asset('assets/img/course/bg2.png') }}";
 
-         const ghostHead = 'Hey, Don’t Ghost!';
-         const ghostPara = 'You’re this close to booking your dream spot — don’t sleep on it.';
+         const ghostHead = "Hey, Don't Ghost!";
+         const ghostPara = "You're this close to booking your dream spot — don't sleep on it.";
          const ghostBg = "{{ asset('assets/img/kings img/tranding-bg.png') }}";
 
          const thankYouHead = 'Thank You!';
-         const thankYouPara = 'We’ll be in touch shortly.';
+         const thankYouPara = "We'll be in touch shortly.";
          const thankYouBg = "{{ asset('assets/img/course/bg.png') }}";
 
          let typing = false;

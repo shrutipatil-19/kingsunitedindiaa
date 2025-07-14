@@ -495,7 +495,7 @@
             </div>
             <div class="row bdFadeUp justify-content-center align-items-center">
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -513,7 +513,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -542,7 +542,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -570,7 +570,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -598,7 +598,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -626,7 +626,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -654,7 +654,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="ms-event2-item mb-25 custome-border">
+                    <div class=" mb-25 custome-border">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">

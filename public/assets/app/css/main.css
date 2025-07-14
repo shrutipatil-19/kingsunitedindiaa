@@ -13458,14 +13458,35 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border-image: linear-gradient(to bottom, #181818, #dea738, #181818) 1 100%;
   border-radius: 20px;
 } */
+
 .custome-border {
   position: relative;
   border: 2px solid transparent;
-  border-image: linear-gradient(to bottom, #181818, #dea738) 1 100%;
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
   box-sizing: border-box;
-  z-index: 0;
+  background: #0f0f0f;
+  /* Fallback for browsers that don’t support border-image */
+  background-clip: padding-box;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.3s ease-out 0s;
+  /* Gradient border using pseudo before */
+}
+
+.custome-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #181818, #dea738);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
 }
 
 .custome-border::after {
@@ -13473,12 +13494,23 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 2px;
+  height: 7px;
   width: 100%;
   background-color: #dea738;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  z-index: 1;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Optional: Slight glow on hover */
+.custome-border:hover::before {
+  background: linear-gradient(to bottom, #dea738, #dea738);
+  filter: drop-shadow(0 0 10px #dea73888);
+}
+
+.custome-border:hover {
+  transform: translateY(-3px);
 }
 
 .suresh::before {
@@ -13489,9 +13521,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .achievement::before {
   content: 'ACHIEVEMENTS';
 }
-.services::before{
-   content: 'SERVICES';
+
+.services::before {
+  content: 'SERVICES';
 }
-.studio::before{
+
+.studio::before {
   content: 'STUDIO';
 }
