@@ -13309,7 +13309,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .achievement-card:hover {
   transform: translateY(-6px);
-  border: 1px solid red;
+  border: 1px solid #de4038;
 }
 
 .img-box {

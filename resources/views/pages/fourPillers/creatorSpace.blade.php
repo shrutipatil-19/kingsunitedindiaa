@@ -316,8 +316,12 @@
         <style>
             .achievement-card {
                 height: auto;
+                /* box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4); */
+                border: 1px solid #de4038;
+            }
+
+            .achievement-card:hover {
                 box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4);
-                border: 1px solid red;
             }
 
             .font-mini {
@@ -342,7 +346,8 @@
                 border-radius: 12px 12px 12px 12px;
             }
 
-            .content, .pricing {
+            .content,
+            .pricing {
                 padding: 15px 25px;
                 justify-content: start;
             }
