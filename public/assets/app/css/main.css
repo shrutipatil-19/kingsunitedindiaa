@@ -176,6 +176,7 @@ body {
   color: var(--clr-common-body-text);
   line-height: 26px;
   background: var(--clr-common-body);
+  overflow-y: auto !important;
 }
 
 h1,

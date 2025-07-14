@@ -390,7 +390,7 @@
                 </div>
                 <div class="row mb-45">
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Stage 1: LEARN (85 Sessions) - Modern Styles</h4>
                             <ul>
                                 <li>Ballet – Technique, posture, balance & grace</li>
@@ -401,7 +401,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Street Styles</h4>
                             <ul>
                                 <li>Old Skool Hip Hop – Grooves, social dances, funk base</li>
@@ -413,8 +413,8 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="ms-booking-item mb-25">
+                    <div class="col-lg-6">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Stage 2: - EXPLORE (15 Sessions)</h4>
                             <p>Dive into power styles and advanced tricks:</p>
                             <ul>
@@ -424,7 +424,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Stage 3: - PERFORM (20 Sessions)</h4>
                             <p>Unlock your creative identity through:</p>
                             <ul>
@@ -436,7 +436,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Masterclasses (4 Total)</h4>
                             <ul>
                                 <li>
@@ -569,6 +569,7 @@
 
     .ms-booking-item {
         padding: 35px 30px;
+         border: none;
     }
 
     @media (max-width: 767px) {
@@ -578,5 +579,6 @@
             padding: 11px;
         }
     }
+     
 </style>
 @endpush

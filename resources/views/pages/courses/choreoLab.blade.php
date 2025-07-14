@@ -702,7 +702,7 @@
                 </div>
                 <div class="row mb-45">
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">What You'll Gain</h4>
                             <ul>
                                 <li>Foundation + Choreography Training</li>
@@ -715,7 +715,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Our Vision</h4>
                             <ul>
                                 <li>
@@ -730,7 +730,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Your Commitment</h4>
                             <ul>
                                 <li>Show up every Sunday with full energy</li>
@@ -826,7 +826,8 @@
     }
 
     .ms-booking-item {
-        border-color: var(--clr-border-2);
+        /* border-color: var(--clr-border-2); */
+         border: none;
 
     }
 

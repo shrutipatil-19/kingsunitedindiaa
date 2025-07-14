@@ -701,7 +701,7 @@
                 </div>
                 <div class="row mb-45">
                     <div class="col-lg-4">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Comprehensive Training:</h4>
                             <ul>
                                 <li>Cover Every Aspect Of Dance With
@@ -712,7 +712,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Top-notch Instructors:</h4>
                             <ul>
                                 <li>
@@ -726,7 +726,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Community & Culture:</h4>
                             <ul>
                                 <li>Be Part Of A Vibrant Dance
@@ -866,8 +866,8 @@
     }
 
     .ms-booking-item {
-        border-color: var(--clr-border-2);
-
+        /* border-color: var(--clr-border-2); */
+        border: none;
     }
 
     .img-box {

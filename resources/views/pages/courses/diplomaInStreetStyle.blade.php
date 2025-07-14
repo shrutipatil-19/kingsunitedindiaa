@@ -667,7 +667,7 @@
                 </div>
                 <div class="row mb-45">
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Old Skool</h4>
                             <ul>
                                 <li><span class="text-white">Basic:</span> Introduction To Party Dances Like
@@ -682,7 +682,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">House</h4>
                             <ul>
                                 <li>
@@ -698,7 +698,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Footwork</h4>
                             <ul>
                                 <li><span class="text-white">Basic:</span> Rhythm-focused Basic Foot Patterns.
@@ -714,7 +714,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Afro</h4>
                             <ul>
                                 <li>
@@ -730,7 +730,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Soul Dancing</h4>
                             <ul>
                                 <li>
@@ -746,7 +746,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Freestyle Dance</h4>
                             <ul>
                                 <li>
@@ -763,7 +763,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Breaking</h4>
                             <ul>
                                 <li>
@@ -780,7 +780,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="ms-booking-item mb-25">
+                        <div class="ms-booking-item mb-25 custome-border">
                             <h4 class="text-bg">Advance Choreography Sessions</h4>
                             <ul>
                                 <li>
@@ -927,7 +927,8 @@
     }
 
     .ms-booking-item {
-        border-color: var(--clr-border-2);
+        /* border-color: var(--clr-border-2); */
+         border: none;
 
     }
 
@@ -956,10 +957,12 @@
     @media (max-width: 767px) {
         .work__features-item {
             display: block;
-           
+
             padding: 11px;
         }
     }
+
+   
 </style>
 @endpush
 
