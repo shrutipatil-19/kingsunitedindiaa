@@ -2,7 +2,7 @@
 <section class="ms-join-area pb-60 pt-130 p-relative ms-bg-2">
     <div class="ms-join-position p-absolute text-center">
         <h2 class="ms-title2 white-text mb-50">Join With us now</h2>
-        <div class="ms-banner3-item-wrap ms-join-img-grid">
+        <div class="ms-banner3-item-wrap ms-join-img-grid d-none">
             <div class="ms-banner3-item d-none d-md-block">
                 <div class="ms-banner3-img2 m-img p-relative">
                     <img src="{{ asset('assets/img/course/bg.png') }}" alt="banner image">
@@ -12,7 +12,10 @@
     </div>
     <div class="container" id="popupform">
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-lg-6 align-content-center">
+                <img src="{{ asset('assets/img/course/bg.png') }}" alt="banner image" class="w-100 mt-110">
+            </div>
+            <div class="col-xl-6">
                 <div class="ms-join-wrap ms-join-space mb-70 ms-bg-2">
 
                     <!-- ✅ Success message -->
@@ -62,7 +65,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <div class="ms-submit-btn mt-70">
+                                <div class="ms-submit-btn mt-20">
                                     <button class="unfill__btn" type="submit">Join</button>
                                 </div>
                             </div>

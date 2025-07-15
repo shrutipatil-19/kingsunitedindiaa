@@ -15,8 +15,8 @@
              <!-- <div class="col-lg-6 pt-lg-4"> -->
              <div class="col-lg-6 mt-lg-4 mt-3">
                  <div class="achievement-card d-flex flex-lg-row flex-column">
-                     <div class="img-box position-relative">
-                         <img src="{{ asset('assets/img/course/course.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+                     <div class="img-box position-relative bg-black2 align-content-center">
+                         <img src="{{ asset('assets/img/course/course.jpg') }}" alt="Street Dance" class="w-100 object-cover custome-radius-top">
 
                          <!-- offer badge -->
                          <div class="offer-badge position-absolute top-0 start-0 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
@@ -48,8 +48,8 @@
              <!-- Slide 2 -->
              <div class="col-lg-6 mt-lg-4 mt-3">
                  <div class="achievement-card d-flex flex-lg-row flex-column">
-                     <div class="img-box ">
-                         <img src="{{ asset('assets/img/course/course5.jpg') }}" alt="Hip Hop" class="w-100 h-100 object-cover custome-radius-top">
+                     <div class="img-box bg-black2 align-content-center">
+                         <img src="{{ asset('assets/img/course/course5.jpg') }}" alt="Hip Hop" class="w-100  object-cover custome-radius-top">
 
                      </div>
                      <div class="content col-lg-6 col-12">
@@ -74,8 +74,8 @@
              <!-- Slide 3 -->
              <div class=" col-lg-6 mt-lg-5 mt-3">
                  <div class="achievement-card d-flex flex-lg-row flex-column">
-                     <div class="img-box position-relative">
-                         <img src="{{ asset('assets/img/course/d2d.jpg') }}" alt="Street Dance" class="w-100 h-100 object-cover custome-radius-top">
+                     <div class="img-box position-relative bg-black2 align-content-center">
+                         <img src="{{ asset('assets/img/course/d2d.jpg') }}" alt="Street Dance" class="w-100  object-cover custome-radius-top">
 
                          <!-- offer badge -->
                          <div class="offer-badge position-absolute top-0 start-0 bg-danger text-white px-2 py-1 fw-bold custome-radius ">
@@ -106,8 +106,8 @@
              <div class="col-lg-6 mt-lg-5 mt-3">
                  <!-- <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"> -->
                  <div class="achievement-card d-flex flex-lg-row flex-column">
-                     <div class="img-box ">
-                         <img src="{{ asset('assets/img/course/course1.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
+                     <div class="img-box bg-black2 align-content-center">
+                         <img src="{{ asset('assets/img/course/course1.jpg') }}" alt="IGT" class="w-100  object-cover custome-radius-top">
 
                      </div>
                      <div class="content col-lg-6 col-12">
@@ -132,6 +132,9 @@
 
  @push('style')
  <style>
+    .bg-black2{
+        background-color: #0e0e0e;
+    }
      .achievement-card {
          height: auto;
          box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4);
