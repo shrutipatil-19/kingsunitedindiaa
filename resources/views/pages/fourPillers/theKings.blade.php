@@ -92,7 +92,7 @@
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
                                         <p class="text-black-light-custome">The first Indian team to claim the World Champion title on NBC’s World of Dance.</p>
                                         <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="#" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
+                                            <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal1">Read More</button>
                                         </div>
                                     </div>
                                 </div>
@@ -111,9 +111,7 @@
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
                                         <p class="text-black-light-custome">India’s first dance crew to secure a medal at the World Hip-Hop Dance Championship.
                                         </p>
-                                        <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="#">View More</a>
-                                        </div>
+                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal2">Read More</button>
                                     </div>
 
                                 </div>
@@ -130,9 +128,7 @@
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
                                         <p class="text-black-light-custome">Our story was celebrated on screen in Remo D’Souza’s “Any Body Can Dance 2”.</p>
-                                        <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="#">View More</a>
-                                        </div>
+                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal3">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -148,9 +144,7 @@
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
                                         <p class="text-black-light-custome">Lifted the trophy in Season 3 of India’s Got Talent with unforgettable performances.</p>
-                                        <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="#">View More</a>
-                                        </div>
+                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal4">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -165,9 +159,7 @@
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
                                         <p class="text-black-light-custome">Brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega.</p>
-                                        <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="#">View More</a>
-                                        </div>
+                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal5">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -182,9 +174,7 @@
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
                                         <p class="text-black-light-custome">Showcased our unique style on the iconic Boogie Woogie, earning nationwide appreciation.</p>
-                                        <div class="trending-btn d-flex">
-                                            <a class="border__btn zindex-5" href="#">View More</a>
-                                        </div>
+                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal6">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -192,26 +182,61 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Modals -->
-                <div class="modal fade" id="modal2020" tabindex="-1">
-                    <div class="modal-dialog">
-                        <div class="modal-content p-4">
-                            <h5>World of Dance | Winner 2020</h5>
-                            <p>The Kings created history as the first Indian crew crowned as champions in NBC's "World of Dance". Their powerful performance broke records globally.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="modal fade" id="modal2015" tabindex="-1">
-                    <div class="modal-dialog">
-                        <div class="modal-content p-4">
-                            <h5>World Hip Hop | Bronze Medalist</h5>
-                            <p>Achieved bronze in their first attempt at the World Hip-Hop Dance Championship with only 20 days of practice — an incredible feat for any crew.</p>
-                        </div>
-                    </div>
-                </div>
         </section>
+        <!-- Modals1 -->
+        <div class="modal fade" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content p-4">
+                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">World of Dance | Winner 2020</h5>
+                    <p class="text-black-light-custome">In 2019, we made history by becoming the first Indian crew to win NBC's World of Dance which is one of the most prestigious dance competitions in the world. We brought high-impact choreography, synchronized stunts, and cinematic storytelling to the global stage, earning recognition from both the audience and the judges. Our final act, inspired by Baahubali, featured gladiator-style visuals, powerful flips, and an intense slow-motion battle scene that had drama and precision. Judges Jennifer Lopez, Derek Hough, and Ne-Yo awarded us a perfect score of 100, making it a clean sweep. It wasn't just a win for us; it was a moment that marked India's arrival on the world dance map.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Modals2 -->
+        <div class="modal fade" id="modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content p-4">
+                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">World Hip-Hop Dance Championship | Bronze Medallists</h5>
+                    <p class="text-black-light-custome">What began as a last-minute decision turned into one of our best moments. With limited time but limitless drive, we came together, trained with intensity, and brought something bold to the global stage, which was our own unique Indian flavour fused into hip-hop. Competing against 90 of the world's best crews, we stood out with our style, creativity, and uniqueness. Our performance earned a standing ovation and a historic medal for the nation. India's first at the World Hip-Hop Dance Championship. Instead of following the trends we created our own and the world took notice of it.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Modals3 -->
+        <div class="modal fade" id="modal3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content p-4">
+                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">ABCD2 Movie</h5>
+                    <p class="text-black-light-custome">Our journey from local stages to international recognition was so impactful, it found its way to the big screen. Directed by Remo D’Souza, Any Body Can Dance 2 was inspired by the real-life story of Kings United and our hunger to succeed in spite of all odds. The film followed our rise through challenges, team spirit, and hard work. It captured the essence of what it means to chase a dream with everything you have. Bollywood actor Varun Dhawan portrayed our founder Suresh Mukund, mimicking the same energy in the role. The movie put our story in front of millions of people. For us, it wasn't just a film, it was a celebration of a movement we built with our hearts. ABCD 2 helped us connect with aspiring dancers across the country and inspired many to believe in their own journey. It's a reminder that when dance is powered by purpose, it can move more than just bodies, it can move the world.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Modals4 -->
+        <div class="modal fade" id="modal4" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content p-4">
+                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">India's Got Talent Season 3 Winner</h5>
+                    <p class="text-black-light-custome">Winning Season 3 of India's Got Talent was a key moment in our journey. Already known in the dance circuit, this national platform helped us connect with a bigger audience across the country. Round after round, we brought our best to the stage and earned the support of viewers and judges. Taking home the title added another milestone to our growing list of achievements. It pushed us further, fuelled our ambition, and reminded us of what's possible with passion, discipline and the love for dance.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Modals5 -->
+        <div class="modal fade" id="modal5" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content p-4">
+                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">Entertainment Ke Liye Kuch Bhi Karega Season 3 Winner</h5>
+                    <p class="text-black-light-custome">We brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega, a popular talent show known for its tough format and nationwide reach. Judged by Farah Khan and Anu Malik, the show tested performers on creativity, skill, and entertainment value. Our act stood out among a diverse range of talents from across India. Each performance had to impress both the judges and the live audience to move forward. Week after week, we delivered with consistency and energy. Winning the show added another milestone to our journey and motivated us to keep pushing higher.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Modals6 -->
+        <div class="modal fade" id="modal6" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content p-4">
+                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">Boogie Woogie India Winner</h5>
+                    <p class="text-black-light-custome">Boogie Woogie was India’s first major dance reality show, a stage that set the benchmark for televised dance competitions. Being part of such an iconic platform was a moment of pride for us. Our performances captivated both the judges and the audience with their energy and originality. The show gave us early recognition and a chance to represent our style in front of a national audience. It remains one of the key highlights in our journey, marking our presence in the growing Indian dance scene.</p>
+                </div>
+            </div>
+        </div>
         <!-- Why Choose Us Area End Here  -->
         <!-- Work System Area Start Here  -->
         <section class="ms-work-system-area pt-130 pb-130">
@@ -403,12 +428,15 @@
     .mb-5 {
         margin-bottom: 2rem !important;
     }
+
+    .ms-event-title {
+        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
 </style>
 @endpush
 @push('js')
-<!-- Bootstrap & AOS Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
