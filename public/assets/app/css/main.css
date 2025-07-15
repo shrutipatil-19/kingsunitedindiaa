@@ -72,6 +72,10 @@
   font-family: 'Stubed';
   src: url('../../fonts/ws-stubed/WS\ Stubed.ttf');
 }
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('../../fonts/ethnocentric/Ethnocentric\ Rg.otf');
+}
 
 :root {
   /**
