@@ -159,10 +159,11 @@
         font-size: 3rem;
     }
 
-    p{
-    font-weight: 600;
-    color: black;
-}
+    p {
+        font-weight: 600;
+        color: black;
+    }
+
     /* .card:nth-child(2) {
         background-color: tomato;
     }
@@ -176,6 +177,7 @@
     } */
     .work__area .section__title {
         font-size: clamp(24px, 5vw, 48px);
+        font-family: 'Ethnocentric';
         /* color: black; */
     }
 </style>
