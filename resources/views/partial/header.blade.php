@@ -147,7 +147,7 @@
                                                         </ul> -->
                                                      </li>
                                                      <li>
-                                                         <a href="{{ route('about') }}">About us</a>
+                                                         <a href="{{ route('about') }}">The legacy</a>
                                                      </li>
                                                      <li class="has-dropdown">
                                                          <a href="#">Kings Dance Studio</a>
@@ -263,12 +263,15 @@
                                                             </li>
                                                         </ul>
                                                     </li> -->
-                                                     <li class="has-dropdown">
-                                                         <a href="{{ route('events') }}">Book Us Live</a>
+                                                     <!-- <li class="has-dropdown">
+                                                         <a href="{{ route('events') }}">Events</a>
                                                          <ul class="submenu">
                                                              <li><a href="{{ route('events') }}">Book Us For Live Event</a></li>
 
                                                          </ul>
+                                                     </li> -->
+                                                      <li>
+                                                         <a href="{{ route('events') }}">Events</a>
                                                      </li>
                                                      <li>
                                                          <a href="{{ route('contact') }}">Contact Us</a>
