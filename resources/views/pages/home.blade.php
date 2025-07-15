@@ -234,9 +234,24 @@
         </div>
     </section>
     <!-- Banner Area End Here  -->
-
+<style>
+    .ele1 {
+    position: absolute;
+    top: 20%;
+    left: -8%;
+    opacity: 0.9 !important;
+}
+    .ele1 img {
+    width: calc(100% - 340px);
+    height: 100%;
+    object-fit: cover;
+}
+</style>
     <!-- about kings area start -->
     <section class="work__area pt-130 pb-60 p-relative">
+        <div class="ele1 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+            <img src="https://test.apogeedigitech.in/kingsunitedindia/public/assets/images/kings img/lion_logo.png" alt="">
+        </div>
         <div class="container">
             <div class="row align-items-center bdFadeUp">
                 <div class="col-xl-6">

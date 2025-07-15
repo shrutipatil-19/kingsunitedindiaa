@@ -10,7 +10,7 @@
                <div class="container">
                    <div class="ms-footer-border pb-10">
                        <div class="row">
-                           <div class="col-xxl-3 col-lg-3 col-md-6">
+                           <div class="col-xxl-3 col-lg-3 col-md-6 col-12 text-center">
                                <div class="ms-footer-widget mb-20">
                                    <a href="{{ route('home') }}">
                                        <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo"
@@ -18,7 +18,7 @@
                                    </a>
                                </div>
                            </div>
-                           <div class="col-xxl-3 col-lg-3 col-md-6">
+                           <div class="col-xxl-3 col-lg-3 col-md-6 col-4">
                                <div class="ms-footer-widget mb-50">
                                    <h3 class="ms-footer-title">Quick links</h3>
                                    <ul>
@@ -30,7 +30,7 @@
                                    </ul>
                                </div>
                            </div>
-                           <div class="col-xxl-3 col-lg-3 col-md-6">
+                           <div class="col-xxl-3 col-lg-3 col-md-6 col-8">
                                <div class="ms-footer-widget mb-50">
                                    <h3 class="ms-footer-title">Our Courses</h3>
                                    <ul>
@@ -42,7 +42,7 @@
                                    </ul>
                                </div>
                            </div>
-                           <div class="col-xxl-3 col-lg-3 col-md-6">
+                           <div class="col-xxl-3 col-lg-3 col-md-6 col-12">
                                <div class="ms-footer-widget mb-50">
                                    <h3 class="ms-footer-title">Contact</h3>
                                    <ul>
