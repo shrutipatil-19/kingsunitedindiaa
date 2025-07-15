@@ -765,7 +765,8 @@
                                 <div class="col-xl-4 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-dollar"></i>
+                                            {{-- <i class="flaticon-dollar"></i> --}}
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>01</span>
                                         </div>
                                         <h3 class="ms-choose-title">
@@ -776,7 +777,7 @@
                                 <div class="col-xl-4 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-theater"></i>
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>02</span>
                                         </div>
                                         <h3 class="ms-choose-title">Next 10 Seats
@@ -787,7 +788,7 @@
                                 <div class="col-xl-4 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-verified"></i>
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>03</span>
                                         </div>
                                         <h3 class="ms-choose-title">General Enrollment </h3>

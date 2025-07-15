@@ -4118,7 +4118,7 @@ Animate Underline
   color: var(--clr-common-white);
   padding: 50px 0;
   text-align: left;
-  text-transform: capitalize;
+  text-transform: uppercase;
   line-height: 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
