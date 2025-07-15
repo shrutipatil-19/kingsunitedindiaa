@@ -144,7 +144,7 @@
         display: flex;
         height: 100vh;
         width: max-content;
-        /* background-color: #dea738; */
+        background-color: #dea738;
     }
 
     .card {
@@ -159,10 +159,10 @@
         font-size: 3rem;
     }
 
-    /* p{
+    p{
     font-weight: 600;
     color: black;
-} */
+}
     /* .card:nth-child(2) {
         background-color: tomato;
     }

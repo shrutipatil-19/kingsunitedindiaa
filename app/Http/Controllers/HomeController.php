@@ -18,6 +18,10 @@ class HomeController extends Controller
     {
         return view('pages.about2');
     }
+    public function about3()
+    {
+        return view('pages.about3');
+    }
     public function bookUsLive()
     {
         return view('pages.bookUsLive');
