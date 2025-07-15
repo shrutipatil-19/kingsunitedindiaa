@@ -364,3 +364,54 @@
          </div>
      </header>
      <!-- Header area end -->
+     <script>
+        $(document).ready(function() {
+            var lastScrollTop = 0; // Stores the previous scroll position
+            var header = $('#header-sticky'); // Get your header element
+            var headerHeight = header.outerHeight(); // Get the header's height, including padding/border
+    
+            // Add a class to the header initially for smooth transitions
+            header.addClass('scroll-transition');
+    
+            $(window).scroll(function() {
+                var currentScroll = $(this).scrollTop(); // Get current scroll position
+    
+                // Only act if scrolling has passed the header height (to avoid flicker at top)
+                if (currentScroll > headerHeight) {
+                    // Scrolling Down
+                    if (currentScroll > lastScrollTop) {
+                        header.addClass('header-hidden');
+                    }
+                    // Scrolling Up
+                    else {
+                        header.removeClass('header-hidden');
+                    }
+                } else {
+                    // At or near the top of the page, always show header
+                    header.removeClass('header-hidden');
+                }
+    
+                lastScrollTop = currentScroll; // Update last scroll position
+            });
+        });
+    </script>
+    <style>
+        /* Ensure the header is fixed at the top */
+        #header-sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure it's above other content */
+        }
+
+        /* Add transition for smooth hiding/showing */
+        .scroll-transition {
+            transition: transform 0.3s ease-in-out; /* Smooth slide effect */
+        }
+
+        /* Class to hide the header */
+        .header-hidden {
+            transform: translateY(-100%); /* Moves the header completely up and out of view */
+        }
+    </style>
