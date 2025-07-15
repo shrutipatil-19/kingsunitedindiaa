@@ -525,17 +525,9 @@
     <!-- Parallax Video Section -->
     <section class="parallax-video-section position-relative">
         <video autoplay muted loop playsinline class="background-video">
-            <source src="{{ asset('assets/video/kings video.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/video/kings crew.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
-        <div class="parallax-overlay d-flex justify-content-center align-items-center">
-            <div class="content text-center text-white">
-                <h1 class="display-4 fw-bold">Welcome to Our Site</h1>
-                <p class="lead">Experience the smooth parallax video effect</p>
-                <a href="#about" class="btn btn-outline-light mt-3">Learn More</a>
-            </div>
-        </div>
     </section>
 
     @include('partial.rental-studio')
@@ -892,11 +884,6 @@
         background: rgba(0, 0, 0, 0.5);
         /* optional dark overlay */
         text-align: center;
-    }
-
-    .content h1,
-    .content p {
-        animation: fadeUp 1s ease-out both;
     }
 
     @keyframes fadeUp {
