@@ -13422,7 +13422,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* THIS IS THE KEY CHANGE */
   animation-timing-function: linear;
   /* Often good for continuous rotation */
-} 
+}
 
 @keyframes rotate {
   from {
@@ -13530,4 +13530,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .studio::before {
   content: 'STUDIO';
+}
+
+.animated-underline::before {
+  height: 3px;
+  bottom: 5px;
 }
