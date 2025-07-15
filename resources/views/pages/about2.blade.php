@@ -3,7 +3,7 @@
 @section('content')
 <div class="ms-all-content ms-content-mobile-space pt-130">
     <main>
-        <div class="scrolling-wrapper work__area pt-70 ms-bg-2 pb-70">
+        <div class="scrolling-wrapper d-block d-md-flex work__area pt-70 ms-bg-2 pb-70">
             <!-- <div class="container"> -->
             <div class="card ps-5">
                 <!-- <h2>Card 1</h2> -->
@@ -28,7 +28,7 @@
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20 ms-lg-3 me-0">
                                     <div class="ms-overlay ms-overlay3 p-absolute"></div>
-                                    <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image">
+                                    <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image" class="w-100">
                                 </div>
 
                             </div>
@@ -72,7 +72,7 @@
                         <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block">
                             <div class="work__thumb-inner p-relative zindex-5">
                                 <div class="work__thumb m-img">
-                                    <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
+                                    <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image" class="w-100">
                                 </div>
                             </div>
                             <div class="ms-work-round p-absolute zindex--1 d-none d-sm-block"></div>
@@ -116,7 +116,7 @@
                         <div class="work__thumb-wrapper zindex-1 p-relative mb-60 d-inline-block">
                             <div class="work__thumb-inner p-relative zindex-5">
                                 <div class="work__thumb m-img">
-                                    <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
+                                    <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image" class="w-100">
                                 </div>
                             </div>
                             <div class="ms-work-round p-absolute zindex--1 d-none d-sm-block"></div>
@@ -141,9 +141,8 @@
     }
 
     .scrolling-wrapper {
-        display: flex;
-        height: 100vh;
-        width: max-content;
+        /* height: 100vh; */
+        /* width: max-content; */
         background-color: #dea738;
     }
 
