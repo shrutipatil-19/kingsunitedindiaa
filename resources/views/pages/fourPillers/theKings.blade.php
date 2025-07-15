@@ -90,8 +90,7 @@
 
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
-                                        <p class="text-black-light-custome">History created as the first Indian Crew being crowned as
-                                            World Champions in NBC World of Dance.</p>
+                                        <p class="text-black-light-custome">The first Indian team to claim the World Champion title on NBC’s World of Dance.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#" data-bs-toggle="modal" data-bs-target="#modal2020">View More</a>
                                         </div>
@@ -110,8 +109,7 @@
 
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
-                                        <p class="text-black-light-custome">We are the first dance crew from India to achieve a Bronze Medal
-                                            for our country India which was an incredible achievement.
+                                        <p class="text-black-light-custome">India’s first dance crew to secure a medal at the World Hip-Hop Dance Championship.
                                         </p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -131,9 +129,7 @@
 
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
-                                        <p class="text-black-light-custome">An inspiring journey of the THE KINGS was showcased on a big
-                                            screen in the form of movie Any Body Can Dance 2 directed by Remo
-                                            D'Souza.</p>
+                                        <p class="text-black-light-custome">Our story was celebrated on screen in Remo D’Souza’s “Any Body Can Dance 2”.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -151,8 +147,7 @@
 
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                        <p class="text-black-light-custome">Winners of India's got talent season 3 on the back of their
-                                            scintillating performances.</p>
+                                        <p class="text-black-light-custome">Lifted the trophy in Season 3 of India’s Got Talent with unforgettable performances.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -169,8 +164,7 @@
 
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
-                                        <p class="text-black-light-custome">Showcased an incredible achievement by winning
-                                            Entertainment ke liye kuch bhi karega season 3</p>
+                                        <p class="text-black-light-custome">Brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
@@ -187,10 +181,7 @@
 
                                         </div>
                                         <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
-                                        <p class="text-black-light-custome">The only dance group in
-                                            India who mesmerized the world with so many accolades during their
-                                            journey and set themselves as an exemplary to all the dance aspirants
-                                            across the country.</p>
+                                        <p class="text-black-light-custome">Showcased our unique style on the iconic Boogie Woogie, earning nationwide appreciation.</p>
                                         <div class="trending-btn d-flex">
                                             <a class="border__btn zindex-5" href="#">View More</a>
                                         </div>
