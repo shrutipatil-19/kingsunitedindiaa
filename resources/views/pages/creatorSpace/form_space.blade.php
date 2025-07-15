@@ -234,9 +234,9 @@
                              timeSelect.append(`<option value="${slot}">${slot}</option>`);
                          });
                      },
-                     error: function() {
-                         alert("Error loading available times");
-                     }
+                    //  error: function() {
+                    //      alert("Error loading available times");
+                    //  }
                  });
              }
          }
