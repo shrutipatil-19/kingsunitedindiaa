@@ -221,7 +221,7 @@
         </div>
         </div>
     </section>
-    <section class="ms-banner2-area fix video">
+    <section class="ms-banner2-area ms-bg-2 fix video">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
@@ -234,9 +234,27 @@
         </div>
     </section>
     <!-- Banner Area End Here  -->
-
+    <style>
+        .ele2 {
+            position: absolute;
+                top: 16%;
+                right: -5%;
+                opacity: 0.6 !important;
+                transform: rotateY(180deg) !important;
+             }
+     
+             .ele2 img {
+                 width: calc(100% - 340px);
+                 height: 100%;
+                 object-fit: cover;
+             }
+     
+     </style>
     <!-- about kings area start -->
-    <section class="work__area pt-130 pb-60 ms-bg-2">
+    <section class="work__area pt-130 pb-60 ms-bg-2 p-relative overflow-hidden">
+        <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+            <img src="https://test.apogeedigitech.in/kingsunitedindia/public/assets/images/kings img/lion_logo.png" alt="">
+        </div>
 
         <div class="container">
             <div class="row align-items-center bdFadeUp">
@@ -291,9 +309,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ele1 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
-                        <img src="https://test.apogeedigitech.in/kingsunitedindia/public/assets/images/kings img/lion_logo.png" alt="">
-                    </div>
+                    
                 </div>
 
             </div>
@@ -924,22 +940,7 @@
         }
     }
 </style>
-<style>
-    .ele1 {
-        position: absolute;
-        top: 20%;
-        right: -12%;
-        opacity: 0.9 !important;
 
-    }
-
-    .ele1 img {
-        width: calc(100% - 340px);
-        height: 100%;
-        object-fit: cover;
-        transform: rotateY(180deg);
-    }
-</style>
 @endpush
 @push('js')
 <script>
