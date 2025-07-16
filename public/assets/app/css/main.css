@@ -10414,6 +10414,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   padding-inline-start: 45px;
 }
 
+.list-inline {
+  color: white !important;
+}
+
 .ms-genres-audio .jp-playlist-item::before {
   position: absolute;
   content: "\f04b";
