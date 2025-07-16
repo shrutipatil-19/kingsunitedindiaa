@@ -128,7 +128,7 @@
                  <!-- <div class="achievement-card d-flex flex-row " data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"> -->
                  <div class="achievement-card d-flex flex-lg-row flex-column">
                      <div class="img-box bg-black2 align-content-center custome-radius-top">
-                         <img src="{{ asset('assets/img/course/course1.jpg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
+                         <img src="{{ asset('assets/img/course/GoldenPass.jpeg') }}" alt="IGT" class="w-100 h-100 object-cover custome-radius-top">
 
                      </div>
                      <div class="content col-lg-6 col-12">
@@ -157,7 +157,7 @@
         background-color: #0e0e0e;
     }
      .achievement-card {
-         height: auto;
+         height: 100%;
          box-shadow: 0 4px 12px rgba(222, 64, 56, 0.4);
          border: 1px solid #de4038;
      }
