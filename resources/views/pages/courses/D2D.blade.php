@@ -20,9 +20,33 @@
             </div>
         </section>
         <!-- banner Area End Here  -->
+{{-- <style>
+    .work__area {
+            position: relative; /* Essential for absolute positioning of the video */
+            padding-top: 100px;
+            padding-bottom: 30px;
+            overflow: hidden; /* Ensure video doesn't spill out */
+        }
 
+        .work__area .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            z-index: 0; 
+            opacity: 0.2; 
+            filter: grayscale(50%); /
+        }
+</style> --}}
         <!-- about course start -->
         <section class="work__area pt-100 pb-30 ">
+              <!-- Background Video -->
+        {{-- <video class="background-video" loop autoplay muted playsinline preload="auto" poster="{{ asset('assets/img/kings img/banner/video_banner4.jpg') }}">
+            <source src="{{ asset('assets/video/kings video.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/video/kings video.mp4') }}" type="video/ogg">
+        </video> --}}
             <div class="container">
                 <div class="row align-items-center bdFadeUp">
                     <div class="col-xl-6">
@@ -477,7 +501,7 @@
                                 <div class="col-xl-3 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-dollar"></i>
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>01</span>
                                         </div>
                                         <h3 class="ms-choose-title">₹22,500
@@ -487,7 +511,7 @@
                                 <div class="col-xl-3 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-theater"></i>
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>02</span>
                                         </div>
                                         <h3 class="ms-choose-title">₹22,500
@@ -498,7 +522,7 @@
                                 <div class="col-xl-3 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-verified"></i>
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>03</span>
                                         </div>
                                         <h3 class="ms-choose-title">
@@ -509,7 +533,7 @@
                                 <div class="col-xl-3 col-md-6">
                                     <div class="ms-choose-item mb-25">
                                         <div class="ms-choose-icon d-inline-block p-relative">
-                                            <i class="flaticon-verified"></i>
+                                            <img src="{{ asset('assets/img/icon/rupee-indian.png') }}" alt="" srcset="" class="w-50">
                                             <span>04</span>
                                         </div>
                                         <h3 class="ms-choose-title">
