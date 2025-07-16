@@ -236,10 +236,8 @@
     <!-- Banner Area End Here  -->
 
     <!-- about kings area start -->
-    <section class="work__area pt-130 pb-60 p-relative">
-        <div class="ele1 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
-            <img src="https://test.apogeedigitech.in/kingsunitedindia/public/assets/images/kings img/lion_logo.png" alt="">
-        </div>
+    <section class="work__area pt-130 pb-60 ms-bg-2">
+
         <div class="container">
             <div class="row align-items-center bdFadeUp">
                 <div class="col-xl-6">
@@ -255,7 +253,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 pl-30">
-                    <div class="work__content-wrapper work__content-wrapper-space mb-70">
+                    <div class="work__content-wrapper work__content-wrapper-space mb-70 p-relative">
                         <div class="section__title-wrapper kings mb-30 bd-title-anim">
                             <span class="section__subtitle">Kings United</span>
                             <!-- <h2 class="section__title two">
@@ -292,6 +290,9 @@
 
                             </div>
                         </div>
+                    </div>
+                    <div class="ele1 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+                        <img src="https://test.apogeedigitech.in/kingsunitedindia/public/assets/images/kings img/lion_logo.png" alt="">
                     </div>
                 </div>
 
@@ -471,6 +472,11 @@
     <!-- main page area start -->
 
     @include('partial.goldenPass')
+    <!-- parallax effect start -->
+    <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+        <div class="ms-overlay ms-overlay1 zindex--1"></div>
+    </section>
+    <!-- parallax effect end -->
 
     <!-- courses Area Start -->
     <section class="ms-news-area ms-bg-2 pt-130 pb-90 d-none">
@@ -526,17 +532,21 @@
     @include('partial.course-grid')
 
     <!-- Parallax Video Section -->
-    <section class="parallax-video-section position-relative">
+    <section class="parallax-video-section">
+        <div class="video-overlay-content parallax-overlay">
+            <!-- Optional content over the video -->
+            <!-- <h1 class="text-white">Your Parallax Video Title</h1> -->
+        </div>
         <video autoplay muted loop playsinline class="background-video">
             <source src="{{ asset('assets/video/kings crew.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </section>
 
+
     @include('partial.rental-studio')
 
-    <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105"
-        style="background-image: url('{{ asset('assets/img/kings crew/1.jpg') }}');background-attachment: fixed;">
+    <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
         <div class="ms-overlay ms-overlay1 zindex--1"></div>
         <div class="container">
             <div class="row justify-content-center mb-25 bdFadeUp">
@@ -866,29 +876,42 @@
         overflow: hidden;
     }
 
+    /* Make the video behave like a fixed parallax background */
     .background-video {
-        position: absolute;
+        position: fixed;
         top: 50%;
         left: 50%;
-        min-width: 100%;
-        min-height: 100%;
+        min-width: 100vw;
+        min-height: 50vh;
         width: auto;
         height: auto;
         z-index: -1;
         transform: translate(-50%, -50%);
         object-fit: cover;
+        pointer-events: none;
     }
 
+    /* Overlay content that scrolls normally */
     .parallax-overlay {
         position: relative;
         z-index: 1;
         height: 100%;
         width: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        /* optional dark overlay */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.4);
+        /* Optional */
         text-align: center;
     }
 
+    .parallax-overlay h1 {
+        font-size: 3rem;
+        color: white;
+        animation: fadeUp 1s ease-out forwards;
+    }
+
+    /* Fade-up animation */
     @keyframes fadeUp {
         0% {
             opacity: 0;
@@ -905,14 +928,16 @@
     .ele1 {
         position: absolute;
         top: 20%;
-        left: -8%;
+        right: -12%;
         opacity: 0.9 !important;
+
     }
 
     .ele1 img {
         width: calc(100% - 340px);
         height: 100%;
         object-fit: cover;
+        transform: rotateY(180deg);
     }
 </style>
 @endpush

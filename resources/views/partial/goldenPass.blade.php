@@ -1,10 +1,4 @@
     <!-- golden pass area start -->
-    <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
-        <div class="ms-overlay ms-overlay1 zindex--1"></div>
- 
-    </section>
-    <!-- golden area end -->
-     <!-- courses Area Start -->
      <section class="ms-news-area ms-bg-2 pt-130 pb-90">
         <div class="container">
             <div class="ms-cta-bg fix border-custome">

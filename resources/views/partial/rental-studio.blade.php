@@ -1,6 +1,6 @@
   <!-- Trending area start -->
-  <section class="trending__area p-relative z-index-11 pt-130 pb-60">
-
+  <section class="trending__area p-relative z-index-11 pt-130 pb-60 rent ms-bg-2">
+ <div class="ms-overlay ms-overlay1 zindex--1"></div>
       <div class="container">
           <div class="row align-items-end mb-25 bdFadeUp">
               <div class="col-lg-8">
@@ -208,6 +208,13 @@
       .space::before {
           content: 'RENT';
 
+      }
+      .rent{
+         position: relative;
+    z-index: 2;
+    padding: 100px 20px;
+    /* background: white; */
+    color: #333;
       }
   </style>
 
