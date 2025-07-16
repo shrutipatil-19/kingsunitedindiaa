@@ -216,7 +216,7 @@
                     </div>
                 </div>
         </section>
- <!-- Modals1 -->
+        <!-- Modals1 -->
         <div class="modal fade" id="modal1" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content p-4">
@@ -355,14 +355,18 @@
         font-weight: 600;
         color: black;
     }
+
+    .section__title-wrapper p {
+        max-width: 100% !important;
+    }
 </style>
 <style>
     div.cardfan {
         position: relative;
         width: clamp(250px, 80vw, 450px);
         height: clamp(250px, 60vw, 450px);
-        /* aspect-ratio: 1 / 1; */
-        /* margin: 0 auto; */
+        aspect-ratio: 1 / 1;
+        margin: 0 auto;
         /* overflow: hidden; */
     }
 
