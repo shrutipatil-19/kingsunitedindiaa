@@ -1,18 +1,3 @@
-<style>
-    .ele4 {
-            position: absolute;
-                top: 16%;
-                left: -20%;
-                opacity: 0.6 !important;
-                transform: rotateY(180deg) !important;
-             }
-     
-             .ele4 img {
-    width: calc(100% - 300px);
-    height: 100%;
-    object-fit: contain;
-             }
-    </style>
     <!-- golden pass area start -->
      <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative">
         <div class="ele4 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
@@ -60,6 +45,19 @@
 
     @push('style')
     <style>
+        .ele4 {
+            position: absolute;
+                top: 16%;
+                left: -20%;
+                opacity: 0.6 !important;
+                transform: rotateY(180deg) !important;
+             }
+     
+             .ele4 img {
+                width: calc(100% - 300px);
+                height: 100%;
+                object-fit: contain;
+            }
         .ms-cta-wrap {
             gap: 0px;
 

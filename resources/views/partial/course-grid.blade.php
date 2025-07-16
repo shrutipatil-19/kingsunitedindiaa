@@ -1,22 +1,4 @@
- 
- <style>
-    .ele3 {
-            position: absolute;
-                top: 20%;
-                right: 0%;
-                opacity: 0.6 !important;
-                transform: rotateY(180deg) !important;
-             }
-     
-             .ele3 img {
-                 width: calc(35% - 340px);
-                 height: 100%;
-                 object-fit: cover;
-                 z-index: -1;
-             }
-    </style>
-
- <!-- courses Area Start -->
+  <!-- courses Area Start -->
  <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative">
      <div class="container">
          <div class="row align-items-end mb-25 bdFadeUp">
@@ -153,6 +135,20 @@
 
  @push('style')
  <style>
+     .ele3 {
+            position: absolute;
+                top: 20%;
+                right: 0%;
+                opacity: 0.6 !important;
+                transform: rotateY(180deg) !important;
+             }
+     
+             .ele3 img {
+                 width: calc(35% - 340px);
+                 height: 100%;
+                 object-fit: cover;
+                 z-index: -1;
+             }
     .bg-black2{
         background-color: #0e0e0e;
     }
