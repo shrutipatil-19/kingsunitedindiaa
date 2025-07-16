@@ -234,19 +234,7 @@
         </div>
     </section>
     <!-- Banner Area End Here  -->
-<style>
-    .ele1 {
-    position: absolute;
-    top: 20%;
-    left: -8%;
-    opacity: 0.9 !important;
-}
-    .ele1 img {
-    width: calc(100% - 340px);
-    height: 100%;
-    object-fit: cover;
-}
-</style>
+
     <!-- about kings area start -->
     <section class="work__area pt-130 pb-60 p-relative">
         <div class="ele1 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
@@ -913,68 +901,20 @@
         }
     }
 </style>
-<!-- <style>
-        .content body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #000;
-            overflow: hidden;
-        }
+<style>
+    .ele1 {
+        position: absolute;
+        top: 20%;
+        left: -8%;
+        opacity: 0.9 !important;
+    }
 
-        .container-bg {
-            position: fixed;
-
-            height: 0%;
-            pointer-events: none;
-
-            opacity: 0.2;
-            z-index: 0;
-            left: 50%;
-            position: absolute;
-            top: 20%;
-            height: 90%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0.2;
-        }
-
-        .carousel {
-            position: relative;
-            z-index: 1;
-        }
-
-
-        .circle {
-            position: absolute;
-            background: transparent;
-            width: calc(var(--i) * 6.5vmin);
-            aspect-ratio: 1;
-            border-radius: 50%;
-            border: 3px solid rgb(0, 255, 13);
-            transform-style: preserve-3d;
-            transform: rotateX(70deg) translateZ(50px);
-            animation: animate 3s ease-in-out calc(var(--i) * 0.08s) infinite;
-            box-shadow: 0 0 15px rgb(124, 124, 124),
-                inset 0 0 15px rgb(124, 124, 124);
-        }
-
-        @keyframes animate {
-
-            0%,
-            100% {
-                transform: rotateX(70deg) translateZ(50px) translateY(0);
-                filter: hue-rotate(0);
-            }
-
-            50% {
-                transform: rotateX(70deg) translateZ(50px) translateY(-50vmin);
-                filter: hue-rotate(360deg);
-            }
-        }
-    </style> -->
+    .ele1 img {
+        width: calc(100% - 340px);
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
 @endpush
 @push('js')
 <script>
