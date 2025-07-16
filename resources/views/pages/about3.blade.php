@@ -312,7 +312,8 @@
         font-size: 2.5rem;
         color: white;
         border: none;
-        background-color: transparent;
+        /* background-color: transparent; */
+        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
     }
 
     /* .card:nth-child(1) {
@@ -348,12 +349,13 @@
     .section__title {
         font-size: clamp(24px, 5vw, 48px);
         font-family: 'Ethnocentric';
-        color: black;
+        /* color: black; */
+        color: white;
     }
 
     .scrolling-wrapper p {
         font-weight: 600;
-        color: black;
+        color: white;
     }
 
     .section__title-wrapper p {
