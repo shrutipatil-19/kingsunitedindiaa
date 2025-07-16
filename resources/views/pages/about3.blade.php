@@ -9,7 +9,7 @@
                 <div class="row w-100">
                     <div class="col-lg-6">
                         <div class="section__title-wrapper">
-                            <h2 class="section__title mb-3">Suresh Mukund</h2>
+                           <a href="{{ route('sureshMukund') }}"><h2 class="section__title mb-3">Suresh Mukund</h2></a> 
                             <p>Suresh Mukund, the founder and choreographer of Kings United, has a story that feels like a Bollywood movie. Chasing a dream, building a team from the ground up, and winning one of the biggest dance championships in the entire world. Over a decade ago, Suresh and his group of passionate performers entered their first dance reality show, marking the start of a journey that would change their lives and put India on the global map in the dance scene. Known to many as “The Kings,” Kings United rose to international fame after winning Season 3 of the US reality show World of Dance.
                             </p>
                             <p class="d-none">Known to many as “The Kings,” Kings United rose to international fame after winning Season 3 of the US reality show World of Dance. Their performance earned them the top prize of 1 million USD and global recognition. This incredible win not only put them on the world stage but also established them as one of the best dance crews to ever represent India.</p>
@@ -20,9 +20,9 @@
                             <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image" class="w-100">
                         </div> -->
                         <div class="cardfan ">
-                            <img src="{{ asset('assets/img/suresh/suresh2.jpeg ')}}" alt="suresh1"
+                            <img src="{{ asset('assets/img/suresh/suresh3.jpeg ')}}" alt="suresh1"
                                 id="roma">
-                            <img src="{{ asset('assets/img/suresh/suresh1.jpeg')}}" alt="suresh2"
+                            <img src="{{ asset('assets/img/suresh/dancePlus.jpg')}}" alt="suresh2"
                                 id="aqueduct">
                             <img src="{{ asset('assets/img/about/award.jpg')}}" alt="suresh3"
                                 id="bike">
@@ -37,7 +37,7 @@
                 <div class="row w-100">
                     <div class="col-lg-6">
                         <div class="section__title-wrapper">
-                            <h2 class="section__title mb-3">The kings United</h2>
+                           <a href="{{ route('theKings') }}"><h2 class="section__title mb-3">The kings United</h2></a>
                             <p>At Kings United, dance is more than just steps, it's a combination of energy, emotion, and self-expression. We don't just perform for the stage or the clapping; we dance to challenge the normal, to tell stories without using words, and to connect deeply with people.</p>
                             <p class="">
                                 As a dance academy, our goal is to create a welcoming space where anyone, from beginners to advanced dancers can learn, grow, and shine. We're here to guide, support, and give every student a platform to explore their talent, push the limits, and celebrate their own unique style without trying to fit in.</p>
@@ -48,11 +48,11 @@
                             <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image" class="w-100">
                         </div> -->
                         <div class="cardfan ">
-                            <img src="{{ asset('assets/img/suresh/suresh2.jpeg')}}" alt="suresh1"
+                            <img src="{{ asset('assets/img/kings crew/12.jpg')}}" alt="suresh1"
                                 id="roma">
-                            <img src="{{ asset('assets/img/suresh/suresh1.jpeg')}}" alt="suresh2"
+                            <img src="{{ asset('assets/img/kings crew/1.jpg')}}" alt="suresh2"
                                 id="aqueduct">
-                            <img src="{{ asset('assets/img/kings img/about22.jpg')}}" alt="suresh3"
+                            <img src="{{ asset('assets/img/kings crew/4.jpg')}}" alt="suresh3"
                                 id="bike">
                         </div>
                     </div>
@@ -73,11 +73,11 @@
                             <img src="{{ asset('assets/img/about/award.jpg')}}" alt="work image" class="w-100">
                         </div> -->
                         <div class="cardfan ">
-                            <img src="{{ asset('assets/img/suresh/suresh2.jpeg')}}" alt="suresh1"
+                            <img src="{{ asset('assets/img/kings crew/5.jpg')}}" alt="suresh1"
                                 id="roma">
-                            <img src="{{ asset('assets/img/suresh/suresh1.jpeg')}}" alt="suresh2"
+                            <img src="{{ asset('assets/img/kings img/about22.jpg')}}" alt="suresh2"
                                 id="aqueduct">
-                            <img src="{{ asset('assets/img/suresh/suresh3.jpeg')}}" alt="suresh3"
+                            <img src="{{ asset('assets/img/kings crew/9.jpg')}}" alt="suresh3"
                                 id="bike">
                         </div>
                     </div>

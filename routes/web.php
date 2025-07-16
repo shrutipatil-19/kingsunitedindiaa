@@ -12,10 +12,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/about3', [HomeController::class, 'about'])->name('about3');
 Route::get('/legacy', [HomeController::class, 'lagacy'])->name('lagacy');
 
-Route::get('/about3', [HomeController::class, 'about3'])->name('about3');
+Route::get('/legacy', [HomeController::class, 'about3'])->name('about');
 Route::get('/suresh-mukund', [HomeController::class, 'sureshMukund'])->name('sureshMukund');
 Route::get('/creator-space', [HomeController::class, 'creatorSpace'])->name('creatorSpace');
 Route::get('/the-kings', [HomeController::class, 'theKings'])->name('theKings');

@@ -73,6 +73,26 @@
         </section>
         <!-- work area end -->
 
+        <!-- Parallax Video Section -->
+
+
+        <section class="ms-banner2-area ms-bg-2 fix video">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="640" height="360"
+                                src="https://www.youtube.com/embed/ya0XzCTw2Vs?autoplay=1&mute=1&playsinline=1&rel=0&showinfo=0"
+                                title="YouTube video"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Special Events Area Start -->
         <section class="ms-news-area pt-130 pb-90 ms-bg-2">
             <div class="container">
@@ -203,7 +223,7 @@
         <!-- Special Events Area End -->
 
         <!-- News area end here  -->
-        <section class="ms-news3-area ms-bg-2 p-relative fix pt-130 pb-90 d-none">
+        <section class="ms-news3-area ms-bg-3 p-relative fix pt-130 pb-90 d-none">
             <div class="container">
                 <div class="row justify-content-center bdFadeUp">
                     <div class="col-xl-6">
@@ -551,7 +571,7 @@
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
                         aria-labelledby="home-tab" tabindex="0">
@@ -873,6 +893,10 @@
 
     .hover-border {
         transition: all 0.3s ease;
+    }
+
+    .h-80 {
+        height: 70% !important;
     }
 </style>
 
