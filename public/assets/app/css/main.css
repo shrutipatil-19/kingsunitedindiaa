@@ -204,6 +204,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Ethnocentric';
   font-size: var(--bd-fs-h2);
 }
 

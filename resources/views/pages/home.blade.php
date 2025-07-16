@@ -276,7 +276,7 @@
                         data-aos-delay="100" data-aos-duration="800">
                         <div class="work__thumb-inner p-relative zindex-5">
                             <div class="work__thumb m-img">
-                                <img src="{{ asset('assets/img/kings img/about22.jpg') }}" alt="work image">
+                                <img src="{{ asset('assets/img/kings img/about1.jpg') }}" alt="work image">
                             </div>
                         </div>
                         <div class="ms-work-round p-absolute zindex--1 d-none d-sm-block"></div>
