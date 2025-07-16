@@ -22,23 +22,23 @@
                                <div class="ms-footer-widget mb-50">
                                    <h3 class="ms-footer-title">Quick links</h3>
                                    <ul>
-                                       <li><a href="#">About us</a></li>
-                                       <li><a href="#">Service</a></li>
-                                       <li><a href="#">Our Story</a></li>
-                                       <li><a href="#">Our Team</a></li>
-                                       <li><a href="#">Contact Us</a></li>
+                                       <li><a href="{{ route('about') }}">The legacy</a></li>
+                                       <li><a href="{{ route('theKings') }}">Kings Crew</a></li>
+                                       <li><a href="{{ route('sureshMukund') }}">Suresh Mukund</a></li>
+                                       <li><a href="{{ route('events') }}">Events</a></li>
+                                       <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                    </ul>
                                </div>
                            </div>
                            <div class="col-xxl-3 col-lg-3 col-md-6 col-8">
                                <div class="ms-footer-widget mb-50">
-                                   <h3 class="ms-footer-title">Our Courses</h3>
+                                   <h3 class="ms-footer-title">Creator Space</h3>
                                    <ul>
-                                       <li><a href="#">Kings Golden Pass - One Year Unlimited Access</a></li>
-                                       <li><a href="#">Professional Training Courses</a></li>
-                                       <li><a href="#">Intensive Training Courses</a></li>
-                                       <li><a href="#">Regular Classes</a></li>
-                                       <li><a href="#">Personal/Reality show Training</a></li>
+                                       <li><a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">Studio 1</a></li>
+                                       <li><a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">Studio 2</a></li>
+                                       <li><a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Studio 3A</a></li>
+                                       <li><a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Studio 3B</a></li>
+                                       <li><a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Studio 3 Full</a></li>
                                    </ul>
                                </div>
                            </div>
