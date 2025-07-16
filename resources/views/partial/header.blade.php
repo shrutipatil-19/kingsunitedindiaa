@@ -150,6 +150,42 @@
                                                          <a href="{{ route('about') }}">The legacy</a>
                                                      </li>
                                                      <li class="has-dropdown">
+                                                         <a href="#">Courses</a>
+                                                         <ul class="submenu">
+                                                             <li class="">
+                                                                 <a href="{{ route('diploma') }}">Diploma In Street Style</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('choreoLab') }}">Choreo Lab</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('D2D') }}">Dream 2 Dance</a>
+                                                             </li>
+                                                         </ul>
+                                                     </li>
+                                                     <li class="has-dropdown">
+                                                         <a href="{{ route('creatorSpace') }}">Creator Space</a>
+                                                         <ul class="submenu">
+                                                             <li class="">
+                                                                 <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">Studio 1</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">Studio 2</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Studio 3A</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Studio 3B</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Studio 3 Full</a>
+                                                             </li>
+                                                         </ul>
+                                                     </li>
+                                                    <li><a href="{{ route('theKings') }}">Kings Crew</a></li>
+
+                                                     <li class="has-dropdown d-none">
                                                          <a href="#">Kings Dance Studio</a>
                                                          <ul class="submenu">
                                                              <li class="has-dropdown">
