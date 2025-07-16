@@ -58,7 +58,7 @@
         </section>
         <!-- work area end -->
 
-        <!-- Why Choose Us Area Start Here  -->
+        <!--achievements start  -->
         <section class="ms-choose-area pt-125 pb-105 ms-bg-2 include__bg p-relative zindex-1" style="background-image: url('{{ asset('assets/img/kings crew/5.jpg')}}');background-attachment: fixed;">
             <div class="ms-overlay ms-overlay5 p-absolute zindex--1" bis_skin_checked="1"></div>
             <div class="container">
@@ -237,7 +237,7 @@
                 </div>
             </div>
         </div>
-        <!-- Why Choose Us Area End Here  -->
+        <!--achievements end  -->
         <!-- Work System Area Start Here  -->
         <section class="ms-work-system-area pt-130 pb-130">
             <div class="container">

@@ -93,7 +93,7 @@
             </div>
         </section>
 
-        <!-- Special Events Area Start -->
+        <!-- achivements Area Start -->
         <section class="ms-news-area pt-130 pb-90 ms-bg-2">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
@@ -220,7 +220,7 @@
                 </div>
             </div>
         </section>
-        <!-- Special Events Area End -->
+        <!-- achivements Area End -->
 
         <!-- News area end here  -->
         <section class="ms-news3-area ms-bg-3 p-relative fix pt-130 pb-90 d-none">
