@@ -899,59 +899,7 @@
         color: white;
     }
 
-    .parallax-video-section {
-        position: relative;
-        height: 100vh;
-        overflow: hidden;
-    }
-
-    /* Make the video behave like a fixed parallax background */
-    .background-video {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        min-width: 100vw;
-        min-height: 50vh;
-        width: auto;
-        height: auto;
-        z-index: -1;
-        transform: translate(-50%, -50%);
-        object-fit: cover;
-        pointer-events: none;
-    }
-
-    /* Overlay content that scrolls normally */
-    .parallax-overlay {
-        position: relative;
-        z-index: 1;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.4);
-        /* Optional */
-        text-align: center;
-    }
-
-    .parallax-overlay h1 {
-        font-size: 3rem;
-        color: white;
-        animation: fadeUp 1s ease-out forwards;
-    }
-
-    /* Fade-up animation */
-    @keyframes fadeUp {
-        0% {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
+   
 </style>
 
 @endpush
