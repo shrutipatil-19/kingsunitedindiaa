@@ -238,7 +238,7 @@
         .ele2 {
             position: absolute;
                 top: 16%;
-                right: -5%;
+                right: 0%;
                 opacity: 0.6 !important;
                 transform: rotateY(180deg) !important;
              }
@@ -248,12 +248,25 @@
                  height: 100%;
                  object-fit: cover;
              }
-     
+        /* .work__content-wrapper.ele2::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 20%;
+            width: 50%;
+            height: 100%;
+            background-image: url("{{ asset('assets/img/kings img/lion_logo.png')}}");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.2; 
+            z-index: -1; 
+        } */
      </style>
     <!-- about kings area start -->
     <section class="work__area pt-130 pb-60 ms-bg-2 p-relative overflow-hidden">
         <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
-            <img src="https://test.apogeedigitech.in/kingsunitedindia/public/assets/images/kings img/lion_logo.png" alt="">
+            <img src="{{ asset('assets/img/course/Layer6.png') }}" alt="">
         </div>
 
         <div class="container">
