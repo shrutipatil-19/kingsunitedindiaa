@@ -92,185 +92,133 @@
 
         </div>
         <!--achievements start  -->
-        <section class="ms-choose-area pt-125 pb-105 ms-bg-2 include__bg p-relative zindex-1" style="background-image: url('{{ asset('assets/img/kings crew/5.jpg')}}');background-attachment: fixed;">
-            <div class="ms-overlay ms-overlay5 p-absolute zindex--1" bis_skin_checked="1"></div>
+        <!-- achivements Area Start -->
+        <section class="ms-news-area pt-130 pb-90 ms-bg-2">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
-                    <div class="col-lg-7">
-                        <div class="section__title-wrapper mb-40">
-                            <!-- <h2 class="section__title mb-35 bd-title-anim">key achievements</h2> -->
-                            <h2 class="section__title mb-35 bd-title-anim"> <span class="text-bg">key achievements</span>
+                    <div class="col-lg-6">
+                        <div class="section__title-wrapper achievement mb-40 bd-title-anim">
+                            <span class="section__subtitle">Key Achievements</span>
+                            <h2 class="section__title">The <span class="animated-underline active">Kings
+                                </span>
                             </h2>
-                            <p>Our hand-picked acts will guarantee you fantastic wedding <br> entertainment
-                                for
-                                each
-                                part.
-                                We'll provide help and support 24 hours a <br> day, 7 days a week, right up
-                                until</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row bdFadeUp">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-news-item p-relative zindex-1 mb-40">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/winnerWorldDance2020.jpg') }}"
+                                        alt="Winner of the World Choreography Award"></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15"><a href="#">World of Dance | Winner</a></h3>
+                                <p>The first Indian team to claim the World Champion title on NBC’s World of Dance.</p>
+                                <div class="ms-news-meta d-inline-block">
+                                    <!-- <span>Feb 23, 2020</span> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-news-item p-relative zindex-1 mb-40">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}"
+                                        alt="World Champion at Nbc's World of Dance"></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
+                                <p>India’s first dance crew to secure a medal at the World Hip-Hop Dance Championship.</p>
+                                <div class="ms-news-meta d-inline-block">
+                                    <!-- <span>Feb 15, 2019</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-news-item p-relative zindex-1 mb-40">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/emmy.jpg') }}"
+                                        alt="Emmy-nominated Choreocrapher"></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15"><a href="#">ABCD 2 Movie </a></h3>
+                                <p>
+                                    Our story was celebrated on screen in Remo D’Souza’s “Any Body Can Dance 2”.</p>
+                                <div class="ms-news-meta d-inline-block">
+                                    <!-- <span>Feb 20, 2019</span> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-news-item p-relative zindex-1 mb-40">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dadaSahebPhalke.jpg') }}"
+                                        alt="Recipient of the Dada Saheb PhalKe Award"></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15"><a href="#">India's got talent season 3 winner</a></h3>
+                                <p>Lifted the trophy in Season 3 of India’s Got Talent with unforgettable performances.</p>
+                                <div class="ms-news-meta d-inline-block">
+                                    <!-- <span>Feb 23, 2019</span> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-news-item p-relative zindex-1 mb-40">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dancePlus.jpg') }}"
+                                        alt="news image"></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
+                                <p>Brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega.</p>
+                                <div class="ms-news-meta d-inline-block">
+                                    <!-- <span>Feb 23, 2015</span> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-news-item p-relative zindex-1 mb-40">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/inspiration.jpg') }}"
+                                        alt="news image"></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15"><a href="#">Boogie Woogie india winner</a></h3>
+                                <p>Showcased our unique style on the iconic Boogie Woogie, earning nationwide appreciation.</p>
+                                <div class="ms-news-meta d-inline-block">
+                                    <!-- <span>Feb 23, 2015</span> -->
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
-                    <div class="container">
-                        <div class="row g-4">
-                            <!-- Card -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="achievement-card">
-                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
-                                    <div class="inner-content">
-                                        <div class="ms-news-meta d-inline-block">
-                                            <span>Feb 23, 2020</span>
-
-                                        </div>
-                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World of Dance | Winner</a></h3>
-                                        <p class="text-black-light-custome">The first Indian team to claim the World Champion title on NBC’s World of Dance.</p>
-                                        <div class="trending-btn d-flex">
-                                            <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal1">Read More</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Repeat Cards -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="achievement-card">
-                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
-                                    <div class="inner-content">
-
-                                        <div class="ms-news-meta d-inline-block">
-                                            <span>Feb 23, 2015</span>
-
-                                        </div>
-                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">World Hip Hop Dance Championship Bronze Medalist</a></h3>
-                                        <p class="text-black-light-custome">India’s first dance crew to secure a medal at the World Hip-Hop Dance Championship.
-                                        </p>
-                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal2">Read More</button>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6">
-                                <div class="achievement-card">
-                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
-                                    <div class="inner-content">
-
-                                        <div class="ms-news-meta d-inline-block">
-                                            <span>Feb 23, 2015</span>
-
-                                        </div>
-                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">ABCD 2 Movie</a></h3>
-                                        <p class="text-black-light-custome">Our story was celebrated on screen in Remo D’Souza’s “Any Body Can Dance 2”.</p>
-                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal3">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 mt-lg-5">
-                                <div class="achievement-card">
-                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
-                                    <div class="inner-content">
-
-                                        <div class="ms-news-meta d-inline-block">
-                                            <span>Feb 23, 2010</span>
-
-                                        </div>
-                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">India's got talent season 3 winner</a></h3>
-                                        <p class="text-black-light-custome">Lifted the trophy in Season 3 of India’s Got Talent with unforgettable performances.</p>
-                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal4">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 mt-lg-5">
-                                <div class="achievement-card">
-                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
-                                    <div class="inner-content">
-
-                                        <div class="ms-news-meta d-inline-block">
-                                            <span>Feb 23, 2009</span>
-
-                                        </div>
-                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Entertainment ke liye kuch bhi karega season 3 winner</a></h3>
-                                        <p class="text-black-light-custome">Brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega.</p>
-                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal5">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 mt-lg-5">
-                                <div class="achievement-card">
-                                    <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>
-                                    <div class="inner-content">
-
-                                        <div class="ms-news-meta d-inline-block">
-                                            <span>Feb 23, 2009</span>
-
-                                        </div>
-                                        <h3 class="ms-event-title text-black-custome mt-4 mb-2"><a href="#">Boogie Woogie india winner </a></h3>
-                                        <p class="text-black-light-custome">Showcased our unique style on the iconic Boogie Woogie, earning nationwide appreciation.</p>
-                                        <button class="border__btn zindex-5 btn-read-more" data-bs-toggle="modal" data-bs-target="#modal6">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            </div>
         </section>
-        <!-- Modals1 -->
-        <div class="modal fade" id="modal1" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content p-4">
-                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">World of Dance | Winner 2020</h5>
-                    <p class="text-black-light-custome">In 2019, we made history by becoming the first Indian crew to win NBC's World of Dance which is one of the most prestigious dance competitions in the world. We brought high-impact choreography, synchronized stunts, and cinematic storytelling to the global stage, earning recognition from both the audience and the judges. Our final act, inspired by Baahubali, featured gladiator-style visuals, powerful flips, and an intense slow-motion battle scene that had drama and precision. Judges Jennifer Lopez, Derek Hough, and Ne-Yo awarded us a perfect score of 100, making it a clean sweep. It wasn't just a win for us; it was a moment that marked India's arrival on the world dance map.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Modals2 -->
-        <div class="modal fade" id="modal2" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content p-4">
-                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">World Hip-Hop Dance Championship | Bronze Medallists</h5>
-                    <p class="text-black-light-custome">What began as a last-minute decision turned into one of our best moments. With limited time but limitless drive, we came together, trained with intensity, and brought something bold to the global stage, which was our own unique Indian flavour fused into hip-hop. Competing against 90 of the world's best crews, we stood out with our style, creativity, and uniqueness. Our performance earned a standing ovation and a historic medal for the nation. India's first at the World Hip-Hop Dance Championship. Instead of following the trends we created our own and the world took notice of it.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Modals3 -->
-        <div class="modal fade" id="modal3" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content p-4">
-                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">ABCD2 Movie</h5>
-                    <p class="text-black-light-custome">Our journey from local stages to international recognition was so impactful, it found its way to the big screen. Directed by Remo D’Souza, Any Body Can Dance 2 was inspired by the real-life story of Kings United and our hunger to succeed in spite of all odds. The film followed our rise through challenges, team spirit, and hard work. It captured the essence of what it means to chase a dream with everything you have. Bollywood actor Varun Dhawan portrayed our founder Suresh Mukund, mimicking the same energy in the role. The movie put our story in front of millions of people. For us, it wasn't just a film, it was a celebration of a movement we built with our hearts. ABCD 2 helped us connect with aspiring dancers across the country and inspired many to believe in their own journey. It's a reminder that when dance is powered by purpose, it can move more than just bodies, it can move the world.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Modals4 -->
-        <div class="modal fade" id="modal4" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content p-4">
-                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">India's Got Talent Season 3 Winner</h5>
-                    <p class="text-black-light-custome">Winning Season 3 of India's Got Talent was a key moment in our journey. Already known in the dance circuit, this national platform helped us connect with a bigger audience across the country. Round after round, we brought our best to the stage and earned the support of viewers and judges. Taking home the title added another milestone to our growing list of achievements. It pushed us further, fuelled our ambition, and reminded us of what's possible with passion, discipline and the love for dance.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Modals5 -->
-        <div class="modal fade" id="modal5" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content p-4">
-                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">Entertainment Ke Liye Kuch Bhi Karega Season 3 Winner</h5>
-                    <p class="text-black-light-custome">We brought home the win in Season 3 of Entertainment Ke Liye Kuch Bhi Karega, a popular talent show known for its tough format and nationwide reach. Judged by Farah Khan and Anu Malik, the show tested performers on creativity, skill, and entertainment value. Our act stood out among a diverse range of talents from across India. Each performance had to impress both the judges and the live audience to move forward. Week after week, we delivered with consistency and energy. Winning the show added another milestone to our journey and motivated us to keep pushing higher.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Modals6 -->
-        <div class="modal fade" id="modal6" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content p-4">
-                    <h5 class="fw-bold fs-4 mb-3 ms-event-title">Boogie Woogie India Winner</h5>
-                    <p class="text-black-light-custome">Boogie Woogie was India’s first major dance reality show, a stage that set the benchmark for televised dance competitions. Being part of such an iconic platform was a moment of pride for us. Our performances captivated both the judges and the audience with their energy and originality. The show gave us early recognition and a chance to represent our style in front of a national audience. It remains one of the key highlights in our journey, marking our presence in the growing Indian dance scene.</p>
-                </div>
-            </div>
-        </div>
-        <!--achievements end  -->
+        <!-- achivements Area End -->
     </main>
 </div>
 @endsection
@@ -300,7 +248,17 @@
         display: flex;
         height: 100vh;
         width: max-content;
-        background-color: white;
+        /* background-color: white; */
+        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+    }
+
+    .scrolling-wrapper .card:first-child,
+    .scrolling-wrapper .card:last-child {
+        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+    }
+
+    .scrolling-wrapper .card:nth-of-type(2) {
+        background: linear-gradient(90deg, #dea738 0%, #de4038 100%);
     }
 
     .card {
@@ -312,8 +270,10 @@
         font-size: 2.5rem;
         color: white;
         border: none;
+        border-radius: 0px;
+        outline: none;
         /* background-color: transparent; */
-        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+        /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
     }
 
     /* .card:nth-child(1) {
@@ -332,21 +292,24 @@
         background-color: purple;
     } */
 
-    @media (max-width: 768px) {
-        .card {
-            justify-content: start;
-            margin-top: 3.7rem;
-            align-items: self-end;
-            margin-bottom: 6rem;
 
+    @media (max-width: 992px) {
+        .scrolling-wrapper {
+            display: block !important;
+            /* Switch to vertical */
+            width: 100% !important;
+            height: auto !important;
         }
 
-        /* .scrolling-wrapper {
-            margin-top: 3rem !important;
-        } */
+        .card {
+            width: 100vw;
+            height: auto !important;
+            padding: 2rem 1rem;
+            display: block !important;
+        }
     }
 
-    .section__title {
+    .scrolling-wrapper .section__title {
         font-size: clamp(24px, 5vw, 48px);
         font-family: 'Ethnocentric';
         /* color: black; */
@@ -355,6 +318,7 @@
 
     .scrolling-wrapper p {
         font-weight: 600;
+        /* color: black; */
         color: white;
     }
 
@@ -475,25 +439,56 @@
 <script>
     gsap.registerPlugin(ScrollTrigger);
 
-    const sections = gsap.utils.toArray(".card");
+    function initHorizontalScroll() {
+        const sections = gsap.utils.toArray(".card");
 
-    gsap.to(sections, {
-        xPercent: -100 * (sections.length - 1),
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".scrolling-wrapper",
-            pin: true,
-            scrub: 1,
-            snap: 1 / (sections.length - 1),
-            end: () => "+=" + document.querySelector(".scrolling-wrapper").offsetWidth,
-            invalidateOnRefresh: true,
-            anticipatePin: 1,
-        }
-    });
+        ScrollTrigger.matchMedia({
+            // Only apply horizontal scroll on larger screens
+            "(min-width: 993px)": function() {
+                gsap.to(sections, {
+                    xPercent: -100 * (sections.length - 1),
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: ".scrolling-wrapper",
+                        pin: true,
+                        scrub: 1,
+                        snap: 1 / (sections.length - 1),
+                        end: () => "+=" + document.querySelector(".scrolling-wrapper").offsetWidth,
+                        invalidateOnRefresh: true,
+                        anticipatePin: 1,
+                    }
+                });
+            }
+        });
+    }
 
-    // Handle resizing (mobile/tablet)
+    initHorizontalScroll();
+
     window.addEventListener("resize", () => {
         ScrollTrigger.refresh();
     });
+
+    // gsap.registerPlugin(ScrollTrigger);
+
+    // const sections = gsap.utils.toArray(".card");
+
+    // gsap.to(sections, {
+    //     xPercent: -100 * (sections.length - 1),
+    //     ease: "none",
+    //     scrollTrigger: {
+    //         trigger: ".scrolling-wrapper",
+    //         pin: true,
+    //         scrub: 1,
+    //         snap: 1 / (sections.length - 1),
+    //         end: () => "+=" + document.querySelector(".scrolling-wrapper").offsetWidth,
+    //         invalidateOnRefresh: true,
+    //         anticipatePin: 1,
+    //     }
+    // });
+
+    // // Handle resizing (mobile/tablet)
+    // window.addEventListener("resize", () => {
+    //     ScrollTrigger.refresh();
+    // });
 </script>
 @endpush

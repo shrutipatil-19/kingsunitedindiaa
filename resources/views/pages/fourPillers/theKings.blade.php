@@ -97,7 +97,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <!-- Repeat Cards -->
                             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                                 <div class="achievement-card">
@@ -116,7 +115,6 @@
 
                                 </div>
                             </div>
-
                             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                                 <div class="achievement-card">
                                     <div class=""><img src="{{ asset('assets/img/kings img/banner2.jpg') }}" alt="" class="w-100 h-100 custome-radius-top"></div>

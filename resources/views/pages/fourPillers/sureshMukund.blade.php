@@ -107,113 +107,94 @@
                     </div>
 
                 </div>
-                <div class="row bdFadeUp">
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="https://www.thehindu.com/entertainment/dance/suresh-mukund-exults-as-kings-united-wins-the-world-choreography-awards-2020-for-world-of-dance/article34647778.ece"><img src="{{ asset('assets/img/suresh/achievements/winnerWorldDance2020.jpg') }}"
+                <div class="row ms-trending3-wrap bdFadeUp">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-trending3-item p-relative fix mb-40">
+                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/winnerWorldDance2020.jpg') }}"
                                         alt="Winner of the World Choreography Award"></a>
+
+
                             </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="https://www.thehindu.com/entertainment/dance/suresh-mukund-exults-as-kings-united-wins-the-world-choreography-awards-2020-for-world-of-dance/article34647778.ece">Winner of the World Choreography Award</a></h3>
+                            <div class="ms-trending3-content">
+                                <p class="ms-trending3-title mb-25"><a href="#">Winner of the World Choreography Award</a></p>
 
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2020</span>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
-
-                            <div class="ms-news-thumb w-img w-100 h-100">
-                                <a href="https://www.moneycontrol.com/news/india/the-kings-mumbai-based-hip-hop-group-win-world-of-dance-season-3-3938891.html#google_vignette"><img src="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}"
+                        <div class="ms-trending3-item p-relative fix mb-40">
+                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
+                                <a href="#"><img src="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}"
                                         alt="World Champion at Nbc's World of Dance"></a>
+
+
                             </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="https://www.moneycontrol.com/news/india/the-kings-mumbai-based-hip-hop-group-win-world-of-dance-season-3-3938891.html#google_vignette">World Champion at Nbc's World of Dance</a></h3>
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 15, 2019</span>
-                                </div>
+                            <div class="ms-trending3-content">
+                                <p class="ms-trending3-title mb-25"><a href="#">World Champion at Nbc's World of Dance</a></p>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
-
-                            <div class="ms-news-thumb w-img w-100 h-100">
+                        <div class="ms-trending3-item p-relative fix mb-40">
+                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="{{ asset('assets/img/suresh/achievements/emmy.jpg') }}"
                                         alt="Emmy-nominated Choreocrapher"></a>
+
+
                             </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">Emmy-nominated Choreocrapher </a></h3>
+                            <div class="ms-trending3-content">
+                                <p class="ms-trending3-title mb-25"><a href="#">Emmy-nominated Choreocrapher</a></p>
 
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 20, 2019</span>
-
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
 
-                            <div class="ms-news-thumb w-img w-100 h-100">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="ms-trending3-item p-relative fix mb-40">
+                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dadaSahebPhalke.jpg') }}"
                                         alt="Recipient of the Dada Saheb PhalKe Award"></a>
+
+
                             </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">Recipient of the Dada Saheb PhalKe Award</a></h3>
+                            <div class="ms-trending3-content">
+                                <p class="ms-trending3-title mb-25"><a href="#">Recipient of the Dada Saheb PhalKe Award</a></p>
 
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2019</span>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
-
-                            <div class="ms-news-thumb w-img w-100 h-100">
+                        <div class="ms-trending3-item p-relative fix mb-40">
+                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="{{ asset('assets/img/suresh/achievements/dancePlus.jpg') }}"
-                                        alt="news image"></a>
+                                        alt="Judge on Dance Plus 5 (Reality Tv Show)"></a>
+
+
                             </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">Judge on Dance Plus 5 (Reality Tv Show)</a></h3>
+                            <div class="ms-trending3-content">
+                                <p class="ms-trending3-title mb-25"><a href="#">Judge on Dance Plus 5 (Reality Tv Show)</a></p>
 
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2015</span>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6">
-                        <div class="ms-news-item p-relative zindex-1 mb-40">
-                            <div class="ms-news-overlay p-absolute"></div>
-
-                            <div class="ms-news-thumb w-img w-100 h-100">
+                        <div class="ms-trending3-item p-relative fix mb-40">
+                            <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="{{ asset('assets/img/suresh/achievements/inspiration.jpg') }}"
-                                        alt="news image"></a>
+                                        alt="The Film ABCD 2 (2015) Was Inspired by
+                                        Suresh Mukund and the Kings"></a>
+
+
                             </div>
-                            <div class="ms-news-content ms-news-position p-absolute">
-                                <h3 class="ms-news-title mb-15"><a href="#">The Film ABCD 2 (2015) Was Inspired by
+                            <div class="ms-trending3-content">
+                                <p class="ms-trending3-title mb-25"><a href="#">The Film ABCD 2 (2015) Was Inspired by
                                         Suresh Mukund and the Kings, With Varun
                                         Dhawan Portraying Suresh Mukund's
-                                        Character.</a></h3>
+                                        Character.</a></p>
 
-                                <div class="ms-news-meta d-inline-block">
-                                    <span>Feb 23, 2015</span>
-
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -863,6 +844,10 @@
 @push('style')
 
 <style>
+    .ms-trending3-img {
+       height: clamp(200px, 40vw, 400px) !important;
+    }
+
     .ms-genres-flex {
         grid-template-columns: 60% auto;
     }
