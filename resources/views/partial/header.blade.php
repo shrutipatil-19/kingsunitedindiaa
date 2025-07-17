@@ -36,9 +36,9 @@
                      </div> --}}
                      <div class="offcanvas__social">
                          <div class="ms-footer-social mb-0">
-                            <a href="https://www.facebook.com/kingsunitedofficial?mibextid=LQQJ4d" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                            <a href="https://www.instagram.com/kings_united_india?igsh=MWVyMjY1enVoZnEwaA==" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://youtube.com/@kingsunitedindiaofficial5626?si=CT2vkO_2sjU4FwiU" title="Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>    
+                             <a href="https://www.facebook.com/kingsunitedofficial?mibextid=LQQJ4d" title="Facebook" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                             <a href="https://www.instagram.com/kings_united_india?igsh=MWVyMjY1enVoZnEwaA==" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                             <a href="https://youtube.com/@kingsunitedindiaofficial5626?si=CT2vkO_2sjU4FwiU" title="Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                              <a href="#" title="Pinterest" target="_blank"><i class="fa-brands fa-square-pinterest"></i></i></a>
                          </div>
                      </div>
@@ -53,7 +53,7 @@
                  <div class="row align-items-center">
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
-                            {{-- justify-content-md-around --}}
+                             {{-- justify-content-md-around --}}
                              <div class="header__main d-flex align-items-center justify-content-between justify-content-md-center">
                                  <div class="header__logo pt-10 pb-10 d-block d-md-none" style="width: 100px;">
                                      <a href="{{ route('home') }}">
@@ -150,7 +150,7 @@
                                                      <!-- <li>
                                                          <a href="{{ route('about') }}">The legacy</a>
                                                      </li> -->
-                                                      <li class="has-dropdown">
+                                                     <li class="has-dropdown">
                                                          <a href="{{ route('about') }}">The legacy</a>
                                                          <ul class="submenu">
                                                              <li class="">
@@ -159,7 +159,7 @@
                                                              <li class="">
                                                                  <a href="{{ route('theKings') }}">The Kings</a>
                                                              </li>
-                                                            
+
                                                          </ul>
                                                      </li>
                                                      <li class="has-dropdown">
@@ -180,12 +180,12 @@
                                                         <a href="{{ route('sureshMukund') }}">Suresh Mukund</a>
                                                     </li> -->
                                                      <li class="p-0">
-                                                        <div class="header__logo d-none d-md-block" style="width: 140px;">
-                                                            <a href="{{ route('home') }}" class="p-0">
-                                                                <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
-                                                            </a>
-                                                        </div>
-                                                    </li>
+                                                         <div class="header__logo d-none d-md-block" style="width: 140px;">
+                                                             <a href="{{ route('home') }}" class="p-0">
+                                                                 <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
+                                                             </a>
+                                                         </div>
+                                                     </li>
                                                      <li class="has-dropdown">
                                                          <a href="{{ route('creatorSpace') }}">Creator Space</a>
                                                          <ul class="submenu">
@@ -206,7 +206,7 @@
                                                              </li>
                                                          </ul>
                                                      </li>
-                                                    <!-- <li><a href="{{ route('theKings') }}">Kings Crew</a></li> -->
+                                                     <!-- <li><a href="{{ route('theKings') }}">Kings Crew</a></li> -->
 
                                                      <li class="has-dropdown d-none">
                                                          <a href="#">Kings Dance Studio</a>
@@ -329,7 +329,7 @@
 
                                                          </ul>
                                                      </li> -->
-                                                      <li>
+                                                     <li>
                                                          <a href="{{ route('events') }}">Events</a>
                                                      </li>
                                                      <li>
@@ -425,98 +425,155 @@
      <!-- Header area end -->
 
      <div class="book_appointment_holder bg-yellow" bis_skin_checked="1">
-		<div class="appointment_text trending-btn" bis_skin_checked="1">
-			<a class="zindex-5" data-bs-toggle="modal" data-bs-target="#bookModal" href="#" target="_blank" style="border-radius: 20px;">
-            <img src="{{ asset('assets/img/icon/conversation.png') }}" alt="" srcset="" class="w-75">
-            </a>
-		</div>
-	</div>
-    <!-- Modal -->
-    <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            ...
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">BOOK NOW</button>
-            </div>
-        </div>
-        </div>
-    </div>
-        <style>
+         <div class="appointment_text trending-btn" bis_skin_checked="1">
+             <a class="zindex-5" data-bs-toggle="modal" data-bs-target="#bookModal" href="#" target="_blank" style="border-radius: 20px;">
+                 <img src="{{ asset('assets/img/icon/conversation.png') }}" alt="" srcset="" class="w-100">
+             </a>
+         </div>
+     </div>
+     <!-- Modal -->
+     <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content ms-bg-2">
+                 <!-- <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div> -->
+                 <div class="modal-body">
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     @include('partial.popupForm')
+                 </div>
+
+             </div>
+         </div>
+     </div>
+     <style>
+         .btn-close {
+             top: 10px;
+             right: 10px;
+             position: absolute;
+             z-index: 10;
+             filter: invert(1);
+         }
+
          .book_appointment_holder {
-            position: fixed;
-            bottom: 2%;
-            right: 8px;
-            color: #ffffff;
-            display: flex
-        ;
-            cursor: pointer;
-            /* transition: right 0.3s ease-in-out; */
-            padding-right: 10px;
-            /* transform: rotate(270deg) translateY(106px); */
-            z-index: 1000;
-            font-size: 18px;
-        }
-        .bg-yellow{
-            background-color: yellow;
-        }
-        </style>
+             position: fixed;
+             bottom: 2%;
+             right: 8px;
+             color: #ffffff;
+             /* display: flex */
+             ;
+             cursor: pointer;
+             /* transition: right 0.3s ease-in-out; */
+             padding: 10px;
+             /* transform: rotate(270deg) translateY(106px); */
+             z-index: 1000;
+             /* font-size: 18px; */
+             border-radius: 50%;
+             width: 70px;
+             height: 70px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+
+         .bg-yellow {
+             background-color: #dea738;
+         }
+     </style>
 
      <script>
-        $(document).ready(function() {
-            var lastScrollTop = 0; // Stores the previous scroll position
-            var header = $('#header-sticky'); // Get your header element
-            var headerHeight = header.outerHeight(); // Get the header's height, including padding/border
-    
-            // Add a class to the header initially for smooth transitions
-            header.addClass('scroll-transition');
-    
-            $(window).scroll(function() {
-                var currentScroll = $(this).scrollTop(); // Get current scroll position
-    
-                // Only act if scrolling has passed the header height (to avoid flicker at top)
-                if (currentScroll > headerHeight) {
-                    // Scrolling Down
-                    if (currentScroll > lastScrollTop) {
-                        header.addClass('header-hidden');
-                    }
-                    // Scrolling Up
-                    else {
-                        header.removeClass('header-hidden');
-                    }
-                } else {
-                    // At or near the top of the page, always show header
-                    header.removeClass('header-hidden');
-                }
-    
-                lastScrollTop = currentScroll; // Update last scroll position
-            });
-        });
-    </script>
-    <style>
-        /* Ensure the header is fixed at the top */
-        #header-sticky {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000; /* Ensure it's above other content */
-        }
+         $(document).ready(function() {
+             var lastScrollTop = 0; // Stores the previous scroll position
+             var header = $('#header-sticky'); // Get your header element
+             var headerHeight = header.outerHeight(); // Get the header's height, including padding/border
 
-        /* Add transition for smooth hiding/showing */
-        .scroll-transition {
-            transition: transform 0.3s ease-in-out; /* Smooth slide effect */
-        }
+             // Add a class to the header initially for smooth transitions
+             header.addClass('scroll-transition');
 
-        /* Class to hide the header */
-        .header-hidden {
-            transform: translateY(-100%); /* Moves the header completely up and out of view */
-        }
-    </style>
+             $(window).scroll(function() {
+                 var currentScroll = $(this).scrollTop(); // Get current scroll position
+
+                 // Only act if scrolling has passed the header height (to avoid flicker at top)
+                 if (currentScroll > headerHeight) {
+                     // Scrolling Down
+                     if (currentScroll > lastScrollTop) {
+                         header.addClass('header-hidden');
+                     }
+                     // Scrolling Up
+                     else {
+                         header.removeClass('header-hidden');
+                     }
+                 } else {
+                     // At or near the top of the page, always show header
+                     header.removeClass('header-hidden');
+                 }
+
+                 lastScrollTop = currentScroll; // Update last scroll position
+             });
+         });
+     </script>
+     <style>
+         /* Ensure the header is fixed at the top */
+         #header-sticky {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             z-index: 1000;
+             /* Ensure it's above other content */
+         }
+
+         /* Add transition for smooth hiding/showing */
+         .scroll-transition {
+             transition: transform 0.3s ease-in-out;
+             /* Smooth slide effect */
+         }
+
+         /* Class to hide the header */
+         .header-hidden {
+             transform: translateY(-100%);
+             /* Moves the header completely up and out of view */
+         }
+     </style>
+
+     <style>
+         .ms-input-box input,
+         .ms-input-box select,
+         .ms-input-box .nice-select {
+             border-radius: 12px;
+         }
+
+         .ms-input-box select {
+             background: #0D0D0D;
+             border: 1px solid #292929;
+             border-radius: 32.5px;
+             height: 65px;
+             display: block;
+             width: 100%;
+             color: #e1e1e1;
+             padding: 0 30px;
+             border-radius: 10px;
+         }
+
+         input.error,
+         select.error {
+             border: 1px solid red !important;
+         }
+
+         label.error {
+             color: red;
+             font-size: 0.85rem;
+             margin-top: 5px;
+             display: block;
+         }
+
+         .ms-join-space {
+             padding: 20px !important;
+             margin-top: 60px !important;
+         }
+
+         .section__title {
+             font-size: 24px !important;
+         }
+     </style>

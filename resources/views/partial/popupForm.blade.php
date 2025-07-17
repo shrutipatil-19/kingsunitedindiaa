@@ -1,7 +1,7 @@
 <!-- Join Area Start Here -->
-<section class="ms-join-area pb-60 pt-130 p-relative ms-bg-2">
+<section class="ms-join-area pb-50 pt-50 p-relative ms-bg-2">
     <div class="ms-join-position p-absolute text-center">
-        <h2 class="ms-title2 white-text mb-50">Join With us now</h2>
+        <h2 class="section__title">Join With us now</h2>
         <div class="ms-banner3-item-wrap ms-join-img-grid d-none">
             <div class="ms-banner3-item d-none d-md-block">
                 <div class="ms-banner3-img2 m-img p-relative">
@@ -12,37 +12,34 @@
     </div>
     <div class="container" id="popupform">
         <div class="row">
-            <div class="col-lg-6 align-content-center">
-                <img src="{{ asset('assets/img/course/bg.png') }}" alt="banner image" class="w-100 mt-110">
-            </div>
-            <div class="col-xl-6">
-                <div class="ms-join-wrap ms-join-space mb-70 ms-bg-2">
 
+            <div class="col-xl-12">
+                <div class="ms-join-wrap ms-join-space ms-bg-2">
                     <!-- Success message -->
                     <div id="formSuccess" class="alert alert-success" style="display: none;"></div>
 
                     <form method="POST" action="{{ route('enquiry') }}">
                         @csrf
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="ms-input-box style-2">
                                     <label for="name" class="text-white">Name</label>
                                     <input type="text" name="name" placeholder="Name">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="ms-input-box style-2">
                                     <label for="email" class="text-white">Email</label>
                                     <input type="email" name="email" placeholder="Email">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="ms-input-box style-2">
                                     <label for="phone" class="text-white">Phone</label>
                                     <input type="phone" name="phone" placeholder="Phone">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="ms-input-box style-2">
                                     <label for="course">Select Service</label>
                                     <select name="service" class="form-select" required>
@@ -70,25 +67,7 @@
 <!-- Join Area End Here -->
 
 @push('style')
-<style>
-    .ms-input-box input,
-    .ms-input-box select,
-    .ms-input-box .nice-select {
-        border-radius: 12px;
-    }
 
-    input.error,
-    select.error {
-        border: 1px solid red !important;
-    }
-
-    label.error {
-        color: red;
-        font-size: 0.85rem;
-        margin-top: 5px;
-        display: block;
-    }
-</style>
 @endpush
 
 @push('js')
