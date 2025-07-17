@@ -26,9 +26,9 @@
                               <img src="{{ asset('assets/img/studio/studio1.jpg') }}" alt="Studio 1 Image">
                           </a>
                           <!-- availability -->
-                          <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 end-0 m-2">
+                          <!-- <div class="ms-availability-badge bg-success text-white p-1 rounded position-absolute top-0 end-0 m-2">
                               Available
-                          </div>
+                          </div> -->
                       </div>
                       <div class="ms-trending3-content">
                           <h3 class="ms-trending3-title mb-15">
