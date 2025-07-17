@@ -845,11 +845,12 @@
 
 <style>
     .ms-trending3-img {
-        height:400px !important;
+        height: 400px !important;
     }
+
     .ms-trending3-wrap .col-xl-4:nth-child(2) .ms-trending3-item {
-    margin-top: 0px !important;
-}
+        margin-top: 0px !important;
+    }
 
     .include__bg {
         background-position: center 36%;
@@ -889,6 +890,10 @@
 
     .h-80 {
         height: 70% !important;
+    }
+
+    #header-sticky {
+        background-color: black !important;
     }
 </style>
 
