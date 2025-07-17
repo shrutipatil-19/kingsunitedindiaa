@@ -1,11 +1,12 @@
     <!-- golden pass area start -->
-     <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative">
-        <div class="ele4 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+     <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative z-index-1">
+        <div class="ele4 aos-init aos-animate zindex--1" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
             <img src="{{ asset('assets/img/course/Layer7.png') }}" alt="">
         </div>
         <div class="container">
             <div class="ms-cta-bg fix border-custome">
-                <div class="ms-cta-wrap row black-bg">
+                {{-- black-bg --}}
+                <div class="ms-cta-wrap row">
                     <div class="ms-cta-item col-lg-6 pt-lg-0 pt-4 pb-lg-0 pb-4">
                         <div class="ms-cta-content d-flex flex-column">
                             <span class="section__subtitle text-center text-white section__subtitle-with-lines">One Year Unlimited Access</span>
