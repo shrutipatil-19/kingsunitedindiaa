@@ -6,7 +6,7 @@
     <main>
         <!-- page title area start  -->
         <section class="page-title-area page-title-spacing p-relative zindex-1 "
-            data-background="{{ asset('assets/img/bg/work-bg.jpg') }}">
+            data-background="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}">
             <div class="ms-overlay ms-overlay9 p-absolute zindex--1"></div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -131,14 +131,14 @@
                 <div class="ms-contact-img-wrap mb-70 d-inline-block p-relative">
                     <div class="ms-contact-img m-img ms-br-15 fix p-relative zindex-1">
                         <div class="ms-overlay ms-overlay11"></div>
-                        <img src="{{ asset('assets/img/news/news-07.jpg') }}" alt="banner image">
+                        <img src="{{ asset('assets/img/suresh/achievements/dancePlus.jpg') }}" alt="banner image">
                     </div>
                     <div class="ms-contact-content text-center">
                         <div class="ms-round-icon mx-auto mb-20">
                             <i class="flaticon-phone-call"></i>
                         </div>
-                        <h3 class="ms-title3 ms-text2 mb-15">Emergency Call</h3>
-                        <h2 class="ms-title5 white-text"><a href="tel:+919166664556">+91 9166664556</a></h2>
+                        <h3 class="ms-title3 ms-text2 mb-15">Call For Enquiry</h3>
+                        <h2 class="ms-title5 white-text"><a href="tel:+7276539771">+91 7276539771</a></h2>
                     </div>
                 </div>
             </div>

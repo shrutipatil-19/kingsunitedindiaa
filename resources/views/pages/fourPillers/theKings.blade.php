@@ -423,6 +423,9 @@
 
 @push('style')
 <style>
+    .include__bg {
+    background-position: center 36%;
+    }
     .mb-5 {
         margin-bottom: 2rem !important;
     }
