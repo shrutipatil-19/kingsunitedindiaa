@@ -845,7 +845,11 @@
 
 <style>
     .ms-trending3-img {
-       height: clamp(200px, 40vw, 400px) !important;
+        height: clamp(200px, 40vw, 400px) !important;
+    }
+
+    .include__bg {
+        background-position: center 36%;
     }
 
     .ms-genres-flex {
