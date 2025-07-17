@@ -598,7 +598,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/choreography.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -618,7 +618,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/music.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -649,7 +649,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/wedding-couple.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -678,7 +678,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/corporate_event.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -708,7 +708,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/trophy.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -738,7 +738,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/judges.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -768,7 +768,7 @@
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="https://placehold.co/80x80"
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/dance_traning.png') }}"
                                             alt="function brand" class="w-100"></a>
                                 </div>
                             </div>
@@ -897,6 +897,9 @@
 
     .ms-trending2-item:hover .trending__title {
         color: white;
+    }
+    .ms-fun-brand-thumb {
+    border-radius: 0%;
     }
 
    
