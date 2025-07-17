@@ -423,6 +423,52 @@
          </div>
      </header>
      <!-- Header area end -->
+
+     <div class="book_appointment_holder bg-yellow" bis_skin_checked="1">
+		<div class="appointment_text trending-btn" bis_skin_checked="1">
+			<a class="zindex-5" data-bs-toggle="modal" data-bs-target="#bookModal" href="#" target="_blank" style="border-radius: 20px;">
+            <img src="{{ asset('assets/img/icon/conversation.png') }}" alt="" srcset="" class="w-75">
+            </a>
+		</div>
+	</div>
+    <!-- Modal -->
+    <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            ...
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">BOOK NOW</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <style>
+         .book_appointment_holder {
+            position: fixed;
+            bottom: 2%;
+            right: 8px;
+            color: #ffffff;
+            display: flex
+        ;
+            cursor: pointer;
+            /* transition: right 0.3s ease-in-out; */
+            padding-right: 10px;
+            /* transform: rotate(270deg) translateY(106px); */
+            z-index: 1000;
+            font-size: 18px;
+        }
+        .bg-yellow{
+            background-color: yellow;
+        }
+        </style>
+
      <script>
         $(document).ready(function() {
             var lastScrollTop = 0; // Stores the previous scroll position
