@@ -6,7 +6,7 @@
         <!-- About Area Start Here  -->
         <section class="ms-about-area fix">
             <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
-                data-background="{{ asset('assets/img/about/about3.jpg') }}">
+                data-background="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}">
                 <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -863,6 +863,9 @@
 @push('style')
 
 <style>
+    .include__bg {
+    background-position: center 36%;
+    }
     .ms-genres-flex {
         grid-template-columns: 60% auto;
     }
