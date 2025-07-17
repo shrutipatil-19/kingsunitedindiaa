@@ -1,5 +1,5 @@
   <!-- courses Area Start -->
- <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative">
+ <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative z-index-1">
      <div class="container">
          <div class="row align-items-end mb-25 bdFadeUp">
              <div class="col-lg-6">
@@ -12,7 +12,7 @@
          </div>
          <!-- Swiper -->
          <div class="row">
-            <div class="ele3 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+            <div class="ele3 aos-init aos-animate zindex--1" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
                 <img src="{{ asset('assets/img/course/Layer5.png') }}" alt="">
             </div>
              <!-- <div class="col-lg-6 pt-lg-4"> -->
@@ -144,7 +144,7 @@
              }
      
              .ele3 img {
-                 width: calc(35% - 340px);
+                 width: calc(34% - 340px);
                  height: 100%;
                  object-fit: cover;
                  z-index: -1;
