@@ -54,7 +54,7 @@
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
                             {{-- justify-content-md-around --}}
-                             <div class="header__main d-flex align-items-center justify-content-center">
+                             <div class="header__main d-flex align-items-center justify-content-between justify-content-md-center">
                                  <div class="header__logo pt-10 pb-10 d-block d-md-none" style="width: 100px;">
                                      <a href="{{ route('home') }}">
                                          <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
@@ -147,11 +147,23 @@
                                                             </li>
                                                         </ul> -->
                                                      </li>
-                                                     <li>
+                                                     <!-- <li>
                                                          <a href="{{ route('about') }}">The legacy</a>
+                                                     </li> -->
+                                                      <li class="has-dropdown">
+                                                         <a href="{{ route('about') }}">The legacy</a>
+                                                         <ul class="submenu">
+                                                             <li class="">
+                                                                 <a href="{{ route('sureshMukund') }}">Suresh Mukund</a>
+                                                             </li>
+                                                             <li class="">
+                                                                 <a href="{{ route('theKings') }}">The Kings</a>
+                                                             </li>
+                                                            
+                                                         </ul>
                                                      </li>
                                                      <li class="has-dropdown">
-                                                         <a href="#">Courses</a>
+                                                         <a href="{{ route('course') }}">Courses</a>
                                                          <ul class="submenu">
                                                              <li class="">
                                                                  <a href="{{ route('diploma') }}">Diploma In Street Style</a>
@@ -164,9 +176,9 @@
                                                              </li>
                                                          </ul>
                                                      </li>
-                                                     <li>
+                                                     <!-- <li>
                                                         <a href="{{ route('sureshMukund') }}">Suresh Mukund</a>
-                                                    </li>
+                                                    </li> -->
                                                      <li class="p-0">
                                                         <div class="header__logo d-none d-md-block" style="width: 140px;">
                                                             <a href="{{ route('home') }}" class="p-0">
@@ -194,7 +206,7 @@
                                                              </li>
                                                          </ul>
                                                      </li>
-                                                    <li><a href="{{ route('theKings') }}">Kings Crew</a></li>
+                                                    <!-- <li><a href="{{ route('theKings') }}">Kings Crew</a></li> -->
 
                                                      <li class="has-dropdown d-none">
                                                          <a href="#">Kings Dance Studio</a>
