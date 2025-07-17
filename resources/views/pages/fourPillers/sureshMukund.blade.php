@@ -845,7 +845,7 @@
 
 <style>
     .ms-trending3-img {
-        height: clamp(200px, 40vw, 400px) !important;
+        height:400px !important;
     }
     .ms-trending3-wrap .col-xl-4:nth-child(2) .ms-trending3-item {
     margin-top: 0px !important;

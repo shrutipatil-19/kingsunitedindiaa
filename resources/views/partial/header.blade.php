@@ -53,8 +53,9 @@
                  <div class="row align-items-center">
                      <div class="col-12">
                          <div class="mega__menu-wrapper p-relative">
-                             <div class="header__main d-flex align-items-center justify-content-md-around justify-content-between">
-                                 <div class="header__logo pt-10 pb-10" style="width: 100px;">
+                            {{-- justify-content-md-around --}}
+                             <div class="header__main d-flex align-items-center justify-content-center">
+                                 <div class="header__logo pt-10 pb-10 d-block d-md-none" style="width: 100px;">
                                      <a href="{{ route('home') }}">
                                          <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
                                      </a>
@@ -163,6 +164,16 @@
                                                              </li>
                                                          </ul>
                                                      </li>
+                                                     <li>
+                                                        <a href="{{ route('sureshMukund') }}">Suresh Mukund</a>
+                                                    </li>
+                                                     <li class="p-0">
+                                                        <div class="header__logo d-none d-md-block" style="width: 140px;">
+                                                            <a href="{{ route('home') }}" class="p-0">
+                                                                <img src="{{ asset('assets/img/kings img/kings_logo.png') }}" alt="logo not found" class="w-100">
+                                                            </a>
+                                                        </div>
+                                                    </li>
                                                      <li class="has-dropdown">
                                                          <a href="{{ route('creatorSpace') }}">Creator Space</a>
                                                          <ul class="submenu">
