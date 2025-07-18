@@ -16,11 +16,11 @@ class EnquiryController extends Controller
             'name'    => 'required',
             'email'   => 'required|email',
             'phone'   => 'required',
-            'service' => 'required| array',
+            'service' => 'required',
             'message' => 'nullable',
         ]);
         // Convert array to comma-separated string
-        $validate['service'] = implode(', ', $validate['service']);
+        // $validate['service'] = implode(', ', $validate['service']);
 
         Enquiry::create($validate);
 

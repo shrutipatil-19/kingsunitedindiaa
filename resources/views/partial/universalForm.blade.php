@@ -81,7 +81,7 @@
                      <form method="POST" action="{{ route('enquiry') }}">
                          @csrf
                          <div class="ms-cta-content d-flex flex-column">
-                             <h3 class="text-center section__title two text-black">Contact us for any events</h3>
+                             <h2 class="text-center section__title two text-black">Contact us for any events</h2>
                          </div>
                          <div class="row transparent-bg mt-4">
                              <div class="col-md-6">

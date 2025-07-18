@@ -544,14 +544,19 @@
              border-radius: 12px;
          }
 
+         .ms-input-box input {
+             background: white;
+             color: black;
+         }
+
          .ms-input-box select {
-             background: #0D0D0D;
+
              border: 1px solid #292929;
              border-radius: 32.5px;
              height: 65px;
              display: block;
              width: 100%;
-             color: #e1e1e1;
+             color: black;
              padding: 0 30px;
              border-radius: 10px;
          }
@@ -559,6 +564,11 @@
          input.error,
          select.error {
              border: 1px solid red !important;
+         }
+
+         .ms-input-box.style-2 label {
+             margin-bottom: 6px !important;
+             color: white;
          }
 
          label.error {
