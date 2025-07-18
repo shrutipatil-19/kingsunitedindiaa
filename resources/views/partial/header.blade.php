@@ -583,7 +583,7 @@
              margin-top: 60px !important;
          }
 
-         .section__title {
+         /* .section__title {
              font-size: 24px !important;
-         }
+         } */
      </style>

@@ -1,7 +1,7 @@
 <!-- Join Area Start Here -->
 <section class="ms-join-area pb-50 pt-50 p-relative ms-bg-2">
     <div class="ms-join-position p-absolute text-center">
-        <h2 class="section__title">Join With us now</h2>
+        <h2 class="section__title fs-4">Join With us now</h2>
         <div class="ms-banner3-item-wrap ms-join-img-grid d-none">
             <div class="ms-banner3-item d-none d-md-block">
                 <div class="ms-banner3-img2 m-img p-relative">
