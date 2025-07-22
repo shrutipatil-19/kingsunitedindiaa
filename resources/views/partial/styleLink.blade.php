@@ -16,7 +16,8 @@
  <link rel="stylesheet" href="{{ asset('assets/app/css/3D.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/up-down-card.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/gallary.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/app/css/banner.css') }}">
+ <link rel="stylesheet" href="{{ asset('assets/app/css/banner.css') }}">
+ <link rel="stylesheet" href="{{ asset('assets/app/css/theKings.css') }}">
 
  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -42,12 +43,12 @@
 
  <!-- Google Fonts -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
  <script src="{{ asset('assets/app/js/jquery-3.6.0.min.js') }}"></script>
  <script src="{{ asset('assets/app/js/jquery.counterup.min.js') }}"></script>
  <!-- 2. Select2 Core CSS -->
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<!-- This links the specific theme for Bootstrap 5. It must be after Select2 core CSS. -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+ <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+ <!-- This links the specific theme for Bootstrap 5. It must be after Select2 core CSS. -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />

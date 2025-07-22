@@ -10196,6 +10196,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
   width: 100%;
+  border-radius: 0px;
 }
 
 .ms-genres-img img {
@@ -10212,6 +10213,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   width: 100%;
   min-height: 200px;
   object-fit: cover;
+  border-radius: 0px;
 }
 
 .ms-genres-img:hover img {
@@ -13143,7 +13145,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   box-sizing: border-box;
   background-clip: padding-box;
   border: solid 5px transparent;
-  border-radius: 1em;
+  border-radius: 0px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   /* Optional shadow */
@@ -13600,4 +13602,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.bg-w-1 {
+  background-color: #fff;
 }

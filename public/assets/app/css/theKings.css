@@ -1,0 +1,29 @@
+.hero.kings-parallax {
+  position: relative;
+  min-height: 70vh;
+  /* background-image: url('https://i.ibb.co/mvyDk8G/nick-scheerbart-8-DMuvdp-vso-unsplash.jpg'); Replace with your image if needed */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10vh 2rem;
+  /* background-color: #fff; */
+}
+
+.hero.kings-parallax .container {
+  z-index: 1;
+}
+
+/* .hero.kings-parallax::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+} */
+
+

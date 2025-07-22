@@ -16,6 +16,7 @@
 <script src="{{ asset('assets/app/js/jplayer.playlist.js') }}"></script>
 <script src="{{ asset('assets/app/js/main.js') }}"></script>
 <script src="{{ asset('assets/app/js/banner.js') }}"></script>
+<script src="{{ asset('assets/app/js/theKings.js') }}"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
