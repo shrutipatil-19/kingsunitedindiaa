@@ -292,7 +292,7 @@
         <!-- achivements kings Area End -->
 
         <!-- Work Links Area Start  -->
-        <div class="ms-genres-listing pt-130 pb-110 bg-w-1">
+        <div class="ms-genres-listing pt-90 pb-90 bg-w-1">
             <div class="container">
                 <div class="row justify-content-center bdFadeUp">
                     <div class="col-xl-6 ">
@@ -305,7 +305,7 @@
                     </div>
                 </div>
 
-                <div class="tab-content" id="myTabContent">
+                <div class="tab-content d-none" id="myTabContent">
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
                         aria-labelledby="home-tab" tabindex="0">
                         <div class="row">
@@ -549,9 +549,280 @@
                     </div>
 
                 </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                        aria-labelledby="home-tab" tabindex="0">
+                        <div class="row">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide" style="margin-right: 30px;">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/Ki4_Fc3XoSk?si=gdBvw7_yewJDJWNE">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/vandeMatram.jpg') }}" alt="ABCD2 Vande mataram" class="h-100">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/Ki4_Fc3XoSk?si=gdBvw7_yewJDJWNE"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/Ki4_Fc3XoSk?si=gdBvw7_yewJDJWNE">ABCD 2 Vande Mataram</a></h4>
+
+
+                                            </div>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="margin-right: 30px;">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/xutBFUf3LoU?si=Ump5GP3XNSslFF0i">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/bejuban.jpg') }}" alt="ABCD 2 Bezubaan phir se img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/xutBFUf3LoU?si=Ump5GP3XNSslFF0i"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/xutBFUf3LoU?si=Ump5GP3XNSslFF0i">ABCD 2 Bezubaan Phir Se</a></h4>
+
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/6Z7tW64jpTM?si=W87ilT0WbCQWACVg">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/bazigar.jpg') }}" alt="bazigar img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/6Z7tW64jpTM?si=W87ilT0WbCQWACVg"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/6Z7tW64jpTM?si=W87ilT0WbCQWACVg">DIVINE - Baazigar</a></h4>
+
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/6KBE8iRTg8Y?si=V1uXe6hzPyUjblnJ">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/chakravyuh.jpg') }}" alt="Chakravyuh img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/6KBE8iRTg8Y?si=V1uXe6hzPyUjblnJ"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/6KBE8iRTg8Y?si=V1uXe6hzPyUjblnJ">Chakravyuh mein - Virat Kohli X DIVINE | PUMA</a></h4>
+
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/UqBzpg6YMBg?si=xwp31t4z-a8Uo5N9">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/worldDp2019.jpg') }}" alt="World Dance Performace img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/UqBzpg6YMBg?si=xwp31t4z-a8Uo5N9"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/UqBzpg6YMBg?si=xwp31t4z-a8Uo5N9">World Dance Performace 2019</a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/0bve8unJ7e8?si=C0nw_fbrxPAno3HM">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/tattad.jpg') }}" alt="The Kings TATTAD img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/0bve8unJ7e8?si=C0nw_fbrxPAno3HM"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/0bve8unJ7e8?si=C0nw_fbrxPAno3HM">The Kings TATTAD TATTAD Routine</a>
+                                                </h4>
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/0j5Vyo4lGYc?si=HTs03SqnX1aps2c2">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/malhari.jpg') }}" alt="The Kings Malhari img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/0j5Vyo4lGYc?si=HTs03SqnX1aps2c2"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/0j5Vyo4lGYc?si=HTs03SqnX1aps2c2">The Kings' "Malhari" Routine Is INSANE</a>
+                                                </h4>
+
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/E6rd0fy0DUY?si=vT73nKRCJfPt1Cv5">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/winningMoment.jpg') }}" alt="he Kings Winning Moment img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/E6rd0fy0DUY?si=vT73nKRCJfPt1Cv5"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/E6rd0fy0DUY?si=vT73nKRCJfPt1Cv5">The Kings Winning Moment</a>
+                                                </h4>
+
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/zQGaZjJNIMg?si=c56JriWTbD4NYWVR">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/final.jpg') }}" alt="World of Dance Finals img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/zQGaZjJNIMg?si=c56JriWTbD4NYWVR"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/zQGaZjJNIMg?si=c56JriWTbD4NYWVR">World of Dance Finals</a>
+                                                </h4>
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/GHdzoot7rfg?si=DM93vqKiutAWesNe">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/50cent.jpg') }}" alt="50cent img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/GHdzoot7rfg?si=DM93vqKiutAWesNe"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/GHdzoot7rfg?si=DM93vqKiutAWesNe">50 Cent X The kings | Live Show Mumbai</a></h4>
+
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/y4jv5bk8ato?si=8YJKEJT35ufWmBjx">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/dola.jpg') }}" alt="Dola re dola img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/y4jv5bk8ato?si=8YJKEJT35ufWmBjx"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/y4jv5bk8ato?si=8YJKEJT35ufWmBjx">Dola re dola</a>
+                                                </h4>
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- <div class="col-xl-6"> -->
+                                        <div class="ms-genres-item ms-genres-flex mb-25 card-bg-black hover-border">
+                                            <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
+                                                <a href="https://youtu.be/_7oTMDqV3ew?si=Q-Q3UtF1lq61vx0v">
+                                                    <img src="{{ asset('assets/img/suresh/thumnail/chaiya.jpg') }}" alt="Chaiya chaiya img">
+                                                </a>
+                                                <a class="popup-video ms-genres-video"
+                                                    href="https://youtu.be/_7oTMDqV3ew?si=Q-Q3UtF1lq61vx0v"><i
+                                                        class="fa-sharp fa-solid fa-play"></i></a>
+
+                                            </div>
+                                            <div class="ms-genres-content p-relative">
+
+                                                <h4 class="ms-genres-title fw-light"><a href="https://youtu.be/_7oTMDqV3ew?si=Q-Q3UtF1lq61vx0v">Chaiya chaiya </a>
+                                                </h4>
+
+                                            </div>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Work Links Area End  -->
+
+
+
+
     </main>
 </div>
 @endsection
@@ -766,6 +1037,33 @@
 
     }
 </style>
+<style>
+    .swiper {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #333; */
+        /* height: calc((100% - 30px) / 2) !important; */
+
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-right: 30px !important; */
+
+    }
+
+    .card-bg-black {
+        margin: 0px !important;
+    }
+</style>
+
 @endpush
 
 @push('js')
@@ -867,4 +1165,47 @@
         }
     });
 </script>
+
+
+<script>
+    new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".speakerSwiper .swiper-button-next",
+            prevEl: ".speakerSwiper .swiper-button-prev",
+        },
+        slidesPerView: 1,
+        grid: {
+            rows: 1,
+            fill: 'row'
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                grid: {
+                    rows: 2,
+                },
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 50,
+                grid: {
+                    rows: 2,
+                },
+            },
+            1400: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                grid: {
+                    rows: 2,
+                },
+            },
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
 @endpush

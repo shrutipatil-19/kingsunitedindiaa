@@ -237,17 +237,18 @@
     <style>
         .ele2 {
             position: absolute;
-                top: 16%;
-                right: 0%;
-                opacity: 0.6 !important;
-                transform: rotateY(180deg) !important;
-             }
-     
-             .ele2 img {
-                 width: calc(100% - 340px);
-                 height: 100%;
-                 object-fit: cover;
-             }
+            top: 16%;
+            right: 0%;
+            opacity: 0.6 !important;
+            transform: rotateY(180deg) !important;
+        }
+
+        .ele2 img {
+            width: calc(100% - 340px);
+            height: 100%;
+            object-fit: cover;
+        }
+
         /* .work__content-wrapper.ele2::before {
             content: '';
             position: absolute;
@@ -262,9 +263,9 @@
             opacity: 0.2; 
             z-index: -1; 
         } */
-     </style>
+    </style>
     <!-- about kings area start -->
-    <section class="work__area pt-130 pb-60 ms-bg-2 p-relative overflow-hidden">
+    <section class="work__area pt-90 pb-60 ms-bg-2 p-relative overflow-hidden">
         <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
             <img src="{{ asset('assets/img/course/Layer6.png') }}" alt="">
         </div>
@@ -322,18 +323,16 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>
         </div>
     </section>
-
-
     <!-- about kings area end -->
 
     <!-- main page area start -->
-    <section class="trending__area p-relative fix pt-130 include__bg pb-130">
+    <section class="trending__area p-relative fix pt-90 include__bg pb-130">
         <div class="container">
             <div class="row align-items-end mb-25 bdFadeUp ">
                 <div class="col-lg-8">
@@ -500,10 +499,213 @@
     </section>
     <!-- main page area start -->
 
+    <!-- Event Area Start Here  -->
+    <section class="ms-event2-area include__bg zindex-1 p-relative pt-90 pb-105 ms-bg-2">
+        <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
+        <div class="container">
+            <div class="row justify-content-center mb-25 bdFadeUp">
+                <div class="col-xl-6">
+                    <div class="ms-event2-top text-center">
+
+                        <div class="section__title-wrapper mb-40 bd-title-anim">
+                            <span class="section__subtitle">Our Services</span>
+                            <h2 class="section__title">Here’s the Heat <span class="animated-underline active">
+                                    We Offer</span>
+
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bdFadeUp justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/choreography.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Choreography</a></h3>
+                            </div>
+                        </div>
+                        <p class="ms-event-text text-black-custome">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows,
+                            Serials, Advertisements,</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/music.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Music Videos</a>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <p class="ms-event-text text-black-custome">Choreography for Music videos with Celebrities, Dance Music Video
+                            Collaboration.</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                        <!-- <div class="ms-event-inner">
+                                <div class="ms-event-location">
+                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
+                                            class="flaticon-pin"></i>Ohio</a>
+                                </div>
+                                <div class="ms-event-date">
+                                    <span>9:00 PM, Saturday, February 25, 2023</span>
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/wedding-couple.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Wedding</a>
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="ms-event-text text-black-custome">Choreography and Training for Sangeet & Wedding</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                        <!-- <div class="ms-event-inner">
+                                <div class="ms-event-location">
+                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
+                                            class="flaticon-pin"></i>Ohio</a>
+                                </div>
+                                <div class="ms-event-date">
+                                    <span>9:00 PM, Saturday, February 25, 2023</span>
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/corporate_event.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Corporate Events</a>
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="ms-event-text text-black-custome">Performances for National & International Shows and Corporate Events
+                        </p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                        <!-- <div class="ms-event-inner">
+                                <div class="ms-event-location">
+                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
+                                            class="flaticon-pin"></i>City Club</a>
+                                </div>
+                                <div class="ms-event-date">
+                                    <span>9:00 PM, Saturday, January 1, 2023</span>
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/trophy.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Award Functions</a>
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="ms-event-text text-black-custome">Performances in renowned award ceremonies at National & International
+                            Platforms</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/judges.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Celebrity Judge</a>
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="ms-event-text text-black-custome">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/
+                            Schools / Colleges/ Dance Events)</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-6">
+                    <div class=" mb-25 custome-border bg-w-1">
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-lg-2 text-center">
+                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
+                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/dance_traning.png') }}"
+                                            alt="function brand" class="w-100"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Dance Training</a>
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="ms-event-text text-black-custome">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="trending-btn d-flex">
+                            <a class="border__btn zindex-5" href="#">View More</a>
+                        </div>
+                        
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Event Area End Here  -->
+
+     <!-- parallax effect start -->
+    <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+        <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
+    </section>
+    <!-- parallax effect end -->
+
     @include('partial.goldenPass')
     <!-- parallax effect start -->
     <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
-        <div class="ms-overlay ms-overlay1 zindex--1"></div>
+        <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
     </section>
     <!-- parallax effect end -->
 
@@ -562,7 +764,7 @@
 
     <!-- Parallax Video Section -->
     <section class="parallax-video-section">
-        <div class="video-overlay-content parallax-overlay">
+        <!-- <div class="video-overlay-content parallax-overlay"> -->
             <!-- Optional content over the video -->
             <!-- <h1 class="text-white">Your Parallax Video Title</h1> -->
         </div>
@@ -574,228 +776,6 @@
 
 
     @include('partial.rental-studio')
-
-    <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105">
-        <div class="ms-overlay ms-overlay1 zindex--1"></div>
-        <div class="container">
-            <div class="row justify-content-center mb-25 bdFadeUp">
-                <div class="col-xl-6">
-                    <div class="ms-event2-top text-center">
-
-                        <div class="section__title-wrapper mb-40 bd-title-anim">
-                            <span class="section__subtitle">Our Services</span>
-                            <h2 class="section__title">Here’s the Heat <span class="animated-underline active">
-                                    We Offer</span>
-
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row bdFadeUp justify-content-center align-items-center">
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/choreography.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Choreography</a></h3>
-                            </div>
-                        </div>
-                        <p class="ms-event-text">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows,
-                            Serials, Advertisements,</p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/music.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Music Videos</a>
-                                </h3>
-                            </div>
-                        </div>
-
-                        <p class="ms-event-text">Choreography for Music videos with Celebrities, Dance Music Video
-                            Collaboration.</p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                        <!-- <div class="ms-event-inner">
-                                <div class="ms-event-location">
-                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
-                                            class="flaticon-pin"></i>Ohio</a>
-                                </div>
-                                <div class="ms-event-date">
-                                    <span>9:00 PM, Saturday, February 25, 2023</span>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/wedding-couple.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Wedding</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <p class="ms-event-text">Choreography and Training for Sangeet & Wedding</p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                        <!-- <div class="ms-event-inner">
-                                <div class="ms-event-location">
-                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
-                                            class="flaticon-pin"></i>Ohio</a>
-                                </div>
-                                <div class="ms-event-date">
-                                    <span>9:00 PM, Saturday, February 25, 2023</span>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/corporate_event.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Corporate Events</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <p class="ms-event-text">Performances for National & International Shows and Corporate Events
-                        </p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                        <!-- <div class="ms-event-inner">
-                                <div class="ms-event-location">
-                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
-                                            class="flaticon-pin"></i>City Club</a>
-                                </div>
-                                <div class="ms-event-date">
-                                    <span>9:00 PM, Saturday, January 1, 2023</span>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/trophy.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Award Functions</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <p class="ms-event-text">Performances in renowned award ceremonies at National & International
-                            Platforms</p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                        <!-- <div class="ms-event-inner">
-                                <div class="ms-event-location">
-                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
-                                            class="flaticon-pin"></i>City Club</a>
-                                </div>
-                                <div class="ms-event-date">
-                                    <span>9:00 PM, Saturday, January 1, 2023</span>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/judges.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Celebrity Judge</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <p class="ms-event-text">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/
-                            Schools / Colleges/ Dance Events)</p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                        <!-- <div class="ms-event-inner">
-                                <div class="ms-event-location">
-                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
-                                            class="flaticon-pin"></i>City Club</a>
-                                </div>
-                                <div class="ms-event-date">
-                                    <span>9:00 PM, Saturday, January 1, 2023</span>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" mb-25 custome-border">
-                        <div class="row mb-3 align-items-center">
-                            <div class="col-lg-2 text-center">
-                                <div class="ms-fun-brand-thumb" bis_skin_checked="1">
-                                    <a href="#" bis_skin_checked="1"><img src="{{ asset('assets/img/icon/dance_traning.png') }}"
-                                            alt="function brand" class="w-100"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0"><a href="#">Dance Training</a>
-                                </h3>
-                            </div>
-                        </div>
-                        <p class="ms-event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="trending-btn d-flex">
-                            <a class="border__btn zindex-5" href="#">View More</a>
-                        </div>
-                        <!-- <div class="ms-event-inner">
-                                <div class="ms-event-location">
-                                    <a href="https://www.google.com/maps" target="_blank" tabindex="0"><i
-                                            class="flaticon-pin"></i>City Club</a>
-                                </div>
-                                <div class="ms-event-date">
-                                    <span>9:00 PM, Saturday, January 1, 2023</span>
-                                </div>
-                            </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Event Area End Here  -->
 
     <!-- Special Events Area Start -->
     <section class="ms-news-area ms-bg-2 pt-130 pb-90 d-none">
@@ -882,6 +862,10 @@
     }
 </style>
 <style>
+    .ms-fun-brand-thumb img {
+        filter: invert(1) !important;
+    }
+
     .img-box {
         height: auto;
         clip-path: none;
@@ -898,11 +882,10 @@
     .ms-trending2-item:hover .trending__title {
         color: white;
     }
-    .ms-fun-brand-thumb {
-    border-radius: 0%;
-    }
 
-   
+    .ms-fun-brand-thumb {
+        border-radius: 0%;
+    }
 </style>
 
 @endpush

@@ -65,33 +65,33 @@
                                          <div class="ms-browse-act-item-wrap p-absolute">
                                              <div class="ms-song-item">
                                                  <div class="ms-song-img p-relative">
-                                                     <a href="genres.html"><img src="{{ asset('assets/img/genres/genres-01.jpg') }}"
+                                                     <a href="#"><img src="{{ asset('assets/img/genres/genres-01.jpg') }}"
                                                              alt="brand-song"></a>
                                                  </div>
                                                  <div class="ms-song-content">
-                                                     <h3 class="ms-song-title"><a href="genres.html">The Different
+                                                     <h3 class="ms-song-title"><a href="#">The Different
                                                              Lights</a>
                                                      </h3>
                                                  </div>
                                              </div>
                                              <div class="ms-song-item">
                                                  <div class="ms-song-img p-relative">
-                                                     <a href="genres.html"><img src="{{ asset('assets/img/genres/genres-02.jpg') }}"
+                                                     <a href="#"><img src="{{ asset('assets/img/genres/genres-02.jpg') }}"
                                                              alt="brand-song"></a>
                                                  </div>
                                                  <div class="ms-song-content">
-                                                     <h3 class="ms-song-title"><a href="genres.html">The Sweet
+                                                     <h3 class="ms-song-title"><a href="#">The Sweet
                                                              lockdown</a>
                                                      </h3>
                                                  </div>
                                              </div>
                                              <div class="ms-song-item">
                                                  <div class="ms-song-img p-relative">
-                                                     <a href="genres.html"><img src="{{ asset('assets/img/genres/genres-03.jpg') }}"
+                                                     <a href="#"><img src="{{ asset('assets/img/genres/genres-03.jpg') }}"
                                                              alt="brand-song"></a>
                                                  </div>
                                                  <div class="ms-song-content">
-                                                     <h3 class="ms-song-title"><a href="genres.html">The Sonics
+                                                     <h3 class="ms-song-title"><a href="#">The Sonics
                                                              Corporate
                                                              Band</a>
                                                      </h3>

@@ -1,6 +1,6 @@
   <!-- Trending area start -->
   <section class="trending__area p-relative z-index-11 pt-130 pb-60 rent ms-bg-3">
- <div class="ms-overlay ms-overlay1 zindex--1"></div>
+      <div class="ms-overlay ms-overlay1 zindex--1"></div>
       <div class="container">
           <div class="row align-items-end mb-25 bdFadeUp">
               <div class="col-lg-8">
@@ -209,7 +209,6 @@
           content: 'RENT';
 
       }
-
   </style>
 
   @endpush
