@@ -54,4 +54,8 @@ class HomeController extends Controller
     {
         return view('pages.workShop');
     }
+    public function inhouse()
+    {
+        return view('pages.inhouse');
+    }
 }

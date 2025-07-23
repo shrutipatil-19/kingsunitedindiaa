@@ -2195,7 +2195,7 @@ only screen and (min-width: 1601px) and (max-width: 1800px) {
 
 .section__title {
   /* font-size: 35px; */
-  font-size: max(2vw, 2.1875rem);
+  font-size: max(2vw, 2.1875rem) !important;
   font-weight: var(--bd-fw-sbold);
   line-height: 1.2;
   text-transform: capitalize;
@@ -13184,7 +13184,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .work__area .section__title {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 1.3;
   }
 }

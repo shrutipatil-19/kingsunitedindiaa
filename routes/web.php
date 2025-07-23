@@ -57,3 +57,5 @@ Route::get('/thank-you', [HomeController::class, 'thankyou'])->name('thankyou');
 Route::get('/service/live-performance', [ServiceController::class, 'livePerformance'])->name('livePerformance');
 
 Route::get('/workshop', [HomeController::class, 'workshop'])->name('workshop');
+
+Route::get('/inhouse', [HomeController::class, 'inhouse'])->name('inhouse');
