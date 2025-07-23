@@ -150,6 +150,12 @@
         </div>
         <!-- Award of suresh area  end -->
 
+        <!-- parallax effect start -->
+        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+            <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
+        </section>
+        <!-- parallax effect end -->
+
         <!-- About the Kings - Parallax Section Start -->
         <section class="hero kings-parallax bg-w-1">
             <div class="container text-center">
@@ -852,18 +858,18 @@
         display: flex;
         height: 100vh;
         width: max-content;
-        /* background-color: white; */
-        background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
+        background-color: white;
+        /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
     }
 
-    .scrolling-wrapper .card:first-child,
+    /* .scrolling-wrapper .card:first-child,
     .scrolling-wrapper .card:last-child {
         background: linear-gradient(90deg, #de4038 0%, #dea738 100%);
     }
 
     .scrolling-wrapper .card:nth-of-type(2) {
         background: linear-gradient(90deg, #dea738 0%, #de4038 100%);
-    }
+    } */
 
     .card {
         flex: 0 0 100vw;
@@ -876,7 +882,7 @@
         border: none;
         border-radius: 0px;
         outline: none;
-        /* background-color: transparent; */
+        background-color: transparent;
         /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
     }
 
@@ -916,14 +922,14 @@
     .scrolling-wrapper .section__title {
         font-size: clamp(24px, 5vw, 35px);
         font-family: 'Ethnocentric';
-        /* color: black; */
-        color: white;
+        color: black;
+        /* color: white; */
     }
 
     .scrolling-wrapper p {
         font-weight: 600;
-        /* color: black; */
-        color: white;
+        color: black;
+        /* color: white; */
     }
 
     .section__title-wrapper p {
