@@ -18,6 +18,7 @@
  <link rel="stylesheet" href="{{ asset('assets/app/css/gallary.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/banner.css') }}">
  <link rel="stylesheet" href="{{ asset('assets/app/css/theKings.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/app/css/eventScroll.css') }}">
 
  <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -53,4 +54,9 @@
  <!-- This links the specific theme for Bootstrap 5. It must be after Select2 core CSS. -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
 
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+ <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+ <!-- GSAP Core -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+ <!-- ScrollTrigger Plugin -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+ <link href="https://db.onlinewebfonts.com/c/bbbeaa456a6bc8f4aebf2c965ffcdb6b?family=The+Stranger+Brush+Personal+Use" rel="stylesheet">

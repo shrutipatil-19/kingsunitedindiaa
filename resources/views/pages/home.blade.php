@@ -500,7 +500,14 @@
     <!-- main page area start -->
 
     <!-- Event Area Start Here  -->
-    <section class="ms-event2-area include__bg zindex-1 p-relative pt-90 pb-105 ms-bg-2">
+    <section class="ms-event2-area include__bg zindex-1 p-relative pt-90 pb-105 bg-w-2">
+        <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+            <img src="{{ asset('assets/img/course/Layer6.png') }}" alt="">
+        </div>
+        <!-- text -->
+        <div class="ele2-text aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+            <h2 class="">THE <br> KINGS</h2>
+        </div>
         <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
         <div class="container">
             <div class="row justify-content-center mb-25 bdFadeUp">
@@ -509,7 +516,7 @@
 
                         <div class="section__title-wrapper mb-40 bd-title-anim">
                             <span class="section__subtitle">Our Services</span>
-                            <h2 class="section__title">Here’s the Heat <span class="animated-underline active">
+                            <h2 class="section__title text-black-custome">Here’s the Heat <span class="animated-underline active">
                                     We Offer</span>
 
                             </h2>
@@ -517,9 +524,123 @@
                     </div>
                 </div>
             </div>
-            <div class="row bdFadeUp justify-content-center align-items-center">
+            <div class="row">
+                <div class="l-cards">
+                    <!-- CARD 1 -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="c-card card-bg-black hover-border ms-bg-2 ">
+                                <div class="c-card__description">
+                                    <!-- <p class="mb-1">
+                                        Duration: 4 months</p> -->
+                                    <h3 class="ms-event-title mt-1 mb-3">
+                                        Choreography
+                                    </h3>
+                                    <p class="mb-1">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows,
+                                        Serials, Advertisements,</p>
+                                </div>
+
+                                <div class="c-card__figure">
+                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="c-card card-bg-black hover-border ms-bg-2 ">
+                                <div class="c-card__description">
+                                    <!-- <p class="mb-1">
+                                        Duration: 4 months</p> -->
+                                    <h3 class="ms-event-title mt-1 mb-3">
+                                        Music Videos
+                                    </h3>
+                                    <p class="mb-1">Choreography for Music videos with Celebrities, Dance Music Video
+                                        Collaboration.</p>
+                                </div>
+
+                                <div class="c-card__figure">
+                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="c-card card-bg-black hover-border ms-bg-2 ">
+                                <div class="c-card__description">
+                                    <!-- <p class="mb-1">
+                                        Duration: 4 months</p> -->
+                                    <h3 class="ms-event-title mt-1 mb-3">
+                                        Wedding
+                                    </h3>
+                                    <p class="mb-1">Choreography and Training for Sangeet & Wedding</p>
+                                </div>
+
+                                <div class="c-card__figure">
+                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="c-card card-bg-black hover-border ms-bg-2 ">
+                                <div class="c-card__description">
+                                    <!-- <p class="mb-1">
+                                        Duration: 4 months</p> -->
+                                    <h3 class="ms-event-title mt-1 mb-3">
+                                        Corporate Events
+                                    </h3>
+                                    <p class="mb-1">Performances for National & International Shows and Corporate Events</p>
+                                </div>
+
+                                <div class="c-card__figure">
+                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD 4 -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="c-card card-bg-black hover-border ms-bg-2 ">
+                                <div class="c-card__description">
+                                    <!-- <p class="mb-1">
+                                        Duration: 4 months</p> -->
+                                    <h3 class="ms-event-title mt-1 mb-3">
+                                        Award Functions
+                                    </h3>
+                                    <p class="mb-1">Performances in renowned award ceremonies at National & International
+                                        Platforms</p>
+                                </div>
+
+                                <div class="c-card__figure">
+                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="c-card card-bg-black hover-border ms-bg-2 ">
+                                <div class="c-card__description">
+                                    <!-- <p class="mb-1">
+                                        Duration: 4 months</p> -->
+                                    <h3 class="ms-event-title mt-1 mb-3">
+                                        Celebrity Judge
+                                    </h3>
+                                    <p class="mb-1">Suresh Mukund & Team as Celebrity Judge (for TV Dance Reality Shows/
+                                        Schools / Colleges/ Dance Events)</p>
+                                </div>
+
+                                <div class="c-card__figure">
+                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bdFadeUp justify-content-center align-items-center d-none">
                 <div class="col-lg-6">
-                    <div class=" mb-25 custome-border bg-w-1">
+                    <div class=" mb-25 custome-border ms-bg-2">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -528,10 +649,10 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Choreography</a></h3>
+                                <h3 class="ms-event-title mb-0 "><a href="#">Choreography</a></h3>
                             </div>
                         </div>
-                        <p class="ms-event-text text-black-custome">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows,
+                        <p class="ms-event-text ">Musicals Concerts, Theatrical Acts, Dance Reality Shows, Award Shows,
                             Serials, Advertisements,</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -539,7 +660,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class=" mb-25 custome-border bg-w-1">
+                    <div class=" mb-25 custome-border ms-bg-2">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -548,12 +669,12 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Music Videos</a>
+                                <h3 class="ms-event-title mb-0 "><a href="#">Music Videos</a>
                                 </h3>
                             </div>
                         </div>
 
-                        <p class="ms-event-text text-black-custome">Choreography for Music videos with Celebrities, Dance Music Video
+                        <p class="ms-event-text">Choreography for Music videos with Celebrities, Dance Music Video
                             Collaboration.</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -570,7 +691,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class=" mb-25 custome-border bg-w-1">
+                    <div class=" mb-25 custome-border ms-bg-2">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -579,11 +700,11 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Wedding</a>
+                                <h3 class="ms-event-title mb-0"><a href="#">Wedding</a>
                                 </h3>
                             </div>
                         </div>
-                        <p class="ms-event-text text-black-custome">Choreography and Training for Sangeet & Wedding</p>
+                        <p class="ms-event-text ">Choreography and Training for Sangeet & Wedding</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
@@ -599,7 +720,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class=" mb-25 custome-border bg-w-1">
+                    <div class=" mb-25 custome-border ms-bg-2">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -608,11 +729,11 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Corporate Events</a>
+                                <h3 class="ms-event-title mb-0"><a href="#">Corporate Events</a>
                                 </h3>
                             </div>
                         </div>
-                        <p class="ms-event-text text-black-custome">Performances for National & International Shows and Corporate Events
+                        <p class="ms-event-text">Performances for National & International Shows and Corporate Events
                         </p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -629,7 +750,7 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-6">
-                    <div class=" mb-25 custome-border bg-w-1">
+                    <div class=" mb-25 custome-border ms-bg-2">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -638,11 +759,11 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Award Functions</a>
+                                <h3 class="ms-event-title mb-0 "><a href="#">Award Functions</a>
                                 </h3>
                             </div>
                         </div>
-                        <p class="ms-event-text text-black-custome">Performances in renowned award ceremonies at National & International
+                        <p class="ms-event-text ">Performances in renowned award ceremonies at National & International
                             Platforms</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
@@ -671,7 +792,7 @@
                     </div>
                 </div> -->
                 <!-- <div class="col-lg-6">
-                    <div class=" mb-25 custome-border bg-w-1">
+                    <div class=" mb-25 custome-border ms-bg-2">
                         <div class="row mb-3 align-items-center">
                             <div class="col-lg-2 text-center">
                                 <div class="ms-fun-brand-thumb" bis_skin_checked="1">
@@ -680,11 +801,11 @@
                                 </div>
                             </div>
                             <div class="col-lg-9">
-                                <h3 class="ms-event-title mb-0 text-black-custome"><a href="#">Dance Training</a>
+                                <h3 class="ms-event-title mb-0"><a href="#">Dance Training</a>
                                 </h3>
                             </div>
                         </div>
-                        <p class="ms-event-text text-black-custome">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="ms-event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <div class="trending-btn d-flex">
                             <a class="border__btn zindex-5" href="#">View More</a>
                         </div>
@@ -696,7 +817,7 @@
     </section>
     <!-- Event Area End Here  -->
 
-     <!-- parallax effect start -->
+    <!-- parallax effect start -->
     <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
         <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
     </section>
@@ -765,8 +886,8 @@
     <!-- Parallax Video Section -->
     <section class="parallax-video-section">
         <!-- <div class="video-overlay-content parallax-overlay"> -->
-            <!-- Optional content over the video -->
-            <!-- <h1 class="text-white">Your Parallax Video Title</h1> -->
+        <!-- Optional content over the video -->
+        <!-- <h1 class="text-white">Your Parallax Video Title</h1> -->
         </div>
         <video autoplay muted loop playsinline class="background-video">
             <source src="{{ asset('assets/video/kings crew.mp4') }}" type="video/mp4">
@@ -796,16 +917,16 @@
                     <div class="ms-news-item p-relative zindex-1 mb-40">
                         <div class="ms-news-overlay p-absolute"></div>
                         <div class="ms-news-thumb w-img h-100">
-                            <a href="news-details.html"><img src="{{ asset('assets/img/kings img/course1.jpg') }}"
+                            <a href="#"><img src="{{ asset('assets/img/kings img/course1.jpg') }}"
                                     alt="news image" class="h-100"></a>
                         </div>
                         <div class="ms-news-content ms-news-position p-absolute">
-                            <!-- <a class="ms-news2-cat mb-30" href="news-details.html">Event</a> -->
-                            <h3 class="ms-news-title mb-15"><a href="news-details.html">Kings Golden Pass - One Year
+                            <!-- <a class="ms-news2-cat mb-30" href="#">Event</a> -->
+                            <h3 class="ms-news-title mb-15"><a href="#">Kings Golden Pass - One Year
                                     Unlimited Access</a></h3>
                             <!-- <div class="ms-news-meta d-inline-block">
                                     <span>Feb 15, 2023</span>
-                                    <span><a href="news-details.html">0 Comments</a></span>
+                                    <span><a href="#">0 Comments</a></span>
                                 </div> -->
                         </div>
                     </div>
@@ -862,9 +983,9 @@
     }
 </style>
 <style>
-    .ms-fun-brand-thumb img {
+    /* .ms-fun-brand-thumb img {
         filter: invert(1) !important;
-    }
+    } */
 
     .img-box {
         height: auto;
@@ -885,6 +1006,27 @@
 
     .ms-fun-brand-thumb {
         border-radius: 0%;
+    }
+
+    /* event scroll */
+    .card-bg-black::before {
+        background: none !important;
+    }
+
+    .card-bg-black {
+        background-color: #0D0D0D !important;
+    }
+
+    .ele2-text {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        /* opacity: 0.6 !important; */
+
+    }
+
+    .ele2-text h2 {
+        font-family: "The Stranger Brush Personal Use";
     }
 </style>
 
@@ -913,6 +1055,45 @@
                 slidesPerView: 3
             }
         }
+    });
+</script>
+<!-- scroll events -->
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    const cards = gsap.utils.toArray(".c-card");
+    const totalCards = cards.length;
+
+    // Calculate cards in the last row (2 cards per row)
+    const cardsPerRow = 2;
+    const lastRowStartIndex = totalCards - cardsPerRow;
+
+    // Reference the last card for scroll end
+    const lastCardST = ScrollTrigger.create({
+        trigger: cards[totalCards - 1],
+        start: "center center"
+    });
+
+    // Loop through each card
+    cards.forEach((card, index) => {
+        // If it's in the last row, keep full scale (1), else scale down
+        const scale = index >= lastRowStartIndex ? 1 : 0.5;
+
+        const scaleDown = gsap.to(card, {
+            scale: scale,
+            ease: "none"
+        });
+
+        ScrollTrigger.create({
+            trigger: card,
+            start: "top top",
+            end: () => lastCardST.start,
+            pin: true,
+            pinSpacing: false,
+            scrub: 0.5,
+            animation: scaleDown,
+            toggleActions: "restart none none reverse"
+        });
     });
 </script>
 @endpush
