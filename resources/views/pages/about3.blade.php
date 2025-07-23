@@ -26,7 +26,7 @@
             <!-- Banner Area End Here  -->
 
             <!-- About Suresh area start -->
-            <section class="work__area pt-100 pb-30 ">
+            <section class="work__area pt-90 pb-30 ">
                 <div class="container">
                     <div class="row align-items-center bdFadeUp">
                         <div class="col-xl-6">
@@ -188,7 +188,7 @@
             <!-- About the Kings - Parallax Section End -->
 
             <!-- achivements of kings Area Start -->
-            <section class="ms-news-area pt-130 pb-90 ms-bg-2">
+            <section class="ms-news-area pt-90 pb-90 ms-bg-2">
                 <div class="container">
                     <div class="row align-items-end mb-25 bdFadeUp">
                         <div class="col-lg-6">
