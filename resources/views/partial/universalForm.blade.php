@@ -1,6 +1,6 @@
  <!-- Contact Area Start Here  -->
 
- <section class="ms-contact-area pb-60 pt-130 ms-bg-2">
+ <section class="ms-contact-area pb-60 pt-130 bg-w-3">
 
      <div class="container ">
          <div class="row justify-content-center mb-25 bdFadeUp">
@@ -8,7 +8,7 @@
                  <div class="ms-event2-top text-center">
                      <div class="section__title-wrapper mb-40 bd-title-anim">
                          <span class="section__subtitle">Book Now</span>
-                         <h2 class="section__title">Book Us for events <span class="animated-underline active">
+                         <h2 class="section__title text-black-custome">Book Us for events <span class="animated-underline active">
                              </span>
                          </h2>
                      </div>

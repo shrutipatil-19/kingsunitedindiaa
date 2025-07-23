@@ -157,7 +157,7 @@
         <!-- parallax effect end -->
 
         <!-- About the Kings - Parallax Section Start -->
-        <section class="hero kings-parallax bg-w-1">
+        <section class="hero kings-parallax bg-w-3">
             <div class="container text-center">
                 <h2 class="section__title mb-4 text-black-custome">About <span class="text-bg">The Kings</span></h2>
                 <p class="text-black-custome" style="max-width: 800px; margin: 0 auto; font-size: 1.2rem; font-weight: 300;">
@@ -298,7 +298,7 @@
         <!-- achivements kings Area End -->
 
         <!-- Work Links Area Start  -->
-        <div class="ms-genres-listing pt-90 pb-90 bg-w-1">
+        <div class="ms-genres-listing pt-90 pb-90 bg-w-3">
             <div class="container">
                 <div class="row justify-content-center bdFadeUp">
                     <div class="col-xl-6 ">
@@ -858,7 +858,7 @@
         display: flex;
         height: 100vh;
         width: max-content;
-        background-color: white;
+        background-color: #E4EEF0;
         /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
     }
 
