@@ -1,11 +1,11 @@
   <!-- courses Area Start -->
- <section class="ms-news-area bg-w-4 pt-130 pb-90 p-relative z-index-1">
+ <section class="ms-news-area bg-w-3 pt-130 pb-90 p-relative z-index-1">
      <div class="container">
          <div class="row align-items-end mb-25 bdFadeUp">
              <div class="col-lg-6">
                  <div class="section__title-wrapper course mb-40 bd-title-anim">
                      <span class="section__subtitle">We provide</span>
-                     <h2 class="section__title">Find Your Flow, Steal  <span class="animated-underline active">the Show</span></h2>
+                     <h2 class="section__title text-black-custome">Find Your Flow, Steal  <span class="animated-underline active">the Show</span></h2>
                  </div>
              </div>
 

@@ -266,10 +266,10 @@
         } */
     </style>
     <!-- about kings area start -->
-    <section class="work__area pt-90 pb-60 bg-w-3 p-relative overflow-hidden">
-        <!-- <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+    <section class="work__area pt-90 pb-60 ms-bg-2 p-relative overflow-hidden">
+        <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
             <img src="{{ asset('assets/img/course/Layer6.png') }}" alt="">
-        </div> -->
+        </div>
 
         <div class="container">
             <div class="row align-items-center bdFadeUp">
@@ -297,17 +297,17 @@
                                     The Kings: From Dreamers to International
                                     <span class="animated-underline active">Dance Champions</span>
                                 </h2> -->
-                            <h2 class="section__title two text-black-custome">
+                            <h2 class="section__title two ">
                                 The Story Behind
                                 <span class="animated-underline active">the Crown</span>
                             </h2>
                         </div>
                         <div class="work__features-inner">
-                            <p class="text-black-custome">What started in 2009 as a small team of passionate dancers has grown into a name known
+                            <p class="">What started in 2009 as a small team of passionate dancers has grown into a name known
                                 around the world. From Mumbai to international stages, we’ve trained, performed, and
                                 earned the title of world champions through hard work, discipline, and dedication to the
                                 craft.</p>
-                            <p class="text-black-custome">
+                            <p class="">
                                 Our studio is more than a training space. It is a place where dancers build strong
                                 foundations, explore their style, and grow into confident performers. With expert-led
                                 programs in hip-hop, contemporary, Bollywood, and classical Indian dance, we welcome
@@ -542,7 +542,7 @@
                                 </div>
 
                                 <div class="c-card__figure">
-                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                    <img src="https://placehold.co/400x400" alt="Zzor">
                                 </div>
                             </div>
                         </div>
@@ -559,7 +559,7 @@
                                 </div>
 
                                 <div class="c-card__figure">
-                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                    <img src="https://placehold.co/400x400" alt="Zzor">
                                 </div>
                             </div>
                         </div>
@@ -579,7 +579,7 @@
                                 </div>
 
                                 <div class="c-card__figure">
-                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                    <img src="https://placehold.co/400x400" alt="Zzor">
                                 </div>
                             </div>
                         </div>
@@ -595,7 +595,7 @@
                                 </div>
 
                                 <div class="c-card__figure">
-                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                    <img src="https://placehold.co/400x400" alt="Zzor">
                                 </div>
                             </div>
                         </div>
@@ -615,7 +615,7 @@
                                 </div>
 
                                 <div class="c-card__figure">
-                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                    <img src="https://placehold.co/400x400" alt="Zzor">
                                 </div>
                             </div>
                         </div>
@@ -632,7 +632,7 @@
                                 </div>
 
                                 <div class="c-card__figure">
-                                    <img src="https://placehold.co/600x400" alt="Zzor">
+                                    <img src="https://placehold.co/400x400" alt="Zzor">
                                 </div>
                             </div>
                         </div>
@@ -1021,7 +1021,7 @@
     .ele2-text {
         position: absolute;
         top: 0%;
-        right: 0%;
+        right: 6%;
         /* opacity: 0.6 !important; */
 
     }
