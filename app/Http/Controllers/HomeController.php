@@ -50,4 +50,8 @@ class HomeController extends Controller
     {
         return view('pages.thankYou.thankYou');
     }
+    public function workshop()
+    {
+        return view('pages.workShop');
+    }
 }

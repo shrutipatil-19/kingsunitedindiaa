@@ -5,6 +5,7 @@ use App\Http\Controllers\creatorSpaceController;
 use App\Http\Controllers\EnquiryController;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudioBookingController;
 
@@ -51,3 +52,8 @@ Route::get('/event/wedding-event', [EventsController::class, 'weddingEvent'])->n
 
 
 Route::get('/thank-you', [HomeController::class, 'thankyou'])->name('thankyou');
+
+// service
+Route::get('/service/live-performance', [ServiceController::class, 'livePerformance'])->name('livePerformance');
+
+Route::get('/workshop', [HomeController::class, 'workshop'])->name('workshop');

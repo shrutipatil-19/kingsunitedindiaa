@@ -2194,7 +2194,8 @@ only screen and (min-width: 1601px) and (max-width: 1800px) {
 }
 
 .section__title {
-  font-size: 40px;
+  /* font-size: 35px; */
+  font-size: max(2vw, 2.1875rem);
   font-weight: var(--bd-fw-sbold);
   line-height: 1.2;
   text-transform: capitalize;
@@ -13534,6 +13535,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 }
 
+.service::before {
+  content: 'SERVICE';
+}
+
 .achievement::before {
   content: 'ACHIEVEMENTS';
 }
@@ -13607,12 +13612,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .bg-w-1 {
   background-color: #fff;
 }
-.bg-w-2{
+
+.bg-w-2 {
   background-color: #f9f9f9;
 }
-.bg-w-3{
+
+.bg-w-3 {
   background-color: #E4EEF0;
 }
-.bg-w-4{
+
+.bg-w-4 {
   background-color: #402d41;
+}
+.hover-text{
+  display: none;
+}
+.hover-text-container:hover .hover-text{
+  display: block;
 }

@@ -501,7 +501,7 @@
     <!-- main page area start -->
 
     <!-- Event Area Start Here  -->
-    <section class="ms-event2-area include__bg zindex-1 p-relative pt-90 pb-105 bg-w-3">
+    <section class="ms-event2-area include__bg zindex-1 p-relative pt-90 pb-90 bg-w-3">
         <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
             <img src="{{ asset('assets/img/course/Layer6.png') }}" alt="">
         </div>
