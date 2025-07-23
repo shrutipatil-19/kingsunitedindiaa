@@ -139,7 +139,7 @@
             position: absolute;
                 top: 20%;
                 right: 0%;
-                opacity: 0.6 !important;
+                opacity: 1 !important;
                 transform: rotateY(180deg) !important;
              }
      

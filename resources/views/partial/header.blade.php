@@ -150,9 +150,9 @@
                                                      <!-- <li>
                                                          <a href="{{ route('about') }}">The legacy</a>
                                                      </li> -->
-                                                     <li class="has-dropdown">
+                                                     <li class="">
                                                          <a href="{{ route('about') }}">The legacy</a>
-                                                         <ul class="submenu">
+                                                         <ul class="submenu d-none">
                                                              <li class="">
                                                                  <a href="{{ route('sureshMukund') }}">Suresh Mukund</a>
                                                              </li>
@@ -162,7 +162,7 @@
 
                                                          </ul>
                                                      </li>
-                                                     <li class="has-dropdown">
+                                                     <li class="has-dropdown d-none">
                                                          <a href="{{ route('course') }}">Courses</a>
                                                          <ul class="submenu">
                                                              <li class="">
@@ -186,7 +186,7 @@
                                                              </a>
                                                          </div>
                                                      </li>
-                                                     <li class="has-dropdown">
+                                                     <li class="has-dropdown d-none">
                                                          <a href="{{ route('creatorSpace') }}">Creator Space</a>
                                                          <ul class="submenu">
                                                              <li class="">
@@ -208,40 +208,44 @@
                                                      </li>
                                                      <!-- <li><a href="{{ route('theKings') }}">Kings Crew</a></li> -->
 
-                                                     <li class="has-dropdown d-none">
-                                                         <a href="#">Kings Dance Studio</a>
+                                                     <li class="has-dropdown">
+                                                         <a href="#">The Kings</a>
                                                          <ul class="submenu">
                                                              <li class="has-dropdown">
-                                                                 <a href="javascript:void(0)">Courses</a>
+                                                                 <a href="javascript:void(0)">Kings Service</a>
                                                                  <ul class="submenu">
-                                                                     <li><a href="{{ route('diploma') }}">Diploma In Street Style</a>
+                                                                     <li><a href="#">Live Performance</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('choreoLab') }}">Choreo Lab</a>
+                                                                     <li><a href="#">Coreography For Corporate</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('D2D') }}">Dream 2 Dance</a>
+                                                                     <li><a href="#">Wedding</a>
                                                                      </li>
-                                                                     <!-- <li><a href="#">Regular Classes</a>
+                                                                     <li><a href="#">Music/Videos</a>
                                                                      </li>
-                                                                     <li><a href="#">Personal/Reality show Training</a>
-                                                                     </li> -->
+                                                                     <li><a href="#">Live Performance/Concerts</a>
+                                                                     </li> 
+                                                                     <li><a href="#">Feature Films</a>
+                                                                     </li> 
+                                                                     <li><a href="#">Artist Coreography</a>
+                                                                     </li> 
                                                                  </ul>
                                                              </li>
                                                              <li class="has-dropdown">
-                                                                 <a href="{{ route('creatorSpace') }}">Creator Space</a>
+                                                                 <a href="">Kings Dance</a>
                                                                  <ul class="submenu">
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">Studio 1</a>
+                                                                     <li><a href="{{ route('course') }}">Courses</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-2']) }}">Studio 2</a>
+                                                                     <li><a href="{{ route('creatorSpace')}}">Creator Space</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Studio 3A</a>
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Personal Traning</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Studio 3B</a>
+                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Workshop Tours</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Studio 3 Full</a>
-                                                                     </li>
+                                                                     {{-- <li><a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Studio 3 Full</a>
+                                                                     </li> --}}
                                                                  </ul>
                                                              </li>
-                                                             <li><a href="{{ route('theKings') }}">Kings Crew</a></li>
+                                                             <li><a href="{{ route('theKings') }}">Kings Production</a></li>
 
                                                          </ul>
                                                      </li>
@@ -329,7 +333,7 @@
 
                                                          </ul>
                                                      </li> -->
-                                                     <li>
+                                                     <li class="d-none">
                                                          <a href="{{ route('events') }}">Events</a>
                                                      </li>
                                                      <li>
