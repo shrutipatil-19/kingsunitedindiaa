@@ -13610,3 +13610,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .bg-w-2{
   background-color: #f9f9f9;
 }
+.bg-w-3{
+  background-color: #E4EEF0;
+}
+.bg-w-4{
+  background-color: #402d41;
+}

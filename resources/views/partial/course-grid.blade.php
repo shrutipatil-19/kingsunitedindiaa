@@ -1,5 +1,5 @@
   <!-- courses Area Start -->
- <section class="ms-news-area ms-bg-2 pt-130 pb-90 p-relative z-index-1">
+ <section class="ms-news-area bg-w-4 pt-130 pb-90 p-relative z-index-1">
      <div class="container">
          <div class="row align-items-end mb-25 bdFadeUp">
              <div class="col-lg-6">
