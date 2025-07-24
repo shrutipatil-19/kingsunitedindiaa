@@ -77,6 +77,10 @@
   font-family: 'Ethnocentric';
   src: url('../../fonts/ethnocentric/Ethnocentric\ Rg.otf');
 }
+@font-face {
+  font-family: 'Cloud';
+  src: url('../../fonts/cloud_dancer/Cloud\ Dancer.ttf');
+}
 
 :root {
   /**

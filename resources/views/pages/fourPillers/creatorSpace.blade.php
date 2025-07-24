@@ -554,9 +554,9 @@
         </section>
         <!-- work area end -->
         <!-- Why Choose Us Area Start Here  -->
-        <section class="ms-choose-area pt-125 pb-105 ms-bg-2">
+        <section class="ms-choose-area pt-125 pb-105 ms-bg-2 d-none">
             <div class="container">
-                <div class="row align-items-end mb-25 bdFadeUp">
+                <div class="row align-items-end mb-25 bdFadeUp d-none">
                     <div class="col-lg-7">
                         <div class="section__title-wrapper mb-40">
                             <h2 class="section__title mb-35 bd-title-anim">Equipment & Gears</h2>
@@ -579,7 +579,7 @@
                         </div>
                     </div> -->
                 </div>
-                <div class="row mb-45 bdFadeUp">
+                <div class="row mb-45 bdFadeUp d-none">
                     <div class="col-xl-3 col-md-6">
                         <div class="ms-choose-item mb-25 border-color">
                             <div class="ms-choose-icon d-inline-block p-relative">
@@ -620,7 +620,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="ms-border2 pb-130">
+                <div class="">
                     <div class="row bdFadeUp">
                         <div class="col-xl-12">
                             <div class="ms-choose-bg m-img ms-br-15 fix custome-height-30">
@@ -632,6 +632,101 @@
             </div>
         </section>
         <!-- Why Choose Us Area End Here  -->
+        <!-- Workshop area start -->
+        <section class="ms-news-area pt-90 pb-90 ms-bg-2">
+            <div class="container">
+                <div class="row align-items-end mb-25 bdFadeUp">
+                    <div class="col-lg-6">
+                        <div class="section__title-wrapper bd-title-anim">
+                            <span class="section__subtitle">The Kings</span>
+                            <h2 class="section__title">Creatoe  <span class="animated-underline active">Space
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row bdFadeUp">
+                    <div class="col-xl-4 col-md-3">
+                        <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/studio/studio1.jpg') }}"
+                                        alt=""></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute ">
+                                <h3 class="ms-news-title mb-15 hover-text"><a href="#">Studio 1</a></h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-3">
+                        <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/studio/studio2/Studio 2 (2).jpg') }}"
+                                        alt=""></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15 hover-text"><a href="#">Studio 2</a></h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-3">
+                        <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/studio/studio3A/Studio 3A.jpg') }}"
+                                        alt=""></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15 hover-text"><a href="#">Studio 3A</a></h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-3">
+                        <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="{{ asset('assets/img/studio/studio3B/Studio 3B (6).jpg') }}"
+                                        alt=""></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15 hover-text"><a href="#">Studio 3B</a></h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-4 d-none">
+                        <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="https://placehold.co/400x400"
+                                        alt=""></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15 hover-text"><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Workshop area start -->
     </main>
 </div>
 

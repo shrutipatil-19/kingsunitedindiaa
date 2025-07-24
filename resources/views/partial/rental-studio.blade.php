@@ -1,4 +1,14 @@
   <!-- Trending area start -->
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    .cloud-font{
+        font-family: 'Cloud';
+        font-size: max(3vw, 2.1875rem) !important;
+    }
+    .exo-2-font {
+  font-family: "Exo 2", sans-serif;
+    }
+  </style>
   <section class="trending__area p-relative z-index-11 pt-130 pb-60 rent ms-bg-3">
       <div class="ms-overlay ms-overlay1 zindex--1"></div>
       <div class="container">
@@ -7,7 +17,7 @@
                   <div class="section__title-wrapper space mb-40 bd-title-anim d-flex flex-column  align-items-lg-start align-items-center">
                       <span class="section__subtitle ">the Vibe</span>
 
-                      <h2 class="section__title text-lg-left">Your Stage. <span class="animated-underline active">Your Rules</span></h2>
+                      <h2 class="section__title text-lg-left cloud-font">Your Stage. <span class="animated-underline active">Your Rules</span></h2>
                   </div>
               </div>
               <div class="col-lg-4">
@@ -31,10 +41,10 @@
                           </div> -->
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-15">
+                          <h3 class="ms-trending3-title mb-15 exo-2-font">
                               <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">STUDIO 1 - 100 SQ.FT</a>
                           </h3>
-                          <p class="ms-trending3-text mb-10">
+                          <p class="ms-trending3-text mb-10 exo-2-font">
                               Perfect for small dance groups and video shoots.
                           </p>
                           <ul class="list-inline mb-15 small">
@@ -63,10 +73,10 @@
 
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-15">
+                          <h3 class="ms-trending3-title mb-15 exo-2-font">
                               <a href="{{ route('studio.book.form', ['studio' => 'studio-1']) }}">STUDIO 2 - 750 SQ.FT</a>
                           </h3>
-                          <p class="ms-trending3-text mb-10">
+                          <p class="ms-trending3-text mb-10 exo-2-font">
                               Perfect for small dance groups and video shoots.
                           </p>
                           <ul class="list-inline mb-15 small">
@@ -95,10 +105,10 @@
 
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-15">
+                          <h3 class="ms-trending3-title mb-15 exo-2-font">
                               <a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">STUDIO 3A- 650 SQ.FT</a>
                           </h3>
-                          <p class="ms-trending3-text mb-10">
+                          <p class="ms-trending3-text mb-10 exo-2-font">
                               Perfect for small dance groups and video shoots.
                           </p>
                           <ul class="list-inline mb-15 small">
@@ -127,10 +137,10 @@
 
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-15">
+                          <h3 class="ms-trending3-title mb-15 exo-2-font">
                               <a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">STUDIO 3B- 650 SQ.FT</a>
                           </h3>
-                          <p class="ms-trending3-text mb-10">
+                          <p class="ms-trending3-text mb-10 exo-2-font">
                               Perfect for small dance groups and video shoots.
                           </p>
                           <ul class="list-inline mb-15 small">
@@ -159,10 +169,10 @@
 
                       </div>
                       <div class="ms-trending3-content">
-                          <h3 class="ms-trending3-title mb-15">
+                          <h3 class="ms-trending3-title mb-15 exo-2-font">
                               <a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">STUDIO 3 FULL</a>
                           </h3>
-                          <p class="ms-trending3-text mb-10">
+                          <p class="ms-trending3-text mb-10 exo-2-font">
                               Perfect for small dance groups and video shoots.
                           </p>
                           <ul class="list-inline mb-15 small">
