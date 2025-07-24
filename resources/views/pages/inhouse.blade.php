@@ -1,7 +1,21 @@
 @extends('layout.app')
 @section('content')
-<div class="ms-all-content ms-content-mobile-space pt-130">
+<div class="ms-all-content ms-content-mobile-space pt-140">
     <main>
+         <!-- Banner Area Start Here  -->
+         <section class="ms-about-area fix">
+            {{-- <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
+                data-background="https://placehold.co/1920x600" class="w-100" style="height:50vh;"> --}}
+                {{-- <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div> --}}
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <img src="https://placehold.co/1920x600" alt="" srcset="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Production area start -->
         <section class="work__area pt-100 pb-30 ">
             <div class="container">

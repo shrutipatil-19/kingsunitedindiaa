@@ -3,7 +3,7 @@
 <div class="ms-all-content ms-content-mobile-space pt-130">
     <main>
         <!-- parallax effect start -->
-        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/5.jpg')}}');background-attachment: fixed;height: 60vh;">
             <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
         </section>
         <!-- parallax effect end -->
@@ -68,6 +68,21 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-3 col-md-3">
+                        <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
+                            <div class="ms-news-overlay p-absolute"></div>
+
+                            <div class="ms-news-thumb w-img w-100 h-100">
+                                <a href="#"><img src="https://placehold.co/400x400"
+                                        alt=""></a>
+                            </div>
+                            <div class="ms-news-content ms-news-position p-absolute">
+                                <h3 class="ms-news-title mb-15 hover-text"><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-xl-3 col-md-4 d-none">
                         <div class="ms-news-item p-relative zindex-1 mb-40 hover-text-container">
                             <div class="ms-news-overlay p-absolute"></div>
@@ -90,7 +105,7 @@
         <!-- Workshop area start -->
 
         <!-- parallax effect start -->
-        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/3.jpg')}}');background-attachment: fixed;height: 60vh;">
             <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
         </section>
         <!-- parallax effect end -->

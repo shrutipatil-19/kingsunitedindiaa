@@ -6,7 +6,7 @@
             <!-- Banner Area Start Here  -->
             <section class="ms-about-area fix">
                 <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
-                    data-background="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}">
+                    data-background="{{ asset('assets/img/suresh/achievements/worldDanceWinner.jpg') }}" style="height:50vh;">
                     <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div>
                     <div class="container">
                         <div class="row justify-content-center">

@@ -1,7 +1,28 @@
 @extends('layout.app')
 @section('content')
-<div class="ms-all-content ms-content-mobile-space pt-130">
+<div class="ms-all-content ms-content-mobile-space pt-140">
     <main>
+           <!-- Banner Area Start Here  -->
+           <section class="ms-about-area fix">
+            <div class="ms-about-bg include__bg p-relative zindex-1 pt-120 pb-130"
+                data-background="https://placehold.co/1920x600" style="height:50vh;">
+                {{-- <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div> --}}
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10 col-lg-10">
+                            <div class="ms-about-content text-center">
+                                <!-- <h2 class="ms-title2 white-text mb-30 bd-title-anim">SURESH MUKUND
+                                    </h2>
+                                    <p class="capitalize mb-65">CHOREOGRAPHER | EMMY-NOMINATED |
+                                        INTERNATIONAL WORLD CHOREOGRAPHY AWARD WINNER
+                                    </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Area End Here  -->
         <!-- About Suresh area start -->
         <section class="work__area pt-100 pb-30 ">
             <div class="container">
@@ -11,7 +32,7 @@
                             <div class="ms-work3-inner">
                                 <div class="ms-work3-thumb m-img p-relative fix ms-br-20">
                                     <div class="p-absolute"></div>
-                                    <img src="https://placehold.co/400x400" alt="work image">
+                                    <img src="https://placehold.co/400x400" alt="work image" class="w-100">
                                 </div>
 
                             </div>
@@ -37,15 +58,18 @@
         <!-- About Suresh area end -->
 
         <!-- parallax effect start -->
-        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+        <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/4.jpg')}}');background-attachment: fixed;height: 60vh;">
             <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
         </section>
         <!-- parallax effect end -->
 
         <!-- live performances grid Area Start -->
-        <section class="ms-news-area pt-130 pb-90 bg-w-3">
+        <section class="ms-news-area pt-130 pb-90 bg-w-3 p-relative">
+            <div class="ele2-text aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
+                <h2 class="">THE <br> KINGS</h2>
+            </div>
             <div class="container">
-                <!-- <div class="row align-items-end mb-25 bdFadeUp">
+                 {{-- <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-6">
                         <div class="section__title-wrapper achievement mb-40 bd-title-anim">
                             <span class="section__subtitle">Perfomances</span>
@@ -55,7 +79,7 @@
                         </div>
                     </div>
 
-                </div> -->
+                </div>  --}}
 
                 <div class="row ms-trending3-wrap bdFadeUp">
                     <div class="col-xl-6 col-md-6">
@@ -63,8 +87,6 @@
                             <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="https://placehold.co/400x400"
                                         alt="Winner of the World Choreography Award"></a>
-
-
                             </div>
                             <div class="ms-trending3-content">
                                 <p class="ms-trending3-title text-black-custome text-center fs-4 fw-semibold"><a href="#">Lorem ipsum dolor sit amet.</a></p>
@@ -78,8 +100,6 @@
                             <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="https://placehold.co/400x400"
                                         alt="World Champion at Nbc's World of Dance"></a>
-
-
                             </div>
                             <div class="ms-trending3-content">
                                 <p class="ms-trending3-title text-black-custome text-center fs-4 fw-semibold"><a href="#">Lorem ipsum dolor sit amet.</a></p>
@@ -93,8 +113,6 @@
                             <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="https://placehold.co/400x400"
                                         alt="Emmy-nominated Choreocrapher"></a>
-
-
                             </div>
                             <div class="ms-trending3-content">
                                 <p class="ms-trending3-title text-black-custome text-center fs-4 fw-semibold"><a href="#">Lorem ipsum dolor sit amet.</a></p>
@@ -109,8 +127,6 @@
                             <div class="ms-trending3-img w-img ms-br-15 p-relative fix mb-30">
                                 <a href="#"><img src="https://placehold.co/400x400"
                                         alt="Recipient of the Dada Saheb PhalKe Award"></a>
-
-
                             </div>
                             <div class="ms-trending3-content">
                                 <p class="ms-trending3-title text-black-custome text-center fs-4 fw-semibold"><a href="#">Lorem ipsum dolor sit amet.</a></p>
@@ -167,6 +183,21 @@
 
     .ms-trending3-img img {
         border-radius: 0px !important;
+    }
+    .ele2-text {
+        position: absolute;
+        top: 0%;
+        right: 6%;
+        /* opacity: 0.6 !important; */
+
+    }
+
+    .ele2-text h2 {
+        font-family: "The Stranger Brush Personal Use";
+        font-size: calc(max(10vw, 5rem));
+        opacity: 0.2;
+        rotate: 342deg;
+        line-height: 0.7;
     }
 </style>
 @endpush
