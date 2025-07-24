@@ -214,7 +214,7 @@
                                                              <li class="has-dropdown">
                                                                  <a href="javascript:void(0)">Kings Service</a>
                                                                  <ul class="submenu">
-                                                                     <li><a href="#">Live Performance</a>
+                                                                     <li><a href="{{ route('livePerformance') }}">Live Performance</a>
                                                                      </li>
                                                                      <li><a href="#">Coreography For Corporate</a>
                                                                      </li>
@@ -237,15 +237,15 @@
                                                                      </li>
                                                                      <li><a href="{{ route('creatorSpace')}}">Creator Space</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-3']) }}">Personal Traning</a>
+                                                                     <li><a href="#">Personal Traning</a>
                                                                      </li>
-                                                                     <li><a href="{{ route('studio.book.form', ['studio' => 'studio-4']) }}">Workshop Tours</a>
+                                                                     <li><a href="{{ route('workshop') }}">Workshop Tours</a>
                                                                      </li>
                                                                      {{-- <li><a href="{{ route('studio.book.form', ['studio' => 'studio-5']) }}">Studio 3 Full</a>
                                                                      </li> --}}
                                                                  </ul>
                                                              </li>
-                                                             <li><a href="{{ route('theKings') }}">Kings Production</a></li>
+                                                             <li><a href="{{ route('inhouse') }}">Kings Production</a></li>
 
                                                          </ul>
                                                      </li>
