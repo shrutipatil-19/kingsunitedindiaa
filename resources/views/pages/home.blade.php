@@ -268,7 +268,7 @@
     <!-- about kings area start -->
     <section class="work__area pt-90 pb-60 ms-bg-2 p-relative overflow-hidden">
         <div class="ele2 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" bis_skin_checked="1">
-            <img src="{{ asset('assets/img/course/Layer6.png') }}" alt="">
+            <img src="{{ asset('assets/img/course/Layer8.png') }}" alt="">
         </div>
 
         <div class="container">
@@ -331,174 +331,6 @@
         </div>
     </section>
     <!-- about kings area end -->
-
-    <!-- main page area start -->
-    <section class="trending__area p-relative fix pt-90 include__bg pb-130">
-        <div class="container">
-            <div class="row align-items-end mb-25 bdFadeUp ">
-                <div class="col-lg-8">
-                    <div class="section__title-wrapper mb-40 bd-title-anim">
-                        <span class="section__subtitle">Crowned Moves</span>
-                        <h2 class="section__title"><span class="animated-underline active">Kings Dance Studio: </span>
-                            Where Passion Meets Movement!</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ms-trending-active-wrap bdFadeUp">
-            <div class="swiper-container ms-trending-active">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="{{ route('sureshMukund') }}">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Suresh Mukund</span>
-                                <div class="ms-trending2-img w-img custome-h">
-                                    <a href="{{ route('sureshMukund') }}"><img
-                                            src="{{ asset('assets/img/about/award.jpg') }}" alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
-                                            alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="{{ route('sureshMukund') }}">Suresh Mukund is an internationally
-                                            known choreographer and the first to win international titles and medals for
-                                            India. He is the founder and choreographer of The Kings—a world-famous dance
-                                            crew known for blending hip-hop and Bollywood in a powerful way. His passion
-                                            and hard work are the reason behind the success of the best dance academy in
-                                            India.</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="ms-trending2-item fix">
-                            <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Our Trainers</span>
-                            <!-- <div class="trending__price">
-                                    <span>From $119</span>
-                                </div> -->
-                            <div class="ms-trending2-img w-img custome-h">
-                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
-                                        alt="trending image"></a>
-                            </div>
-                            <div class="ms-trending2-content">
-                                <div class="ms-trending2-shape">
-                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
-                                        alt="trending shape">
-                                </div>
-                                <div class="ms-trending2-title-wrap">
-                                    <a class="ms-trending2-title p-relative ms-title-border" href="">Our
-                                        experienced instructors are here to shape dance lovers at every level. Be it
-                                        building strong foundations or sharpening advanced techniques, as kings we focus
-                                        on progress with purpose, making us a trusted dance academy in India known for
-                                        discipline and excellence.</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('creatorSpace') }}">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Creator Space</span>
-                                <!-- <div class="trending__price">
-                                    <span>From $55</span>
-                                </div> -->
-                                <div class="ms-trending2-img w-img custome-h">
-                                    <a href="{{ route('creatorSpace') }}"><img
-                                            src="{{ asset('assets/img/studio/studio1.jpg') }}"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
-                                            alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="{{ route('creatorSpace') }}">From ballet and jazz to hip-hop and
-                                            contemporary, Kings Dance Studio offers a wide range of styles to match
-                                            every dancer’s passion. As a leading dance institute, we encourage you to
-                                            explore new genres, push your creative boundaries, and experience the true
-                                            joy of expression through movement.</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('theKings') }}">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">The Kings Crew</span>
-                                <!-- <div class="trending__price">
-                                    <span>From $90</span>
-                                </div> -->
-                                <div class="ms-trending2-img w-img custome-h">
-                                    <a href="{{ route('theKings') }}"><img
-                                            src="{{ asset('assets/img/kings crew/4.jpg') }}"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
-                                            alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="{{ route('theKings') }}">The Kings represent a storm of energy,
-                                            driven by thought and emotion. It’s not about the stage or the applause,
-                                            it’s about the raw power of performance to challenge mediocrity and push
-                                            boundaries. As a dance academy, The Kings believe in a deeper truth that
-                                            moves people and awakens something within.</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide d-none">
-                        <div class="ms-trending2-item fix">
-                            <div class="ms-trending2-overlay p-absolute"></div>
-                            <span class="trending__title">Community Engagement</span>
-                            <!-- <div class="trending__price">
-                                    <span>From $90</span>
-                                </div> -->
-                            <div class="ms-trending2-img w-img custome-h">
-                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
-                                        alt="trending image"></a>
-                            </div>
-                            <div class="ms-trending2-content">
-                                <div class="ms-trending2-shape">
-                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
-                                        alt="trending shape">
-                                </div>
-                                <div class="ms-trending2-title-wrap">
-                                    <a class="ms-trending2-title p-relative ms-title-border" href="#">Join a
-                                        vibrant community of dancers who share your enthusiasm for dance. Connect with
-                                        like-minded individuals, make lasting friendships, and build a support system
-                                        that encourages growth, creativity, and mutual respect.</a>
-                                    <a class="ms-round-btn popup-image"
-                                        href="{{ asset('assets/img/trending/11.jpg') }}"><i
-                                            class="flaticon-right-arrow-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- main page area start -->
 
     <!-- Event Area Start Here  -->
     <section class="ms-event2-area include__bg zindex-1 p-relative pt-90 pb-90 bg-w-3">
@@ -819,10 +651,178 @@
     <!-- Event Area End Here  -->
 
     <!-- parallax effect start -->
-    <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
+    <section class="ms-cta-area ms-event2-area include__bg pt-130 pb-130 p-relative zindex-10 d-none" style="background-image: url('{{ asset('assets/img/kings crew/2.jpg')}}');background-attachment: fixed;height: 60vh;">
         <!-- <div class="ms-overlay ms-overlay1 zindex--1"></div> -->
     </section>
     <!-- parallax effect end -->
+    
+    <!-- main page area start -->
+    <section class="trending__area p-relative fix pt-90 include__bg pb-130">
+        <div class="container">
+            <div class="row align-items-end mb-25 bdFadeUp ">
+                <div class="col-lg-8">
+                    <div class="section__title-wrapper mb-40 bd-title-anim">
+                        <span class="section__subtitle">Crowned Moves</span>
+                        <h2 class="section__title"><span class="animated-underline active">Kings Dance Studio: </span>
+                            Where Passion Meets Movement!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ms-trending-active-wrap bdFadeUp">
+            <div class="swiper-container ms-trending-active">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="{{ route('sureshMukund') }}">
+                            <div class="ms-trending2-item fix">
+                                <div class="ms-trending2-overlay p-absolute"></div>
+                                <span class="trending__title">Suresh Mukund</span>
+                                <div class="ms-trending2-img w-img custome-h">
+                                    <a href="{{ route('sureshMukund') }}"><img
+                                            src="{{ asset('assets/img/about/award.jpg') }}" alt="trending image"></a>
+                                </div>
+                                <div class="ms-trending2-content">
+                                    <div class="ms-trending2-shape">
+                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
+                                            alt="trending shape">
+                                    </div>
+                                    <div class="ms-trending2-title-wrap">
+                                        <a class="ms-trending2-title p-relative ms-title-border"
+                                            href="{{ route('sureshMukund') }}">Suresh Mukund is an internationally
+                                            known choreographer and the first to win international titles and medals for
+                                            India. He is the founder and choreographer of The Kings—a world-famous dance
+                                            crew known for blending hip-hop and Bollywood in a powerful way. His passion
+                                            and hard work are the reason behind the success of the best dance academy in
+                                            India.</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ms-trending2-item fix">
+                            <div class="ms-trending2-overlay p-absolute"></div>
+                            <span class="trending__title">Our Trainers</span>
+                            <!-- <div class="trending__price">
+                                    <span>From $119</span>
+                                </div> -->
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                        alt="trending image"></a>
+                            </div>
+                            <div class="ms-trending2-content">
+                                <div class="ms-trending2-shape">
+                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
+                                        alt="trending shape">
+                                </div>
+                                <div class="ms-trending2-title-wrap">
+                                    <a class="ms-trending2-title p-relative ms-title-border" href="">Our
+                                        experienced instructors are here to shape dance lovers at every level. Be it
+                                        building strong foundations or sharpening advanced techniques, as kings we focus
+                                        on progress with purpose, making us a trusted dance academy in India known for
+                                        discipline and excellence.</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ route('creatorSpace') }}">
+                            <div class="ms-trending2-item fix">
+                                <div class="ms-trending2-overlay p-absolute"></div>
+                                <span class="trending__title">Creator Space</span>
+                                <!-- <div class="trending__price">
+                                    <span>From $55</span>
+                                </div> -->
+                                <div class="ms-trending2-img w-img custome-h">
+                                    <a href="{{ route('creatorSpace') }}"><img
+                                            src="{{ asset('assets/img/studio/studio1.jpg') }}"
+                                            alt="trending image"></a>
+                                </div>
+                                <div class="ms-trending2-content">
+                                    <div class="ms-trending2-shape">
+                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
+                                            alt="trending shape">
+                                    </div>
+                                    <div class="ms-trending2-title-wrap">
+                                        <a class="ms-trending2-title p-relative ms-title-border"
+                                            href="{{ route('creatorSpace') }}">From ballet and jazz to hip-hop and
+                                            contemporary, Kings Dance Studio offers a wide range of styles to match
+                                            every dancer’s passion. As a leading dance institute, we encourage you to
+                                            explore new genres, push your creative boundaries, and experience the true
+                                            joy of expression through movement.</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ route('theKings') }}">
+                            <div class="ms-trending2-item fix">
+                                <div class="ms-trending2-overlay p-absolute"></div>
+                                <span class="trending__title">The Kings Crew</span>
+                                <!-- <div class="trending__price">
+                                    <span>From $90</span>
+                                </div> -->
+                                <div class="ms-trending2-img w-img custome-h">
+                                    <a href="{{ route('theKings') }}"><img
+                                            src="{{ asset('assets/img/kings crew/4.jpg') }}"
+                                            alt="trending image"></a>
+                                </div>
+                                <div class="ms-trending2-content">
+                                    <div class="ms-trending2-shape">
+                                        <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
+                                            alt="trending shape">
+                                    </div>
+                                    <div class="ms-trending2-title-wrap">
+                                        <a class="ms-trending2-title p-relative ms-title-border"
+                                            href="{{ route('theKings') }}">The Kings represent a storm of energy,
+                                            driven by thought and emotion. It’s not about the stage or the applause,
+                                            it’s about the raw power of performance to challenge mediocrity and push
+                                            boundaries. As a dance academy, The Kings believe in a deeper truth that
+                                            moves people and awakens something within.</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide d-none">
+                        <div class="ms-trending2-item fix">
+                            <div class="ms-trending2-overlay p-absolute"></div>
+                            <span class="trending__title">Community Engagement</span>
+                            <!-- <div class="trending__price">
+                                    <span>From $90</span>
+                                </div> -->
+                            <div class="ms-trending2-img w-img custome-h">
+                                <a href="#"><img src="{{ asset('assets/img/kings img/course2.jpg') }}"
+                                        alt="trending image"></a>
+                            </div>
+                            <div class="ms-trending2-content">
+                                <div class="ms-trending2-shape">
+                                    <img src="{{ asset('assets/img/trending/trending-shape.png') }}"
+                                        alt="trending shape">
+                                </div>
+                                <div class="ms-trending2-title-wrap">
+                                    <a class="ms-trending2-title p-relative ms-title-border" href="#">Join a
+                                        vibrant community of dancers who share your enthusiasm for dance. Connect with
+                                        like-minded individuals, make lasting friendships, and build a support system
+                                        that encourages growth, creativity, and mutual respect.</a>
+                                    <a class="ms-round-btn popup-image"
+                                        href="{{ asset('assets/img/trending/11.jpg') }}"><i
+                                            class="flaticon-right-arrow-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main page area start -->
 
     @include('partial.goldenPass')
     <!-- parallax effect start -->
@@ -1021,7 +1021,7 @@
     .ele2-text {
         position: absolute;
         top: 0%;
-        right: 6%;
+        left: 6%;
         /* opacity: 0.6 !important; */
 
     }
