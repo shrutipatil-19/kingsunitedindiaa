@@ -336,11 +336,15 @@
                                                      <li class="d-none">
                                                          <a href="{{ route('events') }}">Events</a>
                                                      </li>
+                                                    
                                                      <li>
                                                          <a href="{{ route('contact') }}">Contact Us</a>
                                                      </li>
                                                  </ul>
+                                                
+
                                              </nav>
+                                            
                                              <!-- for wp -->
                                              <div class="header__hamburger ml-50 d-none">
                                                  <button type="button" class="hamburger-btn offcanvas-open-btn">
@@ -419,15 +423,20 @@
                                          </div>
                                      </div>
                                  </div>
+                                
                              </div>
+                             
                          </div>
+                         
                      </div>
                  </div>
              </div>
          </div>
      </header>
      <!-- Header area end -->
-
+     <div class="trending-btn book_trial">
+        <button class="border__btn zindex-5" class="btn btn-model" data-bs-toggle="modal" data-bs-target="#bookModal" style="border-radius: 0px;">Book Free Trial</button>
+    </div>
      <div class="book_appointment_holder bg-yellow" bis_skin_checked="1">
          <div class="appointment_text trending-btn" bis_skin_checked="1">
              <a class="zindex-5" data-bs-toggle="modal" data-bs-target="#bookModal" href="#" target="_blank" style="border-radius: 20px;">
@@ -479,6 +488,27 @@
              display: flex;
              justify-content: center;
              align-items: center;
+         }
+         .book_trial {
+             position: fixed;
+             bottom: 50%;
+             right: -80px;
+             color: #ffffff;
+             /* display: flex */
+             ;
+             text-transform: uppercase;
+             cursor: pointer;
+             /* transition: right 0.3s ease-in-out; */
+             padding: 10px;
+             transform: rotate(270deg);
+             z-index: 1000;
+             /* font-size: 18px; */
+             border-radius: 50%;
+             width: 200px;
+             /* height: 70px; */
+             /* display: flex; */
+             /* justify-content: center; */
+             /* align-items: center; */
          }
 
          .bg-yellow {
