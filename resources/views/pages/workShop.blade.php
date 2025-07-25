@@ -9,13 +9,13 @@
         <!-- parallax effect end -->
 
         <!-- Workshop area start -->
-        <section class="ms-news-area pt-90 pb-90 ms-bg-2">
+        <section class="ms-news-area pt-90 pb-90 bg-w-3">
             <div class="container">
                 <div class="row align-items-end mb-25 bdFadeUp">
                     <div class="col-lg-6">
                         <div class="section__title-wrapper bd-title-anim">
                             <span class="section__subtitle">Workshops</span>
-                            <h2 class="section__title">Upcoming <span class="animated-underline active">Workshops
+                            <h2 class="section__title text-black-custome">Upcoming <span class="animated-underline active">Workshops
                                 </span>
                             </h2>
                         </div>
@@ -153,8 +153,8 @@
     }
 
     .border__btn {
-        padding: 25px 60px;
-        font-size: calc(1rem + 0.5vw);
+        /* padding: 25px 60px; */
+        /* font-size: calc(1rem + 0.5vw); */
         box-shadow: rgba(222, 64, 56, 0.4) 0px 4px 12px;
         transform: scale(1.05);
         color: rgb(255, 255, 255);

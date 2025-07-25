@@ -550,7 +550,7 @@
 		{
 			rtl: rtl_setting,
 			loop: false,
-			slidesPerView: 4,
+			slidesPerView: 3,
 			slidesToScroll: 1,
 			spaceBetween: 24,
 			autoplay: true,
@@ -558,7 +558,7 @@
 			observeParents: true,
 			observer: true,
 			breakpoints: {
-				1600: { slidesPerView: 4, },
+				1600: { slidesPerView: 3, },
 				1400: { slidesPerView: 3, },
 				1200: { slidesPerView: 3, },
 				992: { slidesPerView: 2, },

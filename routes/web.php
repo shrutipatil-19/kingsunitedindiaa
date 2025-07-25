@@ -25,6 +25,9 @@ Route::get('/creator-space', [HomeController::class, 'creatorSpace'])->name('cre
 Route::get('/our-team', [HomeController::class, 'ourTeam'])->name('ourTeam');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
+Route::get('/the-king', [HomeController::class, 'theKing'])->name('theKing');
+Route::get('/dance-studio', [HomeController::class, 'danceStudio'])->name('danceStudio');
+
 Route::post('/contact', [EnquiryController::class, 'enquiry'])->name('enquiry');
 // Route::get('/creator-space/studio-1', [creatorSpaceController::class, 'studio1'])->name('studio1');
 // Route::get('/creator-space/studio-2', [creatorSpaceController::class, 'studio2'])->name('studio2');

@@ -657,7 +657,7 @@
     <!-- parallax effect end -->
     
     <!-- main page area start -->
-    <section class="trending__area p-relative fix pt-90 include__bg pb-130">
+    <section class="trending__area p-relative fix pt-90 include__bg pb-130 d-none">
         <div class="container">
             <div class="row align-items-end mb-25 bdFadeUp ">
                 <div class="col-lg-8">

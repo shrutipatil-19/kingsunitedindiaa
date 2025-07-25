@@ -9,7 +9,12 @@
                 {{-- <div class="ms-overlay ms-overlay5 p-absolute zindex--1"></div> --}}
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <img src="https://placehold.co/1920x600" alt="" srcset="" class="w-100">
+                        {{-- <img src="https://placehold.co/1920x600" alt="" srcset="" class="w-100"> --}}
+                        <picture>
+                            <source media="(min-width:650px)" srcset="https://placehold.co/1920x600" class="w-100">
+                            <source media="(min-width:465px)" srcset="https://placehold.co/400x400" class="w-100">
+                            <img src="https://placehold.co/400x400" alt="Flowers" class="w-100">
+                          </picture>
                     </div>
                 </div>
             </section>

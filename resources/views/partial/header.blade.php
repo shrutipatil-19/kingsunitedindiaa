@@ -209,10 +209,10 @@
                                                      <!-- <li><a href="{{ route('theKings') }}">Kings Crew</a></li> -->
 
                                                      <li class="has-dropdown">
-                                                         <a href="#">The Kings</a>
+                                                         <a href="{{ route('theKing') }}">The Kings</a>
                                                          <ul class="submenu">
                                                              <li class="has-dropdown">
-                                                                 <a href="javascript:void(0)">Kings Service</a>
+                                                                 <a href="javascript:void(0)">Our Service</a>
                                                                  <ul class="submenu">
                                                                      <li><a href="{{ route('livePerformance') }}">Live Performance</a>
                                                                      </li>
@@ -231,7 +231,7 @@
                                                                  </ul>
                                                              </li>
                                                              <li class="has-dropdown">
-                                                                 <a href="">Kings Dance</a>
+                                                                 <a href="">Dance Studio</a>
                                                                  <ul class="submenu">
                                                                      <li><a href="{{ route('course') }}">Courses</a>
                                                                      </li>

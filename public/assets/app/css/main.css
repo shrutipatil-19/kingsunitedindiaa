@@ -747,7 +747,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
   .ms-content-mobile-space {
-    padding-top: 96px;
+    padding-top: 140px !important;
   }
 }
 
