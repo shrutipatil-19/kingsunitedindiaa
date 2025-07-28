@@ -2198,9 +2198,10 @@ only screen and (min-width: 1601px) and (max-width: 1800px) {
 }
 
 .section__title {
-  /* font-size: 35px; */
+  font-size: 35px;
   /* font-size: max(2vw, 2.1875rem) !important; */
-  font-size: clamp(1rem, 2vw, 2.1875rem);
+  /* font-size: clamp(1rem, 2vw, 2.1875rem); */
+  /* font-size: calc(max(3vw, 1rem)); */
   font-weight: var(--bd-fw-sbold);
   line-height: 1.2;
   text-transform: capitalize;
@@ -4397,7 +4398,9 @@ Animate Underline
 #header-sticky.sticky .ms-border2 {
   border-color: transparent;
 }
-
+#header-sticky {
+    background-color: #0D0D0D;
+}
 /* ------------------------------------------ */
 /*  17 - header css  */
 /* ------------------------------------------ */
