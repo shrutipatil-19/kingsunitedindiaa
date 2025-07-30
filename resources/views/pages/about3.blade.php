@@ -954,7 +954,8 @@
             display: flex;
             height: 100vh;
             width: max-content;
-            background-color: #E4EEF0;
+            /* background-color: #E4EEF0; */
+            background-color: #f6f6f6;
             /* background: linear-gradient(90deg, #de4038 0%, #dea738 100%); */
         }
 
