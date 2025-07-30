@@ -303,7 +303,7 @@
                                 <span class="animated-underline active">the Crown</span>
                             </h2>
                         </div>
-                        <div class="work__features-inner">
+                        <div class="work__features-inner" data-aos="fade-up">
                             <p class="">What started in 2009 as a small team of passionate dancers has grown into a name known
                                 around the world. From Mumbai to international stages, we’ve trained, performed, and
                                 earned the title of world champions through hard work, discipline, and dedication to the
@@ -1038,9 +1038,6 @@
 
 @endpush
 @push('js')
-<script>
-    AOS.init();
-</script>
 <script>
     const swiper = new Swiper(".achievementSwiper", {
         slidesPerView: 1,

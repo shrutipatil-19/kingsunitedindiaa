@@ -42,7 +42,7 @@
         <!-- work area start -->
         <section class="work__area pt-100 pb-30 ">
             <div class="container">
-                <div class="row align-items-center bdFadeUp">
+                <div class="row align-items-center">
                     <div class="col-xl-6">
                         <div class="ms-work3-thumb-wrap d-inline-block p-relative mb-60">
                             <div class="ms-work3-inner">
